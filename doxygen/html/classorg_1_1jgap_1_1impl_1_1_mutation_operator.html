@@ -1,0 +1,695 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.impl.MutationOperator</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1impl_1_1_mutation_operator.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1jgap_1_1impl_1_1_mutation_operator-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.impl.MutationOperator</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html">org.jgap.BaseGeneticOperator</a> y Configurable.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1jgap_1_1impl_1_1_ranged_swapping_mutation_operator.html">org.jgap.impl.RangedSwappingMutationOperator</a> y <a class="el" href="classorg_1_1jgap_1_1impl_1_1_swapping_mutation_operator.html">org.jgap.impl.SwappingMutationOperator</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>MutationOperatorConfigurable</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a70ee0430f18e07c0cbdcdc3370da013a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a70ee0430f18e07c0cbdcdc3370da013a">MutationOperator</a> ()  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a70ee0430f18e07c0cbdcdc3370da013a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7a875f7a9c62a2fa4ba3ace00bbe0ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#ab7a875f7a9c62a2fa4ba3ace00bbe0ee">MutationOperator</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_conf)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:ab7a875f7a9c62a2fa4ba3ace00bbe0ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefd976178a75cd5641929533c367d39c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#aefd976178a75cd5641929533c367d39c">MutationOperator</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config, final <a class="el" href="interfaceorg_1_1jgap_1_1_i_universal_rate_calculator.html">IUniversalRateCalculator</a> a_mutationRateCalculator)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:aefd976178a75cd5641929533c367d39c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdacf3ee2ef8a6f544af2424f9682ec8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#abdacf3ee2ef8a6f544af2424f9682ec8">MutationOperator</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config, final int a_desiredMutationRate)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:abdacf3ee2ef8a6f544af2424f9682ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a1c852770559bba4ffa3e9718f4a0d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a4a1c852770559bba4ffa3e9718f4a0d8">operate</a> (final <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_population, final List a_candidateChromosomes)</td></tr>
+<tr class="separator:a4a1c852770559bba4ffa3e9718f4a0d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e61256bfd2fd9db20cb7839970ce2b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_i_universal_rate_calculator.html">IUniversalRateCalculator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a4e61256bfd2fd9db20cb7839970ce2b1">getMutationRateCalc</a> ()</td></tr>
+<tr class="separator:a4e61256bfd2fd9db20cb7839970ce2b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ba32ba71ff16141bb7c9f6c3a0a8865"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a1ba32ba71ff16141bb7c9f6c3a0a8865">setMutationRateCalc</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_universal_rate_calculator.html">IUniversalRateCalculator</a> a_mutationRateCalc)</td></tr>
+<tr class="separator:a1ba32ba71ff16141bb7c9f6c3a0a8865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aecc7650a9743a737dac2d5ed782f87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a8aecc7650a9743a737dac2d5ed782f87">setMutationRate</a> (int a_mutationRate)</td></tr>
+<tr class="separator:a8aecc7650a9743a737dac2d5ed782f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf3ab580f3f5755f8dfc0cdfabe18530"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#abf3ab580f3f5755f8dfc0cdfabe18530">equals</a> (final Object a_other)</td></tr>
+<tr class="separator:abf3ab580f3f5755f8dfc0cdfabe18530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a45fadb8c98c2654220f42317286e43"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a0a45fadb8c98c2654220f42317286e43">compareTo</a> (Object a_other)</td></tr>
+<tr class="separator:a0a45fadb8c98c2654220f42317286e43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c2e6670fc376734386d37e918071410"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a4c2e6670fc376734386d37e918071410">getMutationRate</a> ()</td></tr>
+<tr class="separator:a4c2e6670fc376734386d37e918071410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_base_genetic_operator')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html">org.jgap.BaseGeneticOperator</a></td></tr>
+<tr class="memitem:a061b47c0f891c0041d5ece5bc6e052f8 inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a061b47c0f891c0041d5ece5bc6e052f8">BaseGeneticOperator</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_configuration)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a061b47c0f891c0041d5ece5bc6e052f8 inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addbc6b98f572331d47397227b7a49f6a inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html#addbc6b98f572331d47397227b7a49f6a">getConfiguration</a> ()</td></tr>
+<tr class="separator:addbc6b98f572331d47397227b7a49f6a inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db6fa1a99177114c0f19f02cd4a87ec inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a4db6fa1a99177114c0f19f02cd4a87ec">equals</a> (final Object a_other)</td></tr>
+<tr class="separator:a4db6fa1a99177114c0f19f02cd4a87ec inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_genetic_operator"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_genetic_operator')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html">org.jgap.GeneticOperator</a></td></tr>
+<tr class="memitem:ad0ddbf3fa1dfd7bd8639eba1d9e35267 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_genetic_operator"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html#ad0ddbf3fa1dfd7bd8639eba1d9e35267">CVS_REVISION</a> = &quot;$Revision: 1.16 $&quot;</td></tr>
+<tr class="separator:ad0ddbf3fa1dfd7bd8639eba1d9e35267 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator')"><img src="closed.png" alt="-"/>&#160;Atributos protegidos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html">org.jgap.BaseGeneticOperator</a></td></tr>
+<tr class="memitem:a516d89e8f56eb2e58768218c7f9cf3de inherit pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memItemLeft" align="right" valign="top">IEvolutionMonitor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a516d89e8f56eb2e58768218c7f9cf3de">m_monitor</a></td></tr>
+<tr class="separator:a516d89e8f56eb2e58768218c7f9cf3de inherit pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5194e705ed206f99852bf158546646b5 inherit pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a5194e705ed206f99852bf158546646b5">m_monitorActive</a></td></tr>
+<tr class="separator:a5194e705ed206f99852bf158546646b5 inherit pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>The mutation operator runs through the genes in each of the Chromosomes in the population and mutates them in statistical accordance to the given mutation rate. Mutated Chromosomes are then added to the list of candidate Chromosomes destined for the natural selection process.</p>
+<p>This <a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html">MutationOperator</a> supports both fixed and dynamic mutation rates. A fixed rate is one specified at construction time by the user. A dynamic rate is determined by this class if no fixed rate is provided, and is calculated based on the size of the Chromosomes in the population. Details are specified in the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_default_mutation_rate_calculator.html">DefaultMutationRateCalculator</a> class.</p>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a70ee0430f18e07c0cbdcdc3370da013a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.MutationOperator.MutationOperator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a new instance of this <a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html">MutationOperator</a> without a specified mutation rate, which results in dynamic mutation being turned on. This means that the mutation rate will be automatically determined by this operator based upon the number of genes present in the chromosomes. </p>
+<p>Attention: The configuration used is the one set with the static method Genotype.setConfiguration.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                           {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keyword">this</span>(Genotype.getStaticConfiguration());</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab7a875f7a9c62a2fa4ba3ace00bbe0ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.MutationOperator.MutationOperator </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the configuration to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                           {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    super(a_conf);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a1ba32ba71ff16141bb7c9f6c3a0a8865">setMutationRateCalc</a>(<span class="keyword">new</span> DefaultMutationRateCalculator(a_conf));</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_mutation_operator_html_a1ba32ba71ff16141bb7c9f6c3a0a8865"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a1ba32ba71ff16141bb7c9f6c3a0a8865">org.jgap.impl.MutationOperator.setMutationRateCalc</a></div><div class="ttdeci">void setMutationRateCalc(final IUniversalRateCalculator a_mutationRateCalc)</div><div class="ttdef"><b>Definition:</b> MutationOperator.java:289</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aefd976178a75cd5641929533c367d39c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.MutationOperator.MutationOperator </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_i_universal_rate_calculator.html">IUniversalRateCalculator</a>&#160;</td>
+          <td class="paramname"><em>a_mutationRateCalculator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a new instance of this <a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html">MutationOperator</a> with a specified mutation rate calculator, which results in dynamic mutation being turned on. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_config</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_mutationRateCalculator</td><td>calculator for dynamic mutation rate computation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                           {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    super(a_config);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a1ba32ba71ff16141bb7c9f6c3a0a8865">setMutationRateCalc</a>(a_mutationRateCalculator);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_mutation_operator_html_a1ba32ba71ff16141bb7c9f6c3a0a8865"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a1ba32ba71ff16141bb7c9f6c3a0a8865">org.jgap.impl.MutationOperator.setMutationRateCalc</a></div><div class="ttdeci">void setMutationRateCalc(final IUniversalRateCalculator a_mutationRateCalc)</div><div class="ttdef"><b>Definition:</b> MutationOperator.java:289</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abdacf3ee2ef8a6f544af2424f9682ec8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.MutationOperator.MutationOperator </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_desiredMutationRate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a new instance of this <a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html">MutationOperator</a> with the given mutation rate.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_config</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_desiredMutationRate</td><td>desired rate of mutation, expressed as the denominator of the 1 / X fraction. For example, 1000 would result in 1/1000 genes being mutated on average. A mutation rate of zero disables mutation entirely </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                                           {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    super(a_config);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    m_config.m_mutationRate = a_desiredMutationRate;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a1ba32ba71ff16141bb7c9f6c3a0a8865">setMutationRateCalc</a>(null);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_mutation_operator_html_a1ba32ba71ff16141bb7c9f6c3a0a8865"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a1ba32ba71ff16141bb7c9f6c3a0a8865">org.jgap.impl.MutationOperator.setMutationRateCalc</a></div><div class="ttdeci">void setMutationRateCalc(final IUniversalRateCalculator a_mutationRateCalc)</div><div class="ttdef"><b>Definition:</b> MutationOperator.java:289</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a0a45fadb8c98c2654220f42317286e43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.MutationOperator.compareTo </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compares the given <a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html">GeneticOperator</a> to this <a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html">GeneticOperator</a>.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the instance against which to compare this instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a negative number if this instance is "less than" the given instance, zero if they are equal to each other, and a positive number if this is "greater than" the given instance</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                                       {</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    <span class="keywordflow">if</span> (a_other == null) {</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;      <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    }</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a70ee0430f18e07c0cbdcdc3370da013a">MutationOperator</a> op = (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a70ee0430f18e07c0cbdcdc3370da013a">MutationOperator</a>) a_other;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <span class="keywordflow">if</span> (m_mutationRateCalc == null) {</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;      <span class="keywordflow">if</span> (op.m_mutationRateCalc != null) {</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;      }</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    }</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;      <span class="keywordflow">if</span> (op.m_mutationRateCalc == null) {</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;      }</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;      }</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    }</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keywordflow">if</span> (m_config.m_mutationRate != op.m_config.m_mutationRate) {</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;      <span class="keywordflow">if</span> (m_config.m_mutationRate &gt; op.m_config.m_mutationRate) {</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;      }</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;      }</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    }</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="comment">// Everything is equal. Return zero.</span></div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="comment">// ---------------------------------</span></div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_mutation_operator_html_a70ee0430f18e07c0cbdcdc3370da013a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a70ee0430f18e07c0cbdcdc3370da013a">org.jgap.impl.MutationOperator.MutationOperator</a></div><div class="ttdeci">MutationOperator()</div><div class="ttdef"><b>Definition:</b> MutationOperator.java:63</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abf3ab580f3f5755f8dfc0cdfabe18530"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.impl.MutationOperator.equals </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compares this <a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html">GeneticOperator</a> against the specified object. The result is true if and the argument is an instance of this class and is equal wrt the data.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the object to compare against </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true: if the objects are the same, false otherwise</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                                              {</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a0a45fadb8c98c2654220f42317286e43">compareTo</a>(a_other) == 0;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    } <span class="keywordflow">catch</span> (ClassCastException cex) {</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    }</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_mutation_operator_html_a0a45fadb8c98c2654220f42317286e43"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a0a45fadb8c98c2654220f42317286e43">org.jgap.impl.MutationOperator.compareTo</a></div><div class="ttdeci">int compareTo(Object a_other)</div><div class="ttdef"><b>Definition:</b> MutationOperator.java:342</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4c2e6670fc376734386d37e918071410"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.MutationOperator.getMutationRate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;                               {</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <span class="keywordflow">return</span> m_config.m_mutationRate;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4e61256bfd2fd9db20cb7839970ce2b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_i_universal_rate_calculator.html">IUniversalRateCalculator</a> org.jgap.impl.MutationOperator.getMutationRateCalc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the MutationRateCalculator used</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                                                        {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="keywordflow">return</span> m_mutationRateCalc;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4a1c852770559bba4ffa3e9718f4a0d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MutationOperator.operate </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_population</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final List&#160;</td>
+          <td class="paramname"><em>a_candidateChromosomes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_population</td><td>the population of chromosomes from the current evolution prior to exposure to any genetic operators. Chromosomes in this array should not be modified. Please notice, that the call in <a class="el" href="classorg_1_1jgap_1_1_genotype.html#a54a6791fbb6e13920e79f4e2dd719eb4">Genotype.evolve()</a> to the implementations of <a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html">GeneticOperator</a> overgoes this due to performance issues </td></tr>
+    <tr><td class="paramname">a_candidateChromosomes</td><td>the pool of chromosomes that have been mutated</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000173">Tareas pendientes:</a></b></dt><dd>move to base class, refactor </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html#a0f9dfe925c4c21e07522be67d6c5d084">org.jgap.GeneticOperator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                                         {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordflow">if</span> (a_population == null || a_candidateChromosomes == null) {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;      <span class="comment">// Population or candidate chromosomes list empty:</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;      <span class="comment">// nothing to do.</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;      <span class="comment">// -----------------------------------------------</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="keywordflow">if</span> (m_config.m_mutationRate == 0 &amp;&amp; m_mutationRateCalc == null) {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      <span class="comment">// If the mutation rate is set to zero and dynamic mutation rate is</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      <span class="comment">// disabled, then we don&#39;t perform any mutation.</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;      <span class="comment">// ----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="comment">// Determine the mutation rate. If dynamic rate is enabled, then</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="comment">// calculate it using the IUniversalRateCalculator instance.</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="comment">// Otherwise, go with the mutation rate set upon construction.</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="comment">// -------------------------------------------------------------</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordtype">boolean</span> mutate = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    RandomGenerator generator = <a class="code" href="classorg_1_1jgap_1_1_base_genetic_operator.html#addbc6b98f572331d47397227b7a49f6a">getConfiguration</a>().getRandomGenerator();</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="comment">// It would be inefficient to create copies of each Chromosome just</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="comment">// to decide whether to mutate them. Instead, we only make a copy</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="comment">// once we&#39;ve positively decided to perform a mutation.</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="comment">// ----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keywordtype">int</span> size = Math.min(<a class="code" href="classorg_1_1jgap_1_1_base_genetic_operator.html#addbc6b98f572331d47397227b7a49f6a">getConfiguration</a>().getPopulationSize(),</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                        a_population.size());</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    IGeneticOperatorConstraint constraint = <a class="code" href="classorg_1_1jgap_1_1_base_genetic_operator.html#addbc6b98f572331d47397227b7a49f6a">getConfiguration</a>().</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        getJGAPFactory().getGeneticOperatorConstraint();</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; size; i++) {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;      IChromosome chrom = a_population.getChromosome(i);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;      Gene[] genes1 = chrom.getGenes();</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      IChromosome copyOfChromosome = null;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      Gene[] genes = null;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      <span class="comment">// For each Chromosome in the population...</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      <span class="comment">// ----------------------------------------</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; genes1.length; j++) {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordflow">if</span> (m_mutationRateCalc != null) {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;          <span class="comment">// If it&#39;s a dynamic mutation rate then let the calculator decide</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;          <span class="comment">// whether the current gene should be mutated.</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;          <span class="comment">// --------------------------------------------------------------</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;          mutate = m_mutationRateCalc.toBePermutated(chrom, j);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        }</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;          <span class="comment">// Non-dynamic, so just mutate based on the the current rate.</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;          <span class="comment">// In fact we use a rate of 1/m_mutationRate.</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;          <span class="comment">// ----------------------------------------------------------</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;          mutate = (generator.nextInt(m_config.m_mutationRate) == 0);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        }</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">if</span> (mutate) {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;          <span class="comment">// Verify that crossover allowed.</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;          <span class="comment">// ------------------------------</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="comment"></span>          <span class="keywordflow">if</span> (constraint != null) {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            List v = <span class="keyword">new</span> Vector();</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            v.add(chrom);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            <span class="keywordflow">if</span> (!constraint.isValid(a_population, v, <span class="keyword">this</span>)) {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;              <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            }</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;          }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;          <span class="comment">// Now that we want to actually modify the Chromosome,</span></div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;          <span class="comment">// let&#39;s make a copy of it (if we haven&#39;t already) and</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;          <span class="comment">// add it to the candidate chromosomes so that it will</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;          <span class="comment">// be considered for natural selection during the next</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;          <span class="comment">// phase of evolution. Then we&#39;ll set the gene&#39;s value</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;          <span class="comment">// to a random value as the implementation of our</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;          <span class="comment">// &quot;mutation&quot; of the gene.</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;          <span class="comment">// ---------------------------------------------------</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;          <span class="keywordflow">if</span> (copyOfChromosome == null) {</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            <span class="comment">// ...take a copy of it...</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            <span class="comment">// -----------------------</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            copyOfChromosome = (IChromosome) chrom.clone();</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            <span class="comment">// ...add it to the candidate pool...</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            <span class="comment">// ----------------------------------</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            a_candidateChromosomes.add(copyOfChromosome);</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="comment">// ...then mutate all its genes...</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="comment">// -------------------------------</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            genes = copyOfChromosome.getGenes();</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="comment">// In case monitoring is active, support it.</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            <span class="comment">// -----------------------------------------</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a5194e705ed206f99852bf158546646b5">m_monitorActive</a>) {</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;              copyOfChromosome.setUniqueIDTemplate(chrom.getUniqueID(), 1);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            }</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;          }</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;          <span class="comment">// Process all atomic elements in the gene. For a StringGene this</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;          <span class="comment">// would be as many elements as the string is long , for an</span></div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;          <span class="comment">// IntegerGene, it is always one element.</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;          <span class="comment">// --------------------------------------------------------------</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;          <span class="keywordflow">if</span> (genes[j] instanceof ICompositeGene) {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            ICompositeGene compositeGene = (ICompositeGene) genes[j];</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a5194e705ed206f99852bf158546646b5">m_monitorActive</a>) {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;              compositeGene.setUniqueIDTemplate(chrom.getGene(j).getUniqueID(), 1);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> k = 0; k &lt; compositeGene.size(); k++) {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;              mutateGene(compositeGene.geneAt(k), generator);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;              <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a5194e705ed206f99852bf158546646b5">m_monitorActive</a>) {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                compositeGene.geneAt(k).setUniqueIDTemplate(</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                    ( (ICompositeGene) chrom.getGene(j)).geneAt(k).getUniqueID(),</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                    1);</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;              }</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;          }</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;          else {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            mutateGene(genes[j], generator);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a5194e705ed206f99852bf158546646b5">m_monitorActive</a>) {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;              genes[j].setUniqueIDTemplate(chrom.getGene(j).getUniqueID(), 1);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;          }</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        }</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;      }</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    }</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_genetic_operator_html_addbc6b98f572331d47397227b7a49f6a"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_genetic_operator.html#addbc6b98f572331d47397227b7a49f6a">org.jgap.BaseGeneticOperator.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGeneticOperator.java:57</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_genetic_operator_html_a5194e705ed206f99852bf158546646b5"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_genetic_operator.html#a5194e705ed206f99852bf158546646b5">org.jgap.BaseGeneticOperator.m_monitorActive</a></div><div class="ttdeci">boolean m_monitorActive</div><div class="ttdef"><b>Definition:</b> BaseGeneticOperator.java:30</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8aecc7650a9743a737dac2d5ed782f87"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MutationOperator.setMutationRate </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_mutationRate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_mutationRate</td><td>new rate of mutation, expressed as the denominator of the 1 / X fraction. For example, 1000 would result in 1/1000 genes being mutated on average. A mutation rate of zero disables mutation entirely</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                                  {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    m_config.m_mutationRate = a_mutationRate;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a1ba32ba71ff16141bb7c9f6c3a0a8865">setMutationRateCalc</a>(null);</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_mutation_operator_html_a1ba32ba71ff16141bb7c9f6c3a0a8865"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html#a1ba32ba71ff16141bb7c9f6c3a0a8865">org.jgap.impl.MutationOperator.setMutationRateCalc</a></div><div class="ttdeci">void setMutationRateCalc(final IUniversalRateCalculator a_mutationRateCalc)</div><div class="ttdef"><b>Definition:</b> MutationOperator.java:289</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1ba32ba71ff16141bb7c9f6c3a0a8865"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MutationOperator.setMutationRateCalc </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_i_universal_rate_calculator.html">IUniversalRateCalculator</a>&#160;</td>
+          <td class="paramname"><em>a_mutationRateCalc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the MutationRateCalculator to be used for determining the strength of mutation.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_mutationRateCalc</td><td>MutationRateCalculator</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                                                      {</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    m_mutationRateCalc = a_mutationRateCalc;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">if</span> (m_mutationRateCalc != null) {</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;      m_config.m_mutationRate = 0;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    }</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/impl/<a class="el" href="_mutation_operator_8java.html">MutationOperator.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator.html">MutationOperator</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:52 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

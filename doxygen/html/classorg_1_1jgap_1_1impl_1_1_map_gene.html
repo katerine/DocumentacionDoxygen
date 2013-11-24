@@ -1,0 +1,1163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.impl.MapGene</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1impl_1_1_map_gene.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1impl_1_1_map_gene-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.impl.MapGene</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a> y <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html">org.jgap.IPersistentRepresentation</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a4c9c61edff0ee53c964347eb745e1a3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a4c9c61edff0ee53c964347eb745e1a3e">MapGene</a> ()  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a4c9c61edff0ee53c964347eb745e1a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec0685191f0ca38e2ddc05e237b9577"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a4ec0685191f0ca38e2ddc05e237b9577">MapGene</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a4ec0685191f0ca38e2ddc05e237b9577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66c96770b517a1582d6f771d4a35b134"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a66c96770b517a1582d6f771d4a35b134">MapGene</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config, final Map a_alleles)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a66c96770b517a1582d6f771d4a35b134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82dfbb6bc328e48d9ed1725baf75eb67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a82dfbb6bc328e48d9ed1725baf75eb67">addAllele</a> (final Object a_key, final Object a_value)</td></tr>
+<tr class="separator:a82dfbb6bc328e48d9ed1725baf75eb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04696095e30cf06edf25a4ea3d2c2546"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a04696095e30cf06edf25a4ea3d2c2546">addAllele</a> (final Object a_value)</td></tr>
+<tr class="separator:a04696095e30cf06edf25a4ea3d2c2546"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f4ea96d222b87c688b400bef1fbb91"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a40f4ea96d222b87c688b400bef1fbb91">addAllele</a> (final int a_value)</td></tr>
+<tr class="separator:a40f4ea96d222b87c688b400bef1fbb91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaf2b285f329ddf8a6d37f6fe9c01a3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#acaf2b285f329ddf8a6d37f6fe9c01a3f">addAlleles</a> (final Map a_alleles)</td></tr>
+<tr class="separator:acaf2b285f329ddf8a6d37f6fe9c01a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa6f3a3a80baadf6a3216a1ef0167f24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#aaa6f3a3a80baadf6a3216a1ef0167f24">removeAlleles</a> (final Object a_key)</td></tr>
+<tr class="separator:aaa6f3a3a80baadf6a3216a1ef0167f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05606dffa0ab3246b6a865a83680dd14"><td class="memItemLeft" align="right" valign="top">Map&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a05606dffa0ab3246b6a865a83680dd14">getAlleles</a> ()</td></tr>
+<tr class="separator:a05606dffa0ab3246b6a865a83680dd14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a537cd33d9eedd9ad384219ef0379bc62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a537cd33d9eedd9ad384219ef0379bc62">setToRandomValue</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> a_numberGenerator)</td></tr>
+<tr class="separator:a537cd33d9eedd9ad384219ef0379bc62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9095e249f597d47c9c54aa9108afb77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#ac9095e249f597d47c9c54aa9108afb77">applyMutation</a> (final int a_index, final double a_percentage)</td></tr>
+<tr class="separator:ac9095e249f597d47c9c54aa9108afb77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa26832d5aefa69e44d2efd58e333e230"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#aa26832d5aefa69e44d2efd58e333e230">setValueFromPersistentRepresentation</a> (final String a_representation)  throws UnsupportedRepresentationException </td></tr>
+<tr class="separator:aa26832d5aefa69e44d2efd58e333e230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1b56bd574314d61311ac070f7f9845"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a0a1b56bd574314d61311ac070f7f9845">getPersistentRepresentation</a> ()  throws UnsupportedOperationException </td></tr>
+<tr class="separator:a0a1b56bd574314d61311ac070f7f9845"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af102ddb4e963fc1355ea193ce414ca54"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#af102ddb4e963fc1355ea193ce414ca54">setAllele</a> (Object a_newValue)</td></tr>
+<tr class="separator:af102ddb4e963fc1355ea193ce414ca54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32fbf53138c5ea70f07490684f9fc659"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a32fbf53138c5ea70f07490684f9fc659">compareTo</a> (Object a_other)</td></tr>
+<tr class="separator:a32fbf53138c5ea70f07490684f9fc659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae79496d829629130032c7ba5b25af355"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#ae79496d829629130032c7ba5b25af355">hashCode</a> ()</td></tr>
+<tr class="separator:ae79496d829629130032c7ba5b25af355"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b9c5182f259a969cef430fa1d66d17f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a4b9c5182f259a969cef430fa1d66d17f">toString</a> ()</td></tr>
+<tr class="separator:a4b9c5182f259a969cef430fa1d66d17f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:acea53de5bb68978322967e8019607f24 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acea53de5bb68978322967e8019607f24">BaseGene</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_configuration)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:acea53de5bb68978322967e8019607f24 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35e754e8e217bdd26962e1c3c31d0169 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a35e754e8e217bdd26962e1c3c31d0169">getAllele</a> ()</td></tr>
+<tr class="separator:a35e754e8e217bdd26962e1c3c31d0169 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af842a106d90ca973956f560ae448464e inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#af842a106d90ca973956f560ae448464e">hashCode</a> ()</td></tr>
+<tr class="separator:af842a106d90ca973956f560ae448464e inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569b99cf460d27d2c1acbea2b7775975 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a569b99cf460d27d2c1acbea2b7775975">cleanup</a> ()</td></tr>
+<tr class="separator:a569b99cf460d27d2c1acbea2b7775975 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935dfec06cb77bff0d2a45859d6a35b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a935dfec06cb77bff0d2a45859d6a35b7">toString</a> ()</td></tr>
+<tr class="separator:a935dfec06cb77bff0d2a45859d6a35b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c00775111b327b178288164ed9c667 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a26c00775111b327b178288164ed9c667">size</a> ()</td></tr>
+<tr class="separator:a26c00775111b327b178288164ed9c667 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb0e302ae57ee3f2f5d1ee08a75bf43 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a9fb0e302ae57ee3f2f5d1ee08a75bf43">equals</a> (final Object a_other)</td></tr>
+<tr class="separator:a9fb0e302ae57ee3f2f5d1ee08a75bf43 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f71c4c1282de2ca2cf8f4009c4615a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a48f71c4c1282de2ca2cf8f4009c4615a">getEnergy</a> ()</td></tr>
+<tr class="separator:a48f71c4c1282de2ca2cf8f4009c4615a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb39fbd8997971a140a9a4380ceecc4a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#afb39fbd8997971a140a9a4380ceecc4a">setEnergy</a> (final double a_energy)</td></tr>
+<tr class="separator:afb39fbd8997971a140a9a4380ceecc4a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb9a5f42018c057c8197fb0e7d57354 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#afeb9a5f42018c057c8197fb0e7d57354">setApplicationData</a> (final Object a_newData)</td></tr>
+<tr class="separator:afeb9a5f42018c057c8197fb0e7d57354 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0520139dc694dc6034aeb631ae7d70bd inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a0520139dc694dc6034aeb631ae7d70bd">getApplicationData</a> ()</td></tr>
+<tr class="separator:a0520139dc694dc6034aeb631ae7d70bd inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adad4ccd46efd7b2a3dc81bd0ba0c410c inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#adad4ccd46efd7b2a3dc81bd0ba0c410c">setCompareApplicationData</a> (final boolean a_doCompare)</td></tr>
+<tr class="separator:adad4ccd46efd7b2a3dc81bd0ba0c410c inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6431c06c81bc03b4abbe32e4d9d8ef inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acd6431c06c81bc03b4abbe32e4d9d8ef">isCompareApplicationData</a> ()</td></tr>
+<tr class="separator:acd6431c06c81bc03b4abbe32e4d9d8ef inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334db8a543f3008719d78ee219826b65 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a334db8a543f3008719d78ee219826b65">setConstraintChecker</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_gene_constraint_checker.html">IGeneConstraintChecker</a> a_constraintChecker)</td></tr>
+<tr class="separator:a334db8a543f3008719d78ee219826b65 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9823bef7c550fc1533afb8ab2b34d93 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_i_gene_constraint_checker.html">IGeneConstraintChecker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">getConstraintChecker</a> ()</td></tr>
+<tr class="separator:ae9823bef7c550fc1533afb8ab2b34d93 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f8f3d249145ad028892cd706ba9dae inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a40f8f3d249145ad028892cd706ba9dae">newGene</a> ()</td></tr>
+<tr class="separator:a40f8f3d249145ad028892cd706ba9dae inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a316c9cc9e273bd75182cbdf188fb6 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a> ()</td></tr>
+<tr class="separator:a32a316c9cc9e273bd75182cbdf188fb6 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4e7c0fad73465365953b375cfa802a8 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ac4e7c0fad73465365953b375cfa802a8">getBusinessKey</a> ()</td></tr>
+<tr class="separator:ac4e7c0fad73465365953b375cfa802a8 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab53d562a62f5c72fc88c7e5315a23ed7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ab53d562a62f5c72fc88c7e5315a23ed7">getUniqueID</a> ()</td></tr>
+<tr class="separator:ab53d562a62f5c72fc88c7e5315a23ed7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d9f1c3c2e727d496d66a85818c17d0 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#aa7d9f1c3c2e727d496d66a85818c17d0">setUniqueIDTemplate</a> (String a_templateID, int a_index)</td></tr>
+<tr class="separator:aa7d9f1c3c2e727d496d66a85818c17d0 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3c210e440f2b542391db5a909fda3b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ad3c210e440f2b542391db5a909fda3b7">getUniqueIDTemplate</a> (int a_index)</td></tr>
+<tr class="separator:ad3c210e440f2b542391db5a909fda3b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1_gene')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a></td></tr>
+<tr class="memitem:a057e5d6cce5ae768cbf626e0ccf70520 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a057e5d6cce5ae768cbf626e0ccf70520">setValueFromPersistentRepresentation</a> (String a_representation)  throws UnsupportedOperationException, UnsupportedRepresentationException</td></tr>
+<tr class="separator:a057e5d6cce5ae768cbf626e0ccf70520 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef135da7549ee98139928e21adb841a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a4ef135da7549ee98139928e21adb841a">setToRandomValue</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> a_numberGenerator)</td></tr>
+<tr class="separator:a4ef135da7549ee98139928e21adb841a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af506b6e1d6ceb3e88e522da4c79adba4 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af506b6e1d6ceb3e88e522da4c79adba4">applyMutation</a> (int index, double a_percentage)</td></tr>
+<tr class="separator:af506b6e1d6ceb3e88e522da4c79adba4 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8405395f244a18424794e8f2e36c608 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ae8405395f244a18424794e8f2e36c608">setApplicationData</a> (Object a_newData)</td></tr>
+<tr class="separator:ae8405395f244a18424794e8f2e36c608 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404ee1527c7dab2f8115f18507d0544b inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a404ee1527c7dab2f8115f18507d0544b">setCompareApplicationData</a> (boolean a_doCompare)</td></tr>
+<tr class="separator:a404ee1527c7dab2f8115f18507d0544b inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c429a29c338d2ad5d5514d5beea6e7 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af5c429a29c338d2ad5d5514d5beea6e7">setEnergy</a> (double a_energy)</td></tr>
+<tr class="separator:af5c429a29c338d2ad5d5514d5beea6e7 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1_i_persistent_representation')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html">org.jgap.IPersistentRepresentation</a></td></tr>
+<tr class="memitem:a94a345f1919c4840dd0b9eecf7afc6a3 inherit pub_methods_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#a94a345f1919c4840dd0b9eecf7afc6a3">setValueFromPersistentRepresentation</a> (String a_representation)  throws UnsupportedRepresentationException</td></tr>
+<tr class="separator:a94a345f1919c4840dd0b9eecf7afc6a3 inherit pub_methods_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:aea5223852eb46cf96ffb04b4b16165b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#aea5223852eb46cf96ffb04b4b16165b7">newGeneInternal</a> ()</td></tr>
+<tr class="separator:aea5223852eb46cf96ffb04b4b16165b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20a2cdecf740152ac3454df33e0d8449"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a20a2cdecf740152ac3454df33e0d8449">getInternalValue</a> ()</td></tr>
+<tr class="separator:a20a2cdecf740152ac3454df33e0d8449"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Métodos protegidos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:a72fa365cdcc9f2eb399fb8346a0a511b inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a72fa365cdcc9f2eb399fb8346a0a511b">compareApplicationData</a> (final Object a_appdata1, final Object a_appdata2)</td></tr>
+<tr class="separator:a72fa365cdcc9f2eb399fb8346a0a511b inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8fc72c1fccdb665113c0c34e3fa4b5 inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a5e8fc72c1fccdb665113c0c34e3fa4b5">encode</a> (String a_string)</td></tr>
+<tr class="separator:a5e8fc72c1fccdb665113c0c34e3fa4b5 inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9277d0b77c1e8ca244687a8ab8cf42f inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ae9277d0b77c1e8ca244687a8ab8cf42f">decode</a> (String a_string)</td></tr>
+<tr class="separator:ae9277d0b77c1e8ca244687a8ab8cf42f inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:acc4b1c46f3508b835bf95b9058eae3a0 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acc4b1c46f3508b835bf95b9058eae3a0">S_APPLICATION_DATA</a> = &quot;Application data&quot;</td></tr>
+<tr class="separator:acc4b1c46f3508b835bf95b9058eae3a0 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86edb3d2c29e5064305fabc2dd59a3b9 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a86edb3d2c29e5064305fabc2dd59a3b9">DELTA</a> = 0.0000001</td></tr>
+<tr class="separator:a86edb3d2c29e5064305fabc2dd59a3b9 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_gene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a></td></tr>
+<tr class="memitem:a771652182ee68c96d4107eee7692fee2 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a771652182ee68c96d4107eee7692fee2">CVS_REVISION</a> = &quot;$Revision: 1.26 $&quot;</td></tr>
+<tr class="separator:a771652182ee68c96d4107eee7692fee2 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae49de1c9f46601f1b60d393a9ce3901a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ae49de1c9f46601f1b60d393a9ce3901a">PERSISTENT_FIELD_DELIMITER</a> = &quot;:&quot;</td></tr>
+<tr class="separator:ae49de1c9f46601f1b60d393a9ce3901a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html">org.jgap.IUniqueKey</a></td></tr>
+<tr class="memitem:a5b6472b1e40001ee262da59ee449a77b inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html#a5b6472b1e40001ee262da59ee449a77b">CVS_REVISION</a> = &quot;$Revision: 1.1 $&quot;</td></tr>
+<tr class="separator:a5b6472b1e40001ee262da59ee449a77b inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html">org.jgap.IBusinessKey</a></td></tr>
+<tr class="memitem:a6d43b687da0842739b8021f466ca451a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html#a6d43b687da0842739b8021f466ca451a">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a6d43b687da0842739b8021f466ca451a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html">org.jgap.IPersistentRepresentation</a></td></tr>
+<tr class="memitem:ae48c5895f4af079337ffebe487b176f5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#ae48c5895f4af079337ffebe487b176f5">CVS_REVISION</a> = &quot;$Revision: 1.2 $&quot;</td></tr>
+<tr class="separator:ae48c5895f4af079337ffebe487b176f5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Creates a gene instance in which individual alleles have both a label (key) and a value with a distinct meaning. This allows to realize a gene with a set of valid values instead of a range of values. For example, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_integer_gene.html">IntegerGene</a> only allows for values having a continuous range, and does not have a function where it is possible to specify setValue... </p>
+<p>This implementation does not support specifying a range of valid integer values. Instead it is planned to provide a constraint checker plugin later on. With this, the current implementation will stay unchanged and can be as performant as possible without losing flexibility.</p>
+<dl class="section see"><dt>Ver también</dt><dd>class <a class="el" href="classexamples_1_1_map_gene_example.html">examples.MapGeneExample</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Johnathan Kool, Organisation: RSMAS, University of Miami </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a4c9c61edff0ee53c964347eb745e1a3e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.MapGene.MapGene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Default constructor.</p>
+<p>Attention: The configuration used is the one set with the static method Genotype.setConfiguration. </p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                           {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keyword">this</span>(Genotype.getStaticConfiguration());</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4ec0685191f0ca38e2ddc05e237b9577"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.MapGene.MapGene </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_config</td><td>the configuration to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                           {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    super(a_config);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    m_geneMap = <span class="keyword">new</span> THashMap();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a66c96770b517a1582d6f771d4a35b134"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.MapGene.MapGene </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Map&#160;</td>
+          <td class="paramname"><em>a_alleles</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor setting up valid alleles directly.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_config</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_alleles</td><td>the valid alleles of the gene </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                           {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    super(a_config);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    m_geneMap = <span class="keyword">new</span> THashMap();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#acaf2b285f329ddf8a6d37f6fe9c01a3f">addAlleles</a>(a_alleles);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_map_gene_html_acaf2b285f329ddf8a6d37f6fe9c01a3f"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#acaf2b285f329ddf8a6d37f6fe9c01a3f">org.jgap.impl.MapGene.addAlleles</a></div><div class="ttdeci">void addAlleles(final Map a_alleles)</div><div class="ttdef"><b>Definition:</b> MapGene.java:154</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a82dfbb6bc328e48d9ed1725baf75eb67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MapGene.addAllele </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds a potential allele value to the collection.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_key</td><td>the key to be added, e.g. a descriptive string value </td></tr>
+    <tr><td class="paramname">a_value</td><td>the Integer value to be added </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    m_geneMap.put(a_key, a_value);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a04696095e30cf06edf25a4ea3d2c2546"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MapGene.addAllele </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds a potential allele value to the collection.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_value</td><td>the value to be added, also used as key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                              {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    m_geneMap.put(a_value, a_value);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a40f4ea96d222b87c688b400bef1fbb91"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MapGene.addAllele </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convenience method for addAllele (Object's that are Integer's)</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_value</td><td>the int value to be added, also used as key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                                           {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    m_geneMap.put(<span class="keyword">new</span> Integer(a_value), <span class="keyword">new</span> Integer(a_value));</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acaf2b285f329ddf8a6d37f6fe9c01a3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MapGene.addAlleles </td>
+          <td>(</td>
+          <td class="paramtype">final Map&#160;</td>
+          <td class="paramname"><em>a_alleles</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Add a set of potential allele values to the collection</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_alleles</td><td>the set of alleles to be added</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                                              {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keywordflow">if</span> (a_alleles == null) {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;List of alleles must not be null!&quot;</span>);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    }</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;      m_geneMap.putAll(a_alleles);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac9095e249f597d47c9c54aa9108afb77"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MapGene.applyMutation </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final double&#160;</td>
+          <td class="paramname"><em>a_percentage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>See interface <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> for description of applyMutation.</p>
+<p>For this kind of gene, providing an index and a percentage of mutation would have no significance because the individual allele forms are independent of one another. In mutating, they can only change from one form to another. It may be possible to weight the likelihood of mutation to different forms, but that is not implemented currently.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>ignored here </td></tr>
+    <tr><td class="paramname">a_percentage</td><td>ignored here</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd>
+<dd>
+Johnathan Kool </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    RandomGenerator rn;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    rn = <a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a>().getRandomGenerator();</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a537cd33d9eedd9ad384219ef0379bc62">setToRandomValue</a>(rn);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a32a316c9cc9e273bd75182cbdf188fb6"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">org.jgap.BaseGene.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:409</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_map_gene_html_a537cd33d9eedd9ad384219ef0379bc62"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a537cd33d9eedd9ad384219ef0379bc62">org.jgap.impl.MapGene.setToRandomValue</a></div><div class="ttdeci">void setToRandomValue(final RandomGenerator a_numberGenerator)</div><div class="ttdef"><b>Definition:</b> MapGene.java:196</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a32fbf53138c5ea70f07490684f9fc659"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.MapGene.compareTo </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compares this <a class="el" href="classorg_1_1jgap_1_1impl_1_1_number_gene.html">NumberGene</a> with the specified object (which must also be a <a class="el" href="classorg_1_1jgap_1_1impl_1_1_number_gene.html">NumberGene</a>) for order, which is determined by the number value of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> compared to the one provided for comparison.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_number_gene.html">NumberGene</a> to be compared to this <a class="el" href="classorg_1_1jgap_1_1impl_1_1_number_gene.html">NumberGene</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the object provided for comparison</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ClassCastException</td><td>if the specified object's type prevents it from being compared to this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd>
+<dd>
+Johnathan Kool </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;                                       {</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a4c9c61edff0ee53c964347eb745e1a3e">MapGene</a> otherGene = (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a4c9c61edff0ee53c964347eb745e1a3e">MapGene</a>) a_other;</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <span class="comment">// First, if the other gene (or its value) is null, then this is</span></div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="comment">// the greater allele. Otherwise, just use the overridden compareToNative</span></div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <span class="comment">// method to perform the comparison.</span></div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="comment">// ---------------------------------------------------------------</span></div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <span class="keywordflow">if</span> (otherGene == null) {</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;      <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;    }</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (otherGene.m_value == null) {</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;      <span class="comment">// If our value is not null, then we&#39;re the greater gene.</span></div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;      <span class="comment">// ------------------------------------------------------</span></div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;      <span class="keywordflow">if</span> (m_value != null) {</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;      }</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    }</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;      <span class="keywordtype">int</span> size1 = m_geneMap.size();</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;      <span class="keywordtype">int</span> size2 = otherGene.m_geneMap.size();</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;      <span class="keywordflow">if</span> (size1 != size2) {</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;        <span class="keywordflow">if</span> (size1 &lt; size2) {</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;          <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;        }</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;          <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;        }</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;      }</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;        <span class="comment">// Compare geneMap keys and values.</span></div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        Iterator it1 = m_geneMap.keySet().iterator();</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;<span class="comment">//        Iterator it2 = otherGene.m_geneMap.keySet().iterator();</span></div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;        <span class="keywordflow">while</span> (it1.hasNext()) {</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;          Object key1 = it1.next();</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;          <span class="keywordflow">if</span> (!otherGene.m_geneMap.keySet().contains(key1)) {</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;            Object key2 = otherGene.m_geneMap.keySet().iterator().next();</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;            <span class="keywordflow">if</span> (Comparable.class.isAssignableFrom(key1.getClass())</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;                &amp;&amp; Comparable.class.isAssignableFrom(key2.getClass())) {</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;              <span class="keywordflow">return</span> ( (Comparable) key1).<a class="code" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a32fbf53138c5ea70f07490684f9fc659">compareTo</a>(key2);</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;            }</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;            <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;              <span class="comment">// Arbitrarily return -1</span></div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;              <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;            }</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;          }</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;          Object value1 = m_geneMap.get(key1);</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;          Object value2 = otherGene.m_geneMap.get(key1);</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;          <span class="keywordflow">if</span> (value1 == null &amp;&amp; value2 != null) {</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;          }</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (value1 == null &amp;&amp; value2 != null) {</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;          }</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!value1.equals(value2)) {</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;            <span class="keywordflow">if</span> (value2 == null) {</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;              <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;            }</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;            <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;              <span class="keywordflow">if</span> (Comparable.class.isAssignableFrom(value1.getClass())</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;                  &amp;&amp; Comparable.class.isAssignableFrom(value2.getClass())) {</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;                <span class="keywordflow">return</span> ( (Comparable) value1).<a class="code" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a32fbf53138c5ea70f07490684f9fc659">compareTo</a>(value2);</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;              }</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;              <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;                <span class="comment">// Arbitrarily return -1</span></div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;              }</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;            }</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;          }</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;        }</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;      }</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;      <span class="keywordflow">if</span> (m_value == null) {</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;        <span class="keywordflow">if</span> (otherGene.m_value != null) {</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;          <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;        }</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;          <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;        }</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;      }</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;      Method method = m_value.getClass().getMethod(<span class="stringliteral">&quot;compareTo&quot;</span>,</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;          <span class="keyword">new</span> Class[] {otherGene.m_value.getClass()});</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;      Integer i = (Integer) method.invoke(m_value,</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;                                          <span class="keyword">new</span> Object[] {otherGene.m_value});</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;      <span class="keywordflow">return</span> i.intValue();</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    }</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    <span class="keywordflow">catch</span> (InvocationTargetException ex) {</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;      ex.printStackTrace();</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;CompareTo method of the Gene value&quot;</span> +</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;                                         <span class="stringliteral">&quot; object cannot be invoked.&quot;</span>);</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    }</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    <span class="keywordflow">catch</span> (IllegalArgumentException ex) {</div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;      ex.printStackTrace();</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;The value object of the Gene does&quot;</span> +</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;                                         <span class="stringliteral">&quot; not have a compareTo method.  It&quot;</span> +</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;                                         <span class="stringliteral">&quot; cannot be compared.&quot;</span>);</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    }</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;    <span class="keywordflow">catch</span> (IllegalAccessException ex) {</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;      ex.printStackTrace();</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;The compareTo method of the Gene&quot;</span> +</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;                                         <span class="stringliteral">&quot; value object cannot be accessed &quot;</span>);</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    }</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    <span class="keywordflow">catch</span> (SecurityException ex) {</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;      ex.printStackTrace();</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;The compareTo method of the Gene&quot;</span> +</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;                                         <span class="stringliteral">&quot; value object cannot be accessed.&quot;</span> +</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;                                         <span class="stringliteral">&quot;  Insufficient permission levels.&quot;</span>);</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    }</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    <span class="keywordflow">catch</span> (NoSuchMethodException ex) {</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;      ex.printStackTrace();</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;The value object of the Gene does&quot;</span> +</div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;                                         <span class="stringliteral">&quot; not have a compareTo method.  It&quot;</span> +</div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;                                         <span class="stringliteral">&quot; cannot be compared.&quot;</span>);</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    }</div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_map_gene_html_a32fbf53138c5ea70f07490684f9fc659"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a32fbf53138c5ea70f07490684f9fc659">org.jgap.impl.MapGene.compareTo</a></div><div class="ttdeci">int compareTo(Object a_other)</div><div class="ttdef"><b>Definition:</b> MapGene.java:420</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_map_gene_html_a4c9c61edff0ee53c964347eb745e1a3e"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a4c9c61edff0ee53c964347eb745e1a3e">org.jgap.impl.MapGene.MapGene</a></div><div class="ttdeci">MapGene()</div><div class="ttdef"><b>Definition:</b> MapGene.java:64</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a05606dffa0ab3246b6a865a83680dd14"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map org.jgap.impl.MapGene.getAlleles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the map of alleles</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                          {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordflow">return</span> m_geneMap;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a20a2cdecf740152ac3454df33e0d8449"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.impl.MapGene.getInternalValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the internal value of the gene </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ad20da6b23ba524a95caa28f727c26dcd">org.jgap.BaseGene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;                                      {</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    <span class="keywordflow">return</span> m_value;</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0a1b56bd574314d61311ac070f7f9845"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.impl.MapGene.getPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws UnsupportedOperationException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves a string representation of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> that includes any information required to reconstruct it at a later time, such as its value and internal state. This string will be used to represent this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> in XML persistence. This is an optional method but, if not implemented, XML persistence and possibly other features will not be available. An UnsupportedOperationException should be thrown if no implementation is provided.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>string representation of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>'s current state </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">UnsupportedOperationException</td><td>to indicate that no implementation is provided for this method</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rostan </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#a07bf7dbaa8de08e268c9357a46e79dac">org.jgap.IPersistentRepresentation</a>.</p>
+<div class="fragment"><div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                                           {</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="comment">// The persistent representation includes the value and the allele</span></div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="comment">// assignment.</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="comment">// ---------------------------------------------------------------</span></div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    Iterator it = m_geneMap.keySet().iterator();</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    StringBuffer strbf = <span class="keyword">new</span> StringBuffer();</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keywordtype">boolean</span> first = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keywordflow">while</span> (it.hasNext()) {</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;      <span class="keywordflow">if</span> (!first) {</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        strbf.append(<span class="stringliteral">&quot;,&quot;</span>);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;      }</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;      Object key = it.next();</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;      Object value = m_geneMap.get(key);</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;      strbf.append(<span class="stringliteral">&quot;(&quot;</span> + key.getClass().getName() + <span class="stringliteral">&quot;,&quot;</span> + key.toString() + <span class="stringliteral">&quot;,&quot;</span> +</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                   value.getClass().getName() + <span class="stringliteral">&quot;,&quot;</span> + value.toString() + <span class="stringliteral">&quot;)&quot;</span>);</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;      first = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    }</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    <span class="keywordflow">return</span> m_value.toString() + <a class="code" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a4c9c61edff0ee53c964347eb745e1a3e">MapGene</a>.PERSISTENT_FIELD_DELIMITER +</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        strbf.toString();</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_map_gene_html_a4c9c61edff0ee53c964347eb745e1a3e"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a4c9c61edff0ee53c964347eb745e1a3e">org.jgap.impl.MapGene.MapGene</a></div><div class="ttdeci">MapGene()</div><div class="ttdef"><b>Definition:</b> MapGene.java:64</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae79496d829629130032c7ba5b25af355"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.MapGene.hashCode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modified <a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#ae79496d829629130032c7ba5b25af355">hashCode()</a> function to return different hashcodes for differently ordered genes in a chromosome </p>
+<dl class="section return"><dt>Devuelve</dt><dd>-1 if no allele set, otherwise value return by <a class="el" href="classorg_1_1jgap_1_1_base_gene.html#af842a106d90ca973956f560ae448464e">BaseGene.hashCode()</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;                        {</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a20a2cdecf740152ac3454df33e0d8449">getInternalValue</a>() == null) {</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;      <span class="keywordflow">return</span> -71;</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;    }</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;      <span class="keywordflow">return</span> super.hashCode();</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    }</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_map_gene_html_a20a2cdecf740152ac3454df33e0d8449"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a20a2cdecf740152ac3454df33e0d8449">org.jgap.impl.MapGene.getInternalValue</a></div><div class="ttdeci">Object getInternalValue()</div><div class="ttdef"><b>Definition:</b> MapGene.java:537</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aea5223852eb46cf96ffb04b4b16165b7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> org.jgap.impl.MapGene.newGeneInternal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1_base_gene.html#aa423e96ffac5a9589fb3a4fbda791b3c">org.jgap.BaseGene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                                   {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a4c9c61edff0ee53c964347eb745e1a3e">MapGene</a> result = <span class="keyword">new</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a4c9c61edff0ee53c964347eb745e1a3e">MapGene</a>(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a>(), m_geneMap);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      <span class="comment">// get m_value from original</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;      Object value = <a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a35e754e8e217bdd26962e1c3c31d0169">getAllele</a>();</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      result.setAllele(value);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(iex.getMessage());</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a32a316c9cc9e273bd75182cbdf188fb6"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">org.jgap.BaseGene.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:409</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_map_gene_html_a4c9c61edff0ee53c964347eb745e1a3e"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a4c9c61edff0ee53c964347eb745e1a3e">org.jgap.impl.MapGene.MapGene</a></div><div class="ttdeci">MapGene()</div><div class="ttdef"><b>Definition:</b> MapGene.java:64</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a35e754e8e217bdd26962e1c3c31d0169"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a35e754e8e217bdd26962e1c3c31d0169">org.jgap.BaseGene.getAllele</a></div><div class="ttdeci">Object getAllele()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:103</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaa6f3a3a80baadf6a3216a1ef0167f24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MapGene.removeAlleles </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes a potential allele or set of alleles from the collection.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_key</td><td>the unique value(s) of the object(s) to be removed</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                                                {</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    m_geneMap.remove(a_key);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af102ddb4e963fc1355ea193ce414ca54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MapGene.setAllele </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_newValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the value (allele) of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> to the new given value. This class expects the value to be an instance of current type (e.g. Integer).</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_newValue</td><td>the new value of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> instance</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Johnathan Kool, Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af46a0c31e0fecea483497e87ca278127">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;                                           {</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    <span class="comment">// Ignore null value as it should have no effect here (otherwise problematic</span></div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    <span class="comment">// in conjunction with newGene).</span></div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    <span class="comment">// -------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    <span class="keywordflow">if</span> (a_newValue == null) {</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    }</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <span class="keywordflow">if</span> (m_geneMap.values().isEmpty()) {</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;      m_value = a_newValue;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    }</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (m_geneMap.values().contains(a_newValue)) {</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;      m_value = a_newValue;<span class="comment">//m_geneMap.get(a_newValue);</span></div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    }</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Allele value being set (&quot;</span></div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;                                         + a_newValue</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;                                         + <span class="stringliteral">&quot;) is not an element of the set of&quot;</span></div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;                                         + <span class="stringliteral">&quot; permitted values.&quot;</span>);</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    }</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a537cd33d9eedd9ad384219ef0379bc62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MapGene.setToRandomValue </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a>&#160;</td>
+          <td class="paramname"><em>a_numberGenerator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the allele value to be a random value using a defined random number generator. If no valid alleles are defined, any allele is allowed. Then, a new Integer with random value is set as random value. Override this method if you want a different behaviour, such as a Double instead of the Integer type.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_numberGenerator</td><td>the random generator to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">if</span> (m_geneMap.isEmpty()) {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      m_value = <span class="keyword">new</span> Integer(a_numberGenerator.nextInt());</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      m_value = m_geneMap.get(m_geneMap.keySet().toArray()[a_numberGenerator.</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                              nextInt(m_geneMap.size())]);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa26832d5aefa69e44d2efd58e333e230"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.MapGene.setValueFromPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_representation</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the value and internal state of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> from the string representation returned by a previous invocation of the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a0a1b56bd574314d61311ac070f7f9845">getPersistentRepresentation()</a> method. This is an optional method but, if not implemented, XML persistence and possibly other features will not be available. An UnsupportedOperationException should be thrown if no implementation is provided.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_representation</td><td>the string representation retrieved from a prior call to the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a0a1b56bd574314d61311ac070f7f9845">getPersistentRepresentation()</a> method.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">UnsupportedOperationException</td><td>to indicate that no implementation is provided for this method </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td><td>if this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> implementation does not support the given string representation.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rostan </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                                                {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span> (a_representation != null) {</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;      StringTokenizer tokenizer = <span class="keyword">new</span> StringTokenizer(a_representation,</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;          <a class="code" href="interfaceorg_1_1jgap_1_1_gene.html#ae49de1c9f46601f1b60d393a9ce3901a">PERSISTENT_FIELD_DELIMITER</a>);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      <span class="comment">// Make sure the representation contains the correct number of</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      <span class="comment">// fields. If not, throw an exception.</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;      <span class="comment">// -----------------------------------------------------------</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;      <span class="keywordflow">if</span> (tokenizer.countTokens() != 2) {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <span class="stringliteral">&quot;The format of the given persistent representation &quot;</span> +</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            <span class="stringliteral">&quot;is not recognized: it must contain two tokens.&quot;</span>);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      }</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;      String valueRepresentation = tokenizer.nextToken();</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      <span class="comment">// First parse and set the representation of the value.</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;      <span class="comment">// ----------------------------------------------------</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;      <span class="keywordflow">if</span> (valueRepresentation.equals(<span class="stringliteral">&quot;null&quot;</span>)) {</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        m_value = null;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;      }</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;          m_value = <span class="keyword">new</span> Integer(Integer.parseInt(valueRepresentation));</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        }</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <span class="keywordflow">catch</span> (NumberFormatException e) {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;          <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;              <span class="stringliteral">&quot;The format of the given persistent representation &quot;</span> +</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;              <span class="stringliteral">&quot;is not recognized: field 1 does not appear to be &quot;</span> +</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;              <span class="stringliteral">&quot;an integer value.&quot;</span>);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        }</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;      }</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;      <span class="comment">// Parse gene map.</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;      <span class="comment">// ---------------</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;      String s = tokenizer.nextToken();</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;      tokenizer = <span class="keyword">new</span> StringTokenizer(s, <span class="stringliteral">&quot;,&quot;</span>);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;      <span class="keywordtype">int</span> lastWasOpening = 0;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;      String key = null;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;      String keyClass = null;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      String valueClass = null;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;      <span class="keywordflow">while</span> (tokenizer.hasMoreTokens()) {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        String element = tokenizer.nextToken(<span class="stringliteral">&quot;,&quot;</span>);</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="keywordflow">if</span> (lastWasOpening == 1) {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;          key = element.substring(0);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;          lastWasOpening = 2;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        }</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (lastWasOpening == 2) {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;          valueClass = element.substring(0);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;          lastWasOpening = 3;</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        }</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (lastWasOpening == 3) {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;          <span class="keywordflow">if</span> (element.endsWith(<span class="stringliteral">&quot;)&quot;</span>)) {</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            element = element.substring(0, element.length() - 1);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;              Class keyType = Class.forName(keyClass);</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;              Constructor keyC = keyType.getConstructor(<span class="keyword">new</span> Class[]{String.class});</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;              Object keyObject = keyC.newInstance(<span class="keyword">new</span> Object[]{key});</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;              Class valueType = Class.forName(valueClass);</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;              Constructor valueC = valueType.getConstructor(<span class="keyword">new</span> Class[]{String.class});</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;              Object valueObject = valueC.newInstance(<span class="keyword">new</span> Object[]{element});</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;              <a class="code" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a82dfbb6bc328e48d9ed1725baf75eb67">addAllele</a>(keyObject, valueObject);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;              lastWasOpening = 0;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;            } <span class="keywordflow">catch</span> (Exception cex) {</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;              <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(<span class="stringliteral">&quot;Invalid class: &quot;</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                  + keyClass);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;            }</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;          }</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;          <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(<span class="stringliteral">&quot;Closing bracket missing&quot;</span>);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;          }</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        }</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;          <span class="keywordflow">if</span> (element.startsWith(<span class="stringliteral">&quot;(&quot;</span>)) {</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            keyClass = element.substring(1);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;            lastWasOpening = 1;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;          }</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;          <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(<span class="stringliteral">&quot;Opening bracket missing&quot;</span>);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;          }</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        }</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;      }</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;      <span class="keywordflow">if</span> (lastWasOpening != 0) {</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(<span class="stringliteral">&quot;Elements missing&quot;</span>);</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;      }</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    }</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_map_gene_html_a82dfbb6bc328e48d9ed1725baf75eb67"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_map_gene.html#a82dfbb6bc328e48d9ed1725baf75eb67">org.jgap.impl.MapGene.addAllele</a></div><div class="ttdeci">void addAllele(final Object a_key, final Object a_value)</div><div class="ttdef"><b>Definition:</b> MapGene.java:119</div></div>
+<div class="ttc" id="interfaceorg_1_1jgap_1_1_gene_html_ae49de1c9f46601f1b60d393a9ce3901a"><div class="ttname"><a href="interfaceorg_1_1jgap_1_1_gene.html#ae49de1c9f46601f1b60d393a9ce3901a">org.jgap.Gene.PERSISTENT_FIELD_DELIMITER</a></div><div class="ttdeci">static final String PERSISTENT_FIELD_DELIMITER</div><div class="ttdef"><b>Definition:</b> Gene.java:38</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4b9c5182f259a969cef430fa1d66d17f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.impl.MapGene.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves a string representation of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>'s value that may be useful for display purposes.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>a string representation of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>'s value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ac62239b4b7bf81179fd491a4c4bd1901">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;                           {</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;    String result = <span class="stringliteral">&quot;[&quot;</span>;</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;    <span class="keywordflow">if</span> (m_geneMap.size() &lt; 1) {</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;      result += <span class="stringliteral">&quot;null&quot;</span>;</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;    }</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;      Set keys = m_geneMap.keySet();</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;      Iterator keyIterator = keys.iterator();</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;      <span class="keywordtype">boolean</span> firstTime = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;      <span class="keywordflow">while</span> (keyIterator.hasNext()) {</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;        <span class="keywordflow">if</span> (!firstTime) {</div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;          result += <span class="stringliteral">&quot;,&quot;</span>;</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;        }</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;          firstTime = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;        }</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;        Object key = keyIterator.next();</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;        String keyString;</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;        <span class="keywordflow">if</span> (key == null) {</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;          keyString = <span class="stringliteral">&quot;null&quot;</span>;</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;        }</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;          keyString = key.toString();</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;        }</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;        result += <span class="stringliteral">&quot;(&quot;</span> + keyString + <span class="stringliteral">&quot;,&quot;</span>;</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        Object value = m_geneMap.get(key);</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        String valueString;</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        <span class="keywordflow">if</span> (value == null) {</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;          valueString = <span class="stringliteral">&quot;null&quot;</span>;</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;        }</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;          valueString = value.toString();</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        }</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        result += valueString + <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;      }</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    }</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;    result += <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/impl/<a class="el" href="_map_gene_8java.html">MapGene.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene.html">MapGene</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:51 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

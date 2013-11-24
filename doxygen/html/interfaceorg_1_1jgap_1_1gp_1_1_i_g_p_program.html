@@ -1,0 +1,951 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Interfaz org.jgap.gp.IGPProgram</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.jgap.gp.IGPProgram</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable, Comparable y <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a>.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html">org.jgap.gp.GPProgramBase</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a61921eb5f86f89d479f3633f18dcea23"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a61921eb5f86f89d479f3633f18dcea23">execute_int</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:a61921eb5f86f89d479f3633f18dcea23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52e909e6d1d0e322fa92ce84ff58626c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a52e909e6d1d0e322fa92ce84ff58626c">execute_float</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:a52e909e6d1d0e322fa92ce84ff58626c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5288f2f88fef5992c1f97aa5479def20"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a5288f2f88fef5992c1f97aa5479def20">execute_double</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:a5288f2f88fef5992c1f97aa5479def20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a356d62b08aafb9fcb1cc90832e9a64c1"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a356d62b08aafb9fcb1cc90832e9a64c1">execute_boolean</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:a356d62b08aafb9fcb1cc90832e9a64c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0af6f3c0ed6fb8011a44272632c26ab2"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a0af6f3c0ed6fb8011a44272632c26ab2">execute_object</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:a0af6f3c0ed6fb8011a44272632c26ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5130121e7bda2b3b38627943846bfb6f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a5130121e7bda2b3b38627943846bfb6f">execute_void</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:a5130121e7bda2b3b38627943846bfb6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d5977f9e68517d20eb1d810f58bac3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#ac4d5977f9e68517d20eb1d810f58bac3">size</a> ()</td></tr>
+<tr class="separator:ac4d5977f9e68517d20eb1d810f58bac3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79007ec93261e4f49223e4e39bd1a924"><td class="memItemLeft" align="right" valign="top">ProgramChromosome&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a79007ec93261e4f49223e4e39bd1a924">getChromosome</a> (int a_index)</td></tr>
+<tr class="separator:a79007ec93261e4f49223e4e39bd1a924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ea406704b2bd818623ced90be07304a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a0ea406704b2bd818623ced90be07304a">getFitnessValue</a> ()</td></tr>
+<tr class="separator:a0ea406704b2bd818623ced90be07304a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a316ab62cde57da6ffa6ac78f0876fc03"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a316ab62cde57da6ffa6ac78f0876fc03">toStringNorm</a> (int a_startNode)</td></tr>
+<tr class="separator:a316ab62cde57da6ffa6ac78f0876fc03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21317711fdc6ed56ad22a30e7e8e8d92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a21317711fdc6ed56ad22a30e7e8e8d92">setChromosome</a> (int a_index, ProgramChromosome a_chrom)</td></tr>
+<tr class="separator:a21317711fdc6ed56ad22a30e7e8e8d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6299be773d5ae9ee4a554ba84677268a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a6299be773d5ae9ee4a554ba84677268a">getCommandOfClass</a> (int a_chromosomeNum, Class a_class)</td></tr>
+<tr class="separator:a6299be773d5ae9ee4a554ba84677268a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb7e3858fed9ea4ac50c6841f27704dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#abb7e3858fed9ea4ac50c6841f27704dd">setFitnessValue</a> (double a_fitness)</td></tr>
+<tr class="separator:abb7e3858fed9ea4ac50c6841f27704dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda6cbcb0dd4f9db114632f3131f817e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#acda6cbcb0dd4f9db114632f3131f817e">setTypes</a> (Class[] a_types)</td></tr>
+<tr class="separator:acda6cbcb0dd4f9db114632f3131f817e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b142513eca08b5f1b6d2be2d1b71a8c"><td class="memItemLeft" align="right" valign="top">Class[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a1b142513eca08b5f1b6d2be2d1b71a8c">getTypes</a> ()</td></tr>
+<tr class="separator:a1b142513eca08b5f1b6d2be2d1b71a8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97f66bf3674c51d91b3127f9ec38e69a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a97f66bf3674c51d91b3127f9ec38e69a">setArgTypes</a> (Class[][] a_argTypes)</td></tr>
+<tr class="separator:a97f66bf3674c51d91b3127f9ec38e69a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4f2e4767f1956eb04372d24a7d3c0b5"><td class="memItemLeft" align="right" valign="top">Class[][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#aa4f2e4767f1956eb04372d24a7d3c0b5">getArgTypes</a> ()</td></tr>
+<tr class="separator:aa4f2e4767f1956eb04372d24a7d3c0b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58842c54389449e100e2b9389cddd134"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a58842c54389449e100e2b9389cddd134">setNodeSets</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] a_nodeSets)</td></tr>
+<tr class="separator:a58842c54389449e100e2b9389cddd134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62f09a376cef8b874567b035f9cdebfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a62f09a376cef8b874567b035f9cdebfe">getNodeSets</a> ()</td></tr>
+<tr class="separator:a62f09a376cef8b874567b035f9cdebfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf9a73bcc1709c585ac9c4f9a7978e90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#acf9a73bcc1709c585ac9c4f9a7978e90">setMaxDepths</a> (int[] a_maxDepths)</td></tr>
+<tr class="separator:acf9a73bcc1709c585ac9c4f9a7978e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2f1dfc04362e7e0df543437e661ff55"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#ac2f1dfc04362e7e0df543437e661ff55">getMaxDepths</a> ()</td></tr>
+<tr class="separator:ac2f1dfc04362e7e0df543437e661ff55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70af48f66ed1dee7c412428b0571ab76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a70af48f66ed1dee7c412428b0571ab76">setMinDepths</a> (int[] a_minDepths)</td></tr>
+<tr class="separator:a70af48f66ed1dee7c412428b0571ab76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12acd91633a1ae6fdbf0a85d1ea10f53"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a12acd91633a1ae6fdbf0a85d1ea10f53">getMinDepths</a> ()</td></tr>
+<tr class="separator:a12acd91633a1ae6fdbf0a85d1ea10f53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a814075394696bef7e497bc3047d5a2a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a814075394696bef7e497bc3047d5a2a3">setMaxNodes</a> (int a_maxNodes)</td></tr>
+<tr class="separator:a814075394696bef7e497bc3047d5a2a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414441248d79c3d6766ac6b65dee851a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a414441248d79c3d6766ac6b65dee851a">getMaxNodes</a> ()</td></tr>
+<tr class="separator:a414441248d79c3d6766ac6b65dee851a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af159eca7bbd36510b6a50c85ec4cc64f"><td class="memItemLeft" align="right" valign="top">GPConfiguration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#af159eca7bbd36510b6a50c85ec4cc64f">getGPConfiguration</a> ()</td></tr>
+<tr class="separator:af159eca7bbd36510b6a50c85ec4cc64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0e6c95c920958bd77593fcb97df1659"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#aa0e6c95c920958bd77593fcb97df1659">setApplicationData</a> (Object a_data)</td></tr>
+<tr class="separator:aa0e6c95c920958bd77593fcb97df1659"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9accc43d80121dc34557c5620b7ed484"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a9accc43d80121dc34557c5620b7ed484">getApplicationData</a> ()</td></tr>
+<tr class="separator:a9accc43d80121dc34557c5620b7ed484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cfa46075460f3b56b914603cef73c66"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a3cfa46075460f3b56b914603cef73c66">getPersistentRepresentation</a> ()</td></tr>
+<tr class="separator:a3cfa46075460f3b56b914603cef73c66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a></td></tr>
+<tr class="memitem:aa7e7d62077e6428ad7904932b1b4f7d5 inherit pub_methods_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#aa7e7d62077e6428ad7904932b1b4f7d5">clone</a> ()</td></tr>
+<tr class="separator:aa7e7d62077e6428ad7904932b1b4f7d5 inherit pub_methods_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a9b256f58b194a88fdc5bd5e47c33f83d"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a9b256f58b194a88fdc5bd5e47c33f83d">CVS_REVISION</a> = &quot;$Revision: 1.14 $&quot;</td></tr>
+<tr class="separator:a9b256f58b194a88fdc5bd5e47c33f83d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a></td></tr>
+<tr class="memitem:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#a4eaaa85432026f5bc54c3e520b22caa7">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Interface for GP programs.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a356d62b08aafb9fcb1cc90832e9a64c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.gp.IGPProgram.execute_boolean </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as a boolean function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the boolean return value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#af54a9afea07bf9faefe487d125039016">org.jgap.gp.impl.GPProgram</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5288f2f88fef5992c1f97aa5479def20"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.gp.IGPProgram.execute_double </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as a double function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the double return value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#acc63a7011940878149f3f31e1f4bd6a9">org.jgap.gp.impl.GPProgram</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a52e909e6d1d0e322fa92ce84ff58626c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float org.jgap.gp.IGPProgram.execute_float </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as a float function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the floar return value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#aeca7a5b7573313cbc44f9d0fd9263382">org.jgap.gp.impl.GPProgram</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a61921eb5f86f89d479f3633f18dcea23"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPProgram.execute_int </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as an integer function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the integer return value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a54c512d511d99087100cc0f3cb26f0e0">org.jgap.gp.impl.GPProgram</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0af6f3c0ed6fb8011a44272632c26ab2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.gp.IGPProgram.execute_object </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as an object function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the object return value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#acf96d41d757a05896eac7377607dae67">org.jgap.gp.impl.GPProgram</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5130121e7bda2b3b38627943846bfb6f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPProgram.execute_void </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as an object function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ad790a2a9693298dc2dcdc5c8098bbf72">org.jgap.gp.impl.GPProgram</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9accc43d80121dc34557c5620b7ed484"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.gp.IGPProgram.getApplicationData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the application data object set</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a2917af78464de7f0c7c6804bff8cb928">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa4f2e4767f1956eb04372d24a7d3c0b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Class [][] org.jgap.gp.IGPProgram.getArgTypes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a62e928907e7e3d3b0779fc4a45652113">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a79007ec93261e4f49223e4e39bd1a924"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ProgramChromosome org.jgap.gp.IGPProgram.getChromosome </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>the chromosome to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the ProgramChromosome with the given index</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a52e5cbf2e5421994f5139abdc8f97633">org.jgap.gp.impl.GPProgram</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6299be773d5ae9ee4a554ba84677268a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPProgram.getCommandOfClass </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_class</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Searches for a chromosome that has the given class and returns its index.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to start the search with </td></tr>
+    <tr><td class="paramname">a_class</td><td>the class to find </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the index of the first chromosome found that is of a_class, or -1</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac9aaed0206c092f51a05cc2fb600cf63">org.jgap.gp.impl.GPProgram</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0ea406704b2bd818623ced90be07304a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.gp.IGPProgram.getFitnessValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>fitness value of this program</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a39d74595d2584fd04e9a96d039d78eda">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af159eca7bbd36510b6a50c85ec4cc64f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GPConfiguration org.jgap.gp.IGPProgram.getGPConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac2f1dfc04362e7e0df543437e661ff55"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] org.jgap.gp.IGPProgram.getMaxDepths </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad377c53d502e373c13e94176b1d5662">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a414441248d79c3d6766ac6b65dee851a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPProgram.getMaxNodes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad0ae3c5c5e5a0c8b736ecc3aa063a4a">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a12acd91633a1ae6fdbf0a85d1ea10f53"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] org.jgap.gp.IGPProgram.getMinDepths </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ad3ea34d1fe09f263537df7c639814704">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a62f09a376cef8b874567b035f9cdebfe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a> [][] org.jgap.gp.IGPProgram.getNodeSets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3cfa46075460f3b56b914603cef73c66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.IGPProgram.getPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the persistent representation of the population, including all GP programs</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#afb4433bf414be6c31533f57a89a54c34">org.jgap.gp.impl.GPProgram</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1b142513eca08b5f1b6d2be2d1b71a8c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Class [] org.jgap.gp.IGPProgram.getTypes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#adc1707b600d621e99ce483b470e61755">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa0e6c95c920958bd77593fcb97df1659"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPProgram.setApplicationData </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the application data object.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_data</td><td>the object to set</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ab2bf5f122cd2867c7dd8cb5b06815a0b">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a97f66bf3674c51d91b3127f9ec38e69a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPProgram.setArgTypes </td>
+          <td>(</td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_argTypes</em>[][]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a96bb2d4a4a01e1456436112484562596">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a21317711fdc6ed56ad22a30e7e8e8d92"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPProgram.setChromosome </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ProgramChromosome&#160;</td>
+          <td class="paramname"><em>a_chrom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the given chromosome at the given index.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>the index to the the chromosome at </td></tr>
+    <tr><td class="paramname">a_chrom</td><td>the chromosome to set</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="abb7e3858fed9ea4ac50c6841f27704dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPProgram.setFitnessValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_fitness</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a910af2c40ec932de50f534c7fe5f95f0">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acf9a73bcc1709c585ac9c4f9a7978e90"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPProgram.setMaxDepths </td>
+          <td>(</td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_maxDepths</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a15a610da6cf439e8a729a71d1b119b5a">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a814075394696bef7e497bc3047d5a2a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPProgram.setMaxNodes </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_maxNodes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aae357dfed5c7e91ddddc3464b60dd665">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a70af48f66ed1dee7c412428b0571ab76"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPProgram.setMinDepths </td>
+          <td>(</td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_minDepths</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a864e23f640d66d713e9ba2a74086c89d">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a58842c54389449e100e2b9389cddd134"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPProgram.setNodeSets </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>&#160;</td>
+          <td class="paramname"><em>a_nodeSets</em>[][]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#abb9c0d33f365e1f3d788feb5604c01f3">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="acda6cbcb0dd4f9db114632f3131f817e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPProgram.setTypes </td>
+          <td>(</td>
+          <td class="paramtype">Class[]&#160;</td>
+          <td class="paramname"><em>a_types</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ae9ae1f980e5fb77a4e2f6f71207e5155">org.jgap.gp.GPProgramBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac4d5977f9e68517d20eb1d810f58bac3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPProgram.size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the number of chromosomes in the program</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">org.jgap.gp.impl.GPProgram</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a316ab62cde57da6ffa6ac78f0876fc03"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.IGPProgram.toStringNorm </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_startNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Builds a string that represents the normalized output of the GP program.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_startNode</td><td>the node to start with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>textual output in normalized notion</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a88fcd847e2fe1955ea9607b2c0b2d814">org.jgap.gp.impl.GPProgram</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a9b256f58b194a88fdc5bd5e47c33f83d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.jgap.gp.IGPProgram.CVS_REVISION = &quot;$Revision: 1.14 $&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>String containing the CVS revision. Read out via reflection! </p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/gp/<a class="el" href="_i_g_p_program_8java.html">IGPProgram.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp.html">gp</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:32 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

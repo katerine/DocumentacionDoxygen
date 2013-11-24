@@ -1,0 +1,808 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase examples.supergene.AbstractSupergeneTest</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classexamples_1_1supergene_1_1_abstract_supergene_test.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classexamples_1_1supergene_1_1_abstract_supergene_test-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase examples.supergene.AbstractSupergeneTest<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Heredado por <a class="el" href="classexamples_1_1supergene_1_1_supergene_sample.html">examples.supergene.SupergeneSample</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:af2fc5c540e716975e1c4106e8f95a1a5"><td class="memItemLeft" align="right" valign="top">abstract int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#af2fc5c540e716975e1c4106e8f95a1a5">makeChangeForAmount</a> (int a_targetChangeAmount)  throws Exception</td></tr>
+<tr class="separator:af2fc5c540e716975e1c4106e8f95a1a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a739a675575c3932e123f47b774b358f8"><td class="memItemLeft" align="right" valign="top">IChromosome&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a739a675575c3932e123f47b774b358f8">report</a> (<a class="el" href="classexamples_1_1supergene_1_1_supergene_change_fitness_function.html">SupergeneChangeFitnessFunction</a> a_fitnessFunction, Genotype a_population)</td></tr>
+<tr class="separator:a739a675575c3932e123f47b774b358f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f6bbeeedeed872a2cb7cb38e6a40c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a92f6bbeeedeed872a2cb7cb38e6a40c2">test</a> ()</td></tr>
+<tr class="separator:a92f6bbeeedeed872a2cb7cb38e6a40c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a634c86555d7accce1bd015ff6f99c630"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a634c86555d7accce1bd015ff6f99c630">amountOfChange</a> (int a_numQuarters, int a_numDimes, int a_numNickels, int a_numPennies)</td></tr>
+<tr class="separator:a634c86555d7accce1bd015ff6f99c630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a2581251d3607aad43d8b2815b8202c8e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a2581251d3607aad43d8b2815b8202c8e">DIMES</a> = 0</td></tr>
+<tr class="separator:a2581251d3607aad43d8b2815b8202c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed911231f02517c09e71a453e303b655"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#aed911231f02517c09e71a453e303b655">QUARTERS</a> = 1</td></tr>
+<tr class="separator:aed911231f02517c09e71a453e303b655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a816ceb1de4c9bf5c3df3bac9210c380c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a816ceb1de4c9bf5c3df3bac9210c380c">NICKELS</a> = 2</td></tr>
+<tr class="separator:a816ceb1de4c9bf5c3df3bac9210c380c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0853afd453197d0e7db44388752d12af"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a0853afd453197d0e7db44388752d12af">PENNIES</a> = 3</td></tr>
+<tr class="separator:a0853afd453197d0e7db44388752d12af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabc7656a38ca4e7322c3ff08d34ee8f4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#aabc7656a38ca4e7322c3ff08d34ee8f4">MAX_ALLOWED_EVOLUTIONS</a> = 200</td></tr>
+<tr class="separator:aabc7656a38ca4e7322c3ff08d34ee8f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5010d4eddc24d9723d539ea6c12c595"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#af5010d4eddc24d9723d539ea6c12c595">POPULATION_SIZE</a> = 2000</td></tr>
+<tr class="separator:af5010d4eddc24d9723d539ea6c12c595"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6884362188d843b7a05c2845e9857358"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a6884362188d843b7a05c2845e9857358">REPORT_ENABLED</a> = true</td></tr>
+<tr class="separator:a6884362188d843b7a05c2845e9857358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa2af2b745985502119958481e9c12f6"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#afa2af2b745985502119958481e9c12f6">EXISTING_SOLUTIONS_ONLY</a> = false</td></tr>
+<tr class="separator:afa2af2b745985502119958481e9c12f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a4dd26799d08a8f8d1e2bfcf047c42738"><td class="memItemLeft" align="right" valign="top">Gene&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a4dd26799d08a8f8d1e2bfcf047c42738">getDimesGene</a> (Configuration a_conf)</td></tr>
+<tr class="separator:a4dd26799d08a8f8d1e2bfcf047c42738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d4533c657828b3d0e98dda17572dcb6"><td class="memItemLeft" align="right" valign="top">Gene&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a6d4533c657828b3d0e98dda17572dcb6">getNickelsGene</a> (Configuration a_conf)</td></tr>
+<tr class="separator:a6d4533c657828b3d0e98dda17572dcb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac16c07ab37989c472d80acc4071dafe"><td class="memItemLeft" align="right" valign="top">Gene&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#aac16c07ab37989c472d80acc4071dafe">getPenniesGene</a> (Configuration a_conf)</td></tr>
+<tr class="separator:aac16c07ab37989c472d80acc4071dafe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9e8ef8f0436df0feee9337f7c437bd"><td class="memItemLeft" align="right" valign="top">Gene&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a1b9e8ef8f0436df0feee9337f7c437bd">getQuartersGene</a> (Configuration a_conf)</td></tr>
+<tr class="separator:a1b9e8ef8f0436df0feee9337f7c437bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f4bc155739845dcac0bc31ec952192d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a7f4bc155739845dcac0bc31ec952192d">solve</a> (Configuration a_conf, int a_targetChangeAmount, <a class="el" href="classexamples_1_1supergene_1_1_supergene_change_fitness_function.html">SupergeneChangeFitnessFunction</a> a_fitnessFunction, Gene[] a_sampleGenes)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a7f4bc155739845dcac0bc31ec952192d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Abstract class for testing Supergene performance.</p>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd>
+<dd>
+Klaus Meffert </dd>
+<dd>
+Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a634c86555d7accce1bd015ff6f99c630"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int examples.supergene.AbstractSupergeneTest.amountOfChange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_numQuarters</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_numDimes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_numNickels</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_numPennies</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Compute the money value from the coin information. </p>
+<div class="fragment"><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <span class="keywordflow">return</span> (a_numQuarters * 25) + (a_numDimes * 10) + (a_numNickels * 5)</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;          + a_numPennies;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4dd26799d08a8f8d1e2bfcf047c42738"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gene examples.supergene.AbstractSupergeneTest.getDimesGene </td>
+          <td>(</td>
+          <td class="paramtype">Configuration&#160;</td>
+          <td class="paramname"><em>a_conf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the configuration to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>created Dimes gene instance </dd></dl>
+<div class="fragment"><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                                    {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">new</span> IntegerGene(a_conf, 0, 2); <span class="comment">// 10?</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    } <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(iex.getMessage());</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    } ;</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6d4533c657828b3d0e98dda17572dcb6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gene examples.supergene.AbstractSupergeneTest.getNickelsGene </td>
+          <td>(</td>
+          <td class="paramtype">Configuration&#160;</td>
+          <td class="paramname"><em>a_conf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the configuration to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>created Nickels gene instance </dd></dl>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                                        {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> IntegerGene(a_conf, 0, 5);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      } <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(iex.getMessage());</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aac16c07ab37989c472d80acc4071dafe"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gene examples.supergene.AbstractSupergeneTest.getPenniesGene </td>
+          <td>(</td>
+          <td class="paramtype">Configuration&#160;</td>
+          <td class="paramname"><em>a_conf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the configuration to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>created Pennies (1) gene instance </dd></dl>
+<div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                                        {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> IntegerGene(a_conf, 0, 7);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      } <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(iex.getMessage());</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1b9e8ef8f0436df0feee9337f7c437bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Gene examples.supergene.AbstractSupergeneTest.getQuartersGene </td>
+          <td>(</td>
+          <td class="paramtype">Configuration&#160;</td>
+          <td class="paramname"><em>a_conf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the configuration to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>created Quarters gene instance </dd></dl>
+<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                                         {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">new</span> IntegerGene(a_conf, 0, 3);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;      } <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(iex.getMessage());</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af2fc5c540e716975e1c4106e8f95a1a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract int examples.supergene.AbstractSupergeneTest.makeChangeForAmount </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_targetChangeAmount</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Executes the genetic algorithm to determine the minimum number of coins necessary to make up the given target amount of change. The solution will then be written to System.out.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_targetChangeAmount</td><td>the target amount of change for which this method is attempting to produce the minimum number of coins</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>absolute difference between the required and computed change amount </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classexamples_1_1supergene_1_1_supergene_sample.html#a367571e3fe1b537e62559d15a817ac6d">examples.supergene.SupergeneSample</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a739a675575c3932e123f47b774b358f8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IChromosome examples.supergene.AbstractSupergeneTest.report </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classexamples_1_1supergene_1_1_supergene_change_fitness_function.html">SupergeneChangeFitnessFunction</a>&#160;</td>
+          <td class="paramname"><em>a_fitnessFunction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Genotype&#160;</td>
+          <td class="paramname"><em>a_population</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Write report on eveluation to the given stream. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_fitnessFunction</td><td>p_SupergeneChangeFitnessFunction </td></tr>
+    <tr><td class="paramname">a_population</td><td>Genotype </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Chromosome </dd></dl>
+<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                                                     {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      IChromosome bestSolutionSoFar = a_population.getFittestChromosome();</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;      <span class="keywordflow">if</span> (!<a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a6884362188d843b7a05c2845e9857358">REPORT_ENABLED</a>) {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">return</span> bestSolutionSoFar;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;      }</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;      System.out.println(<span class="stringliteral">&quot;\nThe best solution has a fitness value of &quot;</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                         + bestSolutionSoFar.getFitnessValue());</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      System.out.println(<span class="stringliteral">&quot;It contained the following: &quot;</span>);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      System.out.println(<span class="stringliteral">&quot;\t&quot;</span> + a_fitnessFunction.getNumberOfCoinsAtGene(</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;          bestSolutionSoFar, <a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#aed911231f02517c09e71a453e303b655">QUARTERS</a>) + <span class="stringliteral">&quot; quarters.&quot;</span>);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      System.out.println(<span class="stringliteral">&quot;\t&quot;</span> + a_fitnessFunction.getNumberOfCoinsAtGene(</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;          bestSolutionSoFar, <a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a2581251d3607aad43d8b2815b8202c8e">DIMES</a>) + <span class="stringliteral">&quot; dimes.&quot;</span>);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      System.out.println(<span class="stringliteral">&quot;\t&quot;</span> + a_fitnessFunction.getNumberOfCoinsAtGene(</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;          bestSolutionSoFar, <a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a816ceb1de4c9bf5c3df3bac9210c380c">NICKELS</a>) + <span class="stringliteral">&quot; nickels.&quot;</span>);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      System.out.println(<span class="stringliteral">&quot;\t&quot;</span> + a_fitnessFunction.getNumberOfCoinsAtGene(</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;          bestSolutionSoFar, <a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a0853afd453197d0e7db44388752d12af">PENNIES</a>) + <span class="stringliteral">&quot; pennies.&quot;</span>);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;      System.out.println(<span class="stringliteral">&quot;For a total of &quot;</span> + a_fitnessFunction.amountOfChange(</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;          bestSolutionSoFar) + <span class="stringliteral">&quot; cents in &quot;</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                         + a_fitnessFunction.getTotalNumberOfCoins(</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                             bestSolutionSoFar) + <span class="stringliteral">&quot; coins.&quot;</span>);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;      <span class="keywordflow">return</span> bestSolutionSoFar;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    }</div>
+<div class="ttc" id="classexamples_1_1supergene_1_1_abstract_supergene_test_html_a2581251d3607aad43d8b2815b8202c8e"><div class="ttname"><a href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a2581251d3607aad43d8b2815b8202c8e">examples.supergene.AbstractSupergeneTest.DIMES</a></div><div class="ttdeci">static final int DIMES</div><div class="ttdef"><b>Definition:</b> AbstractSupergeneTest.java:30</div></div>
+<div class="ttc" id="classexamples_1_1supergene_1_1_abstract_supergene_test_html_aed911231f02517c09e71a453e303b655"><div class="ttname"><a href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#aed911231f02517c09e71a453e303b655">examples.supergene.AbstractSupergeneTest.QUARTERS</a></div><div class="ttdeci">static final int QUARTERS</div><div class="ttdef"><b>Definition:</b> AbstractSupergeneTest.java:35</div></div>
+<div class="ttc" id="classexamples_1_1supergene_1_1_abstract_supergene_test_html_a0853afd453197d0e7db44388752d12af"><div class="ttname"><a href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a0853afd453197d0e7db44388752d12af">examples.supergene.AbstractSupergeneTest.PENNIES</a></div><div class="ttdeci">static final int PENNIES</div><div class="ttdef"><b>Definition:</b> AbstractSupergeneTest.java:45</div></div>
+<div class="ttc" id="classexamples_1_1supergene_1_1_abstract_supergene_test_html_a816ceb1de4c9bf5c3df3bac9210c380c"><div class="ttname"><a href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a816ceb1de4c9bf5c3df3bac9210c380c">examples.supergene.AbstractSupergeneTest.NICKELS</a></div><div class="ttdeci">static final int NICKELS</div><div class="ttdef"><b>Definition:</b> AbstractSupergeneTest.java:40</div></div>
+<div class="ttc" id="classexamples_1_1supergene_1_1_abstract_supergene_test_html_a6884362188d843b7a05c2845e9857358"><div class="ttname"><a href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a6884362188d843b7a05c2845e9857358">examples.supergene.AbstractSupergeneTest.REPORT_ENABLED</a></div><div class="ttdeci">static boolean REPORT_ENABLED</div><div class="ttdef"><b>Definition:</b> AbstractSupergeneTest.java:57</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7f4bc155739845dcac0bc31ec952192d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int examples.supergene.AbstractSupergeneTest.solve </td>
+          <td>(</td>
+          <td class="paramtype">Configuration&#160;</td>
+          <td class="paramname"><em>a_conf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_targetChangeAmount</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classexamples_1_1supergene_1_1_supergene_change_fitness_function.html">SupergeneChangeFitnessFunction</a>&#160;</td>
+          <td class="paramname"><em>a_fitnessFunction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Gene[]&#160;</td>
+          <td class="paramname"><em>a_sampleGenes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws InvalidConfigurationException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Find and print the solution, return the solution error.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the configuration to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>absolute difference between the required and computed change </dd></dl>
+<div class="fragment"><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                                             {</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;      IChromosome sampleChromosome = <span class="keyword">new</span> Chromosome(a_conf, a_sampleGenes);</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;      a_conf.setSampleChromosome(sampleChromosome);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;      <span class="comment">// Finally, we need to tell the Configuration object how many</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;      <span class="comment">// Chromosomes we want in our population. The more Chromosomes,</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      <span class="comment">// the larger number of potential solutions (which is good for</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      <span class="comment">// finding the answer), but the longer it will take to evolve</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;      <span class="comment">// the population (which could be seen as bad). We&#39;ll just set</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      <span class="comment">// the population size to 500 here.</span></div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;      <span class="comment">// ------------------------------------------------------------</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;      a_conf.setPopulationSize(<a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#af5010d4eddc24d9723d539ea6c12c595">POPULATION_SIZE</a>);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;      <span class="comment">// Create random initial population of Chromosomes.</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      <span class="comment">// ------------------------------------------------</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;      Genotype population = Genotype.randomInitialGenotype(a_conf);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;      <span class="keywordtype">int</span> s;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      Evolution:</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;          <span class="comment">// Evolve the population, break if the the change solution is found.</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;          <span class="comment">// -----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;          <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#aabc7656a38ca4e7322c3ff08d34ee8f4">MAX_ALLOWED_EVOLUTIONS</a>; i++) {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        population.evolve();</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        s = Math.abs(a_fitnessFunction.amountOfChange(population.</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            getFittestChromosome())</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                     - a_targetChangeAmount);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">if</span> (s == 0) {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;          <span class="keywordflow">break</span> Evolution;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        }</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      }</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;      <span class="comment">// Display the best solution we found.</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;      <span class="comment">// -----------------------------------</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;      IChromosome bestSolutionSoFar = <a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a739a675575c3932e123f47b774b358f8">report</a>(a_fitnessFunction, population);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      <span class="keywordflow">return</span> Math.abs(a_fitnessFunction.amountOfChange(bestSolutionSoFar)</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                      - a_targetChangeAmount);</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    }</div>
+<div class="ttc" id="classexamples_1_1supergene_1_1_abstract_supergene_test_html_aabc7656a38ca4e7322c3ff08d34ee8f4"><div class="ttname"><a href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#aabc7656a38ca4e7322c3ff08d34ee8f4">examples.supergene.AbstractSupergeneTest.MAX_ALLOWED_EVOLUTIONS</a></div><div class="ttdeci">static int MAX_ALLOWED_EVOLUTIONS</div><div class="ttdef"><b>Definition:</b> AbstractSupergeneTest.java:50</div></div>
+<div class="ttc" id="classexamples_1_1supergene_1_1_abstract_supergene_test_html_af5010d4eddc24d9723d539ea6c12c595"><div class="ttname"><a href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#af5010d4eddc24d9723d539ea6c12c595">examples.supergene.AbstractSupergeneTest.POPULATION_SIZE</a></div><div class="ttdeci">static int POPULATION_SIZE</div><div class="ttdef"><b>Definition:</b> AbstractSupergeneTest.java:55</div></div>
+<div class="ttc" id="classexamples_1_1supergene_1_1_abstract_supergene_test_html_a739a675575c3932e123f47b774b358f8"><div class="ttname"><a href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a739a675575c3932e123f47b774b358f8">examples.supergene.AbstractSupergeneTest.report</a></div><div class="ttdeci">IChromosome report(SupergeneChangeFitnessFunction a_fitnessFunction, Genotype a_population)</div><div class="ttdef"><b>Definition:</b> AbstractSupergeneTest.java:135</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a92f6bbeeedeed872a2cb7cb38e6a40c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int examples.supergene.AbstractSupergeneTest.test </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Test the method, returns the sum of all differences between the required and obtained excange amount. One exception counts as 1000 on the error score. </p>
+<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                      {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      <span class="keywordtype">int</span> s = 0;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      <span class="keywordtype">int</span> e;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> amount = 20; amount &lt; 100; amount++) {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;          <span class="keywordflow">if</span> (<a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a6884362188d843b7a05c2845e9857358">REPORT_ENABLED</a>) {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            System.out.println(<span class="stringliteral">&quot;EXCHANGING &quot;</span> + amount + <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;          }</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;          <span class="comment">// Do not solve cases without solutions</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;          <span class="keywordflow">if</span> (<a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#afa2af2b745985502119958481e9c12f6">EXISTING_SOLUTIONS_ONLY</a>) {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            <span class="keywordflow">if</span> (!Force.solve(amount)) {</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;              <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            }</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;          }</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;          <span class="comment">// Need to reset the configuration because it needs to be changed each</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;          <span class="comment">// time when looping.</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;          <span class="comment">// -------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;          DefaultConfiguration.reset();</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;          e = <a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#af2fc5c540e716975e1c4106e8f95a1a5">makeChangeForAmount</a>(amount);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;          <span class="keywordflow">if</span> (<a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a6884362188d843b7a05c2845e9857358">REPORT_ENABLED</a>) {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            System.out.println(<span class="stringliteral">&quot; err &quot;</span> + e);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            System.out.println(<span class="stringliteral">&quot;---------------&quot;</span>);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;          }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;          s = s + e;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        } <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;          ex.printStackTrace();</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;          s += 1000;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;      }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a6884362188d843b7a05c2845e9857358">REPORT_ENABLED</a>) {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        System.out.println(<span class="stringliteral">&quot;Sum of errors &quot;</span> + s);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      }</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    }</div>
+<div class="ttc" id="classexamples_1_1supergene_1_1_abstract_supergene_test_html_af2fc5c540e716975e1c4106e8f95a1a5"><div class="ttname"><a href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#af2fc5c540e716975e1c4106e8f95a1a5">examples.supergene.AbstractSupergeneTest.makeChangeForAmount</a></div><div class="ttdeci">abstract int makeChangeForAmount(int a_targetChangeAmount)</div></div>
+<div class="ttc" id="classexamples_1_1supergene_1_1_abstract_supergene_test_html_afa2af2b745985502119958481e9c12f6"><div class="ttname"><a href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#afa2af2b745985502119958481e9c12f6">examples.supergene.AbstractSupergeneTest.EXISTING_SOLUTIONS_ONLY</a></div><div class="ttdeci">static boolean EXISTING_SOLUTIONS_ONLY</div><div class="ttdef"><b>Definition:</b> AbstractSupergeneTest.java:162</div></div>
+<div class="ttc" id="classexamples_1_1supergene_1_1_abstract_supergene_test_html_a6884362188d843b7a05c2845e9857358"><div class="ttname"><a href="classexamples_1_1supergene_1_1_abstract_supergene_test.html#a6884362188d843b7a05c2845e9857358">examples.supergene.AbstractSupergeneTest.REPORT_ENABLED</a></div><div class="ttdeci">static boolean REPORT_ENABLED</div><div class="ttdef"><b>Definition:</b> AbstractSupergeneTest.java:57</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a2581251d3607aad43d8b2815b8202c8e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int examples.supergene.AbstractSupergeneTest.DIMES = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gene index for the dimes gene </p>
+
+</div>
+</div>
+<a class="anchor" id="afa2af2b745985502119958481e9c12f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean examples.supergene.AbstractSupergeneTest.EXISTING_SOLUTIONS_ONLY = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>If set to true (required for strict tests), only tasks with existing solutions will be submitted as a test tasks. </p>
+
+</div>
+</div>
+<a class="anchor" id="aabc7656a38ca4e7322c3ff08d34ee8f4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int examples.supergene.AbstractSupergeneTest.MAX_ALLOWED_EVOLUTIONS = 200</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The total number of times we'll let the population evolve. </p>
+
+</div>
+</div>
+<a class="anchor" id="a816ceb1de4c9bf5c3df3bac9210c380c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int examples.supergene.AbstractSupergeneTest.NICKELS = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gene index for the nickels gene Only used in the alternative presentation </p>
+
+</div>
+</div>
+<a class="anchor" id="a0853afd453197d0e7db44388752d12af"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int examples.supergene.AbstractSupergeneTest.PENNIES = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gene index for the pennies gene. Only used in the alternative presentation </p>
+
+</div>
+</div>
+<a class="anchor" id="af5010d4eddc24d9723d539ea6c12c595"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int examples.supergene.AbstractSupergeneTest.POPULATION_SIZE = 2000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Chromosome size. </p>
+
+</div>
+</div>
+<a class="anchor" id="aed911231f02517c09e71a453e303b655"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int examples.supergene.AbstractSupergeneTest.QUARTERS = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gene index for the quarters gene. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6884362188d843b7a05c2845e9857358"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean examples.supergene.AbstractSupergeneTest.REPORT_ENABLED = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>examples/src/examples/supergene/<a class="el" href="_abstract_supergene_test_8java.html">AbstractSupergeneTest.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceexamples.html">examples</a></li><li class="navelem"><a class="el" href="namespaceexamples_1_1supergene.html">supergene</a></li><li class="navelem"><a class="el" href="classexamples_1_1supergene_1_1_abstract_supergene_test.html">AbstractSupergeneTest</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:10 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

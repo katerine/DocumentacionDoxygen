@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.distr.grid.SampleSplitStrategy</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1distr_1_1grid_1_1_sample_split_strategy.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_sample_split_strategy-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.distr.grid.SampleSplitStrategy</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy.html">org.jgap.distr.grid.IRequestSplitStrategy</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a3142f6f243c14087f08aa8d2aaba6652"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_sample_split_strategy.html#a3142f6f243c14087f08aa8d2aaba6652">SampleSplitStrategy</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config)</td></tr>
+<tr class="separator:a3142f6f243c14087f08aa8d2aaba6652"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a196852dac1237e1e02777f5bf3ce816e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_sample_split_strategy.html#a196852dac1237e1e02777f5bf3ce816e">getConfiguration</a> ()</td></tr>
+<tr class="separator:a196852dac1237e1e02777f5bf3ce816e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7d09ab06f415b984bfd93703755ebea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html">JGAPRequest</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_sample_split_strategy.html#ac7d09ab06f415b984bfd93703755ebea">split</a> (<a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html">JGAPRequest</a> a_request)  throws Exception </td></tr>
+<tr class="separator:ac7d09ab06f415b984bfd93703755ebea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy.html">org.jgap.distr.grid.IRequestSplitStrategy</a></td></tr>
+<tr class="memitem:aef08b28ef1455714a55e1cdd37acca64 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy.html#aef08b28ef1455714a55e1cdd37acca64">CVS_REVISION</a> = &quot;$Revision: 1.2 $&quot;</td></tr>
+<tr class="separator:aef08b28ef1455714a55e1cdd37acca64 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Sample implementation of <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy.html">IRequestSplitStrategy</a>. Here, a request is transformed into 20 single requests, each to be computed by a worker.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a3142f6f243c14087f08aa8d2aaba6652"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.grid.SampleSplitStrategy.SampleSplitStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                                                     {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    m_config = a_config;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a196852dac1237e1e02777f5bf3ce816e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> org.jgap.distr.grid.SampleSplitStrategy.getConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                          {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">return</span> m_config;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac7d09ab06f415b984bfd93703755ebea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html">JGAPRequest</a> [] org.jgap.distr.grid.SampleSplitStrategy.split </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html">JGAPRequest</a>&#160;</td>
+          <td class="paramname"><em>a_request</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates 20 single requests out of one. The single requests are each processed by one worker at a time.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_request</td><td>the request to split </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>single requests to be computed by workers </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy.html#ae43619a42994ddfad41f8fc6513cf44c">org.jgap.distr.grid.IRequestSplitStrategy</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                       {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keyword">final</span> <span class="keywordtype">int</span> runs = 20;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    JGAPRequest[] result = <span class="keyword">new</span> JGAPRequest[runs];</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; runs; i++) {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      <span class="comment">// Setup JGAP configuration for worker.</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      <span class="comment">// ------------------------------------</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      Configuration config = <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_sample_split_strategy.html#a196852dac1237e1e02777f5bf3ce816e">getConfiguration</a>().newInstance(i + <span class="stringliteral">&quot;&quot;</span>,</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;          <span class="stringliteral">&quot;config &quot;</span> + i);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">//      Configuration config = new DefaultConfiguration(i+&quot;&quot;,&quot;chromosome &quot; + i);</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">//      config.setEventManager(new EventManager());</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">//      config.setPopulationSize(1);</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">//      config.setFitnessFunction(getConfiguration().getFitnessFunction());</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">//      IChromosome sample = (IChromosome) getConfiguration().getSampleChromosome().</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">//          clone();</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">//      config.setSampleChromosome(sample);</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      result[i] = (JGAPRequest) a_request.<a class="code" href="classorg_1_1jgap_1_1_configuration.html#a25b74c8bdc70a3b88d6d4080a00f1f29">newInstance</a>(<span class="stringliteral">&quot;JGAP-Grid Request &quot;</span> + i,</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;          i);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_sample_split_strategy_html_a196852dac1237e1e02777f5bf3ce816e"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_sample_split_strategy.html#a196852dac1237e1e02777f5bf3ce816e">org.jgap.distr.grid.SampleSplitStrategy.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> SampleSplitStrategy.java:32</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_configuration_html_a25b74c8bdc70a3b88d6d4080a00f1f29"><div class="ttname"><a href="classorg_1_1jgap_1_1_configuration.html#a25b74c8bdc70a3b88d6d4080a00f1f29">org.jgap.Configuration.newInstance</a></div><div class="ttdeci">Configuration newInstance(String a_id, String a_name)</div><div class="ttdef"><b>Definition:</b> Configuration.java:1720</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/distr/grid/<a class="el" href="_sample_split_strategy_8java.html">SampleSplitStrategy.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr.html">distr</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_sample_split_strategy.html">SampleSplitStrategy</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:27 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

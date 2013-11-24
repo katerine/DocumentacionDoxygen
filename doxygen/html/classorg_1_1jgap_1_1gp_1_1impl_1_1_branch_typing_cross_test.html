@@ -1,0 +1,569 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.gp.impl.BranchTypingCrossTest</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.gp.impl.BranchTypingCrossTest</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html">org.jgap.gp.GPTestCase</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a68fd021ac10fe9cd8f951d068ccbb0c6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test.html#a68fd021ac10fe9cd8f951d068ccbb0c6">setUp</a> ()</td></tr>
+<tr class="separator:a68fd021ac10fe9cd8f951d068ccbb0c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a721f9f6743f55f02adc1bdff3d480287"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test.html#a721f9f6743f55f02adc1bdff3d480287">testOperate_0</a> ()  throws Exception </td></tr>
+<tr class="separator:a721f9f6743f55f02adc1bdff3d480287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba1d4726ae7ac40e2662484e97e9e976"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test.html#aba1d4726ae7ac40e2662484e97e9e976">testOperate_1</a> ()  throws Exception </td></tr>
+<tr class="separator:aba1d4726ae7ac40e2662484e97e9e976"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e7beec2186972473262c756a14ce611"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test.html#a6e7beec2186972473262c756a14ce611">testOperate_2</a> ()  throws Exception </td></tr>
+<tr class="separator:a6e7beec2186972473262c756a14ce611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c75b872106ddaecb51761924a84fb4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test.html#a05c75b872106ddaecb51761924a84fb4">testSerialize_0</a> ()  throws Exception </td></tr>
+<tr class="separator:a05c75b872106ddaecb51761924a84fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_test_case')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html">org.jgap.gp.GPTestCase</a></td></tr>
+<tr class="memitem:ab3eea24ea6466bf8c54e98ffc45546d7 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memItemLeft" align="right" valign="top">RandomGeneratorForTesting&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab3eea24ea6466bf8c54e98ffc45546d7">getRandomGenerator</a> ()</td></tr>
+<tr class="separator:ab3eea24ea6466bf8c54e98ffc45546d7 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a091c74da74b780472de517aef3e3b6 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a4a091c74da74b780472de517aef3e3b6">setUp</a> ()</td></tr>
+<tr class="separator:a4a091c74da74b780472de517aef3e3b6 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">org.jgap.JGAPTestCase</a></td></tr>
+<tr class="memitem:adf378e0444b264c507f8cc459d8a26ee inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#adf378e0444b264c507f8cc459d8a26ee">JGAPTestCase</a> (String a_name)</td></tr>
+<tr class="separator:adf378e0444b264c507f8cc459d8a26ee inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472f2e2903439a8a484ba5ff0639fa02 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a472f2e2903439a8a484ba5ff0639fa02">JGAPTestCase</a> ()</td></tr>
+<tr class="separator:a472f2e2903439a8a484ba5ff0639fa02 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7278f46bafa651d39a1d301f6edacece inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a7278f46bafa651d39a1d301f6edacece">setUp</a> ()</td></tr>
+<tr class="separator:a7278f46bafa651d39a1d301f6edacece inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29296ff97e1d62bc9fd84f8571d3e654 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a29296ff97e1d62bc9fd84f8571d3e654">isSerializable</a> (Object a_obj)</td></tr>
+<tr class="separator:a29296ff97e1d62bc9fd84f8571d3e654 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac979f355528f40c594bf83535f3925b8 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#ac979f355528f40c594bf83535f3925b8">doSerialize</a> (Object a_obj)  throws Exception </td></tr>
+<tr class="separator:ac979f355528f40c594bf83535f3925b8 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1068930066ebd33ed69ccfe34a7f78ed inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a1068930066ebd33ed69ccfe34a7f78ed">getNestedField</a> (Object a_instance, String a_parentFieldName, String a_childFieldName)  throws NoSuchFieldException </td></tr>
+<tr class="separator:a1068930066ebd33ed69ccfe34a7f78ed inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77399f44cc0bd6e5ac3832e0ad2b2f7e inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a77399f44cc0bd6e5ac3832e0ad2b2f7e">setNestedField</a> (Object a_instance, String a_parentFieldName, String a_childFieldName, Object a_value)  throws NoSuchFieldException </td></tr>
+<tr class="separator:a77399f44cc0bd6e5ac3832e0ad2b2f7e inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653121052ecd3600acbcabf78dc1e193 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a653121052ecd3600acbcabf78dc1e193">uniqueChromosomes</a> (<a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop)</td></tr>
+<tr class="separator:a653121052ecd3600acbcabf78dc1e193 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55e45761cdd59a4489404bb7aa775b79 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a> (double a_one, double a_two)</td></tr>
+<tr class="separator:a55e45761cdd59a4489404bb7aa775b79 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a0c59e930517b1d13084b8787f22a465f"><td class="memItemLeft" align="right" valign="top">static Test&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test.html#a0c59e930517b1d13084b8787f22a465f">suite</a> ()</td></tr>
+<tr class="separator:a0c59e930517b1d13084b8787f22a465f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case')"><img src="closed.png" alt="-"/>&#160;Métodos públicos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">org.jgap.JGAPTestCase</a></td></tr>
+<tr class="memitem:a4f484987731cdc5276ee2575a165fcf3 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a4f484987731cdc5276ee2575a165fcf3">isChromosomesEqual</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>[] a_list1, <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>[] a_list2)</td></tr>
+<tr class="separator:a4f484987731cdc5276ee2575a165fcf3 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ccc244fd7637efacc27641a3b4bac99 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a3ccc244fd7637efacc27641a3b4bac99">assertEqualsMap</a> (Map a_map1, Map a_map2)</td></tr>
+<tr class="separator:a3ccc244fd7637efacc27641a3b4bac99 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f7793db6d254be9753ed623ae09653b inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a0f7793db6d254be9753ed623ae09653b">assertInList</a> (final Map a_list, Object a_object)</td></tr>
+<tr class="separator:a0f7793db6d254be9753ed623ae09653b inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9df927cb9282d81abfd7daf6407416 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2b9df927cb9282d81abfd7daf6407416">assertInList</a> (final List a_list, Object a_object)</td></tr>
+<tr class="separator:a2b9df927cb9282d81abfd7daf6407416 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case')"><img src="closed.png" alt="-"/>&#160;Atributos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">org.jgap.JGAPTestCase</a></td></tr>
+<tr class="memitem:a2f976f156a2ab015f30f0828671764e1 inherit pub_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a></td></tr>
+<tr class="separator:a2f976f156a2ab015f30f0828671764e1 inherit pub_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">org.jgap.JGAPTestCase</a></td></tr>
+<tr class="memitem:a32462e38877d88fea7d7aad0538a42bd inherit pub_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static final PrivateAccessor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a32462e38877d88fea7d7aad0538a42bd">privateAccessor</a> = null</td></tr>
+<tr class="separator:a32462e38877d88fea7d7aad0538a42bd inherit pub_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case')"><img src="closed.png" alt="-"/>&#160;Atributos protegidos heredados desde <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html">org.jgap.gp.GPTestCase</a></td></tr>
+<tr class="memitem:a5c64d356cfbd17b5f87d789091061185 inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memItemLeft" align="right" valign="top">GPConfiguration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a></td></tr>
+<tr class="separator:a5c64d356cfbd17b5f87d789091061185 inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0dd5945056461ec655ebda0f7bc19ea inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memItemLeft" align="right" valign="top">RandomGeneratorForTesting&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab0dd5945056461ec655ebda0f7bc19ea">rn</a></td></tr>
+<tr class="separator:ab0dd5945056461ec655ebda0f7bc19ea inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab33f5fe9e1dc9db8b7165d7429e27dbc inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memItemLeft" align="right" valign="top">Constant&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab33f5fe9e1dc9db8b7165d7429e27dbc">CMD_CONST0</a></td></tr>
+<tr class="separator:ab33f5fe9e1dc9db8b7165d7429e27dbc inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf3465628e8f1fb05af5309c3e54be0f inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memItemLeft" align="right" valign="top">Terminal&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#abf3465628e8f1fb05af5309c3e54be0f">CMD_TERM0</a></td></tr>
+<tr class="separator:abf3465628e8f1fb05af5309c3e54be0f inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a412e7c4b66ec6bd20169302767e0eeac inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memItemLeft" align="right" valign="top">Add&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a412e7c4b66ec6bd20169302767e0eeac">CMD_ADD</a></td></tr>
+<tr class="separator:a412e7c4b66ec6bd20169302767e0eeac inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0b86b0228a8380bfe8bbb749718256c inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memItemLeft" align="right" valign="top">ForLoop&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a></td></tr>
+<tr class="separator:af0b86b0228a8380bfe8bbb749718256c inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afceeb3c201cfeeaf8f3a5336d0dbb63b inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memItemLeft" align="right" valign="top">ForXLoop&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#afceeb3c201cfeeaf8f3a5336d0dbb63b">CMD_FORX</a></td></tr>
+<tr class="separator:afceeb3c201cfeeaf8f3a5336d0dbb63b inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61b6e3722a9804036ba913c8a717d1d9 inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memItemLeft" align="right" valign="top">SubProgram&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a61b6e3722a9804036ba913c8a717d1d9">CMD_SUB_I_I</a></td></tr>
+<tr class="separator:a61b6e3722a9804036ba913c8a717d1d9 inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a9bc4b6209f17613203db19f0f249cc inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memItemLeft" align="right" valign="top">NOP&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a></td></tr>
+<tr class="separator:a3a9bc4b6209f17613203db19f0f249cc inherit pro_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case')"><img src="closed.png" alt="-"/>&#160;Atributos protegidos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">org.jgap.JGAPTestCase</a></td></tr>
+<tr class="memitem:a9526215e5c49deb8f2811944f050d30b inherit pro_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">DELTA</a> = 0.0000001</td></tr>
+<tr class="separator:a9526215e5c49deb8f2811944f050d30b inherit pro_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Tests the <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html">BranchTypingCross</a> class.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a68fd021ac10fe9cd8f951d068ccbb0c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.BranchTypingCrossTest.setUp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                      {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    super.setUp();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0c59e930517b1d13084b8787f22a465f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Test org.jgap.gp.impl.BranchTypingCrossTest.suite </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                             {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    TestSuite <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test.html#a0c59e930517b1d13084b8787f22a465f">suite</a> = <span class="keyword">new</span> TestSuite(BranchTypingCrossTest.class);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test.html#a0c59e930517b1d13084b8787f22a465f">suite</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test_html_a0c59e930517b1d13084b8787f22a465f"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test.html#a0c59e930517b1d13084b8787f22a465f">org.jgap.gp.impl.BranchTypingCrossTest.suite</a></div><div class="ttdeci">static Test suite()</div><div class="ttdef"><b>Definition:</b> BranchTypingCrossTest.java:28</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a721f9f6743f55f02adc1bdff3d480287"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.BranchTypingCrossTest.testOperate_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>See if crossover chooses a correct function for a function selected priorly. Simple case: De facto replace subtrees (from "FOR" on, see above code). Cross over at functions in this test case.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                       {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    BranchTypingCross btc = <span class="keyword">new</span> BranchTypingCross(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    Class[] types = <span class="keyword">new</span> Class[]{Add.class};<span class="comment">//needed for init. only</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// First program.</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// --------------</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    GPProgram prog1 = <span class="keyword">new</span> GPProgram(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 1);</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    ProgramChromosome pc1 = <span class="keyword">new</span> ProgramChromosome(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 50, prog1);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    pc1.setGene(0, CMD_SUB_V_I);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    pc1.setGene(1, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    pc1.setGene(2, CMD_CONST2);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    pc1.setGene(3, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    pc1.setGene(4, CMD_CONST3);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    pc1.redepth();</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    prog1.setChromosome(0, pc1);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    prog1.setTypes(types);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// Second program.</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">// ---------------</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    GPProgram prog2 = <span class="keyword">new</span> GPProgram(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 1);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    ProgramChromosome pc2 = <span class="keyword">new</span> ProgramChromosome(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 50, prog2);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    prog2.setTypes(types);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    pc2.setGene(0, CMD_SUB_V_I);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    pc2.setGene(1, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    pc2.setGene(2, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a412e7c4b66ec6bd20169302767e0eeac">CMD_ADD</a>);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    pc2.setGene(3, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab33f5fe9e1dc9db8b7165d7429e27dbc">CMD_CONST0</a>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    pc2.setGene(4, CMD_CONST1);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    pc2.setGene(5, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    pc2.setGene(6, CMD_CONST3);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    pc2.redepth();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    prog2.setChromosome(0, pc2);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// Do crossing over.</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">// -----------------</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    rn.setNextIntSequence(<span class="keyword">new</span> <span class="keywordtype">int</span>[] {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                          1, <span class="comment">// a node in pc1</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                          1, <span class="comment">// index of function to choose (p0 = CMD_FOR)</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                          1 <span class="comment">// index of function to choose (p1 = CMD_ADD)</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    });</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    rn.setNextFloatSequence(<span class="keyword">new</span> <span class="keywordtype">float</span>[] {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                            0.5f, <span class="comment">// Choose a function when crossing over</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                            0.5f <span class="comment">// Choose a function when crossing over</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    });</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    IGPProgram[] result = btc.operate(prog1, prog2);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(2, result.length);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    IGPProgram p1 = result[0];</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    ProgramChromosome chrom1 = p1.getChromosome(0);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    IGPProgram p2 = result[1];</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    ProgramChromosome chrom2 = p2.getChromosome(0);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    assertSame(CMD_SUB_V_I, chrom1.getGene(0));</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="comment">// Next, FOR is assumed because it&#39;s the only function with return type void</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="comment">// in the above compilation for pc2</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>, chrom1.getGene(1));</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a412e7c4b66ec6bd20169302767e0eeac">CMD_ADD</a>, chrom1.getGene(2));</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab33f5fe9e1dc9db8b7165d7429e27dbc">CMD_CONST0</a>, chrom1.getGene(3));</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    assertSame(CMD_CONST1, chrom1.getGene(4));</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>, chrom1.getGene(5));</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    assertSame(CMD_CONST3, chrom1.getGene(6));</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    assertSame(CMD_SUB_V_I, chrom2.getGene(0));</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>, chrom2.getGene(1));</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    assertSame(CMD_CONST2, chrom2.getGene(2));</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>, chrom2.getGene(3));</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    assertSame(CMD_CONST3, chrom2.getGene(4));</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_af0b86b0228a8380bfe8bbb749718256c"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">org.jgap.gp.GPTestCase.CMD_FOR</a></div><div class="ttdeci">ForLoop CMD_FOR</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:39</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_a3a9bc4b6209f17613203db19f0f249cc"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">org.jgap.gp.GPTestCase.CMD_NOP</a></div><div class="ttdeci">NOP CMD_NOP</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:46</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_a5c64d356cfbd17b5f87d789091061185"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">org.jgap.gp.GPTestCase.m_gpconf</a></div><div class="ttdeci">GPConfiguration m_gpconf</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:29</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_ab33f5fe9e1dc9db8b7165d7429e27dbc"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab33f5fe9e1dc9db8b7165d7429e27dbc">org.jgap.gp.GPTestCase.CMD_CONST0</a></div><div class="ttdeci">Constant CMD_CONST0</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_a412e7c4b66ec6bd20169302767e0eeac"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a412e7c4b66ec6bd20169302767e0eeac">org.jgap.gp.GPTestCase.CMD_ADD</a></div><div class="ttdeci">Add CMD_ADD</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:37</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aba1d4726ae7ac40e2662484e97e9e976"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.BranchTypingCrossTest.testOperate_1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Cross over a function with a terminal.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                       {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    BranchTypingCross btc = <span class="keyword">new</span> BranchTypingCross(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    Class[] types = <span class="keyword">new</span> Class[]{Add.class};<span class="comment">//needed for init. only</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="comment">// First program.</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="comment">// --------------</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    GPProgram prog1 = <span class="keyword">new</span> GPProgram(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 1);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    ProgramChromosome pc1 = <span class="keyword">new</span> ProgramChromosome(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 50, prog1);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    pc1.setGene(0, CMD_SUB_V_I);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    pc1.setGene(1, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    pc1.setGene(2, CMD_CONST2);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    pc1.setGene(3, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    pc1.setGene(4, CMD_CONST3);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    pc1.redepth();</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    prog1.setChromosome(0, pc1);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    prog1.setTypes(types);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="comment">// Second program.</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="comment">// ---------------</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    GPProgram prog2 = <span class="keyword">new</span> GPProgram(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 1);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    ProgramChromosome pc2 = <span class="keyword">new</span> ProgramChromosome(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 50, prog2);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    pc2.setGene(0, CMD_SUB_V_I);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    pc2.setGene(1, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    pc2.setGene(2, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a412e7c4b66ec6bd20169302767e0eeac">CMD_ADD</a>);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    pc2.setGene(3, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab33f5fe9e1dc9db8b7165d7429e27dbc">CMD_CONST0</a>);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    pc2.setGene(4, CMD_CONST1);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    pc2.setGene(5, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    pc2.setGene(6, CMD_CONST3);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    pc2.redepth();</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    prog2.setChromosome(0, pc2);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    prog2.setTypes(types);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="comment">// Do crossing over.</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="comment">// -----------------</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    rn.setNextIntSequence(<span class="keyword">new</span> <span class="keywordtype">int</span>[] {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                          1, <span class="comment">// a node in pc1</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                          1, <span class="comment">// index of function to choose (p0 = CMD_FOR)</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                          2 <span class="comment">// index of terminal to choose (p1 = NOP)</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    });</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    rn.setNextFloatSequence(<span class="keyword">new</span> <span class="keywordtype">float</span>[] {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                            0.50f, <span class="comment">// Choose a function when crossing over</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                            0.95f <span class="comment">// Choose a terminal when crossing over</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    });</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    IGPProgram[] result = btc.operate(prog1, prog2);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(2, result.length);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    IGPProgram p1 = result[0];</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    ProgramChromosome chrom1 = p1.getChromosome(0);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    IGPProgram p2 = result[1];</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    ProgramChromosome chrom2 = p2.getChromosome(0);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    assertSame(CMD_SUB_V_I, chrom1.getGene(0));</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="comment">// NOP from other chromosome instead of FOR, CONST2, NOP (the for-loop).</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>, chrom1.getGene(1));</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    assertSame(CMD_CONST3, chrom1.getGene(2));</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    assertSame(CMD_SUB_V_I, chrom2.getGene(0));</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>, chrom2.getGene(1));</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a412e7c4b66ec6bd20169302767e0eeac">CMD_ADD</a>, chrom2.getGene(2));</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab33f5fe9e1dc9db8b7165d7429e27dbc">CMD_CONST0</a>, chrom2.getGene(3));</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    assertSame(CMD_CONST1, chrom2.getGene(4));</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="comment">// FOR, CONST2, NOP (the for-loop) from other chromosome.</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>, chrom2.getGene(5));</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    assertSame(CMD_CONST2, chrom2.getGene(6));</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>, chrom2.getGene(7));</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    assertSame(CMD_CONST3, chrom2.getGene(8));</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_af0b86b0228a8380bfe8bbb749718256c"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">org.jgap.gp.GPTestCase.CMD_FOR</a></div><div class="ttdeci">ForLoop CMD_FOR</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:39</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_a3a9bc4b6209f17613203db19f0f249cc"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">org.jgap.gp.GPTestCase.CMD_NOP</a></div><div class="ttdeci">NOP CMD_NOP</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:46</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_a5c64d356cfbd17b5f87d789091061185"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">org.jgap.gp.GPTestCase.m_gpconf</a></div><div class="ttdeci">GPConfiguration m_gpconf</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:29</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_ab33f5fe9e1dc9db8b7165d7429e27dbc"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab33f5fe9e1dc9db8b7165d7429e27dbc">org.jgap.gp.GPTestCase.CMD_CONST0</a></div><div class="ttdeci">Constant CMD_CONST0</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_a412e7c4b66ec6bd20169302767e0eeac"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a412e7c4b66ec6bd20169302767e0eeac">org.jgap.gp.GPTestCase.CMD_ADD</a></div><div class="ttdeci">Add CMD_ADD</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:37</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6e7beec2186972473262c756a14ce611"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.BranchTypingCrossTest.testOperate_2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Cross over a terminal with a terminal.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                       {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    BranchTypingCross btc = <span class="keyword">new</span> BranchTypingCross(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    Class[] types = <span class="keyword">new</span> Class[]{Add.class};<span class="comment">//needed for init. only</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="comment">// First program.</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="comment">// --------------</span></div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    GPProgram prog1 = <span class="keyword">new</span> GPProgram(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 1);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    ProgramChromosome pc1 = <span class="keyword">new</span> ProgramChromosome(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 50, prog1);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    pc1.setGene(0, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    pc1.setGene(1, CMD_CONST2);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    pc1.setGene(2, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    pc1.redepth();</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    prog1.setChromosome(0, pc1);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    prog1.setTypes(types);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="comment">// Second program.</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="comment">// ---------------</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    GPProgram prog2 = <span class="keyword">new</span> GPProgram(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 1);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    ProgramChromosome pc2 = <span class="keyword">new</span> ProgramChromosome(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>, 50, prog2);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    pc2.setGene(0, CMD_SUB_V_I);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    pc2.setGene(1, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>);</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    pc2.setGene(2, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a412e7c4b66ec6bd20169302767e0eeac">CMD_ADD</a>);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    pc2.setGene(3, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab33f5fe9e1dc9db8b7165d7429e27dbc">CMD_CONST0</a>);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    pc2.setGene(4, CMD_CONST1);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    pc2.setGene(5, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>);</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    pc2.setGene(6, CMD_CONST3);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    pc2.redepth();</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    prog2.setChromosome(0, pc2);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    prog2.setTypes(types);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="comment">// Do crossing over.</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="comment">// -----------------</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    rn.setNextIntSequence(<span class="keyword">new</span> <span class="keywordtype">int</span>[] {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                          1, <span class="comment">// a node in pc1</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                          0, <span class="comment">// index of terminal to choose (p0 =&gt; CMD_CONST2)</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                          2 <span class="comment">// index of terminal to choose (p1 =&gt; CMD_CONST3)</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    });</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    rn.setNextFloatSequence(<span class="keyword">new</span> <span class="keywordtype">float</span>[] {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                            0.95f, <span class="comment">// Choose a terminal when crossing over</span></div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                            0.95f <span class="comment">// Choose a terminal when crossing over</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    });</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    IGPProgram[] result = btc.operate(prog1, prog2);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(2, result.length);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    IGPProgram p1 = result[0];</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    ProgramChromosome chrom1 = p1.getChromosome(0);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    IGPProgram p2 = result[1];</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    ProgramChromosome chrom2 = p2.getChromosome(0);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>, chrom1.getGene(0));</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    assertSame(CMD_CONST3, chrom1.getGene(1));</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>, chrom1.getGene(2));</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    assertSame(CMD_SUB_V_I, chrom2.getGene(0));</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">CMD_FOR</a>, chrom2.getGene(1));</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a412e7c4b66ec6bd20169302767e0eeac">CMD_ADD</a>, chrom2.getGene(2));</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab33f5fe9e1dc9db8b7165d7429e27dbc">CMD_CONST0</a>, chrom2.getGene(3));</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    assertSame(CMD_CONST1, chrom2.getGene(4));</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    assertSame(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">CMD_NOP</a>, chrom2.getGene(5));</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    assertSame(CMD_CONST2, chrom2.getGene(6));</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_af0b86b0228a8380bfe8bbb749718256c"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#af0b86b0228a8380bfe8bbb749718256c">org.jgap.gp.GPTestCase.CMD_FOR</a></div><div class="ttdeci">ForLoop CMD_FOR</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:39</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_a3a9bc4b6209f17613203db19f0f249cc"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a3a9bc4b6209f17613203db19f0f249cc">org.jgap.gp.GPTestCase.CMD_NOP</a></div><div class="ttdeci">NOP CMD_NOP</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:46</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_a5c64d356cfbd17b5f87d789091061185"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">org.jgap.gp.GPTestCase.m_gpconf</a></div><div class="ttdeci">GPConfiguration m_gpconf</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:29</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_ab33f5fe9e1dc9db8b7165d7429e27dbc"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#ab33f5fe9e1dc9db8b7165d7429e27dbc">org.jgap.gp.GPTestCase.CMD_CONST0</a></div><div class="ttdeci">Constant CMD_CONST0</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_a412e7c4b66ec6bd20169302767e0eeac"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a412e7c4b66ec6bd20169302767e0eeac">org.jgap.gp.GPTestCase.CMD_ADD</a></div><div class="ttdeci">Add CMD_ADD</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:37</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a05c75b872106ddaecb51761924a84fb4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.BranchTypingCrossTest.testSerialize_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                       {</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    BranchTypingCross btc = <span class="keyword">new</span> BranchTypingCross(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">m_gpconf</a>);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    BranchTypingCross btc2 = (BranchTypingCross) <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#ac979f355528f40c594bf83535f3925b8">doSerialize</a>(btc);</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(btc, btc2);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_test_case_html_a5c64d356cfbd17b5f87d789091061185"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html#a5c64d356cfbd17b5f87d789091061185">org.jgap.gp.GPTestCase.m_gpconf</a></div><div class="ttdeci">GPConfiguration m_gpconf</div><div class="ttdef"><b>Definition:</b> GPTestCase.java:29</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_ac979f355528f40c594bf83535f3925b8"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#ac979f355528f40c594bf83535f3925b8">org.jgap.JGAPTestCase.doSerialize</a></div><div class="ttdeci">Object doSerialize(Object a_obj)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:153</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>tests/org/jgap/gp/impl/<a class="el" href="_branch_typing_cross_test_8java.html">BranchTypingCrossTest.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp.html">gp</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_test.html">BranchTypingCrossTest</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:46 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

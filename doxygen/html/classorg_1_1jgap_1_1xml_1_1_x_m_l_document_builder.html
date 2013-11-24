@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.xml.XMLDocumentBuilder</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.xml.XMLDocumentBuilder</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias DocumentBuilderBase.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:aa4518664bef2a9bd592b1c37c8bb3ec0"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html#aa4518664bef2a9bd592b1c37c8bb3ec0">buildDocument</a> (final IDataCreators a_document)  throws Exception </td></tr>
+<tr class="separator:aa4518664bef2a9bd592b1c37c8bb3ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a32d70e65f3e8effac178585888961b0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html#a32d70e65f3e8effac178585888961b0c">setAttribute</a> (final Object a_xmlElement, final String a_key, final String a_value)</td></tr>
+<tr class="separator:a32d70e65f3e8effac178585888961b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c9b61b1ce937d458eabe2cca2aed05a"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html#a3c9b61b1ce937d458eabe2cca2aed05a">documentAppendChild</a> (final Object a_xmlDocument, final Object a_element)</td></tr>
+<tr class="separator:a3c9b61b1ce937d458eabe2cca2aed05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a068f726b57ff7d5ff6439533d81536a0"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html#a068f726b57ff7d5ff6439533d81536a0">elementAppendChild</a> (final Object a_xmlElement, final Object a_element)</td></tr>
+<tr class="separator:a068f726b57ff7d5ff6439533d81536a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55801ebeb86a7b4e2b37629823a46705"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html#a55801ebeb86a7b4e2b37629823a46705">createElement</a> (final Object a_doc, final Object a_xmlElement, final String a_tagName)</td></tr>
+<tr class="separator:a55801ebeb86a7b4e2b37629823a46705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Class building an XML file. Can be used to persist objects like <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a>, <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> or <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> (or a list of them) to an XML file.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="aa4518664bef2a9bd592b1c37c8bb3ec0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.xml.XMLDocumentBuilder.buildDocument </td>
+          <td>(</td>
+          <td class="paramtype">final IDataCreators&#160;</td>
+          <td class="paramname"><em>a_document</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convenience method to build an XML document from a generic input structure (of type IDataCreators)</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_document</td><td>the input structure holding the data to be represented as XML document </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Object the XML document</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                       {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    DocumentBuilder m_documentCreator = DocumentBuilderFactory.newInstance().</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        newDocumentBuilder();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    Document xmlDoc = m_documentCreator.newDocument();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">return</span> super.buildDocument(a_document, xmlDoc);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a55801ebeb86a7b4e2b37629823a46705"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.xml.XMLDocumentBuilder.createElement </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_doc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_xmlElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_tagName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                                                         {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">return</span> ( (Document) a_doc).createElement(a_tagName);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3c9b61b1ce937d458eabe2cca2aed05a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.xml.XMLDocumentBuilder.documentAppendChild </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_xmlDocument</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_element</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                                               {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">return</span> ( (Document) a_xmlDocument).appendChild( (Element) a_element);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a068f726b57ff7d5ff6439533d81536a0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.xml.XMLDocumentBuilder.elementAppendChild </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_xmlElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_element</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                                                              {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">return</span> ( (Element) a_xmlElement).appendChild( (Element) a_element);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a32d70e65f3e8effac178585888961b0c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.xml.XMLDocumentBuilder.setAttribute </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_xmlElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                                    {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    ( (Element) a_xmlElement).setAttribute(a_key, a_value);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/xml/<a class="el" href="_x_m_l_document_builder_8java.html">XMLDocumentBuilder.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1xml.html">xml</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html">XMLDocumentBuilder</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:24:05 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

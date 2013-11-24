@@ -1,0 +1,443 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.impl.BulkFitnessOffsetRemover</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.impl.BulkFitnessOffsetRemover</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1_bulk_fitness_function.html">org.jgap.BulkFitnessFunction</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a3cb4232935702ce5db82a3e8bb378f71"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover.html#a3cb4232935702ce5db82a3e8bb378f71">BulkFitnessOffsetRemover</a> (final <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">FitnessFunction</a> a_ff)</td></tr>
+<tr class="separator:a3cb4232935702ce5db82a3e8bb378f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ffd62bd47b23dfa534a5f4e775d3a0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover.html#a5ffd62bd47b23dfa534a5f4e775d3a0e">evaluate</a> (final <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_chromosomes)</td></tr>
+<tr class="separator:a5ffd62bd47b23dfa534a5f4e775d3a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0c11462e990be4138a99d0a6e4611e2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover.html#ab0c11462e990be4138a99d0a6e4611e2">getAbsoluteFitness</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_individuum)</td></tr>
+<tr class="separator:ab0c11462e990be4138a99d0a6e4611e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7f936892509f88c709361f5356d2195"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover.html#ab7f936892509f88c709361f5356d2195">clone</a> ()</td></tr>
+<tr class="separator:ab7f936892509f88c709361f5356d2195"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_bulk_fitness_function"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_bulk_fitness_function')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_bulk_fitness_function.html">org.jgap.BulkFitnessFunction</a></td></tr>
+<tr class="memitem:a2685b837c809586e7a029e670bc1cd42 inherit pub_methods_classorg_1_1jgap_1_1_bulk_fitness_function"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_bulk_fitness_function.html#a2685b837c809586e7a029e670bc1cd42">evaluate</a> (<a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_chromosomes)</td></tr>
+<tr class="separator:a2685b837c809586e7a029e670bc1cd42 inherit pub_methods_classorg_1_1jgap_1_1_bulk_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3789d9f9a8c4245f3f970c172241b1da inherit pub_methods_classorg_1_1jgap_1_1_bulk_fitness_function"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_bulk_fitness_function.html#a3789d9f9a8c4245f3f970c172241b1da">clone</a> ()</td></tr>
+<tr class="separator:a3789d9f9a8c4245f3f970c172241b1da inherit pub_methods_classorg_1_1jgap_1_1_bulk_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a></td></tr>
+<tr class="memitem:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#a4eaaa85432026f5bc54c3e520b22caa7">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Takes away the fitness offset of the population to evolve. The fitness function values of the population of <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">org.jgap.IChromosome</a> instances will start from a minimum of 1 afterwards. </p>
+<p>The removal of an offset in the fitness values of a population strengthens the "survival of the fittest" effect of a selector that performs selection upon fitness values. A high offset in the fitness values of a population lowers the relative difference between the fitness values of the Chromosomes in a population. </p>
+<h3>Example of applicability</h3>
+<p>You are optimizing a black box with <em>n</em> parameters that are mapped to <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">org.jgap.IChromosome</a> instances each having <em>n</em> <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a> instances.<br/>
+ You want to minimize the answer time of the black box and provide a <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a0078e42480eac93729f906ac4dc185d9">org.jgap.FitnessFunction#evaluate(org.jgap.IChromosome)</a> that takes the genes out of the chromosome, put's it's <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#aa06c80639659ddbcfa1cfe7b7bb109f9">org.jgap.Gene#getAllele()</a> values to the parameters and measures the answer time of the black box (by invoking it's service to optimize). <br/>
+ The longer the time takes, the worse it's fitness is, so you have to invert the measured times to fitness values: <a class="anchor" id="bboptimizer"></a> </p>
+<pre>
+&lt;font color="#0011EE"&gt;
+class BlackBoxOptimizer extends <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">org.jgap.FitnessFunction</a>{
+  private BlackBox bbox;
+  &lt;font color="#999999"&gt;//Additional code: constructors&lt;/font&gt;
+  &lt;font color="#999999"&gt;...&lt;/font&gt;
+  public double evaluate(<a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">org.jgap.IChromosome</a> chromosome){
+    double fitness = 0;
+    &lt;font color="#999999"&gt;// get the <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>[] &amp; put the parameters into the box.
+    ...
+    &lt;/font&gt;
+    long duration = System.currentTimeMillis();
+&lt;font color="#999999"&gt;
+// You certainly will use an advanced StopWatch...&lt;/font&gt;
+    this.bbox.service();
+&lt;font color="#999999"&gt;// The black boxes service to optimize.&lt;/font&gt;
+    duration = System.currentTimeMillis()-duration;
+    &lt;font color="#999999"&gt;// transform the time into fitness value:&lt;/font&gt;
+    fitness = double.MAX_VALUE - (double)duration;
+    return fitness;
+  }
+}
+&lt;/font&gt;
+</pre> <h4>We might get the following results (each row stands for a <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a>, the table is a population):</h4>
+<table  border="1">
+<tr align="left" valign="top">
+<th>duration  </th><th>fitness  </th><th>piece of fitness cake   </th></tr>
+<tr align="left" valign="top">
+<td>2000  </td><td>9218868437227403311  </td><td>33.333333333333336949106088992532 %   </td></tr>
+<tr align="left" valign="top">
+<td>3000  </td><td>9218868437227402311  </td><td>33.333333333333333333333333333333 %   </td></tr>
+<tr align="left" valign="top">
+<td>4000  </td><td>9218868437227401311  </td><td>33.333333333333329717560577674135 %   </td></tr>
+</table>
+<p>If any <a class="el" href="classorg_1_1jgap_1_1_natural_selector.html">org.jgap.NaturalSelector</a> performs selection based upon the fitness values, it will have to put those values in relation to each other. As a fact, the probability to select the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> that contained the black box parameters that caused an answer time of 4000 ms is "equal" to the probability to select the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> that caused a black box answer time to be 2000 ms! </p>
+<p>Of course one could work around that problem by replacing the <code>Integer.MAX_VALUE</code> transformation by a fixed maximum value the black box would need for the service. But what, if you have no guaranteed maximum answer time for the service of the black box ? Even if you have got one, it will be chosen sufficently high above the average answer time thus letting your fitness function return values with a high offset in the fitness. </p>
+<h4>This is, what happens, if you use this instance for fitness evaluation:</h4>
+<table  border="1">
+<tr align="left" valign="top">
+<th>duration  </th><th>fitness  </th><th>piece of fitness cake   </th></tr>
+<tr align="left" valign="top">
+<td>2000  </td><td>2001  </td><td>66.63 %   </td></tr>
+<tr align="left" valign="top">
+<td>3000  </td><td>1001  </td><td>33.33 %   </td></tr>
+<tr align="left" valign="top">
+<td>4000  </td><td>1  </td><td>0.03 %   </td></tr>
+</table>
+<h3>Example of usage</h3>
+<p>This example shows how to use this instance for cutting fitness offsets. It is the same example as used <a href="#bboptimizer">above</a>. </p>
+<pre>
+&lt;font color="#0011EE"&gt;
+class BlackBoxOptimizer extends <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">org.jgap.FitnessFunction</a>{
+  &lt;font color="#999999"&gt;// Additional code: constructors
+  ...&lt;/font&gt;
+  public double evaluate(<a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">org.jgap.IChromosome</a> chromosome){
+    &lt;font color="#999999"&gt;.... // As shown above.&lt;/font&gt;
+  }</pre><pre>  public void startOptimization(<a class="el" href="classorg_1_1jgap_1_1_configuration.html">org.jgap.Configuration</a> gaConf)
+      throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a>{
+    &lt;font color="#999999"&gt;
+    // The given <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> may be preconfigured with
+    // <a class="el" href="classorg_1_1jgap_1_1_natural_selector.html">NaturalSelector</a> &amp; <a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html">GeneticOperator</a> instances,.
+    // But should not contain a <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">FitnessFunction</a> or BulkFitnessFunction!
+&lt;/font&gt;
+    <b>gaConf.setBulkFitnessFunction(new BulkFitnessOffsetRemover(this));</b>
+    &lt;font color="#999999"&gt;// Why does it work? We implement FitnessFunction!
+    // Still to do here:
+    // - Create a sample chromosome according to your blackbox &amp; set it to
+     //   the configuration.
+    // - Create a random inital <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a>.
+    // - loop over a desired amount of generations invoking
+     //   aGenotype.evolve()..&lt;/font&gt;
+  }
+}
+&lt;/font&gt;
+</pre> <dl class="section author"><dt>Autor</dt><dd>Achim Westermann </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a3cb4232935702ce5db82a3e8bb378f71"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.BulkFitnessOffsetRemover.BulkFitnessOffsetRemover </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">FitnessFunction</a>&#160;</td>
+          <td class="paramname"><em>a_ff</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                                                              {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">if</span> (a_ff == null) {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Fitness function must not be null!&quot;</span>);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    }</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    m_ff = a_ff;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ab7f936892509f88c709361f5356d2195"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.impl.BulkFitnessOffsetRemover.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>deep clone of current instance</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#aa7e7d62077e6428ad7904932b1b4f7d5">org.jgap.util.ICloneable</a>.</p>
+<div class="fragment"><div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;                        {</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    FitnessFunction ff = (FitnessFunction)m_ff.<a class="code" href="classorg_1_1jgap_1_1_fitness_function.html#aa47c6f886479efc5ed5fe84eb7f9b5ca">clone</a>();</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover.html#a3cb4232935702ce5db82a3e8bb378f71">BulkFitnessOffsetRemover</a> result = <span class="keyword">new</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover.html#a3cb4232935702ce5db82a3e8bb378f71">BulkFitnessOffsetRemover</a>(ff);</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_fitness_function_html_aa47c6f886479efc5ed5fe84eb7f9b5ca"><div class="ttname"><a href="classorg_1_1jgap_1_1_fitness_function.html#aa47c6f886479efc5ed5fe84eb7f9b5ca">org.jgap.FitnessFunction.clone</a></div><div class="ttdeci">Object clone()</div><div class="ttdef"><b>Definition:</b> FitnessFunction.java:113</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover_html_a3cb4232935702ce5db82a3e8bb378f71"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover.html#a3cb4232935702ce5db82a3e8bb378f71">org.jgap.impl.BulkFitnessOffsetRemover.BulkFitnessOffsetRemover</a></div><div class="ttdeci">BulkFitnessOffsetRemover(final FitnessFunction a_ff)</div><div class="ttdef"><b>Definition:</b> BulkFitnessOffsetRemover.java:261</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5ffd62bd47b23dfa534a5f4e775d3a0e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.BulkFitnessOffsetRemover.evaluate </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_chromosomes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                                                       {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordtype">double</span> offset = Double.MAX_VALUE;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="keywordtype">double</span> curFitness;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    Iterator itChromosomes = a_chromosomes.iterator();</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    IChromosome chromosome;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="keywordflow">while</span> (itChromosomes.hasNext()) {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;      chromosome = (IChromosome) itChromosomes.next();</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;      <span class="comment">/*</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="comment">       * This is a workaround:</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="comment">       * We have to check, wethter a Chromosome has</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="comment">       * already been evaluated, because it may be too</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="comment">       * expensive to unconditionally evaluate each Chromosome.</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="comment">       * We use the &quot;caching of fitness values&quot; of the Chromosome.</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="comment">       * But in the current Configuration,</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="comment">       * there is no fittnessFunction: We have a bulk fitness function</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="comment">       * assigned.</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="comment">       * Look at the code of Chromosome.getFitnessValue():</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="comment">       * In that case, a negative value will be returned.</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="comment">       * If a redesign of that method is made, this has to be changed</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="comment">       * here too.. .</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="comment">       */</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;      curFitness = chromosome.getFitnessValueDirectly();</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;      <span class="keywordflow">if</span> (curFitness &lt; 0) {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        <span class="comment">// OK, get it from our fitness function.</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        curFitness = m_ff.getFitnessValue(chromosome);</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        <span class="comment">// And store it to avoid evaluation of the same Chromosome again:</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        chromosome.setFitnessValue(curFitness);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;      }</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        <span class="comment">/*</span></div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="comment">         * Those have fitness values already without offset</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="comment">         * of the previous evaluation.</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="comment">         * Reattach it to allow comparison.</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="comment">         * Else these Chromosomes would be the unfittest and</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="comment">         * additionally disallow cutting a huge offset from the others.</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="comment">         */</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        curFitness += m_previousOffset;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        chromosome.setFitnessValue(curFitness);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;      }</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;      <span class="comment">// search for the offset that is to be cut:</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;      offset = (offset &lt; curFitness) ? offset : curFitness;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    }</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="comment">/*</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="comment">     * Now we have the classical evaluated Chromosomes</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<span class="comment">     * and the minimum fitness.</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="comment">     * It would be easy to simply subtract that value from</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="comment">     * each Chromosomes fitness. But in that case the</span></div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="comment">     * unfittest Chromosome would possible have no chance to survive.</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;<span class="comment">     * In a WeightedRouletteSelector it would not get</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<span class="comment">     * a single slot to be selected as it&#39;s fitness value</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="comment">     * would be zero.</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;<span class="comment">     * So we have to leave at least a fitness value of 1.</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="comment">     * Ups, if forgot: Neil throws exceptions, whenever a</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="comment">     * fitness value is below 1 and also does not accept</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="comment">     * assignment of fitness values &lt;1. Ok, so he ensures</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="comment">     * that every Chromosome may survive...</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="comment">     */</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    offset--;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    m_previousOffset = offset;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="comment">// offset cannot be &lt;0... thx to fitness value policy of jgap.</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="comment">// finally remove the offset from every fitness value:</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    itChromosomes = a_chromosomes.iterator();</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <span class="keywordflow">while</span> (itChromosomes.hasNext()) {</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;      chromosome = (IChromosome) itChromosomes.next();</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;      chromosome.setFitnessValue(chromosome.getFitnessValue() - offset);</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    }</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab0c11462e990be4138a99d0a6e4611e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.impl.BulkFitnessOffsetRemover.getAbsoluteFitness </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_individuum</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Using this instance to remove the fitness offset in the populations brings the advantage of getting a selection more sensitive to the differences of fitness of the chromosomes. </p>
+<p>The disadvantage is, that the fitness values are modified. The modification is good for jgap's selection method but bad for the guys that want to see the success of your work, or need a proof that a GA improves over time: <br/>
+ The value of <a class="el" href="classorg_1_1jgap_1_1_genotype.html#a05380af4c0737841c09d3a5533f9f942">org.jgap.Genotype#getFittestChromosome()</a> does not seem to increase over the generations. Most often it becomes worse. This is caused by the fact, that all Chromosomes are getting better over time (the fitness interval of all Chromosomes gets narrower) and the offset that may be cut becomes bigger. </p>
+<p>If you want to get an absolute value independant from the offset that is cut off from the chromosome's fitness value, this method has to be used. </p>
+<p>Stop reading here because a </p>
+<h4>Mathematical Proof</h4>
+<p>is following. How can it work to get the absolute value for all Chromosomes fitness values? Some Chromosomes may have lived for many generations and everytime their fitness was evaluated here, the old offset was added and a new one was calculated and subtracted from the fitness value. </p>
+<p>Each bulk fitness evaluation a <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> experiences, it's fitness value <em>F</em> get's an addition of the old offset <em>O<sub>(n-1)</sub></em> and a substraction by the new offset <em>O<sub>n</sub></em>.<br/>
+ <em><sub>n</sub></em> is the generation index.</p>
+<pre>
+F<sub>1</sub> = F<sub>0</sub> + O<sub>0</sub> - O<sub>1</sub>
+F<sub>2</sub> = F<sub>1</sub> + O<sub>1</sub> - O<sub>2</sub>
+F<sub>3</sub> = F<sub>2</sub> + O<sub>2</sub> - O<sub>3</sub></pre><pre>=&gt;</pre><pre>1) F<sub>n</sub> = <b>F<sub>(n-1)</sub></b>
++ O<sub>(n-1)</sub> - O<sub>n</sub></pre><pre>2) <b>F<sub>(n-1)</sub></b> = F<sub>(n-2)</sub>
++ O<sub>(n-2)</sub> - O<sub>(n-1)</sub></pre><pre>2 in 1)
+   F<sub>n</sub> = (F<sub>(n-2)</sub> + O<sub>(n-2)</sub></p>
+<ul>
+<li>O<sub>(n-1)</sub>) + O<sub>(n-1)</sub> - O<sub>n</sub>
+   F<sub>n</sub> = F<sub>(n-2)</sub> + O<sub>(n-2)</sub> - O<sub>n</sub></li>
+</ul>
+</pre><pre>We made a step over 2 generations: With the current offset and the
+fitness &amp; offset of the
+"preprevious" generation we can calculate the current fitness.
+We can assume that this generation stepping works for farer steps
+<sub>m</sub> (just continue step 2) until you have a generation step value
+high enough ;-))</pre><pre>=&gt; F<sub>n</sub> = F<sub>(n-m)</sub> + O<sub>(n-m)</sub> - O<sub>n</sub></pre><pre>We want to get the original absolute value of fitness:</pre><pre>3) m := n</pre><pre>=&gt; F<sub>n</sub> = F<sub>0</sub> + O<sub>0</sub> - O<sub>n</sub></pre><pre>solved to F<sub>0</sub> our original value:</pre><pre>F<sub>0</sub> = F<sub>n</sub> + O<sub>n</sub> - O<sub>0</sub></pre><pre>And our initial offset <a class="el" href="">O<sub>0</sub></a> is zero!
+</pre> <p>This shows, that it is possible to compute the original fitness value of a <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> from it's current fitness value and the <a class="el" href="">previous offset</a> regardless of the amounts of generations between original evaluation and the current generation. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_individuum</td><td>any <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> that is normally being evaluated by this <code><a class="el" href="classorg_1_1jgap_1_1_bulk_fitness_function.html">BulkFitnessFunction</a></code> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the original fitness value as returned by the registered <a class="el" href="">fitnessFunction</a> instance. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    <span class="keywordtype">double</span> fitness = a_individuum.getFitnessValue();</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <span class="keywordflow">if</span> (fitness &lt; 0.0) {</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;      <span class="comment">// OK, get it from our fitness function.</span></div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;      fitness = m_ff.getFitnessValue(a_individuum);</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;      <span class="comment">// And store it to avoid evaluation of the same Chromosome again:</span></div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;      a_individuum.setFitnessValue(fitness);</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    }</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;      <span class="comment">/*</span></div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;<span class="comment">       * Those have fitness values already without offset</span></div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;<span class="comment">       * of the previous evaluation.</span></div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;<span class="comment">       * Reattach it to allow comparison.</span></div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;<span class="comment">       * Else these Chromosomes would be the unfittest and</span></div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;<span class="comment">       * additionally disallow cutting a huge offset from the others.</span></div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;<span class="comment">       */</span></div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;      fitness += m_previousOffset;</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    }</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    <span class="keywordflow">return</span> fitness;</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/impl/<a class="el" href="_bulk_fitness_offset_remover_8java.html">BulkFitnessOffsetRemover.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover.html">BulkFitnessOffsetRemover</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:49 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

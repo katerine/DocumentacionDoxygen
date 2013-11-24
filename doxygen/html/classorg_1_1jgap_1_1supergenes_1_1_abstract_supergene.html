@@ -1,0 +1,1565 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.supergenes.AbstractSupergene</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-static-methods">Métodos protegidos estáticos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.supergenes.AbstractSupergene</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a>, <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">org.jgap.supergenes.Supergene</a>, <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">org.jgap.supergenes.SupergeneValidator</a> y <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html">org.jgap.IPersistentRepresentation</a>.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_instantiable_supergene_for_testing.html">org.jgap.supergenes.InstantiableSupergeneForTesting</a>, org.jgap.supergenes.SupergeneInternalParserTest.TestClass y org.jgap.supergenes.SupergenePersistentRepresentationTest.TestClass.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a5b03d0c4d103975b296d280371b901bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a5b03d0c4d103975b296d280371b901bd">getGenes</a> ()</td></tr>
+<tr class="separator:a5b03d0c4d103975b296d280371b901bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a099bf664561a1f88b9826e25d870ad7f"><td class="memItemLeft" align="right" valign="top">final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a099bf664561a1f88b9826e25d870ad7f">geneAt</a> (final int a_index)</td></tr>
+<tr class="separator:a099bf664561a1f88b9826e25d870ad7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa67d2e35432f0534c38260e0b3e4d014"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aa67d2e35432f0534c38260e0b3e4d014">AbstractSupergene</a> ()  throws InvalidConfigurationException </td></tr>
+<tr class="separator:aa67d2e35432f0534c38260e0b3e4d014"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ede7cc1a661a1fb8a7d7000ec7ea11f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8ede7cc1a661a1fb8a7d7000ec7ea11f">AbstractSupergene</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a8ede7cc1a661a1fb8a7d7000ec7ea11f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cbbfd45d7cad277949c8571fa067013"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a1cbbfd45d7cad277949c8571fa067013">AbstractSupergene</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_conf, final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>[] a_genes)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a1cbbfd45d7cad277949c8571fa067013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfa0b1f704e28e3a90d187df2cf4b8b5"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#adfa0b1f704e28e3a90d187df2cf4b8b5">isValid</a> ()</td></tr>
+<tr class="separator:adfa0b1f704e28e3a90d187df2cf4b8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d07a7aa9a0af1e4e1a96b1a7663afee"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a4d07a7aa9a0af1e4e1a96b1a7663afee">isValid</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>[] a_case, final <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> a_forSupergene)</td></tr>
+<tr class="separator:a4d07a7aa9a0af1e4e1a96b1a7663afee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a008b2ecc6f66090965919b537fb327b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a008b2ecc6f66090965919b537fb327b3">applyMutation</a> (final int a_index, final double a_percentage)</td></tr>
+<tr class="separator:a008b2ecc6f66090965919b537fb327b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92df9df781b9ae3bc7811bf76bb7ea87"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a92df9df781b9ae3bc7811bf76bb7ea87">setToRandomValue</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> a_numberGenerator)</td></tr>
+<tr class="separator:a92df9df781b9ae3bc7811bf76bb7ea87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b3ce455ac6d30ba31b198ce6824cd19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a7b3ce455ac6d30ba31b198ce6824cd19">setAllele</a> (final Object a_superAllele)</td></tr>
+<tr class="separator:a7b3ce455ac6d30ba31b198ce6824cd19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45f21f887ad34c02fbc88d41e5d0372d"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a45f21f887ad34c02fbc88d41e5d0372d">getAllele</a> ()</td></tr>
+<tr class="separator:a45f21f887ad34c02fbc88d41e5d0372d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41a4e0b1cf2366722b5f3b97a1711487"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a41a4e0b1cf2366722b5f3b97a1711487">getPersistentRepresentation</a> ()  throws UnsupportedOperationException </td></tr>
+<tr class="separator:a41a4e0b1cf2366722b5f3b97a1711487"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8156c2a8b41bc9fe3e397595c513a6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#af8156c2a8b41bc9fe3e397595c513a6d">setValueFromPersistentRepresentation</a> (String a_representation)  throws UnsupportedRepresentationException </td></tr>
+<tr class="separator:af8156c2a8b41bc9fe3e397595c513a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec3dc6646255f4187aa9a6b4238a9a2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aec3dc6646255f4187aa9a6b4238a9a2c">cleanup</a> ()</td></tr>
+<tr class="separator:aec3dc6646255f4187aa9a6b4238a9a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67a9b1dfccb63d4b2909abdd3e8c1abe"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a67a9b1dfccb63d4b2909abdd3e8c1abe">toString</a> ()</td></tr>
+<tr class="separator:a67a9b1dfccb63d4b2909abdd3e8c1abe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d2326c3d5ce80c73dff063f26994233"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8d2326c3d5ce80c73dff063f26994233">size</a> ()</td></tr>
+<tr class="separator:a8d2326c3d5ce80c73dff063f26994233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac17432577a59856d6ef81abaf0a66bf9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ac17432577a59856d6ef81abaf0a66bf9">compareTo</a> (Object o)</td></tr>
+<tr class="separator:ac17432577a59856d6ef81abaf0a66bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80be2241977a41672bdbaa85acb7eabc"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a80be2241977a41672bdbaa85acb7eabc">equals</a> (Object a_gene)</td></tr>
+<tr class="separator:a80be2241977a41672bdbaa85acb7eabc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73c5c7702d66268b71e9ed92f0c5d41d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a73c5c7702d66268b71e9ed92f0c5d41d">hashCode</a> ()</td></tr>
+<tr class="separator:a73c5c7702d66268b71e9ed92f0c5d41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b9835e9be1cc5edc8507c957b1f1f2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8b9835e9be1cc5edc8507c957b1f1f2d">addGene</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> a_gene)</td></tr>
+<tr class="separator:a8b9835e9be1cc5edc8507c957b1f1f2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae838561a1237ab6b39456ab0e3b8c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#afae838561a1237ab6b39456ab0e3b8c8">setValidator</a> (<a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">SupergeneValidator</a> a_validator)</td></tr>
+<tr class="separator:afae838561a1237ab6b39456ab0e3b8c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ebb4d5fbce8752cba54188ad5958fcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">SupergeneValidator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a9ebb4d5fbce8752cba54188ad5958fcf">getValidator</a> ()</td></tr>
+<tr class="separator:a9ebb4d5fbce8752cba54188ad5958fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7990463e784192581d7d7918cd0f1b1"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aa7990463e784192581d7d7918cd0f1b1">getPersistent</a> ()</td></tr>
+<tr class="separator:aa7990463e784192581d7d7918cd0f1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70a5435dbf92b886ab7d5bbcd2d79d09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a70a5435dbf92b886ab7d5bbcd2d79d09">setFromPersistent</a> (String a_from)</td></tr>
+<tr class="separator:a70a5435dbf92b886ab7d5bbcd2d79d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b0e1f740b6aa78679ab71c51568cea"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#af4b0e1f740b6aa78679ab71c51568cea">getInternalValue</a> ()</td></tr>
+<tr class="separator:af4b0e1f740b6aa78679ab71c51568cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:acea53de5bb68978322967e8019607f24 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acea53de5bb68978322967e8019607f24">BaseGene</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_configuration)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:acea53de5bb68978322967e8019607f24 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35e754e8e217bdd26962e1c3c31d0169 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a35e754e8e217bdd26962e1c3c31d0169">getAllele</a> ()</td></tr>
+<tr class="separator:a35e754e8e217bdd26962e1c3c31d0169 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af842a106d90ca973956f560ae448464e inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#af842a106d90ca973956f560ae448464e">hashCode</a> ()</td></tr>
+<tr class="separator:af842a106d90ca973956f560ae448464e inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569b99cf460d27d2c1acbea2b7775975 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a569b99cf460d27d2c1acbea2b7775975">cleanup</a> ()</td></tr>
+<tr class="separator:a569b99cf460d27d2c1acbea2b7775975 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935dfec06cb77bff0d2a45859d6a35b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a935dfec06cb77bff0d2a45859d6a35b7">toString</a> ()</td></tr>
+<tr class="separator:a935dfec06cb77bff0d2a45859d6a35b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c00775111b327b178288164ed9c667 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a26c00775111b327b178288164ed9c667">size</a> ()</td></tr>
+<tr class="separator:a26c00775111b327b178288164ed9c667 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb0e302ae57ee3f2f5d1ee08a75bf43 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a9fb0e302ae57ee3f2f5d1ee08a75bf43">equals</a> (final Object a_other)</td></tr>
+<tr class="separator:a9fb0e302ae57ee3f2f5d1ee08a75bf43 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f71c4c1282de2ca2cf8f4009c4615a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a48f71c4c1282de2ca2cf8f4009c4615a">getEnergy</a> ()</td></tr>
+<tr class="separator:a48f71c4c1282de2ca2cf8f4009c4615a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb39fbd8997971a140a9a4380ceecc4a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#afb39fbd8997971a140a9a4380ceecc4a">setEnergy</a> (final double a_energy)</td></tr>
+<tr class="separator:afb39fbd8997971a140a9a4380ceecc4a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb9a5f42018c057c8197fb0e7d57354 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#afeb9a5f42018c057c8197fb0e7d57354">setApplicationData</a> (final Object a_newData)</td></tr>
+<tr class="separator:afeb9a5f42018c057c8197fb0e7d57354 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0520139dc694dc6034aeb631ae7d70bd inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a0520139dc694dc6034aeb631ae7d70bd">getApplicationData</a> ()</td></tr>
+<tr class="separator:a0520139dc694dc6034aeb631ae7d70bd inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adad4ccd46efd7b2a3dc81bd0ba0c410c inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#adad4ccd46efd7b2a3dc81bd0ba0c410c">setCompareApplicationData</a> (final boolean a_doCompare)</td></tr>
+<tr class="separator:adad4ccd46efd7b2a3dc81bd0ba0c410c inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6431c06c81bc03b4abbe32e4d9d8ef inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acd6431c06c81bc03b4abbe32e4d9d8ef">isCompareApplicationData</a> ()</td></tr>
+<tr class="separator:acd6431c06c81bc03b4abbe32e4d9d8ef inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334db8a543f3008719d78ee219826b65 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a334db8a543f3008719d78ee219826b65">setConstraintChecker</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_gene_constraint_checker.html">IGeneConstraintChecker</a> a_constraintChecker)</td></tr>
+<tr class="separator:a334db8a543f3008719d78ee219826b65 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9823bef7c550fc1533afb8ab2b34d93 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_i_gene_constraint_checker.html">IGeneConstraintChecker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">getConstraintChecker</a> ()</td></tr>
+<tr class="separator:ae9823bef7c550fc1533afb8ab2b34d93 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f8f3d249145ad028892cd706ba9dae inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a40f8f3d249145ad028892cd706ba9dae">newGene</a> ()</td></tr>
+<tr class="separator:a40f8f3d249145ad028892cd706ba9dae inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a316c9cc9e273bd75182cbdf188fb6 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a> ()</td></tr>
+<tr class="separator:a32a316c9cc9e273bd75182cbdf188fb6 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4e7c0fad73465365953b375cfa802a8 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ac4e7c0fad73465365953b375cfa802a8">getBusinessKey</a> ()</td></tr>
+<tr class="separator:ac4e7c0fad73465365953b375cfa802a8 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab53d562a62f5c72fc88c7e5315a23ed7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ab53d562a62f5c72fc88c7e5315a23ed7">getUniqueID</a> ()</td></tr>
+<tr class="separator:ab53d562a62f5c72fc88c7e5315a23ed7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d9f1c3c2e727d496d66a85818c17d0 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#aa7d9f1c3c2e727d496d66a85818c17d0">setUniqueIDTemplate</a> (String a_templateID, int a_index)</td></tr>
+<tr class="separator:aa7d9f1c3c2e727d496d66a85818c17d0 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3c210e440f2b542391db5a909fda3b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ad3c210e440f2b542391db5a909fda3b7">getUniqueIDTemplate</a> (int a_index)</td></tr>
+<tr class="separator:ad3c210e440f2b542391db5a909fda3b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1_gene')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a></td></tr>
+<tr class="memitem:af46a0c31e0fecea483497e87ca278127 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af46a0c31e0fecea483497e87ca278127">setAllele</a> (Object a_newValue)</td></tr>
+<tr class="separator:af46a0c31e0fecea483497e87ca278127 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef135da7549ee98139928e21adb841a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a4ef135da7549ee98139928e21adb841a">setToRandomValue</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> a_numberGenerator)</td></tr>
+<tr class="separator:a4ef135da7549ee98139928e21adb841a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af506b6e1d6ceb3e88e522da4c79adba4 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af506b6e1d6ceb3e88e522da4c79adba4">applyMutation</a> (int index, double a_percentage)</td></tr>
+<tr class="separator:af506b6e1d6ceb3e88e522da4c79adba4 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8405395f244a18424794e8f2e36c608 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ae8405395f244a18424794e8f2e36c608">setApplicationData</a> (Object a_newData)</td></tr>
+<tr class="separator:ae8405395f244a18424794e8f2e36c608 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404ee1527c7dab2f8115f18507d0544b inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a404ee1527c7dab2f8115f18507d0544b">setCompareApplicationData</a> (boolean a_doCompare)</td></tr>
+<tr class="separator:a404ee1527c7dab2f8115f18507d0544b inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c429a29c338d2ad5d5514d5beea6e7 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af5c429a29c338d2ad5d5514d5beea6e7">setEnergy</a> (double a_energy)</td></tr>
+<tr class="separator:af5c429a29c338d2ad5d5514d5beea6e7 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">org.jgap.supergenes.Supergene</a></td></tr>
+<tr class="memitem:a62e038f5ed00578a997a044f49136bbd inherit pub_methods_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html#a62e038f5ed00578a997a044f49136bbd">geneAt</a> (int a_index)</td></tr>
+<tr class="separator:a62e038f5ed00578a997a044f49136bbd inherit pub_methods_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">org.jgap.supergenes.SupergeneValidator</a></td></tr>
+<tr class="memitem:ac05f4997c7b03d61a3c5365baeccef91 inherit pub_methods_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html#ac05f4997c7b03d61a3c5365baeccef91">isValid</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>[] a_genes, <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> a_for_supergene)</td></tr>
+<tr class="separator:ac05f4997c7b03d61a3c5365baeccef91 inherit pub_methods_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:afdcc065673680fb080e17ff2596a0eb0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#afdcc065673680fb080e17ff2596a0eb0">reset</a> ()</td></tr>
+<tr class="separator:afdcc065673680fb080e17ff2596a0eb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:ae7be27a291a2aa7e594384dd7a5936a8"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ae7be27a291a2aa7e594384dd7a5936a8">GENE_DELIMITER</a> = &quot;#&quot;</td></tr>
+<tr class="separator:ae7be27a291a2aa7e594384dd7a5936a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebbbd0fdd22a6d94c951471c8ae86b84"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aebbbd0fdd22a6d94c951471c8ae86b84">GENE_DELIMITER_HEADING</a> = &quot;&lt;&quot;</td></tr>
+<tr class="separator:aebbbd0fdd22a6d94c951471c8ae86b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96059d4ef9cca18130330f3ab782c28b"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a96059d4ef9cca18130330f3ab782c28b">GENE_DELIMITER_CLOSING</a> = &quot;&gt;&quot;</td></tr>
+<tr class="separator:a96059d4ef9cca18130330f3ab782c28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6839c4b04a89a58c967219eda28a5dbb"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a6839c4b04a89a58c967219eda28a5dbb">MAX_RETRIES</a> = 1</td></tr>
+<tr class="separator:a6839c4b04a89a58c967219eda28a5dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40054ab751c7676fcd9f974c029a6a9d"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a40054ab751c7676fcd9f974c029a6a9d">MAX_IMMUTABLE_GENES</a> = 100000</td></tr>
+<tr class="separator:a40054ab751c7676fcd9f974c029a6a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:acc4b1c46f3508b835bf95b9058eae3a0 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acc4b1c46f3508b835bf95b9058eae3a0">S_APPLICATION_DATA</a> = &quot;Application data&quot;</td></tr>
+<tr class="separator:acc4b1c46f3508b835bf95b9058eae3a0 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86edb3d2c29e5064305fabc2dd59a3b9 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a86edb3d2c29e5064305fabc2dd59a3b9">DELTA</a> = 0.0000001</td></tr>
+<tr class="separator:a86edb3d2c29e5064305fabc2dd59a3b9 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_gene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a></td></tr>
+<tr class="memitem:a771652182ee68c96d4107eee7692fee2 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a771652182ee68c96d4107eee7692fee2">CVS_REVISION</a> = &quot;$Revision: 1.26 $&quot;</td></tr>
+<tr class="separator:a771652182ee68c96d4107eee7692fee2 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae49de1c9f46601f1b60d393a9ce3901a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ae49de1c9f46601f1b60d393a9ce3901a">PERSISTENT_FIELD_DELIMITER</a> = &quot;:&quot;</td></tr>
+<tr class="separator:ae49de1c9f46601f1b60d393a9ce3901a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html">org.jgap.IUniqueKey</a></td></tr>
+<tr class="memitem:a5b6472b1e40001ee262da59ee449a77b inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html#a5b6472b1e40001ee262da59ee449a77b">CVS_REVISION</a> = &quot;$Revision: 1.1 $&quot;</td></tr>
+<tr class="separator:a5b6472b1e40001ee262da59ee449a77b inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html">org.jgap.IBusinessKey</a></td></tr>
+<tr class="memitem:a6d43b687da0842739b8021f466ca451a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html#a6d43b687da0842739b8021f466ca451a">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a6d43b687da0842739b8021f466ca451a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">org.jgap.supergenes.Supergene</a></td></tr>
+<tr class="memitem:a2af8daabd0a582a9d761a3437c69be66 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html#a2af8daabd0a582a9d761a3437c69be66">CVS_REVISION</a> = &quot;$Revision: 1.14 $&quot;</td></tr>
+<tr class="separator:a2af8daabd0a582a9d761a3437c69be66 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_composite_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_composite_gene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html">org.jgap.ICompositeGene</a></td></tr>
+<tr class="memitem:a4cfd0957faa0fbf511876986728e6be5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_composite_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html#a4cfd0957faa0fbf511876986728e6be5">CVS_REVISION</a> = &quot;$Revision: 1.4 $&quot;</td></tr>
+<tr class="separator:a4cfd0957faa0fbf511876986728e6be5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_composite_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">org.jgap.supergenes.SupergeneValidator</a></td></tr>
+<tr class="memitem:a5b799d0019e7300bd56fe1a2125384ad inherit pub_static_attribs_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html#a5b799d0019e7300bd56fe1a2125384ad">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a5b799d0019e7300bd56fe1a2125384ad inherit pub_static_attribs_interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html">org.jgap.IPersistentRepresentation</a></td></tr>
+<tr class="memitem:ae48c5895f4af079337ffebe487b176f5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#ae48c5895f4af079337ffebe487b176f5">CVS_REVISION</a> = &quot;$Revision: 1.2 $&quot;</td></tr>
+<tr class="separator:ae48c5895f4af079337ffebe487b176f5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a1e30b794dee0e8da4d5a4d213e9fb2c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a1e30b794dee0e8da4d5a4d213e9fb2c1">newGeneInternal</a> ()</td></tr>
+<tr class="separator:a1e30b794dee0e8da4d5a4d213e9fb2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a497a53be8d8d711ed48c62b062984a94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">SupergeneValidator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a497a53be8d8d711ed48c62b062984a94">createValidator</a> (String a_rep)</td></tr>
+<tr class="separator:a497a53be8d8d711ed48c62b062984a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c5375e3de833953678146fb3dcb5b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a32c5375e3de833953678146fb3dcb5b3">createGene</a> (String a_geneClassName, String a_persistentRepresentation)  throws Exception </td></tr>
+<tr class="separator:a32c5375e3de833953678146fb3dcb5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Métodos protegidos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:a72fa365cdcc9f2eb399fb8346a0a511b inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a72fa365cdcc9f2eb399fb8346a0a511b">compareApplicationData</a> (final Object a_appdata1, final Object a_appdata2)</td></tr>
+<tr class="separator:a72fa365cdcc9f2eb399fb8346a0a511b inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8fc72c1fccdb665113c0c34e3fa4b5 inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a5e8fc72c1fccdb665113c0c34e3fa4b5">encode</a> (String a_string)</td></tr>
+<tr class="separator:a5e8fc72c1fccdb665113c0c34e3fa4b5 inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9277d0b77c1e8ca244687a8ab8cf42f inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ae9277d0b77c1e8ca244687a8ab8cf42f">decode</a> (String a_string)</td></tr>
+<tr class="separator:ae9277d0b77c1e8ca244687a8ab8cf42f inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Métodos protegidos estáticos</h2></td></tr>
+<tr class="memitem:a3ff87dbb7c5c6a4167198184b7171934"><td class="memItemLeft" align="right" valign="top">static final List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a3ff87dbb7c5c6a4167198184b7171934">split</a> (String a_string)  throws UnsupportedRepresentationException </td></tr>
+<tr class="separator:a3ff87dbb7c5c6a4167198184b7171934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:a8792c7c19ad0cdb48ade652a110a9016"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">SupergeneValidator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">m_validator</a> = this</td></tr>
+<tr class="separator:a8792c7c19ad0cdb48ade652a110a9016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Combined implementation of both <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> and <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">SupergeneValidator</a>. A working supergene can be easily created from this class just by adding genes and overriding <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#adfa0b1f704e28e3a90d187df2cf4b8b5">[] a_case, Supergene a_forSupergene) isValid (Gene [], Supergene)</a> method. For more complex cases, you may need to set your own <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_validator.html">Validator</a>.</p>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="aa67d2e35432f0534c38260e0b3e4d014"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.supergenes.AbstractSupergene.AbstractSupergene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Default constructor for dynamic instantiation.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                           {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keyword">this</span>(Genotype.getStaticConfiguration(), <span class="keyword">new</span> Gene[]{});</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8ede7cc1a661a1fb8a7d7000ec7ea11f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.supergenes.AbstractSupergene.AbstractSupergene </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor for dynamic instantiation.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_config</td><td>the configuration to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                                           {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keyword">this</span>(a_config, <span class="keyword">new</span> Gene[]{});</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1cbbfd45d7cad277949c8571fa067013"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.supergenes.AbstractSupergene.AbstractSupergene </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>[]&#160;</td>
+          <td class="paramname"><em>a_genes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs abstract supergene with the given gene list.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_genes</td><td>array of genes for this <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                           {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    super(a_conf);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">if</span> (a_genes == null) {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(<span class="stringliteral">&quot;null value for genes not allowed!&quot;</span>);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    m_genes = a_genes;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a8b9835e9be1cc5edc8507c957b1f1f2d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.supergenes.AbstractSupergene.addGene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td>
+          <td class="paramname"><em>a_gene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Append a new gene to the gene array. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html#a28fc3a076dc6983c39108dc10751596d">org.jgap.ICompositeGene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;                                   {</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    Gene[] genes = <span class="keyword">new</span> Gene[m_genes.length + 1];</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;    System.arraycopy(m_genes, 0, genes, 0, m_genes.length);</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    genes[m_genes.length] = a_gene;</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;    m_genes = genes;</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a008b2ecc6f66090965919b537fb327b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.supergenes.AbstractSupergene.applyMutation </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final double&#160;</td>
+          <td class="paramname"><em>a_percentage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Applies a mutation of a given intensity (percentage) onto the gene at the given index. Retries while <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#adfa0b1f704e28e3a90d187df2cf4b8b5">isValid()</a> returns true for the supergene. The method is delegated to the first element of the gene, indexed by a_index. See <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#adfa0b1f704e28e3a90d187df2cf4b8b5">org.jgap.supergenes.AbstractSupergene.isValid()</a> </p>
+<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="comment">// Immediately return the current value is found in the list of immutable</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="comment">// alleles for this position.</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="comment">// ----------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordflow">if</span> (a_index &lt; m_immutable.length) {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;      <span class="keywordflow">if</span> (m_immutable[a_index] != null) {</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="keyword">synchronized</span> (m_immutable) {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;          <span class="keywordflow">if</span> (m_immutable[a_index].contains(<span class="keyword">this</span>)) {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;          }</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      }</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="comment">// Following commented out because if only very few valid states exist, it</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="comment">// may be that they are not reached within a given number of tries.</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="comment">// ----------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="comment">//    if (!isValid()) {</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="comment">//      throw new Error(&quot;Should be valid on entry&quot;);</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="comment">//    }</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    Object backup = m_genes[a_index].getAllele();</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="comment">// Care that in case of a composite supergene, each sub-gene is mutated</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="comment">// sometimes.</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="comment">// --------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8d2326c3d5ce80c73dff063f26994233">size</a> = m_genes[a_index].size();</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordtype">int</span> mutIndex;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordflow">if</span> (size &gt; 0) {</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      mutIndex = <a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a>().getRandomGenerator().nextInt(size + 1);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    }</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;      mutIndex = 0;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    }</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a6839c4b04a89a58c967219eda28a5dbb">MAX_RETRIES</a>; i++) {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      m_genes[a_index].applyMutation(mutIndex, a_percentage);</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#adfa0b1f704e28e3a90d187df2cf4b8b5">isValid</a>()) {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;      }</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    }</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="comment">// restore the gene as it was</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    m_genes[a_index].setAllele(backup);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    markImmutable(a_index);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a32a316c9cc9e273bd75182cbdf188fb6"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">org.jgap.BaseGene.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:409</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a6839c4b04a89a58c967219eda28a5dbb"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a6839c4b04a89a58c967219eda28a5dbb">org.jgap.supergenes.AbstractSupergene.MAX_RETRIES</a></div><div class="ttdeci">static final int MAX_RETRIES</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:58</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a8d2326c3d5ce80c73dff063f26994233"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8d2326c3d5ce80c73dff063f26994233">org.jgap.supergenes.AbstractSupergene.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:528</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_adfa0b1f704e28e3a90d187df2cf4b8b5"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#adfa0b1f704e28e3a90d187df2cf4b8b5">org.jgap.supergenes.AbstractSupergene.isValid</a></div><div class="ttdeci">boolean isValid()</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:145</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aec3dc6646255f4187aa9a6b4238a9a2c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.supergenes.AbstractSupergene.cleanup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Calls <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aec3dc6646255f4187aa9a6b4238a9a2c">cleanup()</a> for each subgene. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a5e353bbf6a9576b702bf466a5f952b82">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;                        {</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_genes.length; i++) {</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;      m_genes[i].cleanup();</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    }</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac17432577a59856d6ef81abaf0a66bf9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.supergenes.AbstractSupergene.compareTo </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>o</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Calls <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ac17432577a59856d6ef81abaf0a66bf9">compareTo()</a> for all subgenes. The passed parameter must be an instance of <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html">AbstractSupergene</a>. </p>
+<div class="fragment"><div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;                                 {</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aa67d2e35432f0534c38260e0b3e4d014">AbstractSupergene</a> q = (<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aa67d2e35432f0534c38260e0b3e4d014">AbstractSupergene</a>) o;</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    <span class="keywordtype">int</span> c = m_genes.length - q.m_genes.length;</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    <span class="keywordflow">if</span> (c != 0) {</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;      <span class="keywordflow">return</span> c;</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    }</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_genes.length; i++) {</div>
+<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;      c = m_genes[i].compareTo(q.m_genes[i]);</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;      <span class="keywordflow">if</span> (c != 0) {</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;        <span class="keywordflow">return</span> c;</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;      }</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    }</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    <span class="keywordflow">if</span> (getClass().equals(o.getClass())) {</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;      <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;    }</div>
+<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    <span class="keywordflow">return</span> getClass().getName().<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ac17432577a59856d6ef81abaf0a66bf9">compareTo</a>(o.getClass().getName());</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_ac17432577a59856d6ef81abaf0a66bf9"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ac17432577a59856d6ef81abaf0a66bf9">org.jgap.supergenes.AbstractSupergene.compareTo</a></div><div class="ttdeci">int compareTo(Object o)</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:534</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_aa67d2e35432f0534c38260e0b3e4d014"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aa67d2e35432f0534c38260e0b3e4d014">org.jgap.supergenes.AbstractSupergene.AbstractSupergene</a></div><div class="ttdeci">AbstractSupergene()</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:104</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a32c5375e3de833953678146fb3dcb5b3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> org.jgap.supergenes.AbstractSupergene.createGene </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_geneClassName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_persistentRepresentation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Creates a new instance of gene. </p>
+<div class="fragment"><div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                       {</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    Class geneClass = Class.forName(a_geneClassName);</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    Constructor constr = geneClass.getConstructor(<span class="keyword">new</span> Class[] {Configuration.class});</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;    Gene gene = (Gene) constr.newInstance(<span class="keyword">new</span> Object[] {<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a>()});</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;    gene.setValueFromPersistentRepresentation(a_persistentRepresentation);</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    <span class="keywordflow">return</span> gene;</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a32a316c9cc9e273bd75182cbdf188fb6"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">org.jgap.BaseGene.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:409</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a497a53be8d8d711ed48c62b062984a94"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">SupergeneValidator</a> org.jgap.supergenes.AbstractSupergene.createValidator </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_rep</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Create validator from the string representation. </p>
+<div class="fragment"><div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;                                                             {</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;      StringTokenizer vo = <span class="keyword">new</span> StringTokenizer</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;          (a_rep, <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ae7be27a291a2aa7e594384dd7a5936a8">GENE_DELIMITER</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;      <span class="keywordflow">if</span> (vo.countTokens() != 2)<span class="keywordflow">throw</span> <span class="keyword">new</span> Error</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;          (<span class="stringliteral">&quot;In &quot;</span> + a_rep + <span class="stringliteral">&quot;, expecting two tokens, separated by &quot;</span> +</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;           <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ae7be27a291a2aa7e594384dd7a5936a8">GENE_DELIMITER</a>);</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;      String clas = vo.nextToken();</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;      SupergeneValidator sv;</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;      <span class="keywordflow">if</span> (clas.equals(<span class="stringliteral">&quot;this&quot;</span>)) {</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;        sv = <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;      }</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (clas.equals(<span class="stringliteral">&quot;null&quot;</span>)) {</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        sv = null;</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;      }</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;<span class="comment">//        sv = (SupergeneValidator) Class.forName(clas).newInstance();</span></div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;        Class svClass = Class.forName(clas);</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;        Constructor constr = svClass.getConstructor(<span class="keyword">new</span> Class[] {Configuration.class});</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;        sv = (SupergeneValidator) constr.newInstance(<span class="keyword">new</span> Object[] {</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;            <a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a>()});</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;      }</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;      <span class="keywordflow">if</span> (sv != null) {</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;        sv.setFromPersistent(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#ae9277d0b77c1e8ca244687a8ab8cf42f">decode</a>(vo.nextToken()));</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;      }</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;      <span class="keywordflow">return</span> sv;</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    }</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> Error</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;          (<span class="stringliteral">&quot;Unable to create validator from &#39;&quot;</span> + a_rep + <span class="stringliteral">&quot;&#39; for &quot;</span> +</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;           getClass().getName(), ex);</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    }</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a32a316c9cc9e273bd75182cbdf188fb6"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">org.jgap.BaseGene.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:409</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_ae9277d0b77c1e8ca244687a8ab8cf42f"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#ae9277d0b77c1e8ca244687a8ab8cf42f">org.jgap.BaseGene.decode</a></div><div class="ttdeci">String decode(String a_string)</div><div class="ttdef"><b>Definition:</b> BaseGene.java:426</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_ae7be27a291a2aa7e594384dd7a5936a8"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ae7be27a291a2aa7e594384dd7a5936a8">org.jgap.supergenes.AbstractSupergene.GENE_DELIMITER</a></div><div class="ttdeci">static final String GENE_DELIMITER</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:39</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a80be2241977a41672bdbaa85acb7eabc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.supergenes.AbstractSupergene.equals </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_gene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Calls <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a80be2241977a41672bdbaa85acb7eabc">equals()</a> for each pair of genes. If the supplied object is an instance of the different class, returns false. Also, the genes are assumed to be different if they have different validator classes (or only one of the validators is set to null). </p>
+<div class="fragment"><div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;                                       {</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;    <span class="keywordflow">if</span> (a_gene == null || ! (a_gene.getClass().equals(getClass()))) {</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;    }</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aa67d2e35432f0534c38260e0b3e4d014">AbstractSupergene</a> age = (<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aa67d2e35432f0534c38260e0b3e4d014">AbstractSupergene</a>) a_gene;</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">m_validator</a> != age.m_validator)</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">m_validator</a> != null &amp;&amp; age.m_immutable != null)</div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">m_validator</a>.getClass().equals(age.m_validator.getClass()))</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;    <span class="keywordflow">return</span> Arrays.equals(m_genes, age.m_genes);</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a8792c7c19ad0cdb48ade652a110a9016"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">org.jgap.supergenes.AbstractSupergene.m_validator</a></div><div class="ttdeci">SupergeneValidator m_validator</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:638</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_aa67d2e35432f0534c38260e0b3e4d014"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aa67d2e35432f0534c38260e0b3e4d014">org.jgap.supergenes.AbstractSupergene.AbstractSupergene</a></div><div class="ttdeci">AbstractSupergene()</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:104</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a099bf664561a1f88b9826e25d870ad7f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> org.jgap.supergenes.AbstractSupergene.geneAt </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> at the given index (locus) within the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a>. The first gene is at index zero and the last gene is at the index equal to the size of this <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> - 1.</p>
+<p>This seems to be one of the bottlenecks, so it is declared final. I cannot imagine the reason for overriding this trivial single line method.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>the index of the gene value to be returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> at the given index </dd></dl>
+<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                                              {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">return</span> m_genes[a_index];</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  };</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a45f21f887ad34c02fbc88d41e5d0372d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.supergenes.AbstractSupergene.getAllele </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves the allele value represented by this <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a>. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>array of objects, each matching the subgene in this <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#aa06c80639659ddbcfa1cfe7b7bb109f9">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                            {</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    Object[] o = <span class="keyword">new</span> Object[m_genes.length];</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_genes.length; i++) {</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;      o[i] = m_genes[i].getAllele();</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    }</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="keywordflow">return</span> o;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5b03d0c4d103975b296d280371b901bd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> [] org.jgap.supergenes.AbstractSupergene.getGenes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the array of genes - components of this supergene. The supergene components may be supergenes itself </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html#a34ec660dc0d241a9eabc993ddef2ca87">org.jgap.supergenes.Supergene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                           {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> m_genes;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af4b0e1f740b6aa78679ab71c51568cea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.supergenes.AbstractSupergene.getInternalValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>not needed for abstract supergene </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ad20da6b23ba524a95caa28f727c26dcd">org.jgap.BaseGene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;                                   {</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(<span class="stringliteral">&quot;getInternalValue() called unexpectedly!&quot;</span>);</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;    }</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;    <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa7990463e784192581d7d7918cd0f1b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.supergenes.AbstractSupergene.getPersistent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p><dl class="section return"><dt>Devuelve</dt><dd>persistent string representation (if needed) of this validator. The method name is different allowing the same class to implement both <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> and supergeneValidator.</dd></dl>
+ The default implementation returns an empty string. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html#a9ef86d28cc29f90d7c451460a4a818fe">org.jgap.supergenes.SupergeneValidator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;                                {</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a41a4e0b1cf2366722b5f3b97a1711487"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.supergenes.AbstractSupergene.getPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws UnsupportedOperationException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>a string representation of the value of this <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> instance, using calls to the <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> components. Supports other (nested) supergenes in this supergene </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">UnsupportedOperationException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#a07bf7dbaa8de08e268c9357a46e79dac">org.jgap.IPersistentRepresentation</a>.</p>
+<div class="fragment"><div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;                                                                                   {</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    StringBuffer b = <span class="keyword">new</span> StringBuffer();</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <span class="comment">// Write validator:</span></div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    String validator = null;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    String v_representation = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    SupergeneValidator v = <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a9ebb4d5fbce8752cba54188ad5958fcf">getValidator</a>();</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="keywordflow">if</span> (v == null) {</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;      validator = <span class="stringliteral">&quot;null&quot;</span>;</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    }</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <span class="keywordflow">if</span> (v == <span class="keyword">this</span>) {</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      validator = <span class="stringliteral">&quot;this&quot;</span>;</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    }</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;      validator = v.getClass().getName();</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;      v_representation = v.getPersistent();</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    }</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    b.append(<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aebbbd0fdd22a6d94c951471c8ae86b84">GENE_DELIMITER_HEADING</a>);</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    b.append(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a5e8fc72c1fccdb665113c0c34e3fa4b5">encode</a>(validator + <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ae7be27a291a2aa7e594384dd7a5936a8">GENE_DELIMITER</a> + v_representation));</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    b.append(<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a96059d4ef9cca18130330f3ab782c28b">GENE_DELIMITER_CLOSING</a>);</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    <span class="comment">// Write genes:</span></div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    Gene gene;</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_genes.length; i++) {</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;      gene = m_genes[i];</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;      b.append(<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aebbbd0fdd22a6d94c951471c8ae86b84">GENE_DELIMITER_HEADING</a>);</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;      b.append(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a5e8fc72c1fccdb665113c0c34e3fa4b5">encode</a>(gene.getClass().getName() + <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ae7be27a291a2aa7e594384dd7a5936a8">GENE_DELIMITER</a></div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                      + gene.getPersistentRepresentation()));</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;      b.append(<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a96059d4ef9cca18130330f3ab782c28b">GENE_DELIMITER_CLOSING</a>);</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    }</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <span class="keywordflow">return</span> b.toString();</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a5e8fc72c1fccdb665113c0c34e3fa4b5"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a5e8fc72c1fccdb665113c0c34e3fa4b5">org.jgap.BaseGene.encode</a></div><div class="ttdeci">String encode(String a_string)</div><div class="ttdef"><b>Definition:</b> BaseGene.java:422</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a9ebb4d5fbce8752cba54188ad5958fcf"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a9ebb4d5fbce8752cba54188ad5958fcf">org.jgap.supergenes.AbstractSupergene.getValidator</a></div><div class="ttdeci">SupergeneValidator getValidator()</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:633</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_ae7be27a291a2aa7e594384dd7a5936a8"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ae7be27a291a2aa7e594384dd7a5936a8">org.jgap.supergenes.AbstractSupergene.GENE_DELIMITER</a></div><div class="ttdeci">static final String GENE_DELIMITER</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:39</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_aebbbd0fdd22a6d94c951471c8ae86b84"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aebbbd0fdd22a6d94c951471c8ae86b84">org.jgap.supergenes.AbstractSupergene.GENE_DELIMITER_HEADING</a></div><div class="ttdeci">static final String GENE_DELIMITER_HEADING</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:45</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a96059d4ef9cca18130330f3ab782c28b"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a96059d4ef9cca18130330f3ab782c28b">org.jgap.supergenes.AbstractSupergene.GENE_DELIMITER_CLOSING</a></div><div class="ttdeci">static final String GENE_DELIMITER_CLOSING</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:51</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9ebb4d5fbce8752cba54188ad5958fcf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">SupergeneValidator</a> org.jgap.supergenes.AbstractSupergene.getValidator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets an object, responsible for deciding if the <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> allele combination is valid. If no external validator was set and the class uses its own internal validation method, it returns <em>this</em> </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html#a97719a430d58fba89ba26ed8f4a2a490">org.jgap.supergenes.Supergene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;                                           {</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">m_validator</a>;</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a8792c7c19ad0cdb48ade652a110a9016"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">org.jgap.supergenes.AbstractSupergene.m_validator</a></div><div class="ttdeci">SupergeneValidator m_validator</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:638</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a73c5c7702d66268b71e9ed92f0c5d41d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.supergenes.AbstractSupergene.hashCode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns sum of <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a73c5c7702d66268b71e9ed92f0c5d41d">hashCode()</a> of the genes-components. </p>
+<div class="fragment"><div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;                        {</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;    <span class="keywordtype">int</span> s = 0;</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = m_genes.length - 1; i &gt;= 0; i--) {</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;      s += m_genes[i].hashCode();</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    }</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adfa0b1f704e28e3a90d187df2cf4b8b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.supergenes.AbstractSupergene.isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Test the allele combination of this supergene for validity. This method calls isValid for the current gene list. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>true only if the supergene allele combination is valid or the setValidator (<em>null</em>) has been previously called </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html#a9a664a40144dca4dd6fd3b4170ce7570">org.jgap.supergenes.Supergene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                           {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">m_validator</a> == null) {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      <span class="keywordflow">return</span> m_validator.isValid(m_genes, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a8792c7c19ad0cdb48ade652a110a9016"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">org.jgap.supergenes.AbstractSupergene.m_validator</a></div><div class="ttdeci">SupergeneValidator m_validator</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:638</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4d07a7aa9a0af1e4e1a96b1a7663afee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.supergenes.AbstractSupergene.isValid </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>[]&#160;</td>
+          <td class="paramname"><em>a_case</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a>&#160;</td>
+          <td class="paramname"><em>a_forSupergene</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Test the given gene list for validity. The genes must exactly the same as inside this supergene. At <em>least about 5 % of the randomly generated <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> suparallele values should be valid.</em> If the valid combinations represents too small part of all possible combinations, it can take too long to find the suitable mutation that does not brake a supergene. If you face this problem, try to split the supergene into several sub-supergenes.</p>
+<p>This method is only called if you have not set any alternative validator (including <em>null</em>).</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_case</td><td>ignored here </td></tr>
+    <tr><td class="paramname">a_forSupergene</td><td>ignored here</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true only if the supergene allele combination is valid </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Error</td><td>by default. If you do not set external validator, you should always override this method </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">throw</span> <span class="keyword">new</span> Error(<span class="stringliteral">&quot;For &quot;</span> + getClass().getName() + <span class="stringliteral">&quot;, override &quot;</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                    + <span class="stringliteral">&quot; isValid (Gene[], Supergene) or set an&quot;</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                    + <span class="stringliteral">&quot; external validator.&quot;</span>);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1e30b794dee0e8da4d5a4d213e9fb2c1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> org.jgap.supergenes.AbstractSupergene.newGeneInternal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Creates a new instance of this <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> class with the same number of genes, calling <a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a40f8f3d249145ad028892cd706ba9dae">newGene()</a> for each subgene. The class, derived from this abstract supergene will be instantiated (not the instance of abstractSupergene itself). If the external validator is set, the same validator will be set for the new gene.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>the new <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Error</td><td>if the instance of <em>this</em> cannot be instantiated (for example, if it is not public or the parameterless constructor is not provided). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1_base_gene.html#aa423e96ffac5a9589fb3a4fbda791b3c">org.jgap.BaseGene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                                   {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    Gene[] g = <span class="keyword">new</span> Gene[m_genes.length];</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_genes.length; i++) {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      g[i] = m_genes[i].newGene();</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      Constructor constr = getClass().getConstructor(<span class="keyword">new</span> Class[] {Configuration.class, Gene[].class});</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aa67d2e35432f0534c38260e0b3e4d014">AbstractSupergene</a> asg =</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;          (<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aa67d2e35432f0534c38260e0b3e4d014">AbstractSupergene</a>) constr.newInstance(<span class="keyword">new</span> Object[] {<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a>(), g});</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">m_validator</a> != <span class="keyword">this</span>) {</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        asg.setValidator(<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">m_validator</a>);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;      <span class="keywordflow">return</span> asg;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    }</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;      ex.printStackTrace();</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> Error(</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;          <span class="stringliteral">&quot;This should not happen. Is the constructor with parameters &quot;</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;          + <span class="stringliteral">&quot;{org.jgap.Configuration, org,jgap,Gene[]} provided for &quot;</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;          + getClass().getName() + <span class="stringliteral">&quot;?&quot;</span>);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    }</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a32a316c9cc9e273bd75182cbdf188fb6"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">org.jgap.BaseGene.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:409</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a8792c7c19ad0cdb48ade652a110a9016"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">org.jgap.supergenes.AbstractSupergene.m_validator</a></div><div class="ttdeci">SupergeneValidator m_validator</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:638</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_aa67d2e35432f0534c38260e0b3e4d014"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aa67d2e35432f0534c38260e0b3e4d014">org.jgap.supergenes.AbstractSupergene.AbstractSupergene</a></div><div class="ttdeci">AbstractSupergene()</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:104</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afdcc065673680fb080e17ff2596a0eb0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.supergenes.AbstractSupergene.reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Discards all internal caches, ensuring correct repetetive tests of performance. Differently from <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aec3dc6646255f4187aa9a6b4238a9a2c">cleanup()</a>, discards also static references, that are assumed to be useful for the multiple instances of the <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a>. Clears the set of the alleles that are known to be immutable. </p>
+<div class="fragment"><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                             {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    m_immutable = <span class="keyword">new</span> Set[1];</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7b3ce455ac6d30ba31b198ce6824cd19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.supergenes.AbstractSupergene.setAllele </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_superAllele</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the allele. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_superAllele</td><td>must be an array of objects, size matching the number of genes </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;                                                    {</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="keywordflow">if</span> (m_genes.length &lt; 1) {</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;      <span class="comment">// Nothing to do</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    }</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    Object[] a = (Object[]) a_superAllele;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <span class="keywordflow">if</span> (a.length != m_genes.length) {</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Record length, &quot;</span> + a.length</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                                   + <span class="stringliteral">&quot; not equal to &quot;</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                                   + m_genes.length);</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    }</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_genes.length; i++) {</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;      m_genes[i].setAllele(a[i]);</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    }</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a70a5435dbf92b886ab7d5bbcd2d79d09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.supergenes.AbstractSupergene.setFromPersistent </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_from</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set a persistend string representation (if needed) for this validator. The method name is different allowing the same class to implement both <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> and supergeneValidator. The default implementation does nothing. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html#a8718b55ab8474e3b5df097ef152a93f0">org.jgap.supergenes.SupergeneValidator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;                                               {</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a92df9df781b9ae3bc7811bf76bb7ea87"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.supergenes.AbstractSupergene.setToRandomValue </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a>&#160;</td>
+          <td class="paramname"><em>a_numberGenerator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the value of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> to a random legal value for the implementation. It calls setToRandomValue for all subgenes and then validates. With a large number of subgenes and low percent of valid combinations this may take too long to complete. We think, at lease several % of the all possible combintations must be valid. </p>
+<div class="fragment"><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <span class="comment">// set all to random value first</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_genes.length; i++) {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;      m_genes[i].setToRandomValue(a_numberGenerator);</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    }</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#adfa0b1f704e28e3a90d187df2cf4b8b5">isValid</a>()) {</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    }</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a6839c4b04a89a58c967219eda28a5dbb">MAX_RETRIES</a>; i++) {</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; m_genes.length; j++) {</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        <span class="comment">// Mutate only one gene at time.</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        <span class="comment">// -----------------------------</span></div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        m_genes[j].setToRandomValue(a_numberGenerator);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#adfa0b1f704e28e3a90d187df2cf4b8b5">isValid</a>()) {</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;          <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        }</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;      }</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    }</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a6839c4b04a89a58c967219eda28a5dbb"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a6839c4b04a89a58c967219eda28a5dbb">org.jgap.supergenes.AbstractSupergene.MAX_RETRIES</a></div><div class="ttdeci">static final int MAX_RETRIES</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:58</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_adfa0b1f704e28e3a90d187df2cf4b8b5"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#adfa0b1f704e28e3a90d187df2cf4b8b5">org.jgap.supergenes.AbstractSupergene.isValid</a></div><div class="ttdeci">boolean isValid()</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:145</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afae838561a1237ab6b39456ab0e3b8c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.supergenes.AbstractSupergene.setValidator </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">SupergeneValidator</a>&#160;</td>
+          <td class="paramname"><em>a_validator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets an object, responsible for deciding if the <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">Supergene</a> allele combination is valid. If it is set to null, no validation is performed (all combinations are assumed to be valid). If no validator is set, the method <code>isValid (<a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> [] ) </code>is called. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html#a56ef316d0073f74cfd2704ac407ad83f">org.jgap.supergenes.Supergene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;                                                           {</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">m_validator</a> = a_validator;</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a8792c7c19ad0cdb48ade652a110a9016"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">org.jgap.supergenes.AbstractSupergene.m_validator</a></div><div class="ttdeci">SupergeneValidator m_validator</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:638</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af8156c2a8b41bc9fe3e397595c513a6d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.supergenes.AbstractSupergene.setValueFromPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_representation</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the value and internal state of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> from the string representation returned by a previous invocation of the <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a41a4e0b1cf2366722b5f3b97a1711487">getPersistentRepresentation()</a> method.</p>
+<p>If the validator is not THIS and not null, a new validator is created using Class.forName(..).newInstance.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_representation</td><td>the string representation retrieved from a prior call to the <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a41a4e0b1cf2366722b5f3b97a1711487">getPersistentRepresentation()</a> method</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<p>Remove the old content. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#a94a345f1919c4840dd0b9eecf7afc6a3">org.jgap.IPersistentRepresentation</a>.</p>
+<div class="fragment"><div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;                                                {</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    <span class="keywordflow">if</span> (a_representation != null) {</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        <span class="comment">// ------------------------</span></div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        List r = <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a3ff87dbb7c5c6a4167198184b7171934">split</a>(a_representation);</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        Iterator iter = r.iterator();</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        m_genes = <span class="keyword">new</span> Gene[r.size() - 1];</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        <span class="comment">// The first member in array is a validator representation.</span></div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <span class="comment">// --------------------------------------------------------</span></div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        StringTokenizer st;</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        String clas;</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        String representation;</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        String g;</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        Gene gene;</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        String validator = (String) iter.next();</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#afae838561a1237ab6b39456ab0e3b8c8">setValidator</a>(<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a497a53be8d8d711ed48c62b062984a94">createValidator</a>(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#ae9277d0b77c1e8ca244687a8ab8cf42f">decode</a>(validator)));</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_genes.length; i++) {</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;          g = <a class="code" href="classorg_1_1jgap_1_1_base_gene.html#ae9277d0b77c1e8ca244687a8ab8cf42f">decode</a>( (String) iter.next());</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;          st = <span class="keyword">new</span> StringTokenizer(g, <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ae7be27a291a2aa7e594384dd7a5936a8">GENE_DELIMITER</a>);</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;          <span class="keywordflow">if</span> (st.countTokens() != 2)</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(<span class="stringliteral">&quot;In &quot;</span> + g + <span class="stringliteral">&quot;, &quot;</span> +</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;                <span class="stringliteral">&quot;expecting two tokens, separated by &quot;</span> + <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ae7be27a291a2aa7e594384dd7a5936a8">GENE_DELIMITER</a>);</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;          clas = st.nextToken();</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;          representation = st.nextToken();</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;          gene = <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a32c5375e3de833953678146fb3dcb5b3">createGene</a>(clas, representation);</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;          m_genes[i] = gene;</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;        }</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;      }</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;      <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;        ex.printStackTrace();</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(ex.getCause().</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;            getMessage());</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;      }</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    }</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(<span class="stringliteral">&quot;null value not allowed&quot;</span>);</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;    }</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_afae838561a1237ab6b39456ab0e3b8c8"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#afae838561a1237ab6b39456ab0e3b8c8">org.jgap.supergenes.AbstractSupergene.setValidator</a></div><div class="ttdeci">void setValidator(SupergeneValidator a_validator)</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:624</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a497a53be8d8d711ed48c62b062984a94"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a497a53be8d8d711ed48c62b062984a94">org.jgap.supergenes.AbstractSupergene.createValidator</a></div><div class="ttdeci">SupergeneValidator createValidator(String a_rep)</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:453</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_ae9277d0b77c1e8ca244687a8ab8cf42f"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#ae9277d0b77c1e8ca244687a8ab8cf42f">org.jgap.BaseGene.decode</a></div><div class="ttdeci">String decode(String a_string)</div><div class="ttdef"><b>Definition:</b> BaseGene.java:426</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a3ff87dbb7c5c6a4167198184b7171934"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a3ff87dbb7c5c6a4167198184b7171934">org.jgap.supergenes.AbstractSupergene.split</a></div><div class="ttdeci">static final List split(String a_string)</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:587</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a32c5375e3de833953678146fb3dcb5b3"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a32c5375e3de833953678146fb3dcb5b3">org.jgap.supergenes.AbstractSupergene.createGene</a></div><div class="ttdeci">Gene createGene(String a_geneClassName, String a_persistentRepresentation)</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:488</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_ae7be27a291a2aa7e594384dd7a5936a8"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#ae7be27a291a2aa7e594384dd7a5936a8">org.jgap.supergenes.AbstractSupergene.GENE_DELIMITER</a></div><div class="ttdeci">static final String GENE_DELIMITER</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:39</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8d2326c3d5ce80c73dff063f26994233"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.supergenes.AbstractSupergene.size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the number of the genes-components of this supergene. </p>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a7a975e180dd0ac0fd33cdc182f64bea8">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;                    {</div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;    <span class="keywordflow">return</span> m_genes.length;</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3ff87dbb7c5c6a4167198184b7171934"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static final List org.jgap.supergenes.AbstractSupergene.split </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_string</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Splits the string a_x into individual gene representations </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_string</td><td>the string to split </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the elements of the returned array are the persistent representation strings of the genes - components</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd></dl>
+<div class="fragment"><div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;                                                {</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    List a = Collections.synchronizedList(<span class="keyword">new</span> ArrayList());</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    StringTokenizer st = <span class="keyword">new</span> StringTokenizer</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;        (a_string, <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aebbbd0fdd22a6d94c951471c8ae86b84">GENE_DELIMITER_HEADING</a> + <a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a96059d4ef9cca18130330f3ab782c28b">GENE_DELIMITER_CLOSING</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;    <span class="keywordflow">while</span> (st.hasMoreTokens()) {</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;      <span class="keywordflow">if</span> (!st.nextToken().equals(<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aebbbd0fdd22a6d94c951471c8ae86b84">GENE_DELIMITER_HEADING</a>)) {</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;            (a_string + <span class="stringliteral">&quot; no open tag&quot;</span>);</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;      }</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;      String n = st.nextToken();</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;      <span class="keywordflow">if</span> (n.equals(<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a96059d4ef9cca18130330f3ab782c28b">GENE_DELIMITER_CLOSING</a>)) a.add(<span class="stringliteral">&quot;&quot;</span>); <span class="comment">// Empty token</span></div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        a.add(n);</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        <span class="keywordflow">if</span> (!st.nextToken().equals(<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a96059d4ef9cca18130330f3ab782c28b">GENE_DELIMITER_CLOSING</a>)) {</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;          <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;              (a_string + <span class="stringliteral">&quot; no close tag&quot;</span>);</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        }</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;      }</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    }</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    <span class="keywordflow">return</span> a;</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_aebbbd0fdd22a6d94c951471c8ae86b84"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#aebbbd0fdd22a6d94c951471c8ae86b84">org.jgap.supergenes.AbstractSupergene.GENE_DELIMITER_HEADING</a></div><div class="ttdeci">static final String GENE_DELIMITER_HEADING</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:45</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a96059d4ef9cca18130330f3ab782c28b"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a96059d4ef9cca18130330f3ab782c28b">org.jgap.supergenes.AbstractSupergene.GENE_DELIMITER_CLOSING</a></div><div class="ttdeci">static final String GENE_DELIMITER_CLOSING</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:51</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a67a9b1dfccb63d4b2909abdd3e8c1abe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.supergenes.AbstractSupergene.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>a string representation of the supergene, providing class name and calling <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a67a9b1dfccb63d4b2909abdd3e8c1abe">toString()</a> for all subgenes. </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ac62239b4b7bf81179fd491a4c4bd1901">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;                           {</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    StringBuffer b = <span class="keyword">new</span> StringBuffer();</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    b.append(<span class="stringliteral">&quot;Supergene &quot;</span> + getClass().getName() + <span class="stringliteral">&quot; {&quot;</span>);</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_genes.length; i++) {</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;      b.append(<span class="stringliteral">&quot;|&quot;</span>);</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;      b.append(m_genes[i].toString());</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;      b.append(<span class="stringliteral">&quot;|&quot;</span>);</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    }</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">m_validator</a> == null) {</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;      b.append(<span class="stringliteral">&quot; non validating&quot;</span>);</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    }</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;      b.append(<span class="stringliteral">&quot; validator: &quot;</span>+m_validator.getClass().getName());</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;    }</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;    b.append(<span class="stringliteral">&quot;}&quot;</span>);</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    <span class="keywordflow">return</span> b.toString();</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene_html_a8792c7c19ad0cdb48ade652a110a9016"><div class="ttname"><a href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8792c7c19ad0cdb48ade652a110a9016">org.jgap.supergenes.AbstractSupergene.m_validator</a></div><div class="ttdeci">SupergeneValidator m_validator</div><div class="ttdef"><b>Definition:</b> AbstractSupergene.java:638</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="ae7be27a291a2aa7e594384dd7a5936a8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.jgap.supergenes.AbstractSupergene.GENE_DELIMITER = &quot;#&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This field separates gene class name from the gene persistent representation string. </p>
+
+</div>
+</div>
+<a class="anchor" id="a96059d4ef9cca18130330f3ab782c28b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.jgap.supergenes.AbstractSupergene.GENE_DELIMITER_CLOSING = &quot;&gt;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Represents the closing delimiter that is used to separate genes in the persistent representation of CompositeGene instances. </p>
+
+</div>
+</div>
+<a class="anchor" id="aebbbd0fdd22a6d94c951471c8ae86b84"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.jgap.supergenes.AbstractSupergene.GENE_DELIMITER_HEADING = &quot;&lt;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Represents the heading delimiter that is used to separate genes in the persistent representation of CompositeGene instances. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8792c7c19ad0cdb48ade652a110a9016"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene_validator.html">SupergeneValidator</a> org.jgap.supergenes.AbstractSupergene.m_validator = this</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>A validator (initially set to <em>this</em> </p>
+
+</div>
+</div>
+<a class="anchor" id="a40054ab751c7676fcd9f974c029a6a9d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.supergenes.AbstractSupergene.MAX_IMMUTABLE_GENES = 100000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Maximal number of notes about immutable genes per single gene position </p>
+
+</div>
+</div>
+<a class="anchor" id="a6839c4b04a89a58c967219eda28a5dbb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.supergenes.AbstractSupergene.MAX_RETRIES = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Maximal number of retries for applyMutation and setToRandomValue. If the valid supergen cannot be created after this number of iterations, the error message is printed and the unchanged instance is returned. </p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/supergenes/<a class="el" href="_abstract_supergene_8java.html">AbstractSupergene.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1supergenes.html">supergenes</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html">AbstractSupergene</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:24:01 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

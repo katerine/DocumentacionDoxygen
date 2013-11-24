@@ -1,0 +1,670 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.distr.grid.DummyGridClientMediator</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-attribs">Atributos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.distr.grid.DummyGridClientMediator</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html">org.jgap.distr.grid.IGridClientMediator</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a201b886400a332631434c618dd33633a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a201b886400a332631434c618dd33633a">DummyGridClientMediator</a> (GridNodeClientConfig a_gridconfig)  throws Exception </td></tr>
+<tr class="separator:a201b886400a332631434c618dd33633a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add00b971fe4812626f1e952d8da2648f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#add00b971fe4812626f1e952d8da2648f">stop</a> ()  throws Exception </td></tr>
+<tr class="separator:add00b971fe4812626f1e952d8da2648f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f94da08e9439931b276891b3a6150ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a4f94da08e9439931b276891b3a6150ce">send</a> (GridMessage a_msg, <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a> a_context, Map&lt; String, String &gt; a_headerData)  throws Exception </td></tr>
+<tr class="separator:a4f94da08e9439931b276891b3a6150ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7212ea568d78375a552bc599e62e4648"><td class="memItemLeft" align="right" valign="top">GridMessage&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a7212ea568d78375a552bc599e62e4648">getGridMessage</a> (<a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a> a_context, String a_datetime, int a_timeoutSeconds, int a_waitTimeSeconds, boolean a_removeRequest)  throws Exception </td></tr>
+<tr class="separator:a7212ea568d78375a552bc599e62e4648"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a950d64600cc838a85c06f497b0075ce0"><td class="memItemLeft" align="right" valign="top">List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a950d64600cc838a85c06f497b0075ce0">listRequests</a> (<a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a> a_context, String a_datetime, String a_pattern)  throws Exception </td></tr>
+<tr class="separator:a950d64600cc838a85c06f497b0075ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afade62453ebe98f4c8361c40777cc987"><td class="memItemLeft" align="right" valign="top">List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#afade62453ebe98f4c8361c40777cc987">listResults</a> (<a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a> a_context, String a_datetime, String a_pattern)  throws Exception </td></tr>
+<tr class="separator:afade62453ebe98f4c8361c40777cc987"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f464e99178fe73142944a3a134389a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a6f464e99178fe73142944a3a134389a0">connect</a> ()  throws Exception </td></tr>
+<tr class="separator:a6f464e99178fe73142944a3a134389a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f30008ccd49b0ad0762d450796b9f43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a1f30008ccd49b0ad0762d450796b9f43">disconnect</a> ()  throws Exception </td></tr>
+<tr class="separator:a1f30008ccd49b0ad0762d450796b9f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c5ffc3df90242b0f79261e6a9fed827"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a0c5ffc3df90242b0f79261e6a9fed827">removeMessage</a> (Object a_entry)  throws Exception </td></tr>
+<tr class="separator:a0c5ffc3df90242b0f79261e6a9fed827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad75ecd94f86875a82de94a4ccf83d6ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#ad75ecd94f86875a82de94a4ccf83d6ce">backupResult</a> (Object a_result, String a_subDir, String a_title)  throws Exception </td></tr>
+<tr class="separator:ad75ecd94f86875a82de94a4ccf83d6ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a080ac41bf4278214c07055ebcc9060f8"><td class="memItemLeft" align="right" valign="top">GridClient&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a080ac41bf4278214c07055ebcc9060f8">startClient</a> ()  throws Exception </td></tr>
+<tr class="separator:a080ac41bf4278214c07055ebcc9060f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos protegidos</h2></td></tr>
+<tr class="memitem:a294d251a49d05182f184199b1b5e28bd"><td class="memItemLeft" align="right" valign="top">GridNodeClientConfig&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a294d251a49d05182f184199b1b5e28bd">m_gridconfig</a></td></tr>
+<tr class="separator:a294d251a49d05182f184199b1b5e28bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html">org.jgap.distr.grid.IGridClientMediator</a></td></tr>
+<tr class="memitem:a40d2352a76e3fd5e56b1c4ac6443a54c inherit pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html#a40d2352a76e3fd5e56b1c4ac6443a54c">CVS_REVISION</a> = &quot;$Revision: 1.8 $&quot;</td></tr>
+<tr class="separator:a40d2352a76e3fd5e56b1c4ac6443a54c inherit pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Mediates requests and responses either within a LAN or via internet (WAN).</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a201b886400a332631434c618dd33633a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.grid.DummyGridClientMediator.DummyGridClientMediator </td>
+          <td>(</td>
+          <td class="paramtype">GridNodeClientConfig&#160;</td>
+          <td class="paramname"><em>a_gridconfig</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_gridconfig</td><td>GridNodeClientConfig </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                       {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">// Setup logging.</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">// --------------</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    MainCmd.setUpLog4J(<span class="stringliteral">&quot;DummyClientMediator&quot;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a294d251a49d05182f184199b1b5e28bd">m_gridconfig</a> = a_gridconfig;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    m_gc = <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a080ac41bf4278214c07055ebcc9060f8">startClient</a>();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    log.info(<span class="stringliteral">&quot;LAN mode selected&quot;</span>);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator_html_a080ac41bf4278214c07055ebcc9060f8"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a080ac41bf4278214c07055ebcc9060f8">org.jgap.distr.grid.DummyGridClientMediator.startClient</a></div><div class="ttdeci">GridClient startClient()</div><div class="ttdef"><b>Definition:</b> DummyGridClientMediator.java:66</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator_html_a294d251a49d05182f184199b1b5e28bd"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a294d251a49d05182f184199b1b5e28bd">org.jgap.distr.grid.DummyGridClientMediator.m_gridconfig</a></div><div class="ttdeci">GridNodeClientConfig m_gridconfig</div><div class="ttdef"><b>Definition:</b> DummyGridClientMediator.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ad75ecd94f86875a82de94a4ccf83d6ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.DummyGridClientMediator.backupResult </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_subDir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_title</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Backs up a result in the given sub directory.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_result</td><td>the result to backup </td></tr>
+    <tr><td class="paramname">a_subDir</td><td>sub directory to store the copy of the result in </td></tr>
+    <tr><td class="paramname">a_title</td><td>the title of the entry to create</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.4 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html#a811c4a83e3e1cc91e23804f56aafa9a4">org.jgap.distr.grid.IGridClientMediator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                       {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="comment">// Not implemented yet.</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="comment">// --------------------</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6f464e99178fe73142944a3a134389a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.DummyGridClientMediator.connect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html#a9c167ee36b2c5c1b1d0c3a73535b4c67">org.jgap.distr.grid.IGridClientMediator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                       {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="comment">// Not implemented yet.</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="comment">// --------------------</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1f30008ccd49b0ad0762d450796b9f43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.DummyGridClientMediator.disconnect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html#ae0f495c6b3b530c17080176a0ab1bb35">org.jgap.distr.grid.IGridClientMediator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                       {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="comment">// Not implemented yet.</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="comment">// --------------------</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7212ea568d78375a552bc599e62e4648"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GridMessage org.jgap.distr.grid.DummyGridClientMediator.getGridMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a>&#160;</td>
+          <td class="paramname"><em>a_context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_timeoutSeconds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_waitTimeSeconds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>a_removeRequest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_context</td><td><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a> </td></tr>
+    <tr><td class="paramname">a_datetime</td><td>String </td></tr>
+    <tr><td class="paramname">a_timeoutSeconds</td><td>int </td></tr>
+    <tr><td class="paramname">a_waitTimeSeconds</td><td>int </td></tr>
+    <tr><td class="paramname">a_removeRequest</td><td>boolean </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>GridMessage </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000064">Tareas pendientes:</a></b></dt><dd>fallback solution </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html#a1716e496659e90ae169149fd11ef0637">org.jgap.distr.grid.IGridClientMediator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                       {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="comment">// This is asynchroneous</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="comment"></span>    m_gc.getGridMessageChannel();</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    GridMessageWorkResult gmwr = (GridMessageWorkResult) m_gc.recv(</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        a_timeoutSeconds * 1000);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">return</span> gmwr;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a950d64600cc838a85c06f497b0075ce0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List org.jgap.distr.grid.DummyGridClientMediator.listRequests </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a>&#160;</td>
+          <td class="paramname"><em>a_context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_pattern</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_context</td><td><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a> </td></tr>
+    <tr><td class="paramname">a_datetime</td><td>String </td></tr>
+    <tr><td class="paramname">a_pattern</td><td>String </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>List </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html#a6d3b85a4f42475b5825f924d9ba59eba">org.jgap.distr.grid.IGridClientMediator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                       {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="comment">// Not implemented yet.</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="comment">// --------------------</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afade62453ebe98f4c8361c40777cc987"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List org.jgap.distr.grid.DummyGridClientMediator.listResults </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a>&#160;</td>
+          <td class="paramname"><em>a_context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_datetime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_pattern</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_context</td><td><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a> </td></tr>
+    <tr><td class="paramname">a_datetime</td><td>String </td></tr>
+    <tr><td class="paramname">a_pattern</td><td>String </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>List </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html#a7499a616fadcee3847e73535799e74a4">org.jgap.distr.grid.IGridClientMediator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                       {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="comment">// Not implemented yet.</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="comment">// --------------------</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0c5ffc3df90242b0f79261e6a9fed827"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.DummyGridClientMediator.removeMessage </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_entry</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html#ab6b6be3e765dd6b96d44f9d5daa6ffbd">org.jgap.distr.grid.IGridClientMediator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                       {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="comment">// Not implemented yet.</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="comment">// --------------------</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4f94da08e9439931b276891b3a6150ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.DummyGridClientMediator.send </td>
+          <td>(</td>
+          <td class="paramtype">GridMessage&#160;</td>
+          <td class="paramname"><em>a_msg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a>&#160;</td>
+          <td class="paramname"><em>a_context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&lt; String, String &gt;&#160;</td>
+          <td class="paramname"><em>a_headerData</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_msg</td><td>GridMessage </td></tr>
+    <tr><td class="paramname">a_context</td><td><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_message_context.html">MessageContext</a> </td></tr>
+    <tr><td class="paramname">a_headerData</td><td>Map </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html#affc59251eaf699da84a107ebbf27ed78">org.jgap.distr.grid.IGridClientMediator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                       {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    m_gc.send(a_msg);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a080ac41bf4278214c07055ebcc9060f8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GridClient org.jgap.distr.grid.DummyGridClientMediator.startClient </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Starts the underlying grid client service.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>GridClient </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000063">Tareas pendientes:</a></b></dt><dd>allow asynchronous wait for server (check for "java.net.ConnectException: Connection refused: connect") </dd></dl>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                       {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    GridClient gc = <span class="keyword">new</span> GridClient();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    gc.setNodeConfig(<a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a294d251a49d05182f184199b1b5e28bd">m_gridconfig</a>);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    gc.start();</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">return</span> gc;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator_html_a294d251a49d05182f184199b1b5e28bd"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html#a294d251a49d05182f184199b1b5e28bd">org.jgap.distr.grid.DummyGridClientMediator.m_gridconfig</a></div><div class="ttdeci">GridNodeClientConfig m_gridconfig</div><div class="ttdef"><b>Definition:</b> DummyGridClientMediator.java:31</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="add00b971fe4812626f1e952d8da2648f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.DummyGridClientMediator.stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stops this service.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_client_mediator.html#a1754c025617ae00ef9c8905c5b7aa4ec">org.jgap.distr.grid.IGridClientMediator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                       {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    m_gc.stop();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a294d251a49d05182f184199b1b5e28bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GridNodeClientConfig org.jgap.distr.grid.DummyGridClientMediator.m_gridconfig</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/distr/grid/<a class="el" href="_dummy_grid_client_mediator_8java.html">DummyGridClientMediator.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr.html">distr</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_dummy_grid_client_mediator.html">DummyGridClientMediator</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:26 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

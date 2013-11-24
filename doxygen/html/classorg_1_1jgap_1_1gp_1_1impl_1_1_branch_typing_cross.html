@@ -1,0 +1,636 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.gp.impl.BranchTypingCross</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.gp.impl.BranchTypingCross</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html">org.jgap.gp.CrossMethod</a>, Serializable, Comparable y Cloneable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a3758029d8ce09cc9042edaf0914d21c6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a3758029d8ce09cc9042edaf0914d21c6">BranchTypingCross</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a> a_config)</td></tr>
+<tr class="separator:a3758029d8ce09cc9042edaf0914d21c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a103a52b1a81b625eed76163143085938"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a103a52b1a81b625eed76163143085938">BranchTypingCross</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a> a_config, boolean a_simpleChromosomeSelection)</td></tr>
+<tr class="separator:a103a52b1a81b625eed76163143085938"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9c1c1bf7edeadd26dccbcdd9d33ffc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#ac9c1c1bf7edeadd26dccbcdd9d33ffc3">operate</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_i1, final <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_i2)</td></tr>
+<tr class="separator:ac9c1c1bf7edeadd26dccbcdd9d33ffc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee82d058776b77a2af99d5fada3612cb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#aee82d058776b77a2af99d5fada3612cb">compareTo</a> (Object a_other)</td></tr>
+<tr class="separator:aee82d058776b77a2af99d5fada3612cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cfbce5588aac6f850bd62cdcf8db52b"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a0cfbce5588aac6f850bd62cdcf8db52b">equals</a> (Object a_other)</td></tr>
+<tr class="separator:a0cfbce5588aac6f850bd62cdcf8db52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42f7839caf694df2721f85464cf0508d"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a42f7839caf694df2721f85464cf0508d">clone</a> ()</td></tr>
+<tr class="separator:a42f7839caf694df2721f85464cf0508d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1gp_1_1_cross_method"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1gp_1_1_cross_method')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html">org.jgap.gp.CrossMethod</a></td></tr>
+<tr class="memitem:ab6741ba96a9433b76de0db0ff173a1d6 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_cross_method"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#ab6741ba96a9433b76de0db0ff173a1d6">CrossMethod</a> (GPConfiguration a_configuration)</td></tr>
+<tr class="separator:ab6741ba96a9433b76de0db0ff173a1d6 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_cross_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a643c076e032b4eb728109c68db3f469d inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_cross_method"><td class="memItemLeft" align="right" valign="top">GPConfiguration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a> ()</td></tr>
+<tr class="separator:a643c076e032b4eb728109c68db3f469d inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_cross_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:af4ff7487c5e532031d260dce1b66d74b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#af4ff7487c5e532031d260dce1b66d74b">doCross</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a> a_c0, <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a> a_c1)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:af4ff7487c5e532031d260dce1b66d74b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Crossing over for GP ProgramChromosomes.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a3758029d8ce09cc9042edaf0914d21c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.gp.impl.BranchTypingCross.BranchTypingCross </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Standard constructor.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_config</td><td>the configuration to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                                                     {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keyword">this</span>(a_config, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a103a52b1a81b625eed76163143085938"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.gp.impl.BranchTypingCross.BranchTypingCross </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>a_simpleChromosomeSelection</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_config</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_simpleChromosomeSelection</td><td>true: plainly select chromosomes, false: select chromosomes proportionally to their size (=number of nodes within a chromosome)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                               {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    super(a_config);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    m_simpleChromosomeSelection = a_simpleChromosomeSelection;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a42f7839caf694df2721f85464cf0508d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.gp.impl.BranchTypingCross.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>deep clone of this instance</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                        {</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a3758029d8ce09cc9042edaf0914d21c6">BranchTypingCross</a> result = <span class="keyword">new</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a3758029d8ce09cc9042edaf0914d21c6">BranchTypingCross</a>(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>());</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_cross_method_html_a643c076e032b4eb728109c68db3f469d"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">org.jgap.gp.CrossMethod.getConfiguration</a></div><div class="ttdeci">GPConfiguration getConfiguration()</div><div class="ttdef"><b>Definition:</b> CrossMethod.java:32</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_html_a3758029d8ce09cc9042edaf0914d21c6"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a3758029d8ce09cc9042edaf0914d21c6">org.jgap.gp.impl.BranchTypingCross.BranchTypingCross</a></div><div class="ttdeci">BranchTypingCross(GPConfiguration a_config)</div><div class="ttdef"><b>Definition:</b> BranchTypingCross.java:34</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aee82d058776b77a2af99d5fada3612cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.impl.BranchTypingCross.compareTo </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The compareTo-method.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the other object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>0 or 1 in this case, as <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html">BranchTypingCross</a> objects keep no state</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                                       {</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a3758029d8ce09cc9042edaf0914d21c6">BranchTypingCross</a> other = (<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a3758029d8ce09cc9042edaf0914d21c6">BranchTypingCross</a>) a_other;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <span class="keywordflow">if</span> (other == null) {</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;      <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    }</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_html_a3758029d8ce09cc9042edaf0914d21c6"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a3758029d8ce09cc9042edaf0914d21c6">org.jgap.gp.impl.BranchTypingCross.BranchTypingCross</a></div><div class="ttdeci">BranchTypingCross(GPConfiguration a_config)</div><div class="ttdef"><b>Definition:</b> BranchTypingCross.java:34</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af4ff7487c5e532031d260dce1b66d74b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a> [] org.jgap.gp.impl.BranchTypingCross.doCross </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_c0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_c1</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Crosses two chromsomes using branch-typing. A random point in the first chromosome is chosen, with a certain probability it will be a function and with a rest probability it will be a terminal. A random point in the second chromosome is chosen using the same probability distribution, but the node chosen must be of the same type as the chosen node in the first chromosome. If a suitable point in the second chromosome couldn't be found then the chromosomes are not crossed. If a resulting chromosome's depth is larger than the maximum crossover depth then that chromosome is simply copied from the original rather than crossed.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_c0</td><td>the first chromosome to cross </td></tr>
+    <tr><td class="paramname">a_c1</td><td>the second chromosome to cross </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>an array of the two resulting chromosomes </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000136">Tareas pendientes:</a></b></dt><dd>solve in general </dd></dl>
+<div class="fragment"><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                                           {</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    ProgramChromosome[] c = {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        a_c0, a_c1};</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="comment">// Choose a point in c1.</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="comment">// ---------------------</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keywordtype">int</span> p0;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    RandomGenerator random = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>().getRandomGenerator();</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordflow">if</span> (random.nextFloat() &lt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>().getFunctionProb()) {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      <span class="comment">// Choose a function.</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      <span class="comment">// ------------------</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      <span class="keywordtype">int</span> nf = a_c0.numFunctions();</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      <span class="keywordflow">if</span> (nf == 0) {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="comment">// No functions there.</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        <span class="comment">// -------------------</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        <span class="keywordflow">return</span> c;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;      }</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;      <span class="keywordtype">int</span> fctIndex = random.nextInt(nf);</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      p0 = a_c0.getFunction(fctIndex);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    }</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      <span class="comment">// Choose a terminal.</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;      <span class="comment">// ------------------</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;      p0 = a_c0.getTerminal(random.nextInt(a_c0.numTerminals()));</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      <span class="comment">// Mutate the command&#39;s value.</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;      <span class="comment">// ----------------------------</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      CommandGene command = a_c0.getNode(p0);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;      <span class="keywordflow">if</span> (random.nextDouble() &lt;= <a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>().getMutationProb()) {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="keywordflow">if</span> (IMutateable.class.isInstance(command)) {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;          IMutateable term = (IMutateable) command;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;          command = term.applyMutation(0, 0.3d);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;          <span class="keywordflow">if</span> (command != null) {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <span class="comment">// Check if mutant&#39;s function is allowed.</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            <span class="comment">// --------------------------------------</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <span class="keywordflow">if</span> (a_c0.getCommandOfClass(0, command.getClass()) &gt;= 0) {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;              a_c0.setGene(p0, command);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;          }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      }</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="comment">// Choose a point in c2 matching the type and subtype of p0.</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="comment">// ---------------------------------------------------------</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <span class="keywordtype">int</span> p1;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    CommandGene nodeP0 = a_c0.getNode(p0);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    Class type_ = nodeP0.getReturnType();</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordtype">int</span> subType = nodeP0.getSubReturnType();</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">if</span> (random.nextFloat() &lt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>().getFunctionProb()) {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;      <span class="comment">// Choose a function.</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;      <span class="comment">// ------------------</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;      <span class="keywordtype">int</span> nf = a_c1.numFunctions(type_, subType);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;      <span class="keywordflow">if</span> (nf == 0) {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="comment">// No functions of that type.</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="comment">// --------------------------</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <span class="keywordflow">return</span> c;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;      }</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;      p1 = a_c1.getFunction(random.nextInt(nf), type_, subType);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    }</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      <span class="comment">// Choose a terminal.</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      <span class="comment">// ------------------</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;      <span class="keywordtype">int</span> nt = a_c1.numTerminals(type_, subType);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      <span class="keywordflow">if</span> (nt == 0) {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="comment">// No terminals of that type.</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="comment">// --------------------------</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="keywordflow">return</span> c;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      }</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;      p1 = a_c1.getTerminal(random.nextInt(a_c1.numTerminals(type_, subType)),</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                          type_, subType);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      <span class="comment">// Mutate the command&#39;s value.</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      <span class="comment">// ----------------------------</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;      CommandGene command = a_c1.getNode(p1);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      <span class="keywordflow">if</span> (random.nextDouble() &lt;= <a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>().getMutationProb()) {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordflow">if</span> (IMutateable.class.isInstance(command)) {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;          IMutateable term = (IMutateable) command;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;          command = term.applyMutation(0, 0.3d);</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;          <span class="keywordflow">if</span> (command != null) {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            <span class="comment">// Check if mutant&#39;s function is allowed.</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            <span class="comment">// --------------------------------------</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            <span class="keywordflow">if</span> (a_c0.getCommandOfClass(0, command.getClass()) &gt;= 0) {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;              a_c1.setGene(p1, command);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;          }</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      }</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    }</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordflow">if</span> (org.jgap.gp.function.SubProgram.class.isAssignableFrom(a_c1.getFunctions()[p1].getClass())) {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      ((IMutateable)a_c1.getFunctions()[p1]).applyMutation(0, 0.5d);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    }</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordtype">int</span> s0 = a_c0.getSize(p0); <span class="comment">//Number of nodes in c0 from index p0</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordtype">int</span> s1 = a_c1.getSize(p1); <span class="comment">//Number of nodes in c1 from index p1</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordtype">int</span> d0 = a_c0.getDepth(p0); <span class="comment">//Depth of c0 from index p0</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordtype">int</span> d1 = a_c1.getDepth(p1); <span class="comment">//Depth of c1 from index p1</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordtype">int</span> c0s = a_c0.getSize(0); <span class="comment">//Number of nodes in c0</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordtype">int</span> c1s = a_c1.getSize(0); <span class="comment">//Number of nodes in c1</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="comment">// Check for depth constraint for p1 inserted into c0.</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="comment">// ---------------------------------------------------</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <span class="keywordflow">if</span> (d0 - 1 + d1<span class="comment">/*s1*/</span> &gt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>().getMaxCrossoverDepth()</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        || c0s - p0 - s0 &lt; 0</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        || p0 + s1 + c0s - p0 - s0 &gt;= a_c0.getFunctions().length) {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;      <span class="comment">// Choose the other parent.</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      <span class="comment">// ------------------------</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;      c[0] = a_c1;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    }</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;      c[0] = <span class="keyword">new</span> ProgramChromosome(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>(),</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                                   a_c0.getFunctions().length,</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                                   c[0].getFunctionSet(),</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                                   c[0].getArgTypes(),</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                                   a_c0.getIndividual());</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;      System.arraycopy(a_c0.getFunctions(), 0, c[0].getFunctions(), 0, p0);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;      System.arraycopy(a_c1.getFunctions(), p1, c[0].getFunctions(), p0, s1);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;      System.arraycopy(a_c0.getFunctions(), p0 + s0, c[0].getFunctions(),</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                       p0 + s1, c0s - p0 - s0);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;      c[0].redepth();</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    }</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="comment">// Check for depth constraint for p0 inserted into c1.</span></div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="comment">// ---------------------------------------------------</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="keywordflow">if</span> (d1 - 1 + d0<span class="comment">/*s0*/</span> &gt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>().getMaxCrossoverDepth()</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        || c1s - p1 - s1 &lt; 0</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        || p1 + s0 + c1s - p1 - s1 &gt;= a_c1.getFunctions().length) {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;      <span class="comment">// Choose the other parent.</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;      <span class="comment">// ------------------------</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;      c[1] = a_c0;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    }</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      c[1] = <span class="keyword">new</span> ProgramChromosome(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>(),</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                                   a_c1.getFunctions().length,</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                                   c[1].getFunctionSet(),</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                                   c[1].getArgTypes(),</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                                   a_c1.getIndividual());</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;      System.arraycopy(a_c1.getFunctions(), 0, c[1].getFunctions(), 0, p1);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;      System.arraycopy(a_c0.getFunctions(), p0, c[1].getFunctions(), p1, s0);</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;      System.arraycopy(a_c1.getFunctions(), p1 + s1, c[1].getFunctions(),</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                       p1 + s0, c1s - p1 - s1);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;      c[1].redepth();</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    }</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="keywordflow">return</span> c;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_cross_method_html_a643c076e032b4eb728109c68db3f469d"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">org.jgap.gp.CrossMethod.getConfiguration</a></div><div class="ttdeci">GPConfiguration getConfiguration()</div><div class="ttdef"><b>Definition:</b> CrossMethod.java:32</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0cfbce5588aac6f850bd62cdcf8db52b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.gp.impl.BranchTypingCross.equals </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The equals-method.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the other object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>always true for non-null <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html">BranchTypingCross</a> objects because they keep no state</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                                        {</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a3758029d8ce09cc9042edaf0914d21c6">BranchTypingCross</a> other = (<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a3758029d8ce09cc9042edaf0914d21c6">BranchTypingCross</a>) a_other;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;      <span class="keywordflow">if</span> (other == null) {</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;      }</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;      }</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    } <span class="keywordflow">catch</span> (ClassCastException cex) {</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    }</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_html_a3758029d8ce09cc9042edaf0914d21c6"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#a3758029d8ce09cc9042edaf0914d21c6">org.jgap.gp.impl.BranchTypingCross.BranchTypingCross</a></div><div class="ttdeci">BranchTypingCross(GPConfiguration a_config)</div><div class="ttdef"><b>Definition:</b> BranchTypingCross.java:34</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac9c1c1bf7edeadd26dccbcdd9d33ffc3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> [] org.jgap.gp.impl.BranchTypingCross.operate </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td>
+          <td class="paramname"><em>a_i1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td>
+          <td class="paramname"><em>a_i2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Crosses two individuals. A random chromosome is chosen for crossing based on the proportion of nodes in each chromosome in the first individual.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_i1</td><td>the first individual to cross </td></tr>
+    <tr><td class="paramname">a_i2</td><td>the second individual to cross </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>an array of the two resulting individuals</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000135">Tareas pendientes:</a></b></dt><dd>try to ensure uniqueness for unique commands: after selecting first node, check if there is a unique node in the sub tree. If so, check if it appears in the sub tree of the second node. </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#afe487df2227dfcb1bc80ad0beab6c342">org.jgap.gp.CrossMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                                     {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <span class="keywordtype">int</span> chromosomeNum;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <span class="keywordflow">if</span> (!m_simpleChromosomeSelection) {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="comment">// Determine which chromosome we&#39;ll cross, probabilistically determined</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="comment">// by the sizes of the chromosomes of the first individual.</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="comment">// This is equivalent to Koza&#39;s branch typing.</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="comment">// Advantage over plain selection: proportion of the chromosomes&#39; sizes</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="comment">// is cared about.</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="comment">// --------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordtype">int</span>[] sizes = <span class="keyword">new</span> <span class="keywordtype">int</span>[a_i1.size()];</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordtype">int</span> totalSize = 0;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; a_i1.size(); i++) {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;          <span class="comment">// Size of a chromosome = number of nodes.</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;          <span class="comment">// ---------------------------------------</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;          sizes[i] = a_i1.getChromosome(i).getSize(0);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;          totalSize += sizes[i];</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordtype">int</span> nodeNum = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>().getRandomGenerator().nextInt(</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                totalSize);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="comment">// Select the chromosome in which node &quot;nodeNum&quot; resides.</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="comment">// ------------------------------------------------------</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">for</span> (chromosomeNum = 0; chromosomeNum &lt; a_i1.size(); chromosomeNum++) {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;          nodeNum -= sizes[chromosomeNum];</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;          <span class="keywordflow">if</span> (nodeNum &lt; 0) {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;          }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="comment">// Select a chromosome directly.</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="comment">// -----------------------------</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        chromosomeNum = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">getConfiguration</a>().getRandomGenerator().</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                nextInt(a_i1.size());</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      <span class="comment">// Cross the selected chromosomes.</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="comment">// -------------------------------</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment"></span>      ProgramChromosome[] newChromosomes = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#af4ff7487c5e532031d260dce1b66d74b">doCross</a>(</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;          a_i1.getChromosome(chromosomeNum),</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;          a_i2.getChromosome(chromosomeNum));</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      <span class="comment">// Create the new individuals by copying the uncrossed chromosomes</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <span class="comment">// and setting the crossed chromosome. There&#39;s no need to deep-copy</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      <span class="comment">// the uncrossed chromosomes because they don&#39;t change. That is,</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      <span class="comment">// even if two individuals&#39; chromosomes point to the same chromosome,</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      <span class="comment">// the only change in a chromosome is crossing, which generates</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      <span class="comment">// deep-copied chromosomes anyway.</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;      <span class="comment">// ------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      IGPProgram[] newIndividuals = {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;          <span class="keyword">new</span> GPProgram(a_i1), <span class="keyword">new</span> GPProgram(a_i1)};</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; a_i1.size(); i++)</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">if</span> (i != chromosomeNum) {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;          <span class="comment">// Unchanged, not crossed, chromosomes.</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;          <span class="comment">// ------------------------------------</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;          newIndividuals[0].setChromosome(i, a_i1.getChromosome(i));</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;          newIndividuals[1].setChromosome(i, a_i2.getChromosome(i));</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        }</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;          <span class="comment">// The crossed chromosomes.</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;          <span class="comment">// ------------------------</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;          newIndividuals[0].setChromosome(i, newChromosomes[0]);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;          newIndividuals[1].setChromosome(i, newChromosomes[1]);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      <span class="keywordflow">return</span> newIndividuals;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    } <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_cross_method_html_a643c076e032b4eb728109c68db3f469d"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_cross_method.html#a643c076e032b4eb728109c68db3f469d">org.jgap.gp.CrossMethod.getConfiguration</a></div><div class="ttdeci">GPConfiguration getConfiguration()</div><div class="ttdef"><b>Definition:</b> CrossMethod.java:32</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross_html_af4ff7487c5e532031d260dce1b66d74b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html#af4ff7487c5e532031d260dce1b66d74b">org.jgap.gp.impl.BranchTypingCross.doCross</a></div><div class="ttdeci">ProgramChromosome[] doCross(ProgramChromosome a_c0, ProgramChromosome a_c1)</div><div class="ttdef"><b>Definition:</b> BranchTypingCross.java:158</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/gp/impl/<a class="el" href="_branch_typing_cross_8java.html">BranchTypingCross.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp.html">gp</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_branch_typing_cross.html">BranchTypingCross</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:43 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

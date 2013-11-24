@@ -1,0 +1,406 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.perf.TestOverallPerformanceFitnessFunc</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.perf.TestOverallPerformanceFitnessFunc</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">org.jgap.FitnessFunction</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a89f673687209ec7a8469cbcec58484e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a89f673687209ec7a8469cbcec58484e8">TestOverallPerformanceFitnessFunc</a> (int a_targetAmount)</td></tr>
+<tr class="separator:a89f673687209ec7a8469cbcec58484e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad03ee237768a581313bb05c1a7fdf481"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#ad03ee237768a581313bb05c1a7fdf481">evaluate</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_subject)</td></tr>
+<tr class="separator:ad03ee237768a581313bb05c1a7fdf481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_fitness_function"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_fitness_function')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">org.jgap.FitnessFunction</a></td></tr>
+<tr class="memitem:a05fff0534d3cfdccd1d4d96d8ba6dda2 inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a05fff0534d3cfdccd1d4d96d8ba6dda2">getFitnessValue</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_subject)</td></tr>
+<tr class="separator:a05fff0534d3cfdccd1d4d96d8ba6dda2 inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc5e20816cb3fd6f3486adb53b1e563d inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#adc5e20816cb3fd6f3486adb53b1e563d">getLastComputedFitnessValue</a> ()</td></tr>
+<tr class="separator:adc5e20816cb3fd6f3486adb53b1e563d inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa47c6f886479efc5ed5fe84eb7f9b5ca inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#aa47c6f886479efc5ed5fe84eb7f9b5ca">clone</a> ()</td></tr>
+<tr class="separator:aa47c6f886479efc5ed5fe84eb7f9b5ca inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:aa782f54f1a0b433a1a26363ac3e310e4"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#aa782f54f1a0b433a1a26363ac3e310e4">amountOfChange</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_potentialSolution)</td></tr>
+<tr class="separator:aa782f54f1a0b433a1a26363ac3e310e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a0912da774ae3f4e5d8435477234e5a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_potentialSolution, int a_position)</td></tr>
+<tr class="separator:a5a0912da774ae3f4e5d8435477234e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3585593489eaf2447bf523eeb98eec5a"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a3585593489eaf2447bf523eeb98eec5a">getTotalNumberOfCoins</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_potentialsolution)</td></tr>
+<tr class="separator:a3585593489eaf2447bf523eeb98eec5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_classorg_1_1jgap_1_1_fitness_function"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classorg_1_1jgap_1_1_fitness_function')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">org.jgap.FitnessFunction</a></td></tr>
+<tr class="memitem:a5f1f23e6f8a0f9606aee5d52fac6a06b inherit pub_static_attribs_classorg_1_1jgap_1_1_fitness_function"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a5f1f23e6f8a0f9606aee5d52fac6a06b">NO_FITNESS_VALUE</a> = -1.0000000d</td></tr>
+<tr class="separator:a5f1f23e6f8a0f9606aee5d52fac6a06b inherit pub_static_attribs_classorg_1_1jgap_1_1_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89cbf1ef4c08655f209ce69fde6731e7 inherit pub_static_attribs_classorg_1_1jgap_1_1_fitness_function"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a89cbf1ef4c08655f209ce69fde6731e7">DELTA</a> = 0.0000001d</td></tr>
+<tr class="separator:a89cbf1ef4c08655f209ce69fde6731e7 inherit pub_static_attribs_classorg_1_1jgap_1_1_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a></td></tr>
+<tr class="memitem:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#a4eaaa85432026f5bc54c3e520b22caa7">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Sample fitness function for the MakeChange example.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a89f673687209ec7a8469cbcec58484e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.perf.TestOverallPerformanceFitnessFunc.TestOverallPerformanceFitnessFunc </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_targetAmount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                                                               {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">if</span> (a_targetAmount &lt; 1 || a_targetAmount &gt; 999) {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;          <span class="stringliteral">&quot;Change amount must be between 1 and 999 cents.&quot;</span>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    m_targetAmount = a_targetAmount;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="aa782f54f1a0b433a1a26363ac3e310e4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int org.jgap.perf.TestOverallPerformanceFitnessFunc.amountOfChange </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_potentialSolution</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Calculates the total amount of change (in cents) represented by the given potential solution and returns that amount. Here we use "fantasy" coins just to have more genes and bloat the time consumed for test performance test</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_potentialSolution</td><td>the pontential solution to evaluate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the total amount of change (in cents) represented by the given solution </dd></dl>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">int</span> numQuarters = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a>(a_potentialSolution, 0);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">int</span> numDimes = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a>(a_potentialSolution, 1);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">int</span> numNickels = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a>(a_potentialSolution, 2);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">int</span> numPennies = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a>(a_potentialSolution, 3);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">int</span> A = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a>(a_potentialSolution, 4);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">int</span> B = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a>(a_potentialSolution, 5);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">int</span> C = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a>(a_potentialSolution, 6);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">int</span> D = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a>(a_potentialSolution, 7);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">int</span> E = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a>(a_potentialSolution, 8);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">int</span> F = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a>(a_potentialSolution, 9);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">return</span> (numQuarters * 25) + (numDimes * 10) + (numNickels * 5)</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        + numPennies + (A * 29) + (B * 31) + (C * 37) + (D * 41) + (E * 43)</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        + (F * 47);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func_html_a5a0912da774ae3f4e5d8435477234e5a"><div class="ttname"><a href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">org.jgap.perf.TestOverallPerformanceFitnessFunc.getNumberOfCoinsAtGene</a></div><div class="ttdeci">static int getNumberOfCoinsAtGene(IChromosome a_potentialSolution, int a_position)</div><div class="ttdef"><b>Definition:</b> TestOverallPerformanceFitnessFunc.java:116</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad03ee237768a581313bb05c1a7fdf481"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.perf.TestOverallPerformanceFitnessFunc.evaluate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_subject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determine the fitness of the given <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance. The higher the return value, the more fit the instance. This method should always return the same fitness value for two equivalent <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instances.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_subject</td><td>the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance to evaluate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a positive integer reflecting the fitness rating of the given <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a0078e42480eac93729f906ac4dc185d9">org.jgap.FitnessFunction</a>.</p>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                                                {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">// The fitness value measures both how close the value is to the</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">// target amount supplied by the user and the total number of coins</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="comment">// represented by the solution. We do this in two steps: first,</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="comment">// we consider only the represented amount of change vs. the target</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="comment">// amount of change and return higher fitness values for amounts</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// closer to the target, and lower fitness values for amounts further</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// away from the target. If the amount equals the target, then we go</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// to step 2, which returns a higher fitness value for solutions</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// representing fewer total coins, and lower fitness values for</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">// solutions representing more total coins.</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// ------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">int</span> changeAmount = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#aa782f54f1a0b433a1a26363ac3e310e4">amountOfChange</a>(a_subject);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">int</span> totalCoins = <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a3585593489eaf2447bf523eeb98eec5a">getTotalNumberOfCoins</a>(a_subject);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> changeDifference = Math.abs(m_targetAmount - changeAmount);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// Step 1: Determine distance of amount represented by solution from</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// the target amount. Since we know  the maximum amount of change is</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// 99 cents, we&#39;ll subtract the difference in change between the</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// solution amount and the target amount from 99. That will give</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">// the desired effect of returning higher values for amounts</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="comment">// closer to the target amount and lower values for amounts</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">// further away from the target amount.</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">// -----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">int</span> fitness = (99 - changeDifference);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">// Step 2: If the solution amount equals the target amount, then</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment">// we add additional fitness points for solutions representing fewer</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">// total coins.</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">// -----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span> (changeAmount == m_targetAmount) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;      fitness += 100 - (10 * totalCoins);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    }</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// Make sure fitness value is always positive.</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// -------------------------------------------</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">return</span> Math.max(1, fitness);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func_html_aa782f54f1a0b433a1a26363ac3e310e4"><div class="ttname"><a href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#aa782f54f1a0b433a1a26363ac3e310e4">org.jgap.perf.TestOverallPerformanceFitnessFunc.amountOfChange</a></div><div class="ttdeci">static int amountOfChange(IChromosome a_potentialSolution)</div><div class="ttdef"><b>Definition:</b> TestOverallPerformanceFitnessFunc.java:91</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func_html_a3585593489eaf2447bf523eeb98eec5a"><div class="ttname"><a href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a3585593489eaf2447bf523eeb98eec5a">org.jgap.perf.TestOverallPerformanceFitnessFunc.getTotalNumberOfCoins</a></div><div class="ttdeci">static int getTotalNumberOfCoins(IChromosome a_potentialsolution)</div><div class="ttdef"><b>Definition:</b> TestOverallPerformanceFitnessFunc.java:130</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5a0912da774ae3f4e5d8435477234e5a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int org.jgap.perf.TestOverallPerformanceFitnessFunc.getNumberOfCoinsAtGene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_potentialSolution</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Retrieves the number of coins represented by the given potential solution at the given gene position.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_potentialSolution</td><td>the potential solution to evaluate </td></tr>
+    <tr><td class="paramname">a_position</td><td>the gene position to evaluate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the number of coins represented by the potential solution at the given gene position </dd></dl>
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                                                           {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    Integer numCoins =</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        (Integer) a_potentialSolution.getGene(a_position).getAllele();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordflow">return</span> numCoins.intValue();</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3585593489eaf2447bf523eeb98eec5a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int org.jgap.perf.TestOverallPerformanceFitnessFunc.getTotalNumberOfCoins </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_potentialsolution</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the total number of coins represented by all of the genes in the given potential solution.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_potentialsolution</td><td>the potential solution to evaluate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the total number of coins represented by the given <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> </dd></dl>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordtype">int</span> totalCoins = 0;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordtype">int</span> numberOfGenes = a_potentialsolution.size();</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; numberOfGenes; i++) {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      totalCoins += <a class="code" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">getNumberOfCoinsAtGene</a>(a_potentialsolution, i);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">return</span> totalCoins;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func_html_a5a0912da774ae3f4e5d8435477234e5a"><div class="ttname"><a href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#a5a0912da774ae3f4e5d8435477234e5a">org.jgap.perf.TestOverallPerformanceFitnessFunc.getNumberOfCoinsAtGene</a></div><div class="ttdeci">static int getNumberOfCoinsAtGene(IChromosome a_potentialSolution, int a_position)</div><div class="ttdef"><b>Definition:</b> TestOverallPerformanceFitnessFunc.java:116</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>tests/org/jgap/perf/<a class="el" href="_test_overall_performance_fitness_func_8java.html">TestOverallPerformanceFitnessFunc.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1perf.html">perf</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html">TestOverallPerformanceFitnessFunc</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:24:01 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

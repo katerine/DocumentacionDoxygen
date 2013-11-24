@@ -1,0 +1,732 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Interfaz org.jgap.gp.IGPChromosome</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.jgap.gp.IGPChromosome</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html">org.jgap.gp.BaseGPChromosome</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ad23867a04266a9b7f28936fe516925ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#ad23867a04266a9b7f28936fe516925ad">getIndividual</a> ()</td></tr>
+<tr class="separator:ad23867a04266a9b7f28936fe516925ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e828748e1d0dfb0f1120a6aafa67fd0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a6e828748e1d0dfb0f1120a6aafa67fd0">setIndividual</a> (<a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_ind)</td></tr>
+<tr class="separator:a6e828748e1d0dfb0f1120a6aafa67fd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aab1f31cdecde983111b94e5ecc4193"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a4aab1f31cdecde983111b94e5ecc4193">cleanup</a> ()</td></tr>
+<tr class="separator:a4aab1f31cdecde983111b94e5ecc4193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69a39548f0af1c9746bf6b2352f1a879"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a69a39548f0af1c9746bf6b2352f1a879">toStringNorm</a> (final int a_startNode)</td></tr>
+<tr class="separator:a69a39548f0af1c9746bf6b2352f1a879"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f6a34e86c91d5271761093ad69ecc96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a0f6a34e86c91d5271761093ad69ecc96">redepth</a> ()</td></tr>
+<tr class="separator:a0f6a34e86c91d5271761093ad69ecc96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af948067a13b619fb1e8493eedc8a7bba"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#af948067a13b619fb1e8493eedc8a7bba">numTerminals</a> ()</td></tr>
+<tr class="separator:af948067a13b619fb1e8493eedc8a7bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac76c23a65ea2d42c259308ad56c09f09"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#ac76c23a65ea2d42c259308ad56c09f09">numFunctions</a> ()</td></tr>
+<tr class="separator:ac76c23a65ea2d42c259308ad56c09f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a771b466e4e0d30e692dd611d8eedc1ab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a771b466e4e0d30e692dd611d8eedc1ab">numTerminals</a> (Class a_type, int a_subType)</td></tr>
+<tr class="separator:a771b466e4e0d30e692dd611d8eedc1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a059849cd0d034570934a095fd7887c72"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a059849cd0d034570934a095fd7887c72">numFunctions</a> (Class a_type, int a_subType)</td></tr>
+<tr class="separator:a059849cd0d034570934a095fd7887c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac251ef923a060b3033553a832c8eaa58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#ac251ef923a060b3033553a832c8eaa58">getNode</a> (int a_index)</td></tr>
+<tr class="separator:ac251ef923a060b3033553a832c8eaa58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e13390ee43bbe0a8a491fddcadae226"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a4e13390ee43bbe0a8a491fddcadae226">getChild</a> (int a_index, int a_child)</td></tr>
+<tr class="separator:a4e13390ee43bbe0a8a491fddcadae226"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a816df9f1773505f2494867c955400524"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a816df9f1773505f2494867c955400524">getTerminal</a> (int a_index)</td></tr>
+<tr class="separator:a816df9f1773505f2494867c955400524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76a7d9f2310e31bb9509bbd6ddc6c41d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a76a7d9f2310e31bb9509bbd6ddc6c41d">getFunction</a> (int a_index)</td></tr>
+<tr class="separator:a76a7d9f2310e31bb9509bbd6ddc6c41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25bde73c597bf33feb35232ee32ee52d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a25bde73c597bf33feb35232ee32ee52d">getTerminal</a> (int a_index, Class a_type, int a_subType)</td></tr>
+<tr class="separator:a25bde73c597bf33feb35232ee32ee52d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a177b13dc67dda26fa8056598207706ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a177b13dc67dda26fa8056598207706ae">getFunction</a> (int a_index, Class a_type, int a_subType)</td></tr>
+<tr class="separator:a177b13dc67dda26fa8056598207706ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7a5cd77b01e717993466858667604ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#ad7a5cd77b01e717993466858667604ce">getFunctions</a> ()</td></tr>
+<tr class="separator:ad7a5cd77b01e717993466858667604ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a340247497b10eadfc097435d5a87b24d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a340247497b10eadfc097435d5a87b24d">getFunctionSet</a> ()</td></tr>
+<tr class="separator:a340247497b10eadfc097435d5a87b24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71916348b8ae9397bb30c26d92e616a6"><td class="memItemLeft" align="right" valign="top">GPConfiguration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a71916348b8ae9397bb30c26d92e616a6">getGPConfiguration</a> ()</td></tr>
+<tr class="separator:a71916348b8ae9397bb30c26d92e616a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fb40e0daa789a54d1a8b3c9488aa60f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a7fb40e0daa789a54d1a8b3c9488aa60f">getPersistentRepresentation</a> ()</td></tr>
+<tr class="separator:a7fb40e0daa789a54d1a8b3c9488aa60f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a81a454d1fba54dbb9fb0850143e65484"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html#a81a454d1fba54dbb9fb0850143e65484">CVS_REVISION</a> = &quot;$Revision: 1.7 $&quot;</td></tr>
+<tr class="separator:a81a454d1fba54dbb9fb0850143e65484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Interface for GP chromosomes. See ProgramChromosome for an implementation.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a4aab1f31cdecde983111b94e5ecc4193"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPChromosome.cleanup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Clean up the chromosome.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html#a274fc584475b32253ee2ced3897e7547">org.jgap.gp.impl.ProgramChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a4e13390ee43bbe0a8a491fddcadae226"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPChromosome.getChild </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_child</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the a_child'th child of the a_index'th node in this chromosome. This is the same as the a_child'th node whose depth is one more than the depth of the a_index'th node.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>the node number of the parent </td></tr>
+    <tr><td class="paramname">a_child</td><td>the child number (starting from 0) of the parent </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the node number of the child, or -1 if not found</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html#aae34fa625e78f8be2de585462d3bbcf8">org.jgap.gp.impl.ProgramChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a76a7d9f2310e31bb9509bbd6ddc6c41d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPChromosome.getFunction </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the a_index'th function in this chromosome. The nodes are counted in a depth-first manner, with node 0 being the first function in this chromosome.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>the a_index'th function to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the function</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#af1de58df592374bed5f5765988e37f6e">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a177b13dc67dda26fa8056598207706ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPChromosome.getFunction </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_subType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the i'th function of the given type in this chromosome. The nodes are counted in a depth-first manner, with node 0 being the first function of the given type in this chromosome.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>the i'th function to get </td></tr>
+    <tr><td class="paramname">a_type</td><td>the type of function to get </td></tr>
+    <tr><td class="paramname">a_subType</td><td>the subtype to consider </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the index of the function found, or -1 if no appropriate function was found</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#a1d10424ef765a2f738593b06a476a193">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad7a5cd77b01e717993466858667604ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a> [] org.jgap.gp.IGPChromosome.getFunctions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html#a9814ee68c4893d979b6d6c702f754ed6">org.jgap.gp.impl.ProgramChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a340247497b10eadfc097435d5a87b24d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a> [] org.jgap.gp.IGPChromosome.getFunctionSet </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>set of <a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a> instances allowed</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2.1 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html#a8640ae6ff64b6b0fe5d0972a554104f0">org.jgap.gp.impl.ProgramChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a71916348b8ae9397bb30c26d92e616a6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GPConfiguration org.jgap.gp.IGPChromosome.getGPConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#a57f6a4989aa1e01bda2c1f77cc086c4a">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad23867a04266a9b7f28936fe516925ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> org.jgap.gp.IGPChromosome.getIndividual </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the individual containing this chromosome</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#a13d8f2e469a316fd02a863a1d924ad5d">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac251ef923a060b3033553a832c8eaa58"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a> org.jgap.gp.IGPChromosome.getNode </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the a_index'th node in this chromosome. The nodes are counted in a depth-first manner, with node 0 being the root of this chromosome.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>the node number to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the node</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#abb9145c6fb3601ff2b579f9789408258">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7fb40e0daa789a54d1a8b3c9488aa60f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.IGPChromosome.getPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the persistent representation of the population, including all GP programs</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html#a6536e99f35877cb53ef5d01ea0c786be">org.jgap.gp.impl.ProgramChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a816df9f1773505f2494867c955400524"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPChromosome.getTerminal </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the i'th terminal in this chromosome. The nodes are counted in a depth-first manner, with node 0 being the first terminal in this chromosome.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>the i'th terminal to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the terminal</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#a0c2122b764f1957c28e418a27a062f08">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a25bde73c597bf33feb35232ee32ee52d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPChromosome.getTerminal </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_subType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets the a_index'th terminal of the given type in this chromosome. The nodes are counted in a depth-first manner, with node 0 being the first terminal of the given type in this chromosome.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>the a_index'th terminal to get </td></tr>
+    <tr><td class="paramname">a_type</td><td>the type of terminal to get </td></tr>
+    <tr><td class="paramname">a_subType</td><td>the subtype to consider </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the index of the terminal found, or -1 if no appropriate terminal was found</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#a9bc14b556db8f5e4c05e1a4af5424828">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac76c23a65ea2d42c259308ad56c09f09"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPChromosome.numFunctions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the number of functions in this chromosome</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#ab46c095e367ecc9d40b3a7646571e61c">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a059849cd0d034570934a095fd7887c72"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPChromosome.numFunctions </td>
+          <td>(</td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_subType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Counts the number of functions of the given type in this chromosome.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_type</td><td>the type of function to count </td></tr>
+    <tr><td class="paramname">a_subType</td><td>the subtype to consider </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the number of functions in this chromosome.</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#a88ccabd79eb3647f41d073b48b10696d">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af948067a13b619fb1e8493eedc8a7bba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPChromosome.numTerminals </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the number of terminals in this chromosome</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#af454a483e125909d9a4f9b06c5ec8e98">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a771b466e4e0d30e692dd611d8eedc1ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.IGPChromosome.numTerminals </td>
+          <td>(</td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_subType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Counts the number of terminals of the given type in this chromosome.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_type</td><td>the type of terminal to count </td></tr>
+    <tr><td class="paramname">a_subType</td><td>the subtype to consider </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the number of terminals in this chromosome</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#abd24b5ee2a8e7552a724303706c5b978">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0f6a34e86c91d5271761093ad69ecc96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPChromosome.redepth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Recalculate the depths of each node.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html#a72e5e8ab3c253f4ec7dc10fb17a45180">org.jgap.gp.impl.ProgramChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6e828748e1d0dfb0f1120a6aafa67fd0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.IGPChromosome.setIndividual </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td>
+          <td class="paramname"><em>a_ind</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the individual the chromosome belongs to.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_ind</td><td>the individual containing this chromosome</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1_base_g_p_chromosome.html#adef0faa3a73f86c1fe91af2f15c2d514">org.jgap.gp.BaseGPChromosome</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a69a39548f0af1c9746bf6b2352f1a879"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.IGPChromosome.toStringNorm </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_startNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Output program in "natural" notion (e.g.: "X + Y" for "X + Y") </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_startNode</td><td>the node to start with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>output in normalized notion</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html#a56c22c94166729d37888a6daaef76bb3">org.jgap.gp.impl.ProgramChromosome</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a81a454d1fba54dbb9fb0850143e65484"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.jgap.gp.IGPChromosome.CVS_REVISION = &quot;$Revision: 1.7 $&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>String containing the CVS revision. Read out via reflection! </p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/gp/<a class="el" href="_i_g_p_chromosome_8java.html">IGPChromosome.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp.html">gp</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_chromosome.html">IGPChromosome</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:32 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

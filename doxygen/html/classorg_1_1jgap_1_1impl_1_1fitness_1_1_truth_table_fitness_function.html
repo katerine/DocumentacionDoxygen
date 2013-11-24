@@ -1,0 +1,471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.impl.fitness.TruthTableFitnessFunction</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.impl.fitness.TruthTableFitnessFunction<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">org.jgap.FitnessFunction</a>.</p>
+
+<p>Heredado por org.jgap.impl.fitness.TruthTableFitnessFunctionTest.TruthTableFitnessFunctionImpl.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a721659e73d2468d70ded7979c40e8018"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#a721659e73d2468d70ded7979c40e8018">TruthTableFitnessFunction</a> ()</td></tr>
+<tr class="separator:a721659e73d2468d70ded7979c40e8018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37b3ed627769e634010544c65eb0130"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#af37b3ed627769e634010544c65eb0130">TruthTableFitnessFunction</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_conf)</td></tr>
+<tr class="separator:af37b3ed627769e634010544c65eb0130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8aede952ab153b59aff382f8b3c683e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#a8aede952ab153b59aff382f8b3c683e5">TruthTableFitnessFunction</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_conf, final Map a_truthTable)</td></tr>
+<tr class="separator:a8aede952ab153b59aff382f8b3c683e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3474d928cdb3f4c78c68b774c6a664f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#a3474d928cdb3f4c78c68b774c6a664f6">setTruthTable</a> (final Map a_truthTable)</td></tr>
+<tr class="separator:a3474d928cdb3f4c78c68b774c6a664f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebb74f1e0c020304e28b91cd60f4ec8f"><td class="memItemLeft" align="right" valign="top">Map&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#aebb74f1e0c020304e28b91cd60f4ec8f">getTruthTable</a> ()</td></tr>
+<tr class="separator:aebb74f1e0c020304e28b91cd60f4ec8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd41df30587d5553bf61293c0e025051"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#acd41df30587d5553bf61293c0e025051">calcFitness</a> (final Map a_actualInputOutput)</td></tr>
+<tr class="separator:acd41df30587d5553bf61293c0e025051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a004b96acb0858042d48179a945608d1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#a004b96acb0858042d48179a945608d1a">getConfiguration</a> ()</td></tr>
+<tr class="separator:a004b96acb0858042d48179a945608d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_fitness_function"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_fitness_function')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">org.jgap.FitnessFunction</a></td></tr>
+<tr class="memitem:a05fff0534d3cfdccd1d4d96d8ba6dda2 inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a05fff0534d3cfdccd1d4d96d8ba6dda2">getFitnessValue</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_subject)</td></tr>
+<tr class="separator:a05fff0534d3cfdccd1d4d96d8ba6dda2 inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc5e20816cb3fd6f3486adb53b1e563d inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#adc5e20816cb3fd6f3486adb53b1e563d">getLastComputedFitnessValue</a> ()</td></tr>
+<tr class="separator:adc5e20816cb3fd6f3486adb53b1e563d inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa47c6f886479efc5ed5fe84eb7f9b5ca inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#aa47c6f886479efc5ed5fe84eb7f9b5ca">clone</a> ()</td></tr>
+<tr class="separator:aa47c6f886479efc5ed5fe84eb7f9b5ca inherit pub_methods_classorg_1_1jgap_1_1_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:ad89545f0c14a72e8ce9c5974d77f824a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#ad89545f0c14a72e8ce9c5974d77f824a">MAX_FITNESS</a> = 9999999</td></tr>
+<tr class="separator:ad89545f0c14a72e8ce9c5974d77f824a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a669cc63856333d085208307ea87a3185"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#a669cc63856333d085208307ea87a3185">WORST</a> = <a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#ad89545f0c14a72e8ce9c5974d77f824a">MAX_FITNESS</a> / RELATION_FITNESS</td></tr>
+<tr class="separator:a669cc63856333d085208307ea87a3185"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classorg_1_1jgap_1_1_fitness_function"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classorg_1_1jgap_1_1_fitness_function')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">org.jgap.FitnessFunction</a></td></tr>
+<tr class="memitem:a5f1f23e6f8a0f9606aee5d52fac6a06b inherit pub_static_attribs_classorg_1_1jgap_1_1_fitness_function"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a5f1f23e6f8a0f9606aee5d52fac6a06b">NO_FITNESS_VALUE</a> = -1.0000000d</td></tr>
+<tr class="separator:a5f1f23e6f8a0f9606aee5d52fac6a06b inherit pub_static_attribs_classorg_1_1jgap_1_1_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89cbf1ef4c08655f209ce69fde6731e7 inherit pub_static_attribs_classorg_1_1jgap_1_1_fitness_function"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a89cbf1ef4c08655f209ce69fde6731e7">DELTA</a> = 0.0000001d</td></tr>
+<tr class="separator:a89cbf1ef4c08655f209ce69fde6731e7 inherit pub_static_attribs_classorg_1_1jgap_1_1_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a></td></tr>
+<tr class="memitem:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#a4eaaa85432026f5bc54c3e520b22caa7">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a3f159f68ac2f247c18d1e62ff030c56c"><td class="memItemLeft" align="right" valign="top">abstract double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#a3f159f68ac2f247c18d1e62ff030c56c">evaluate</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_chromosome)</td></tr>
+<tr class="separator:a3f159f68ac2f247c18d1e62ff030c56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Fitness Function relying on a truth table. To use this class, just implement a subclass of it, register the current truth table and implement the evaluate method in a way that you can call calcFitness with the required (parameter (given values: encoded with the chromosome). If the truth table is dynamic just register it in evaluate, otherwise do it after construction of this fitness function.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a721659e73d2468d70ded7979c40e8018"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.fitness.TruthTableFitnessFunction.TruthTableFitnessFunction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Only use for dynamic instantiation as configuration retrieved from static setting.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                     {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keyword">this</span>(Genotype.getStaticConfiguration());</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af37b3ed627769e634010544c65eb0130"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.fitness.TruthTableFitnessFunction.TruthTableFitnessFunction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor without registering a truth table. Use this constructor if the truth table is not fix over generations and needs to be set in method evaluate.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the configuration to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.01 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                                         {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    m_conf = a_conf;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8aede952ab153b59aff382f8b3c683e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.fitness.TruthTableFitnessFunction.TruthTableFitnessFunction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Map&#160;</td>
+          <td class="paramname"><em>a_truthTable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor for registering a truth table. Use this constructor if the truth table is fix over generations.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_truthTable</td><td>table of input/output pairs for feeding the formula and determining the fitness value thru delta computation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                                                                 {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keyword">this</span>(a_conf);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#a3474d928cdb3f4c78c68b774c6a664f6">setTruthTable</a>(a_truthTable);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function_html_a3474d928cdb3f4c78c68b774c6a664f6"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#a3474d928cdb3f4c78c68b774c6a664f6">org.jgap.impl.fitness.TruthTableFitnessFunction.setTruthTable</a></div><div class="ttdeci">void setTruthTable(final Map a_truthTable)</div><div class="ttdef"><b>Definition:</b> TruthTableFitnessFunction.java:86</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="acd41df30587d5553bf61293c0e025051"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.impl.fitness.TruthTableFitnessFunction.calcFitness </td>
+          <td>(</td>
+          <td class="paramtype">final Map&#160;</td>
+          <td class="paramname"><em>a_actualInputOutput</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Fitness value calculation for a given table of input/output tupels and a truth-table (also given as list of input/output tupels)</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_actualInputOutput</td><td>table of actual input/output pairs </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>delta between current values and given truth table</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000163">Tareas pendientes:</a></b></dt><dd>consider length of formula (i.e. number of terms, e.g.) for fitness calculation </dd></dl>
+<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                                                           {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="comment">// Determine delta values of all function values and add up their squares</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordtype">double</span> outputValueGiven, outputValueWanted;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    Double inputValueWanted;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordtype">double</span> diffAbs = 0.0f;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordtype">double</span> delta;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordtype">double</span> deltaAbs;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    Set keySet = <a class="code" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#aebb74f1e0c020304e28b91cd60f4ec8f">getTruthTable</a>().keySet();</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    Iterator keys = keySet.iterator();</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">while</span> (keys.hasNext()) {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      inputValueWanted = (Double) keys.next();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      outputValueWanted = ( (Double) <a class="code" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#aebb74f1e0c020304e28b91cd60f4ec8f">getTruthTable</a>().get(inputValueWanted)).</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;          doubleValue();</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      Double output = ( (Double) a_actualInputOutput.get(inputValueWanted));</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      <span class="keywordflow">if</span> (output != null) {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        outputValueGiven = output.doubleValue();</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="comment">// determine current value (evolved formula) minus reference value</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">if</span> (Double.isNaN(outputValueWanted)) {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;          <span class="keywordflow">return</span> Double.NaN;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        }</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        delta = outputValueGiven - outputValueWanted;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        deltaAbs = (float) Math.abs(delta);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        deltaAbs = Math.abs(outputValueWanted);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;      }</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;      diffAbs += deltaAbs;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordflow">return</span> diffAbs;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function_html_aebb74f1e0c020304e28b91cd60f4ec8f"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#aebb74f1e0c020304e28b91cd60f4ec8f">org.jgap.impl.fitness.TruthTableFitnessFunction.getTruthTable</a></div><div class="ttdeci">Map getTruthTable()</div><div class="ttdef"><b>Definition:</b> TruthTableFitnessFunction.java:90</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3f159f68ac2f247c18d1e62ff030c56c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract double org.jgap.impl.fitness.TruthTableFitnessFunction.evaluate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_chromosome</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Implementation of the evaluate method from class <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">FitnessFunction</a>. Calculates the fitness of a given <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> in a determined way. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosome</td><td>the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> to be evaluated </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>positive integer value representing the fitness of the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a0078e42480eac93729f906ac4dc185d9">org.jgap.FitnessFunction</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a004b96acb0858042d48179a945608d1a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> org.jgap.impl.fitness.TruthTableFitnessFunction.getConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> object set</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                                          {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordflow">return</span> m_conf;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aebb74f1e0c020304e28b91cd60f4ec8f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Map org.jgap.impl.fitness.TruthTableFitnessFunction.getTruthTable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                             {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">return</span> m_truthTable;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3474d928cdb3f4c78c68b774c6a664f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.fitness.TruthTableFitnessFunction.setTruthTable </td>
+          <td>(</td>
+          <td class="paramtype">final Map&#160;</td>
+          <td class="paramname"><em>a_truthTable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                                                    {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    m_truthTable = a_truthTable;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="ad89545f0c14a72e8ce9c5974d77f824a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.impl.fitness.TruthTableFitnessFunction.MAX_FITNESS = 9999999</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a669cc63856333d085208307ea87a3185"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.impl.fitness.TruthTableFitnessFunction.WORST = <a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#ad89545f0c14a72e8ce9c5974d77f824a">MAX_FITNESS</a> / RELATION_FITNESS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/impl/fitness/<a class="el" href="_truth_table_fitness_function_8java.html">TruthTableFitnessFunction.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl_1_1fitness.html">fitness</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html">TruthTableFitnessFunction</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:24:00 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

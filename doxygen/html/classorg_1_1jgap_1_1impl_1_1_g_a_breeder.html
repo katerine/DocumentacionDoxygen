@@ -1,0 +1,714 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.impl.GABreeder</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.impl.GABreeder</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1_breeder_base.html">org.jgap.BreederBase</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a03f1314e5b0fd71fc947da7710828b5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#a03f1314e5b0fd71fc947da7710828b5a">GABreeder</a> ()</td></tr>
+<tr class="separator:a03f1314e5b0fd71fc947da7710828b5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2714ceb0e7ce43593588c15dd0c7463e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#a2714ceb0e7ce43593588c15dd0c7463e">evolve</a> (<a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop, <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_conf)</td></tr>
+<tr class="separator:a2714ceb0e7ce43593588c15dd0c7463e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31f4144b00e3f5f5f8e9fbc4546e9ed1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#a31f4144b00e3f5f5f8e9fbc4546e9ed1">getLastConfiguration</a> ()</td></tr>
+<tr class="separator:a31f4144b00e3f5f5f8e9fbc4546e9ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66262968a84ce4b0eb8ec5bf1bb11b77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#a66262968a84ce4b0eb8ec5bf1bb11b77">getLastPopulation</a> ()</td></tr>
+<tr class="separator:a66262968a84ce4b0eb8ec5bf1bb11b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1a85544ed35077e1ef35eee71769b84"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#ae1a85544ed35077e1ef35eee71769b84">clone</a> ()</td></tr>
+<tr class="separator:ae1a85544ed35077e1ef35eee71769b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2fbd377bce110b40fd5f1190f172b7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#ae2fbd377bce110b40fd5f1190f172b7e">bulkFunctionEvaluation</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_conf, <a class="el" href="classorg_1_1jgap_1_1_bulk_fitness_function.html">BulkFitnessFunction</a> a_bulkFunction, <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop, boolean a_monitorActive)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:ae2fbd377bce110b40fd5f1190f172b7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_breeder_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_breeder_base')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_breeder_base.html">org.jgap.BreederBase</a></td></tr>
+<tr class="memitem:a1ce28560875364adb5ac369ad26aa0f1 inherit pub_methods_classorg_1_1jgap_1_1_breeder_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_breeder_base.html#a1ce28560875364adb5ac369ad26aa0f1">BreederBase</a> ()</td></tr>
+<tr class="separator:a1ce28560875364adb5ac369ad26aa0f1 inherit pub_methods_classorg_1_1jgap_1_1_breeder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3b27c2dffe2f0d3e189e5af354612e1 inherit pub_methods_classorg_1_1jgap_1_1_breeder_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_breeder_base.html#ae3b27c2dffe2f0d3e189e5af354612e1">compareTo</a> (Object a_other)</td></tr>
+<tr class="separator:ae3b27c2dffe2f0d3e189e5af354612e1 inherit pub_methods_classorg_1_1jgap_1_1_breeder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a471a98d00f64bc7928685bae5c7b2ea5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#a471a98d00f64bc7928685bae5c7b2ea5">keepPopSizeConstant</a> (<a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop, <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_conf)</td></tr>
+<tr class="separator:a471a98d00f64bc7928685bae5c7b2ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5a6f2395851cc67332e2965989d87df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#ae5a6f2395851cc67332e2965989d87df">reAddFittest</a> (<a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop, <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_fittest)</td></tr>
+<tr class="separator:ae5a6f2395851cc67332e2965989d87df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee884911196f1d59ed0fcb43e718f551"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#aee884911196f1d59ed0fcb43e718f551">updateChromosomes</a> (<a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop, <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_conf)</td></tr>
+<tr class="separator:aee884911196f1d59ed0fcb43e718f551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classorg_1_1jgap_1_1_breeder_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classorg_1_1jgap_1_1_breeder_base')"><img src="closed.png" alt="-"/>&#160;Métodos protegidos heredados desde <a class="el" href="classorg_1_1jgap_1_1_breeder_base.html">org.jgap.BreederBase</a></td></tr>
+<tr class="memitem:a3d2ad9ec1c90d78a5598a4dec1400960 inherit pro_methods_classorg_1_1jgap_1_1_breeder_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_breeder_base.html#a3d2ad9ec1c90d78a5598a4dec1400960">applyNaturalSelectors</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config, <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop, boolean a_processBeforeGeneticOperators)</td></tr>
+<tr class="separator:a3d2ad9ec1c90d78a5598a4dec1400960 inherit pro_methods_classorg_1_1jgap_1_1_breeder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2baa98b33eb5a909ffddc874598c1d2 inherit pro_methods_classorg_1_1jgap_1_1_breeder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_breeder_base.html#ac2baa98b33eb5a909ffddc874598c1d2">applyGeneticOperators</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config, <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop)</td></tr>
+<tr class="separator:ac2baa98b33eb5a909ffddc874598c1d2 inherit pro_methods_classorg_1_1jgap_1_1_breeder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_breeder"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_breeder')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_breeder.html">org.jgap.IBreeder</a></td></tr>
+<tr class="memitem:acb61f1377521b2c3934f96c80b1ca70f inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_breeder"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_breeder.html#acb61f1377521b2c3934f96c80b1ca70f">CVS_REVISION</a> = &quot;$Revision: 1.5 $&quot;</td></tr>
+<tr class="separator:acb61f1377521b2c3934f96c80b1ca70f inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_breeder"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a></td></tr>
+<tr class="memitem:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#a4eaaa85432026f5bc54c3e520b22caa7">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Breeder for genetic algorithms. Runs the evolution process.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd>
+<dd>
+Vasilis </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.5 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a03f1314e5b0fd71fc947da7710828b5a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.GABreeder.GABreeder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                     {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    super();</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    m_allChromosomesSoFar = <span class="keyword">new</span> ArrayList&lt;IChromosome&gt; ();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ae2fbd377bce110b40fd5f1190f172b7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> org.jgap.impl.GABreeder.bulkFunctionEvaluation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_bulk_fitness_function.html">BulkFitnessFunction</a>&#160;</td>
+          <td class="paramname"><em>a_bulkFunction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>a_monitorActive</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000167">Tareas pendientes:</a></b></dt><dd>utilize jobs: bulk fitness function is not so important for a prototype! </dd></dl>
+<div class="fragment"><div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                                           {</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="keywordflow">if</span> (a_bulkFunction != null) {</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;      <span class="keywordflow">if</span> (a_monitorActive) {</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="comment">// Monitor that bulk fitness will be called for evaluation.</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        <span class="comment">// --------------------------------------------------------</span></div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        a_conf.getMonitor().event(</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;            IEvolutionMonitor.MONITOR_EVENT_BEFORE_BULK_EVAL,</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;            a_conf.getGenerationNr(), <span class="keyword">new</span> Object[] {a_bulkFunction, a_pop});</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;      }</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;      <span class="comment">//remove chromosomes which have been already evaluated</span></div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;      Population popForBulkFunction = removeEvaluatedChromosomes(a_pop, a_conf);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;      <span class="keywordflow">if</span> (!m_allChromosomesSoFar.isEmpty()) {</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        Iterator it = popForBulkFunction.getChromosomes().iterator();</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        <span class="comment">//remove dublicates</span></div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        <span class="keywordflow">while</span> (it.hasNext()) {</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;          IChromosome a_chrom1 = (IChromosome) it.next();</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;          <span class="keywordflow">if</span> (m_allChromosomesSoFar.contains( (IChromosome) a_chrom1)) {</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;            it.remove();</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;          }</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        }</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;      }</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;      fillPopulationRandomlyToOriginalSize(a_conf, popForBulkFunction);</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      <span class="comment">//When we call it here, it will remove non evaluated chromosomes</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#a471a98d00f64bc7928685bae5c7b2ea5">keepPopSizeConstant</a>(popForBulkFunction, a_conf);</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;      <span class="keywordflow">if</span> (popForBulkFunction.size() &gt; 0) {</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        a_bulkFunction.evaluate(popForBulkFunction);</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;      }</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;      <span class="comment">//Remove the fitness value and add evaluated elements to</span></div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;      <span class="comment">//the List with NO_FITNESS_VALUE</span></div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;      <span class="comment">//and add the NEW elements to pop</span></div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;      Iterator it2 = popForBulkFunction.getChromosomes().iterator();</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;      <span class="keywordflow">while</span> (it2.hasNext()) {</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        Chromosome chrom0 = (Chromosome) it2.next();</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        Chromosome chrom = (Chromosome) chrom0.clone();</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        chrom.setFitnessValueDirectly(<a class="code" href="classorg_1_1jgap_1_1_fitness_function.html#a5f1f23e6f8a0f9606aee5d52fac6a06b">FitnessFunction.NO_FITNESS_VALUE</a>);</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        m_allChromosomesSoFar.add(chrom);</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        <span class="keywordflow">if</span> (!a_pop.getChromosomes().contains( (IChromosome) chrom0)) {</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;          a_pop.addChromosome( (Chromosome) chrom0);</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        }</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;      }</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;      <span class="comment">//remove chromosomes which have been already evaluated</span></div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;      a_pop = removeChromosomesWithoutFitnessValue(a_pop, a_conf);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;      <span class="keywordflow">if</span> (a_monitorActive) {</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <span class="comment">// Monitor that bulk fitness has been called for evaluation.</span></div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <span class="comment">// ---------------------------------------------------------</span></div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        a_conf.getMonitor().event(</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;            IEvolutionMonitor.MONITOR_EVENT_AFTER_BULK_EVAL,</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;            a_conf.getGenerationNr(), <span class="keyword">new</span> Object[] {a_bulkFunction, a_pop});</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;      }</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    }</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    <span class="keywordflow">return</span> a_pop;</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_fitness_function_html_a5f1f23e6f8a0f9606aee5d52fac6a06b"><div class="ttname"><a href="classorg_1_1jgap_1_1_fitness_function.html#a5f1f23e6f8a0f9606aee5d52fac6a06b">org.jgap.FitnessFunction.NO_FITNESS_VALUE</a></div><div class="ttdeci">static final double NO_FITNESS_VALUE</div><div class="ttdef"><b>Definition:</b> FitnessFunction.java:40</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_g_a_breeder_html_a471a98d00f64bc7928685bae5c7b2ea5"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#a471a98d00f64bc7928685bae5c7b2ea5">org.jgap.impl.GABreeder.keepPopSizeConstant</a></div><div class="ttdeci">void keepPopSizeConstant(Population a_pop, Configuration a_conf)</div><div class="ttdef"><b>Definition:</b> GABreeder.java:283</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae1a85544ed35077e1ef35eee71769b84"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.impl.GABreeder.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>deep clone of this instance</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1_breeder_base.html#aea55323a43089102e706f52ca5839611">org.jgap.BreederBase</a>.</p>
+<div class="fragment"><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                        {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#a03f1314e5b0fd71fc947da7710828b5a">GABreeder</a>();</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_g_a_breeder_html_a03f1314e5b0fd71fc947da7710828b5a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#a03f1314e5b0fd71fc947da7710828b5a">org.jgap.impl.GABreeder.GABreeder</a></div><div class="ttdeci">GABreeder()</div><div class="ttdef"><b>Definition:</b> GABreeder.java:37</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2714ceb0e7ce43593588c15dd0c7463e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> org.jgap.impl.GABreeder.evolve </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Evolves the population of chromosomes within a genotype. This will execute all of the genetic operators added to the present active configuration and then invoke the natural selector to choose which chromosomes will be included in the next generation population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pop</td><td>the population to evolve </td></tr>
+    <tr><td class="paramname">a_conf</td><td>the configuration to use for evolution</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>evolved population</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000165">Tareas pendientes:</a></b></dt><dd>utilize jobs. In pop do also utilize jobs, especially for fitness computation </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_breeder.html#a3acfba66e149a2de2d9496fe11530fe7">org.jgap.IBreeder</a>.</p>
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    Population pop = a_pop;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    BulkFitnessFunction bulkFunction = a_conf.getBulkFitnessFunction();</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">boolean</span> monitorActive = a_conf.getMonitor() != null;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    IChromosome fittest = null;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// If first generation: Set age to one to allow genetic operations,</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// see CrossoverOperator for an illustration.</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// ----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">if</span> (a_conf.getGenerationNr() == 0) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      <span class="keywordtype">int</span> size = pop.size();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; size; i++) {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        IChromosome chrom = pop.getChromosome(i);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        chrom.increaseAge();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;      <span class="comment">// If a bulk fitness function has been provided, call it.</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <span class="comment">// ------------------------------------------------------</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keywordflow">if</span> (bulkFunction != null) {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;          pop = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#ae2fbd377bce110b40fd5f1190f172b7e">bulkFunctionEvaluation</a>(a_conf, bulkFunction, pop, monitorActive);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        } <span class="keywordflow">catch</span> (InvalidConfigurationException ex) {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;          <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(ex);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        }</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="comment">// Increase number of generations.</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="comment">// -------------------------------</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        a_conf.incrementGenerationNr();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="comment">// Fire an event to indicate we&#39;ve performed an evolution.</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="comment">// -------------------------------------------------------</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        m_lastPop = pop;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        m_lastConf = a_conf;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        a_conf.getEventManager().fireGeneticEvent(</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keyword">new</span> GeneticEvent(GeneticEvent.GENOTYPE_EVOLVED_EVENT, <span class="keyword">this</span>));</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">return</span> pop;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;      }</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      <span class="comment">// Select fittest chromosome in case it should be preserved and we are</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;      <span class="comment">// not in the very first generation.</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      <span class="comment">// -------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;      <span class="keywordflow">if</span> (a_conf.isPreserveFittestIndividual()) {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        fittest = pop.determineFittestChromosome(0, pop.size() - 1);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;      }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">if</span> (a_conf.getGenerationNr() &gt; 0 &amp;&amp; bulkFunction == null) {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;      <span class="comment">// Adjust population size to configured size (if wanted).</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      <span class="comment">// Theoretically, this should be done at the end of this method.</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;      <span class="comment">// But for optimization issues it is not. If it is the last call to</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      <span class="comment">// evolve() then the resulting population possibly contains more</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <span class="comment">// chromosomes than the wanted number. But this is no bad thing as</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      <span class="comment">// more alternatives mean better chances having a fit candidate.</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      <span class="comment">// If it is not the last call to evolve() then the next call will</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      <span class="comment">// ensure the correct population size by calling keepPopSizeConstant.</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;      <span class="comment">// ------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#a471a98d00f64bc7928685bae5c7b2ea5">keepPopSizeConstant</a>(pop, a_conf);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="comment">// Ensure fitness value of all chromosomes is udpated.</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="comment">// ---------------------------------------------------</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">if</span> (monitorActive) {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;      <span class="comment">// Monitor that fitness value of chromosomes is being updated.</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      <span class="comment">// -----------------------------------------------------------</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;      a_conf.getMonitor().event(</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;          IEvolutionMonitor.MONITOR_EVENT_BEFORE_UPDATE_CHROMOSOMES1,</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;          a_conf.getGenerationNr(), <span class="keyword">new</span> Object[] {pop});</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#aee884911196f1d59ed0fcb43e718f551">updateChromosomes</a>(pop, a_conf);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">if</span> (monitorActive) {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;      <span class="comment">// Monitor that fitness value of chromosomes is being updated.</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      <span class="comment">// -----------------------------------------------------------</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      a_conf.getMonitor().event(</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;          IEvolutionMonitor.MONITOR_EVENT_AFTER_UPDATE_CHROMOSOMES1,</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;          a_conf.getGenerationNr(), <span class="keyword">new</span> Object[] {pop});</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="comment">// Apply certain NaturalSelectors before GeneticOperators will be executed.</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="comment">// ------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    pop = <a class="code" href="classorg_1_1jgap_1_1_breeder_base.html#a3d2ad9ec1c90d78a5598a4dec1400960">applyNaturalSelectors</a>(a_conf, pop, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordtype">int</span> newChromIndex = pop.size();</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="comment">// Execute all of the Genetic Operators.</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="comment">// -------------------------------------</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_breeder_base.html#ac2baa98b33eb5a909ffddc874598c1d2">applyGeneticOperators</a>(a_conf, pop);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="comment">// Reset fitness value of genetically operated chromosomes.</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="comment">// Normally, this should not be necessary as the Chromosome class</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="comment">// initializes each newly created chromosome with</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="comment">// FitnessFunction.NO_FITNESS_VALUE. But who knows which Chromosome</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="comment">// implementation is used or if cloning is utilized.</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="comment">// ----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordtype">int</span> currentPopSize = pop.size();</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = newChromIndex; i &lt; currentPopSize; i++) {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      IChromosome chrom = pop.getChromosome(i);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      chrom.setFitnessValueDirectly(<a class="code" href="classorg_1_1jgap_1_1_fitness_function.html#a5f1f23e6f8a0f9606aee5d52fac6a06b">FitnessFunction.NO_FITNESS_VALUE</a>);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      <span class="comment">// Mark chromosome as new-born.</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;      <span class="comment">// ----------------------------</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      chrom.resetAge();</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;      <span class="comment">// Mark chromosome as being operated on.</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      <span class="comment">// -------------------------------------</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;      chrom.increaseOperatedOn();</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="comment">// Increase age of all chromosomes which are not modified by genetic</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="comment">// operations.</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="comment">// -----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordtype">int</span> size = Math.min(newChromIndex, currentPopSize);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; size; i++) {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;      IChromosome chrom = pop.getChromosome(i);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;      chrom.increaseAge();</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;      <span class="comment">// Mark chromosome as not being operated on.</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;      <span class="comment">// -----------------------------------------</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;      chrom.resetOperatedOn();</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="comment">// If a bulk fitness function has been provided, call it.</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="comment">// ------------------------------------------------------</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">if</span> (bulkFunction != null &amp; a_conf.getGenerationNr() &gt; 0) {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        pop = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#ae2fbd377bce110b40fd5f1190f172b7e">bulkFunctionEvaluation</a>(a_conf, bulkFunction, pop, monitorActive);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      } <span class="keywordflow">catch</span> (InvalidConfigurationException ex) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(ex);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      }</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="comment">// Ensure fitness value of all chromosomes is udpated.</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="comment">// ---------------------------------------------------</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">if</span> (monitorActive) {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;      <span class="comment">// Monitor that fitness value of chromosomes is being updated.</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      <span class="comment">// -----------------------------------------------------------</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      a_conf.getMonitor().event(</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;          IEvolutionMonitor.MONITOR_EVENT_BEFORE_UPDATE_CHROMOSOMES2,</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;          a_conf.getGenerationNr(), <span class="keyword">new</span> Object[] {pop});</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#aee884911196f1d59ed0fcb43e718f551">updateChromosomes</a>(pop, a_conf);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">if</span> (monitorActive) {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;      <span class="comment">// Monitor that fitness value of chromosomes is being updated.</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;      <span class="comment">// -----------------------------------------------------------</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;      a_conf.getMonitor().event(</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;          IEvolutionMonitor.MONITOR_EVENT_AFTER_UPDATE_CHROMOSOMES2,</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;          a_conf.getGenerationNr(), <span class="keyword">new</span> Object[] {pop});</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    }</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="comment">// Apply certain NaturalSelectors after GeneticOperators have been applied.</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="comment">// ------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    pop = <a class="code" href="classorg_1_1jgap_1_1_breeder_base.html#a3d2ad9ec1c90d78a5598a4dec1400960">applyNaturalSelectors</a>(a_conf, pop, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="comment">// Fill up population randomly if size dropped below specified percentage</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="comment">// of original size.</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="comment">// ----------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    fillPopulationRandomlyToOriginalSize(a_conf, pop);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    IChromosome newFittest = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#ae5a6f2395851cc67332e2965989d87df">reAddFittest</a>(pop, fittest);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">if</span> (monitorActive &amp;&amp; newFittest != null) {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      <span class="comment">// Monitor that fitness value of chromosomes is being updated.</span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      <span class="comment">// -----------------------------------------------------------</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      a_conf.getMonitor().event(</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;          IEvolutionMonitor.MONITOR_EVENT_READD_FITTEST,</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;          a_conf.getGenerationNr(), <span class="keyword">new</span> Object[] {pop, fittest});</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    }</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="comment">// Increase number of generations.</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="comment">// -------------------------------</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    a_conf.incrementGenerationNr();</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="comment">// Fire an event to indicate we&#39;ve performed an evolution.</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="comment">// -------------------------------------------------------</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    m_lastPop = pop;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    m_lastConf = a_conf;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    a_conf.getEventManager().fireGeneticEvent(</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <span class="keyword">new</span> GeneticEvent(GeneticEvent.GENOTYPE_EVOLVED_EVENT, <span class="keyword">this</span>));</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">return</span> pop;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_g_a_breeder_html_ae2fbd377bce110b40fd5f1190f172b7e"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#ae2fbd377bce110b40fd5f1190f172b7e">org.jgap.impl.GABreeder.bulkFunctionEvaluation</a></div><div class="ttdeci">Population bulkFunctionEvaluation(Configuration a_conf, BulkFitnessFunction a_bulkFunction, Population a_pop, boolean a_monitorActive)</div><div class="ttdef"><b>Definition:</b> GABreeder.java:349</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_fitness_function_html_a5f1f23e6f8a0f9606aee5d52fac6a06b"><div class="ttname"><a href="classorg_1_1jgap_1_1_fitness_function.html#a5f1f23e6f8a0f9606aee5d52fac6a06b">org.jgap.FitnessFunction.NO_FITNESS_VALUE</a></div><div class="ttdeci">static final double NO_FITNESS_VALUE</div><div class="ttdef"><b>Definition:</b> FitnessFunction.java:40</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_g_a_breeder_html_a471a98d00f64bc7928685bae5c7b2ea5"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#a471a98d00f64bc7928685bae5c7b2ea5">org.jgap.impl.GABreeder.keepPopSizeConstant</a></div><div class="ttdeci">void keepPopSizeConstant(Population a_pop, Configuration a_conf)</div><div class="ttdef"><b>Definition:</b> GABreeder.java:283</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_breeder_base_html_a3d2ad9ec1c90d78a5598a4dec1400960"><div class="ttname"><a href="classorg_1_1jgap_1_1_breeder_base.html#a3d2ad9ec1c90d78a5598a4dec1400960">org.jgap.BreederBase.applyNaturalSelectors</a></div><div class="ttdeci">Population applyNaturalSelectors(Configuration a_config, Population a_pop, boolean a_processBeforeGeneticOperators)</div><div class="ttdef"><b>Definition:</b> BreederBase.java:44</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_breeder_base_html_ac2baa98b33eb5a909ffddc874598c1d2"><div class="ttname"><a href="classorg_1_1jgap_1_1_breeder_base.html#ac2baa98b33eb5a909ffddc874598c1d2">org.jgap.BreederBase.applyGeneticOperators</a></div><div class="ttdeci">void applyGeneticOperators(Configuration a_config, Population a_pop)</div><div class="ttdef"><b>Definition:</b> BreederBase.java:121</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_g_a_breeder_html_ae5a6f2395851cc67332e2965989d87df"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#ae5a6f2395851cc67332e2965989d87df">org.jgap.impl.GABreeder.reAddFittest</a></div><div class="ttdeci">IChromosome reAddFittest(Population a_pop, IChromosome a_fittest)</div><div class="ttdef"><b>Definition:</b> GABreeder.java:293</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_g_a_breeder_html_aee884911196f1d59ed0fcb43e718f551"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html#aee884911196f1d59ed0fcb43e718f551">org.jgap.impl.GABreeder.updateChromosomes</a></div><div class="ttdeci">void updateChromosomes(Population a_pop, Configuration a_conf)</div><div class="ttdef"><b>Definition:</b> GABreeder.java:305</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a31f4144b00e3f5f5f8e9fbc4546e9ed1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> org.jgap.impl.GABreeder.getLastConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                                              {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">return</span> m_lastConf;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a66262968a84ce4b0eb8ec5bf1bb11b77"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> org.jgap.impl.GABreeder.getLastPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                                        {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">return</span> m_lastPop;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a471a98d00f64bc7928685bae5c7b2ea5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.GABreeder.keepPopSizeConstant </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Cares that population size is kept constant and does not exceed the desired size.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pop</td><td><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> </td></tr>
+    <tr><td class="paramname">a_conf</td><td><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="keywordflow">if</span> (a_conf.isKeepPopulationSizeConstant()) {</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        a_pop.keepPopSizeConstant();</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;      } <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(iex);</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;      }</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae5a6f2395851cc67332e2965989d87df"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> org.jgap.impl.GABreeder.reAddFittest </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_fittest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="comment">// Determine if all-time fittest chromosome is in the population.</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    <span class="comment">// --------------------------------------------------------------</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <span class="keywordflow">if</span> (a_fittest != null &amp;&amp; !a_pop.contains(a_fittest)) {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;      <span class="comment">// Re-add fittest chromosome to current population.</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;      <span class="comment">// ------------------------------------------------</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      a_pop.addChromosome(a_fittest);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;      <span class="keywordflow">return</span> a_fittest;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    }</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aee884911196f1d59ed0fcb43e718f551"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.GABreeder.updateChromosomes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    <span class="keywordtype">int</span> currentPopSize = a_pop.size();</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="comment">// Ensure all chromosomes are updated.</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <span class="comment">// -----------------------------------</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    BulkFitnessFunction bulkFunction = a_conf.getBulkFitnessFunction();</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="keywordtype">boolean</span> bulkFitFunc = (bulkFunction != null);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <span class="keywordflow">if</span> (!bulkFitFunc) {</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; currentPopSize; i++) {</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        IChromosome chrom = a_pop.getChromosome(i);</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        chrom.getFitnessValue();</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      }</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    }</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/impl/<a class="el" href="_g_a_breeder_8java.html">GABreeder.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_g_a_breeder.html">GABreeder</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:51 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

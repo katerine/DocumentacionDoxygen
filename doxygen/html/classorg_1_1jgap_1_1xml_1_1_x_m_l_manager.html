@@ -1,0 +1,1041 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.xml.XMLManager</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.xml.XMLManager</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a3a6c7c2c33542ceec519b33330a839e2"><td class="memItemLeft" align="right" valign="top">static Document&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a3a6c7c2c33542ceec519b33330a839e2">representChromosomeAsDocument</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_subject)</td></tr>
+<tr class="separator:a3a6c7c2c33542ceec519b33330a839e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af51f0db3ed6f03635b9b4dbb286bd08d"><td class="memItemLeft" align="right" valign="top">static Document&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#af51f0db3ed6f03635b9b4dbb286bd08d">representGenotypeAsDocument</a> (final <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> a_subject)</td></tr>
+<tr class="separator:af51f0db3ed6f03635b9b4dbb286bd08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9383eb28213ec1690e56e7db10a6b022"><td class="memItemLeft" align="right" valign="top">static Element&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a9383eb28213ec1690e56e7db10a6b022">representGenesAsElement</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>[] a_geneValues, final Document a_xmlDocument)</td></tr>
+<tr class="separator:a9383eb28213ec1690e56e7db10a6b022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da62b7bb444f46df933d355239983f0"><td class="memItemLeft" align="right" valign="top">static Element&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a6da62b7bb444f46df933d355239983f0">representChromosomeAsElement</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_subject, final Document a_xmlDocument)</td></tr>
+<tr class="separator:a6da62b7bb444f46df933d355239983f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a699f9db0852b3d50f7d5ab67fccd9ef2"><td class="memItemLeft" align="right" valign="top">static Element&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a699f9db0852b3d50f7d5ab67fccd9ef2">representGenotypeAsElement</a> (final <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> a_subject, final Document a_xmlDocument)</td></tr>
+<tr class="separator:a699f9db0852b3d50f7d5ab67fccd9ef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d1dc1049209712a797ebb264060a98f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a5d1dc1049209712a797ebb264060a98f">getGenesFromElement</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_activeConfiguration, Element a_xmlElement)  throws ImproperXMLException, UnsupportedRepresentationException,       GeneCreationException </td></tr>
+<tr class="separator:a5d1dc1049209712a797ebb264060a98f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c5919588aabeda14a14ef06d4e2102"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a18c5919588aabeda14a14ef06d4e2102">getChromosomeFromElement</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_activeConfiguration, Element a_xmlElement)  throws ImproperXMLException, InvalidConfigurationException,       UnsupportedRepresentationException, GeneCreationException </td></tr>
+<tr class="separator:a18c5919588aabeda14a14ef06d4e2102"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad53d7d4866abbee606ae8408dbd1a77c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#ad53d7d4866abbee606ae8408dbd1a77c">getGenotypeFromElement</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_activeConfiguration, Element a_xmlElement)  throws ImproperXMLException, InvalidConfigurationException,       UnsupportedRepresentationException, GeneCreationException </td></tr>
+<tr class="separator:ad53d7d4866abbee606ae8408dbd1a77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad23ed7810596720d5155d695e128baca"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#ad23ed7810596720d5155d695e128baca">getGenotypeFromDocument</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_activeConfiguration, Document a_xmlDocument)  throws ImproperXMLException, InvalidConfigurationException,       UnsupportedRepresentationException, GeneCreationException </td></tr>
+<tr class="separator:ad23ed7810596720d5155d695e128baca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a478e6bc1f633080676e5f803fb8b90ea"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a478e6bc1f633080676e5f803fb8b90ea">getChromosomeFromDocument</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_activeConfiguration, Document a_xmlDocument)  throws ImproperXMLException, InvalidConfigurationException,       UnsupportedRepresentationException, GeneCreationException </td></tr>
+<tr class="separator:a478e6bc1f633080676e5f803fb8b90ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ef58d9d7639b0ca569e0d61f25bb50a"><td class="memItemLeft" align="right" valign="top">static Document&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a0ef58d9d7639b0ca569e0d61f25bb50a">readFile</a> (File file)  throws IOException, org.xml.sax.SAXException </td></tr>
+<tr class="separator:a0ef58d9d7639b0ca569e0d61f25bb50a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41c6a2996bc5e4869059ac02d3f80338"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a41c6a2996bc5e4869059ac02d3f80338">writeFile</a> (Document doc, File file)  throws IOException </td></tr>
+<tr class="separator:a41c6a2996bc5e4869059ac02d3f80338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>The <a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html">XMLManager</a> performs marshalling of genetic entity instances (such as Chromosomes and Genotypes) to XML representations of those entities, as well as unmarshalling. All of the methods in this class are static, so no construction is required (or allowed).</p>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a478e6bc1f633080676e5f803fb8b90ea"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> org.jgap.xml.XMLManager.getChromosomeFromDocument </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_activeConfiguration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Document&#160;</td>
+          <td class="paramname"><em>a_xmlDocument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1xml_1_1_improper_x_m_l_exception.html">ImproperXMLException</a>, <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a>,       <a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a>, <a class="el" href="classorg_1_1jgap_1_1xml_1_1_gene_creation_exception.html">GeneCreationException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Unmarshall a <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance from a given XML Document representation. Its genes will be unmarshalled from the gene sub-elements.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_activeConfiguration</td><td>the current active <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> object that is to be used during construction of the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instances </td></tr>
+    <tr><td class="paramname">a_xmlDocument</td><td>the XML Document representation of the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a new <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance setup with the data from the XML Document representation</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_improper_x_m_l_exception.html">ImproperXMLException</a></td><td>if the given Document is improperly structured or missing data </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td>if the given <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> is in an inconsistent state </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td><td>if the actively configured <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> implementation does not support the string representation of the alleles used in the given XML document </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_gene_creation_exception.html">GeneCreationException</a></td><td>if there is a problem creating or populating a <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> instance</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;                                                                {</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    <span class="comment">// Extract the root element, which should be a chromosome element.</span></div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;    <span class="comment">// After verifying that the root element is not null and that it</span></div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;    <span class="comment">// in fact is a chromosome element, then convert it into a Chromosome</span></div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;    <span class="comment">// instance.</span></div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    <span class="comment">// ------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;    Element rootElement = a_xmlDocument.getDocumentElement();</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    <span class="keywordflow">if</span> (rootElement == null ||</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;        ! (rootElement.getTagName().equals(CHROMOSOME_TAG))) {</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> ImproperXMLException(</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;          <span class="stringliteral">&quot;Unable to build Chromosome instance from XML Document: &quot;</span> +</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;          <span class="stringliteral">&quot;&#39;chromosome&#39; element must be at root of Document.&quot;</span>);</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    }</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a18c5919588aabeda14a14ef06d4e2102">getChromosomeFromElement</a>(a_activeConfiguration, rootElement);</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_html_a18c5919588aabeda14a14ef06d4e2102"><div class="ttname"><a href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a18c5919588aabeda14a14ef06d4e2102">org.jgap.xml.XMLManager.getChromosomeFromElement</a></div><div class="ttdeci">static Chromosome getChromosomeFromElement(Configuration a_activeConfiguration, Element a_xmlElement)</div><div class="ttdef"><b>Definition:</b> XMLManager.java:439</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a18c5919588aabeda14a14ef06d4e2102"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> org.jgap.xml.XMLManager.getChromosomeFromElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_activeConfiguration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Element&#160;</td>
+          <td class="paramname"><em>a_xmlElement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1xml_1_1_improper_x_m_l_exception.html">ImproperXMLException</a>, <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a>,       <a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a>, <a class="el" href="classorg_1_1jgap_1_1xml_1_1_gene_creation_exception.html">GeneCreationException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Unmarshall a <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance from a given XML Element representation.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_activeConfiguration</td><td>the current active <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> object that is to be used during construction of the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> </td></tr>
+    <tr><td class="paramname">a_xmlElement</td><td>the XML Element representation of the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a new <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance setup with the data from the XML Element representation</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_improper_x_m_l_exception.html">ImproperXMLException</a></td><td>if the given Element is improperly structured or missing data </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td>if the given <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> is in an inconsistent state </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td><td>if the actively configured <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> implementation does not support the string representation of the alleles used in the given XML document </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_gene_creation_exception.html">GeneCreationException</a></td><td>if there is a problem creating or populating a <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> instance</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;                                                                {</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;    <span class="comment">// Do some sanity checking. Make sure the XML Element isn&#39;t null and</span></div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <span class="comment">// that in fact represents a chromosome.</span></div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <span class="comment">// -----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <span class="keywordflow">if</span> (a_xmlElement == null ||</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        ! (a_xmlElement.getTagName().equals(CHROMOSOME_TAG))) {</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> ImproperXMLException(</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;          <span class="stringliteral">&quot;Unable to build Chromosome instance from XML Element: &quot;</span> +</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;          <span class="stringliteral">&quot;given Element is not a &#39;chromosome&#39; element.&quot;</span>);</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    }</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    <span class="comment">// Extract the nested genes element and make sure it exists.</span></div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;    <span class="comment">// ---------------------------------------------------------</span></div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    Element genesElement = (Element)</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        a_xmlElement.getElementsByTagName(GENES_TAG).item(0);</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    <span class="keywordflow">if</span> (genesElement == null) {</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> ImproperXMLException(</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;          <span class="stringliteral">&quot;Unable to build Chromosome instance from XML Element: &quot;</span> +</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;          <span class="stringliteral">&quot;&#39;genes&#39; sub-element not found.&quot;</span>);</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    }</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    <span class="comment">// Construct the genes from their representations.</span></div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    <span class="comment">// -----------------------------------------------</span></div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    Gene[] geneAlleles = <a class="code" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a5d1dc1049209712a797ebb264060a98f">getGenesFromElement</a>(a_activeConfiguration,</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;        genesElement);</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;    <span class="comment">// Construct the new Chromosome with the genes and return it.</span></div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;    <span class="comment">// ----------------------------------------------------------</span></div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">new</span> Chromosome(a_activeConfiguration, geneAlleles);</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_html_a5d1dc1049209712a797ebb264060a98f"><div class="ttname"><a href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a5d1dc1049209712a797ebb264060a98f">org.jgap.xml.XMLManager.getGenesFromElement</a></div><div class="ttdeci">static Gene[] getGenesFromElement(Configuration a_activeConfiguration, Element a_xmlElement)</div><div class="ttdef"><b>Definition:</b> XMLManager.java:316</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5d1dc1049209712a797ebb264060a98f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> [] org.jgap.xml.XMLManager.getGenesFromElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_activeConfiguration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Element&#160;</td>
+          <td class="paramname"><em>a_xmlElement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1xml_1_1_improper_x_m_l_exception.html">ImproperXMLException</a>, <a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a>,       <a class="el" href="classorg_1_1jgap_1_1xml_1_1_gene_creation_exception.html">GeneCreationException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Unmarshall a <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance from a given XML Element representation.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_activeConfiguration</td><td>current <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> object </td></tr>
+    <tr><td class="paramname">a_xmlElement</td><td>the XML Element representation of the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a new <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance setup with the data from the XML Element representation</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_improper_x_m_l_exception.html">ImproperXMLException</a></td><td>if the given Element is improperly structured or missing data </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td><td>if the actively configured <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> implementation does not support the string representation of the alleles used in the given XML document </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_gene_creation_exception.html">GeneCreationException</a></td><td>if there is a problem creating or populating a <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> instance</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                            {</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="comment">// Do some sanity checking. Make sure the XML Element isn&#39;t null and</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="comment">// that it in fact represents a set of genes.</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="comment">// -----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keywordflow">if</span> (a_xmlElement == null ||</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        ! (a_xmlElement.getTagName().equals(GENES_TAG))) {</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> ImproperXMLException(</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;          <span class="stringliteral">&quot;Unable to build Chromosome instance from XML Element: &quot;</span> +</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;          <span class="stringliteral">&quot;given Element is not a &#39;genes&#39; element.&quot;</span>);</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    }</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    List genes = Collections.synchronizedList(<span class="keyword">new</span> ArrayList());</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="comment">// Extract the nested gene elements.</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="comment">// ---------------------------------</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    NodeList geneElements = a_xmlElement.getElementsByTagName(GENE_TAG);</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <span class="keywordflow">if</span> (geneElements == null) {</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> ImproperXMLException(</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;          <span class="stringliteral">&quot;Unable to build Gene instances from XML Element: &quot;</span> +</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;          <span class="stringliteral">&quot;&#39;&quot;</span> + GENE_TAG + <span class="stringliteral">&quot;&#39;&quot;</span> +</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;          <span class="stringliteral">&quot; sub-elements not found.&quot;</span>);</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    }</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="comment">// For each gene, get the class attribute so we know what class</span></div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    <span class="comment">// to instantiate to represent the gene instance, and then find</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="comment">// the child text node, which is where the string representation</span></div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="comment">// of the allele is located, and extract the representation.</span></div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    <span class="comment">// -------------------------------------------------------------</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keywordtype">int</span> numberOfGeneNodes = geneElements.getLength();</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; numberOfGeneNodes; i++) {</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;      Element thisGeneElement = (Element) geneElements.item(i);</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;      thisGeneElement.normalize();</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;      <span class="comment">// Fetch the class attribute and create an instance of that</span></div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;      <span class="comment">// class to represent the current gene.</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;      <span class="comment">// --------------------------------------------------------</span></div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;      String geneClassName =</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;          thisGeneElement.getAttribute(CLASS_ATTRIBUTE);</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;      Gene thisGeneObject;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;      Class geneClass = null;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        geneClass = Class.forName(geneClassName);</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;          Constructor constr = geneClass.getConstructor(<span class="keyword">new</span> Class[] {</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;              Configuration.class});</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;          thisGeneObject = (Gene) constr.newInstance(<span class="keyword">new</span> Object[] {</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;              a_activeConfiguration});</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        } <span class="keywordflow">catch</span> (NoSuchMethodException nsme) {</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;          <span class="comment">// Try it by calling method newGeneInternal.</span></div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;          <span class="comment">// -----------------------------------------</span></div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;          Constructor constr = geneClass.getConstructor(<span class="keyword">new</span> Class[] {});</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;          thisGeneObject = (Gene) constr.newInstance(<span class="keyword">new</span> Object[] {});</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;          thisGeneObject = (Gene) PrivateAccessor.invoke(thisGeneObject,</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;              <span class="stringliteral">&quot;newGeneInternal&quot;</span>, <span class="keyword">new</span> Class[] {}, <span class="keyword">new</span> Object[] {});</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        }</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;      } <span class="keywordflow">catch</span> (Throwable e) {</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> GeneCreationException(geneClass, e);</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;      }</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;      <span class="comment">// Find the text node and fetch the string representation of</span></div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      <span class="comment">// the allele.</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;      <span class="comment">// ---------------------------------------------------------</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;      NodeList children = thisGeneElement.getChildNodes();</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;      <span class="keywordtype">int</span> childrenSize = children.getLength();</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;      String alleleRepresentation = null;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; childrenSize; j++) {</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        Element alleleElem = (Element) children.item(j);</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        <span class="keywordflow">if</span> (alleleElem.getTagName().equals(ALLELE_TAG)) {</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;          alleleRepresentation = alleleElem.getAttribute(<span class="stringliteral">&quot;value&quot;</span>);</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        }</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <span class="keywordflow">if</span> (children.item(j).getNodeType() == Node.TEXT_NODE) {</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;          <span class="comment">// We found the text node. Extract the representation.</span></div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;          <span class="comment">// ---------------------------------------------------</span></div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;          alleleRepresentation = children.item(j).getNodeValue();</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        }</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;      }</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;      <span class="comment">// Sanity check: Make sure the representation isn&#39;t null.</span></div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;      <span class="comment">// ------------------------------------------------------</span></div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;      <span class="keywordflow">if</span> (alleleRepresentation == null) {</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> ImproperXMLException(</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;            <span class="stringliteral">&quot;Unable to build Gene instance from XML Element: &quot;</span> +</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;            <span class="stringliteral">&quot;value (allele) is missing representation.&quot;</span>);</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;      }</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;      <span class="comment">// Now set the value of the gene to that reflect the</span></div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;      <span class="comment">// string representation.</span></div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;      <span class="comment">// -------------------------------------------------</span></div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        thisGeneObject.setValueFromPersistentRepresentation(</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;            alleleRepresentation);</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;      } <span class="keywordflow">catch</span> (UnsupportedOperationException e) {</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> GeneCreationException(</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;            <span class="stringliteral">&quot;Unable to build Gene because it does not support the &quot;</span> +</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;            <span class="stringliteral">&quot;setValueFromPersistentRepresentation() method.&quot;</span>);</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;      }</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;      <span class="comment">// Finally, add the current gene object to the list of genes.</span></div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;      <span class="comment">// ----------------------------------------------------------</span></div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;      genes.add(thisGeneObject);</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    }</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    <span class="keywordflow">return</span> (Gene[]) genes.toArray(<span class="keyword">new</span> Gene[genes.size()]);</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad23ed7810596720d5155d695e128baca"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> org.jgap.xml.XMLManager.getGenotypeFromDocument </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_activeConfiguration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Document&#160;</td>
+          <td class="paramname"><em>a_xmlDocument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1xml_1_1_improper_x_m_l_exception.html">ImproperXMLException</a>, <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a>,       <a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a>, <a class="el" href="classorg_1_1jgap_1_1xml_1_1_gene_creation_exception.html">GeneCreationException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Unmarshall a <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> instance from a given XML Document representation. Its population of Chromosomes will be unmarshalled from the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> sub-elements.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_activeConfiguration</td><td>the current active <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> object that is to be used during construction of the <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> and <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instances </td></tr>
+    <tr><td class="paramname">a_xmlDocument</td><td>the XML Document representation of the <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>A new <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> instance, complete with a population of Chromosomes, setup with the data from the XML Document representation</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_improper_x_m_l_exception.html">ImproperXMLException</a></td><td>if the given Document is improperly structured or missing data </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td>if the given <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> is in an inconsistent state </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td><td>if the actively configured <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> implementation does not support the string representation of the alleles used in the given XML document </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_gene_creation_exception.html">GeneCreationException</a></td><td>if there is a problem creating or populating a <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> instance</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;                                                                {</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    <span class="comment">// Extract the root element, which should be a genotype element.</span></div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    <span class="comment">// After verifying that the root element is not null and that it</span></div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;    <span class="comment">// in fact is a genotype element, then convert it into a Genotype</span></div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;    <span class="comment">// instance.</span></div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;    <span class="comment">// --------------------------------------------------------------</span></div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;    Element rootElement = a_xmlDocument.getDocumentElement();</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    <span class="keywordflow">if</span> (rootElement == null ||</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;        ! (rootElement.getTagName().equals(GENOTYPE_TAG))) {</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> ImproperXMLException(</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;          <span class="stringliteral">&quot;Unable to build Genotype from XML Document: &quot;</span> +</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;          <span class="stringliteral">&quot;&#39;genotype&#39; element must be at root of document.&quot;</span>);</div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;    }</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#ad53d7d4866abbee606ae8408dbd1a77c">getGenotypeFromElement</a>(a_activeConfiguration, rootElement);</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_html_ad53d7d4866abbee606ae8408dbd1a77c"><div class="ttname"><a href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#ad53d7d4866abbee606ae8408dbd1a77c">org.jgap.xml.XMLManager.getGenotypeFromElement</a></div><div class="ttdeci">static Genotype getGenotypeFromElement(Configuration a_activeConfiguration, Element a_xmlElement)</div><div class="ttdef"><b>Definition:</b> XMLManager.java:496</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad53d7d4866abbee606ae8408dbd1a77c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> org.jgap.xml.XMLManager.getGenotypeFromElement </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_activeConfiguration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Element&#160;</td>
+          <td class="paramname"><em>a_xmlElement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1xml_1_1_improper_x_m_l_exception.html">ImproperXMLException</a>, <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a>,       <a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a>, <a class="el" href="classorg_1_1jgap_1_1xml_1_1_gene_creation_exception.html">GeneCreationException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Unmarshall a <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> instance from a given XML Element representation. Its population of Chromosomes will be unmarshalled from the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> sub-elements.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_activeConfiguration</td><td>the current active <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> object that is to be used during construction of the <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> and <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instances </td></tr>
+    <tr><td class="paramname">a_xmlElement</td><td>the XML Element representation of the <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a new <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> instance, complete with a population of Chromosomes, setup with the data from the XML Element representation</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_improper_x_m_l_exception.html">ImproperXMLException</a></td><td>if the given Element is improperly structured or missing data </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td>if the given <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> is in an inconsistent state </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td><td>if the actively configured <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> implementation does not support the string representation of the alleles used in the given XML document </td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_gene_creation_exception.html">GeneCreationException</a></td><td>if there is a problem creating or populating a <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> instance</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;                                                                {</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    <span class="comment">// Sanity check. Make sure the XML element isn&#39;t null and that it</span></div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    <span class="comment">// actually represents a genotype.</span></div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    <span class="keywordflow">if</span> (a_xmlElement == null ||</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;        ! (a_xmlElement.getTagName().equals(GENOTYPE_TAG))) {</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> ImproperXMLException(</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;          <span class="stringliteral">&quot;Unable to build Genotype instance from XML Element: &quot;</span> +</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;          <span class="stringliteral">&quot;given Element is not a &#39;genotype&#39; element.&quot;</span>);</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    }</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    <span class="comment">// Fetch all of the nested chromosome elements and convert them</span></div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    <span class="comment">// into Chromosome instances.</span></div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    <span class="comment">// ------------------------------------------------------------</span></div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    NodeList chromosomes =</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;        a_xmlElement.getElementsByTagName(CHROMOSOME_TAG);</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    <span class="keywordtype">int</span> numChromosomes = chromosomes.getLength();</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;    Population population = <span class="keyword">new</span> Population(a_activeConfiguration,</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;        numChromosomes);</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; numChromosomes; i++) {</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;      population.addChromosome(<a class="code" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a18c5919588aabeda14a14ef06d4e2102">getChromosomeFromElement</a>(a_activeConfiguration,</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;          (Element) chromosomes.item(i)));</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    }</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    <span class="comment">// Construct a new Genotype with the chromosomes and return it.</span></div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    <span class="comment">// ------------------------------------------------------------</span></div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">new</span> Genotype(a_activeConfiguration, population);</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_html_a18c5919588aabeda14a14ef06d4e2102"><div class="ttname"><a href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a18c5919588aabeda14a14ef06d4e2102">org.jgap.xml.XMLManager.getChromosomeFromElement</a></div><div class="ttdeci">static Chromosome getChromosomeFromElement(Configuration a_activeConfiguration, Element a_xmlElement)</div><div class="ttdef"><b>Definition:</b> XMLManager.java:439</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0ef58d9d7639b0ca569e0d61f25bb50a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Document org.jgap.xml.XMLManager.readFile </td>
+          <td>(</td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td> throws IOException, org.xml.sax.SAXException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Reads in an XML file and returns a Document object.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file</td><td>the file to be read in </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+    <tr><td class="paramname">SAXException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Document</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;                                                   {</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <span class="keywordflow">return</span> m_documentCreator.parse(file);</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3a6c7c2c33542ceec519b33330a839e2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Document org.jgap.xml.XMLManager.representChromosomeAsDocument </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_subject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Marshall a <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance to an XML Document representation, including its contained <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> instances.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_subject</td><td>the chromosome to represent as an XML document </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a Document object representing the given <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000011">Obsoleto:</a></b></dt><dd>use <a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html">XMLDocumentBuilder</a> instead </dd></dl>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                 {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="comment">// DocumentBuilders do not have to be thread safe, so we have to</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="comment">// protect creation of the Document with a synchronized block.</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="comment">// -------------------------------------------------------------</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    Document chromosomeDocument;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keyword">synchronized</span> (m_lock) {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      chromosomeDocument = m_documentCreator.newDocument();</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    Element chromosomeElement =</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a6da62b7bb444f46df933d355239983f0">representChromosomeAsElement</a>(a_subject, chromosomeDocument);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    chromosomeDocument.appendChild(chromosomeElement);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">return</span> chromosomeDocument;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_html_a6da62b7bb444f46df933d355239983f0"><div class="ttname"><a href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a6da62b7bb444f46df933d355239983f0">org.jgap.xml.XMLManager.representChromosomeAsElement</a></div><div class="ttdeci">static Element representChromosomeAsElement(final IChromosome a_subject, final Document a_xmlDocument)</div><div class="ttdef"><b>Definition:</b> XMLManager.java:234</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6da62b7bb444f46df933d355239983f0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Element org.jgap.xml.XMLManager.representChromosomeAsElement </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_subject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Document&#160;</td>
+          <td class="paramname"><em>a_xmlDocument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Marshall a <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance to an XML Element representation, including its contained Genes as sub-elements. This may be useful in scenarios where representation as an entire Document is undesirable, such as when the representation of this <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> is to be combined with other elements in a single Document.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_subject</td><td>the chromosome to represent as an XML element </td></tr>
+    <tr><td class="paramname">a_xmlDocument</td><td>a Document instance that will be used to create the Element instance. Note that the element will NOT be added to the document by this method </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>an Element object representing the given <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000014">Obsoleto:</a></b></dt><dd>use <a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html">XMLDocumentBuilder</a> instead </dd></dl>
+<div class="fragment"><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                                    {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="comment">// Start by creating an element for the chromosome and its size</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="comment">// attribute, which represents the number of genes in the chromosome.</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="comment">// ------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    Element chromosomeElement =</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        a_xmlDocument.createElement(CHROMOSOME_TAG);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    chromosomeElement.setAttribute(SIZE_ATTRIBUTE,</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                                   Integer.toString(a_subject.size()));</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="comment">// Next create the genes element with its nested gene elements,</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="comment">// which will contain string representations of the alleles.</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="comment">// --------------------------------------------------------------</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    Element genesElement = <a class="code" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a9383eb28213ec1690e56e7db10a6b022">representGenesAsElement</a>(a_subject.getGenes(),</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        a_xmlDocument);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="comment">// Add the new genes element to the chromosome element and then</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="comment">// return the chromosome element.</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="comment">// -------------------------------------------------------------</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    chromosomeElement.appendChild(genesElement);</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordflow">return</span> chromosomeElement;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_html_a9383eb28213ec1690e56e7db10a6b022"><div class="ttname"><a href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a9383eb28213ec1690e56e7db10a6b022">org.jgap.xml.XMLManager.representGenesAsElement</a></div><div class="ttdeci">static Element representGenesAsElement(final Gene[] a_geneValues, final Document a_xmlDocument)</div><div class="ttdef"><b>Definition:</b> XMLManager.java:169</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9383eb28213ec1690e56e7db10a6b022"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Element org.jgap.xml.XMLManager.representGenesAsElement </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>[]&#160;</td>
+          <td class="paramname"><em>a_geneValues</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Document&#160;</td>
+          <td class="paramname"><em>a_xmlDocument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Marshall an array of Genes to an XML Element representation.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_geneValues</td><td>the genes to represent as an XML element </td></tr>
+    <tr><td class="paramname">a_xmlDocument</td><td>a Document instance that will be used to create the Element instance. Note that the element will NOT be added to the document by this method </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>an Element object representing the given genes</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000013">Obsoleto:</a></b></dt><dd>use <a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html">XMLDocumentBuilder</a> instead </dd></dl>
+<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                                    {</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="comment">// Create the parent genes element.</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="comment">// --------------------------------</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    Element genesElement = a_xmlDocument.createElement(GENES_TAG);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="comment">// Now add gene sub-elements for each gene in the given array.</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="comment">// -----------------------------------------------------------</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    Element geneElement;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; a_geneValues.length; i++) {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      <span class="comment">// Create the allele element for this gene.</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;      <span class="comment">// ----------------------------------------</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      geneElement = a_xmlDocument.createElement(GENE_TAG);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;      <span class="comment">// Add the class attribute and set its value to the class</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;      <span class="comment">// name of the concrete class representing the current Gene.</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      <span class="comment">// ---------------------------------------------------------</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;      geneElement.setAttribute(CLASS_ATTRIBUTE,</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                               a_geneValues[i].getClass().getName());</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;      <span class="comment">// Create a text node to contain the string representation of</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      <span class="comment">// the gene&#39;s value (allele).</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      <span class="comment">// ----------------------------------------------------------</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;      Element alleleRepresentation = representAlleleAsElement(a_geneValues[i],</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;          a_xmlDocument);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;      <span class="comment">// And now add the text node to the gene element, and then</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      <span class="comment">// add the gene element to the genes element.</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      <span class="comment">// -------------------------------------------------------</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;      geneElement.appendChild(alleleRepresentation);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      genesElement.appendChild(geneElement);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">return</span> genesElement;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af51f0db3ed6f03635b9b4dbb286bd08d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Document org.jgap.xml.XMLManager.representGenotypeAsDocument </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a>&#160;</td>
+          <td class="paramname"><em>a_subject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Marshall a <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> to an XML Document representation, including its population of <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instances.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_subject</td><td>the genotype to represent as an XML document </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a Document object representing the given <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000012">Obsoleto:</a></b></dt><dd>use <a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html">XMLDocumentBuilder</a> instead </dd></dl>
+<div class="fragment"><div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                                                                               {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="comment">// DocumentBuilders do not have to be thread safe, so we have to</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="comment">// protect creation of the Document with a synchronized block.</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="comment">// -------------------------------------------------------------</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    Document genotypeDocument;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keyword">synchronized</span> (m_lock) {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;      genotypeDocument = m_documentCreator.newDocument();</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    Element genotypeElement =</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a699f9db0852b3d50f7d5ab67fccd9ef2">representGenotypeAsElement</a>(a_subject, genotypeDocument);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    genotypeDocument.appendChild(genotypeElement);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">return</span> genotypeDocument;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_html_a699f9db0852b3d50f7d5ab67fccd9ef2"><div class="ttname"><a href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a699f9db0852b3d50f7d5ab67fccd9ef2">org.jgap.xml.XMLManager.representGenotypeAsElement</a></div><div class="ttdeci">static Element representGenotypeAsElement(final Genotype a_subject, final Document a_xmlDocument)</div><div class="ttdef"><b>Definition:</b> XMLManager.java:274</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a699f9db0852b3d50f7d5ab67fccd9ef2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Element org.jgap.xml.XMLManager.representGenotypeAsElement </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a>&#160;</td>
+          <td class="paramname"><em>a_subject</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Document&#160;</td>
+          <td class="paramname"><em>a_xmlDocument</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Marshall a <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> instance into an XML Element representation, including its population of <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instances as sub-elements. This may be useful in scenarios where representation as an entire Document is undesirable, such as when the representation of this <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> is to be combined with other elements in a single Document.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_subject</td><td>the genotype to represent as an XML element </td></tr>
+    <tr><td class="paramname">a_xmlDocument</td><td>a Document instance that will be used to create the Element instance. Note that the element will NOT be added to the document by this method </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>an Element object representing the given <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000015">Obsoleto:</a></b></dt><dd>use <a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder.html">XMLDocumentBuilder</a> instead </dd></dl>
+<div class="fragment"><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                                    {</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    Population population = a_subject.getPopulation();</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="comment">// Start by creating the genotype element and its size attribute,</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="comment">// which represents the number of chromosomes present in the</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="comment">// genotype.</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="comment">// --------------------------------------------------------------</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    Element genotypeTag = a_xmlDocument.createElement(GENOTYPE_TAG);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    genotypeTag.setAttribute(SIZE_ATTRIBUTE,</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                             Integer.toString(population.size()));</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="comment">// Next, add nested elements for each of the chromosomes in the</span></div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="comment">// genotype.</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="comment">// ------------------------------------------------------------</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; population.size(); i++) {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;      Element chromosomeElement</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;          = <a class="code" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a6da62b7bb444f46df933d355239983f0">representChromosomeAsElement</a>(population.getChromosome(i),</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;          a_xmlDocument);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;      genotypeTag.appendChild(chromosomeElement);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    }</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keywordflow">return</span> genotypeTag;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_html_a6da62b7bb444f46df933d355239983f0"><div class="ttname"><a href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html#a6da62b7bb444f46df933d355239983f0">org.jgap.xml.XMLManager.representChromosomeAsElement</a></div><div class="ttdeci">static Element representChromosomeAsElement(final IChromosome a_subject, final Document a_xmlDocument)</div><div class="ttdef"><b>Definition:</b> XMLManager.java:234</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a41c6a2996bc5e4869059ac02d3f80338"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.xml.XMLManager.writeFile </td>
+          <td>(</td>
+          <td class="paramtype">Document&#160;</td>
+          <td class="paramname"><em>doc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">File&#160;</td>
+          <td class="paramname"><em>file</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IOException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Writes an XML file from a Document object.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">doc</td><td>the Document object to be written to file </td></tr>
+    <tr><td class="paramname">file</td><td>the file to be written </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IOException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;                         {</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;    <span class="comment">// Use a Transformer for output</span></div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;    TransformerFactory tFactory =</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;        TransformerFactory.newInstance();</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;    Transformer transformer;</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;      transformer = tFactory.newTransformer();</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;    } <span class="keywordflow">catch</span> (TransformerConfigurationException tex) {</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IOException(tex.getMessage());</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;    }</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;    DOMSource source = <span class="keyword">new</span> DOMSource(doc);</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;    FileOutputStream fos = <span class="keyword">new</span> FileOutputStream(file);</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;    StreamResult result = <span class="keyword">new</span> StreamResult(fos);</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;      transformer.transform(source, result);</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;      fos.close();</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;    } <span class="keywordflow">catch</span> (TransformerException tex) {</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IOException(tex.getMessage());</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;    }</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/xml/<a class="el" href="_x_m_l_manager_8java.html">XMLManager.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1xml.html">xml</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager.html">XMLManager</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:24:05 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

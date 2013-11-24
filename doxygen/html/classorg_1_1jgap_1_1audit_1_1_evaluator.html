@@ -1,0 +1,1032 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.audit.Evaluator</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1audit_1_1_evaluator.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1audit_1_1_evaluator-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.audit.Evaluator</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_chromosome_data.html">ChromosomeData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data.html">GenotypeData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data_avg.html">GenotypeDataAvg</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a81edfe668ff07b19b1e5bd8d034d4056"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a81edfe668ff07b19b1e5bd8d034d4056">Evaluator</a> (final <a class="el" href="classorg_1_1jgap_1_1audit_1_1_permuting_configuration.html">PermutingConfiguration</a> a_conf)</td></tr>
+<tr class="separator:a81edfe668ff07b19b1e5bd8d034d4056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8cafe98e1b94dff9a556fdd455b49d2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#ad8cafe98e1b94dff9a556fdd455b49d2">hasNext</a> ()</td></tr>
+<tr class="separator:ad8cafe98e1b94dff9a556fdd455b49d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2576280461955eb41abffc0e56491608"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a2576280461955eb41abffc0e56491608">next</a> ()  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a2576280461955eb41abffc0e56491608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06ec484afd450635db73cf803ee4334c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a06ec484afd450635db73cf803ee4334c">setValue</a> (double a_value, Comparable a_rowKey, Comparable a_columnKey)</td></tr>
+<tr class="separator:a06ec484afd450635db73cf803ee4334c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89b956f95eb37137ca2b5f12a1d5402d"><td class="memItemLeft" align="right" valign="top">Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a89b956f95eb37137ca2b5f12a1d5402d">getValue</a> (Comparable rowKey, Comparable columnKey)</td></tr>
+<tr class="separator:a89b956f95eb37137ca2b5f12a1d5402d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b472080690febf2bbf4d537f20cb72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#ab0b472080690febf2bbf4d537f20cb72">setValue</a> (int a_permutation, int a_run, double a_value, Comparable a_rowKey, Comparable a_columnKey)</td></tr>
+<tr class="separator:ab0b472080690febf2bbf4d537f20cb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e5098189bebb031f0a49eed915ed2e4"><td class="memItemLeft" align="right" valign="top">Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a4e5098189bebb031f0a49eed915ed2e4">getValue</a> (int a_permutation, int a_run, Comparable rowKey, Comparable columnKey)</td></tr>
+<tr class="separator:a4e5098189bebb031f0a49eed915ed2e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd40b95d423944b71ec75f14d61baf39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_keyed_values2_d.html">KeyedValues2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#afd40b95d423944b71ec75f14d61baf39">getData</a> ()</td></tr>
+<tr class="separator:afd40b95d423944b71ec75f14d61baf39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a383bb97616629ca05ef5c3164dd8de0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_keyed_values2_d.html">KeyedValues2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a383bb97616629ca05ef5c3164dd8de0a">calcAvgFitness</a> (int a_permutation)</td></tr>
+<tr class="separator:a383bb97616629ca05ef5c3164dd8de0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68331d6b5db79708b87b72d5077a0e5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_keyed_values2_d.html">KeyedValues2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a68331d6b5db79708b87b72d5077a0e5e">calcAvgFitnessImpr</a> (int a_permutation)</td></tr>
+<tr class="separator:a68331d6b5db79708b87b72d5077a0e5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d5310dff0a906381202f502f24565c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#aa7d5310dff0a906381202f502f24565c">getNumberOfRuns</a> (int a_permutation)</td></tr>
+<tr class="separator:aa7d5310dff0a906381202f502f24565c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5279539edcf3b0cba17ca726072194f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a5279539edcf3b0cba17ca726072194f1">storeGenotype</a> (int a_permutation, int a_run, <a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a> a_genotype)</td></tr>
+<tr class="separator:a5279539edcf3b0cba17ca726072194f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f84bb9929cec12795c98bf1185ac68"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a48f84bb9929cec12795c98bf1185ac68">storePopulation</a> (int a_permutation, int a_run, <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop)</td></tr>
+<tr class="separator:a48f84bb9929cec12795c98bf1185ac68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af00e41cf4dfd12a799a1c4f3e2f7f1a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data.html">GenotypeData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#af00e41cf4dfd12a799a1c4f3e2f7f1a9">retrieveGenotype</a> (int a_permutation, int a_run)</td></tr>
+<tr class="separator:af00e41cf4dfd12a799a1c4f3e2f7f1a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a586c5d8e9e31c16f2187c09f3f320727"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data_avg.html">GenotypeDataAvg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a586c5d8e9e31c16f2187c09f3f320727">calcPerformance</a> (int a_permutation)</td></tr>
+<tr class="separator:a586c5d8e9e31c16f2187c09f3f320727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4860d3c1dadcc98c8889552e62358b67"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data_avg.html">GenotypeDataAvg</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a4860d3c1dadcc98c8889552e62358b67">getGenotypeAverageData</a> ()</td></tr>
+<tr class="separator:a4860d3c1dadcc98c8889552e62358b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a1ab07be10354b09f0dbd5d22e8eed926"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a1ab07be10354b09f0dbd5d22e8eed926">addRunNumber</a> (int a_permutation, int a_run)</td></tr>
+<tr class="separator:a1ab07be10354b09f0dbd5d22e8eed926"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fe0028b3b402c3a4844d65f584a846a"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8fe0028b3b402c3a4844d65f584a846a">createKey</a> (int a_permutation, int a_run)</td></tr>
+<tr class="separator:a8fe0028b3b402c3a4844d65f584a846a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f86ce5030064340d82ec8a96b2b6e21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8f86ce5030064340d82ec8a96b2b6e21">calcAvgFitnessHelper</a> (int a_permutation, final <a class="el" href="classorg_1_1jgap_1_1audit_1_1_keyed_values2_d.html">KeyedValues2D</a> result)</td></tr>
+<tr class="separator:a8f86ce5030064340d82ec8a96b2b6e21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Gathers statistical data and returns them on request.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a81edfe668ff07b19b1e5bd8d034d4056"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.audit.Evaluator.Evaluator </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1audit_1_1_permuting_configuration.html">PermutingConfiguration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                                        {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span> (a_conf == null) {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;          <span class="stringliteral">&quot;Permuting Configuration must not be null!&quot;</span>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    m_permConf = a_conf;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    m_data = <span class="keyword">new</span> KeyedValues2D();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    m_permutationData = <span class="keyword">new</span> Hashtable();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    m_permutationRuns = <span class="keyword">new</span> Hashtable();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    m_genotypeData = <span class="keyword">new</span> Hashtable();</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    m_genotypeDataAvg = <span class="keyword">new</span> Vector();</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a1ab07be10354b09f0dbd5d22e8eed926"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.audit.Evaluator.addRunNumber </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_run</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                                                            {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    Map v = m_permutationRuns.get(<span class="keyword">new</span> Integer(a_permutation));</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">if</span> (v == null) {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      v = <span class="keyword">new</span> Hashtable();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    v.put(<span class="keyword">new</span> Integer(a_run), <span class="keyword">new</span> Integer(a_run));</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    m_permutationRuns.put(<span class="keyword">new</span> Integer(a_permutation), v);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a383bb97616629ca05ef5c3164dd8de0a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_keyed_values2_d.html">KeyedValues2D</a> org.jgap.audit.Evaluator.calcAvgFitness </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Calculates the average fitness value curve for a given permutation. If permutation -1 is given, a composition of all permutations available is created. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_permutation</td><td>-1 to use all permutations </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>DefaultKeyedValues2D list of fitness values, one for each individual in the generation</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                                         {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordflow">if</span> (a_permutation == -1) {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;      Iterator it = m_permutationRuns.keySet().iterator();</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;      Integer permNumberI;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;      <span class="keywordtype">int</span> permNumber;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;      KeyedValues2D result = <span class="keyword">new</span> KeyedValues2D();</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;      <span class="keywordflow">while</span> (it.hasNext()) {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        permNumberI = (Integer) it.next();</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        permNumber = permNumberI.intValue();</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8f86ce5030064340d82ec8a96b2b6e21">calcAvgFitnessHelper</a>(permNumber, result);</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;      }</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;      <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;      KeyedValues2D a_data = <span class="keyword">new</span> KeyedValues2D();</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8f86ce5030064340d82ec8a96b2b6e21">calcAvgFitnessHelper</a>(a_permutation, a_data);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      <span class="keywordflow">return</span> a_data;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evaluator_html_a8f86ce5030064340d82ec8a96b2b6e21"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8f86ce5030064340d82ec8a96b2b6e21">org.jgap.audit.Evaluator.calcAvgFitnessHelper</a></div><div class="ttdeci">void calcAvgFitnessHelper(int a_permutation, final KeyedValues2D result)</div><div class="ttdef"><b>Definition:</b> Evaluator.java:173</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8f86ce5030064340d82ec8a96b2b6e21"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.audit.Evaluator.calcAvgFitnessHelper </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1audit_1_1_keyed_values2_d.html">KeyedValues2D</a>&#160;</td>
+          <td class="paramname"><em>result</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="comment">// Determine run-numbers of given permutation.</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="comment">// -------------------------------------------</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    Map runNumbers = m_permutationRuns.get(<span class="keyword">new</span> Integer(a_permutation));</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">if</span> (runNumbers == null) {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="comment">// Loop over all run-numbers.</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="comment">// --------------------------</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    Iterator it = runNumbers.keySet().iterator();</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordtype">int</span> numRuns = runNumbers.keySet().size();</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    Integer runI;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">while</span> (it.hasNext()) {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      runI = (Integer) it.next();</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      <span class="comment">// Determine dataset of given permutation.</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;      <span class="comment">// ---------------------------------------</span></div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;      KeyedValues2D a_data = m_permutationData.get(<a class="code" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8fe0028b3b402c3a4844d65f584a846a">createKey</a>(a_permutation,</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;          runI.intValue()));</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      <span class="comment">// Determine values for current run-number and &quot;add&quot; them to gathered</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      <span class="comment">// data.</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;      <span class="comment">// ------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> col = 0; col &lt; a_data.getColumnCount(); col++) {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> row = 0; row &lt; a_data.getRowCount(); row++) {</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;          <span class="comment">// Previous value (summation).</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;          <span class="comment">// --------------------------.</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;          Double d = (Double) result.getValue(a_data.getRowKey(row),</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;              a_data.getColumnKey(col));</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;          <span class="keywordtype">double</span> newValue;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;          <span class="keywordflow">if</span> (d == null) {</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            newValue = 0.0d;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;          }</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;          <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            newValue = d.doubleValue();</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;          }</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;          <span class="comment">// Add current value (divided by total number of runs to get an</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;          <span class="comment">// averaged value).</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;          <span class="comment">// ------------------------------------------------------------</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;          newValue +=</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;              a_data.getValue(a_data.getRowKey(row), a_data.getColumnKey(col)).</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;              doubleValue() / numRuns;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;          <span class="comment">// Set averaged value back to result dataset.</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;          <span class="comment">// ------------------------------------------</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;          result.setValue(<span class="keyword">new</span> Double(newValue), a_data.getRowKey(row),</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                          a_data.getColumnKey(col));</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        }</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      }</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    }</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evaluator_html_a8fe0028b3b402c3a4844d65f584a846a"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8fe0028b3b402c3a4844d65f584a846a">org.jgap.audit.Evaluator.createKey</a></div><div class="ttdeci">Object createKey(int a_permutation, int a_run)</div><div class="ttdef"><b>Definition:</b> Evaluator.java:138</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a68331d6b5db79708b87b72d5077a0e5e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_keyed_values2_d.html">KeyedValues2D</a> org.jgap.audit.Evaluator.calcAvgFitnessImpr </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a list of lists (i.e. a matrix) to use for output as a table </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_data</td><td>DefaultKeyedValues2D </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>List</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Tareas pendientes:</a></b></dt><dd>implement </dd></dl>
+<p>Calculates average fitness value improvement per generation.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_permutation</td><td>int </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>DefaultKeyedValues2D</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Tareas pendientes:</a></b></dt><dd>implement </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Tareas pendientes:</a></b></dt><dd>is this method used resp. contained in calcPerformance? </dd></dl>
+<div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                                                             {</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    Map runNumbers = m_permutationRuns.get(<span class="keyword">new</span> Integer(a_permutation));</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordflow">if</span> (runNumbers == null) {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    }</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="comment">//    Map fitnessImpr = new Hashtable();</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="comment">// Loop over all run-numbers.</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="comment">// --------------------------</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    Iterator it = runNumbers.keySet().iterator();</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="comment">//    int numRuns = runNumbers.keySet().size();</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    Integer runI;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="keywordflow">while</span> (it.hasNext()) {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;      runI = (Integer) it.next();</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;      <span class="comment">// Determine dataset of given permutation.</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;      <span class="comment">// ---------------------------------------</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      KeyedValues2D a_data = m_permutationData.get(<a class="code" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8fe0028b3b402c3a4844d65f584a846a">createKey</a>(a_permutation,</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;          runI.intValue()));</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> col = 0; col &lt; a_data.getColumnCount(); col++) {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> row = 0; row &lt; a_data.getRowCount(); row++) {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        }</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;      }</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    }</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evaluator_html_a8fe0028b3b402c3a4844d65f584a846a"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8fe0028b3b402c3a4844d65f584a846a">org.jgap.audit.Evaluator.createKey</a></div><div class="ttdeci">Object createKey(int a_permutation, int a_run)</div><div class="ttdef"><b>Definition:</b> Evaluator.java:138</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a586c5d8e9e31c16f2187c09f3f320727"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data_avg.html">GenotypeDataAvg</a> org.jgap.audit.Evaluator.calcPerformance </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Calculates performance metrics for a given permutation and run stored before with storeGenotype, like: average fitness, maximum fitness... </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_permutation</td><td>the permutation to compute the performance metrics for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>computed statistical data</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                                                            {</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <span class="keywordtype">int</span> numRuns = <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#aa7d5310dff0a906381202f502f24565c">getNumberOfRuns</a>(a_permutation);</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    GenotypeData data;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    GenotypeDataAvg dataAvg = <span class="keyword">new</span> GenotypeDataAvg();</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    dataAvg.permutation = a_permutation;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordtype">double</span> sizeAvg = 0.0d;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordtype">double</span> fitnessAvg = 0.0d;</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    <span class="keywordtype">double</span> fitnessBest = -1.0d;</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keywordtype">double</span> fitnessBestOld = -1.0d;</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keywordtype">double</span> fitness;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <span class="keywordtype">int</span> fitnessBestGen = -1;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordtype">double</span> fitnessAvgChroms;</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordtype">double</span> fitnessDiversityChromsOld = -1.0d;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    <span class="keywordtype">double</span> fitnessBestDeltaAvg = 0.0d;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <span class="keywordtype">double</span> fitnessDiversity;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    <span class="keywordtype">double</span> fitnessDiversityAvg = 0.0d;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="keywordtype">int</span> size;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    ChromosomeData chrom;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; numRuns; i++) {</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;      data = <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#af00e41cf4dfd12a799a1c4f3e2f7f1a9">retrieveGenotype</a>(a_permutation, i);</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;      <span class="keywordflow">if</span> (i == 0) {</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        dataAvg.generation = data.generation;</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;      }</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      <span class="comment">// Average number of chromosomes.</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;      <span class="comment">// ------------------------------</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;      sizeAvg += (double) data.size / numRuns;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;      size = data.size;</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;      fitnessAvgChroms = 0.0d;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;      fitnessDiversity = 0.0d;</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;      <span class="keywordtype">double</span> fitnessBestLocal = -1.0d;</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;      for (<span class="keywordtype">int</span> j = 0; j &lt; size; j++) {</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        chrom = data.chromosomeData[j];</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        fitness = chrom.fitnessValue;</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <span class="comment">// diversity of fitness values over all chromosomes</span></div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        <span class="keywordflow">if</span> (j &gt; 0) {</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;          fitnessDiversity += Math.abs(fitness - fitnessDiversityChromsOld) /</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;              (size - 1);</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        }</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        fitnessDiversityChromsOld = fitness;</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        <span class="comment">// average fitness value for generation over all Chromosomes</span></div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        fitnessAvgChroms += fitness / size;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <span class="comment">// fittest chromosome in generation over all runs</span></div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        <span class="keywordflow">if</span> (fitnessBest &lt; fitness) {</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;          fitnessBest = fitness;</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;          <span class="comment">// memorize generation number in which fittest chromosome appeared</span></div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;          fitnessBestGen = data.generation;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        }</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <span class="comment">// fittest chromosome in generation over current runs</span></div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        <span class="keywordflow">if</span> (fitnessBestLocal &lt; fitness) {</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;          fitnessBestLocal = fitness;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        }</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;      }</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;      <span class="comment">// average fitness value for generation over all runs</span></div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;      fitnessAvg += fitnessAvgChroms / numRuns;</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;      <span class="comment">// average fitness delta value for generation over all runs</span></div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;      fitnessDiversityAvg += fitnessDiversity / numRuns;</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;      <span class="comment">// absolute delta between two adjacent best fitness values</span></div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;      <span class="keywordflow">if</span> (i &gt; 0) {</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        fitnessBestDeltaAvg += Math.abs(fitnessBestLocal - fitnessBestOld) /</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;            (numRuns - 1);</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;      }</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;      fitnessBestOld = fitnessBestLocal;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    }</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    dataAvg.sizeAvg = sizeAvg;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    dataAvg.avgFitnessValue = fitnessAvg;</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    dataAvg.bestFitnessValue = fitnessBest;</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    dataAvg.bestFitnessValueGeneration = fitnessBestGen;</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    dataAvg.avgDiversityFitnessValue = fitnessDiversityAvg;</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    dataAvg.avgBestDeltaFitnessValue = fitnessBestDeltaAvg;</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <span class="comment">// Store computed (averaged) data.</span></div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <span class="comment">// -------------------------------</span></div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    m_genotypeDataAvg.add(dataAvg);</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="keywordflow">return</span> dataAvg;</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evaluator_html_aa7d5310dff0a906381202f502f24565c"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#aa7d5310dff0a906381202f502f24565c">org.jgap.audit.Evaluator.getNumberOfRuns</a></div><div class="ttdeci">int getNumberOfRuns(int a_permutation)</div><div class="ttdef"><b>Definition:</b> Evaluator.java:274</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evaluator_html_af00e41cf4dfd12a799a1c4f3e2f7f1a9"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#af00e41cf4dfd12a799a1c4f3e2f7f1a9">org.jgap.audit.Evaluator.retrieveGenotype</a></div><div class="ttdeci">GenotypeData retrieveGenotype(int a_permutation, int a_run)</div><div class="ttdef"><b>Definition:</b> Evaluator.java:336</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8fe0028b3b402c3a4844d65f584a846a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.audit.Evaluator.createKey </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_run</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                                                           {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordflow">return</span> a_permutation + <span class="stringliteral">&quot;_&quot;</span> + a_run;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afd40b95d423944b71ec75f14d61baf39"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_keyed_values2_d.html">KeyedValues2D</a> org.jgap.audit.Evaluator.getData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                                 {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">return</span> m_data;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4860d3c1dadcc98c8889552e62358b67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data_avg.html">GenotypeDataAvg</a>&gt; org.jgap.audit.Evaluator.getGenotypeAverageData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>Averaged genotype data</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.5 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;                                                        {</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    <span class="keywordflow">return</span> m_genotypeDataAvg;</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa7d5310dff0a906381202f502f24565c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.audit.Evaluator.getNumberOfRuns </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_permutation</td><td>the permutation to determine the number of runs for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the number of runs for the given permutation </dd></dl>
+<div class="fragment"><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                                                {</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    Map runNumbers = m_permutationRuns.get(<span class="keyword">new</span> Integer(a_permutation));</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="keywordflow">if</span> (runNumbers == null) {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;      <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    }</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;      <span class="keywordflow">return</span> runNumbers.keySet().size();</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    }</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a89b956f95eb37137ca2b5f12a1d5402d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Number org.jgap.audit.Evaluator.getValue </td>
+          <td>(</td>
+          <td class="paramtype">Comparable&#160;</td>
+          <td class="paramname"><em>rowKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparable&#160;</td>
+          <td class="paramname"><em>columnKey</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">return</span> m_data.getValue(rowKey, columnKey);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4e5098189bebb031f0a49eed915ed2e4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Number org.jgap.audit.Evaluator.getValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_run</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparable&#160;</td>
+          <td class="paramname"><em>rowKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparable&#160;</td>
+          <td class="paramname"><em>columnKey</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                                               {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    KeyedValues2D a_data = m_permutationData.get(<a class="code" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8fe0028b3b402c3a4844d65f584a846a">createKey</a>(a_permutation, a_run));</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordflow">if</span> (a_data == null) {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordflow">return</span> a_data.getValue(rowKey, columnKey);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evaluator_html_a8fe0028b3b402c3a4844d65f584a846a"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8fe0028b3b402c3a4844d65f584a846a">org.jgap.audit.Evaluator.createKey</a></div><div class="ttdeci">Object createKey(int a_permutation, int a_run)</div><div class="ttdef"><b>Definition:</b> Evaluator.java:138</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad8cafe98e1b94dff9a556fdd455b49d2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.audit.Evaluator.hasNext </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                           {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">return</span> m_permConf.hasNext();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2576280461955eb41abffc0e56491608"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> org.jgap.audit.Evaluator.next </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                                           {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> m_permConf.next();</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af00e41cf4dfd12a799a1c4f3e2f7f1a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data.html">GenotypeData</a> org.jgap.audit.Evaluator.retrieveGenotype </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_run</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keywordflow">return</span> m_genotypeData.get(a_permutation + <span class="stringliteral">&quot;_&quot;</span> + a_run);</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a06ec484afd450635db73cf803ee4334c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.audit.Evaluator.setValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparable&#160;</td>
+          <td class="paramname"><em>a_rowKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparable&#160;</td>
+          <td class="paramname"><em>a_columnKey</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                               {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    m_data.setValue(<span class="keyword">new</span> Double(a_value), a_rowKey, a_columnKey);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="comment">//    fireDatasetChanged();</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab0b472080690febf2bbf4d537f20cb72"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.audit.Evaluator.setValue </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_run</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparable&#160;</td>
+          <td class="paramname"><em>a_rowKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comparable&#160;</td>
+          <td class="paramname"><em>a_columnKey</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets a specific value.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_permutation</td><td>int </td></tr>
+    <tr><td class="paramname">a_run</td><td>int </td></tr>
+    <tr><td class="paramname">a_value</td><td>double </td></tr>
+    <tr><td class="paramname">a_rowKey</td><td>Comparable </td></tr>
+    <tr><td class="paramname">a_columnKey</td><td>Comparable</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    Object key = <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8fe0028b3b402c3a4844d65f584a846a">createKey</a>(a_permutation, a_run);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    KeyedValues2D a_data = m_permutationData.get(key);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">if</span> (a_data == null) {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      a_data = <span class="keyword">new</span> KeyedValues2D();</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      m_permutationData.put(key, a_data);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="comment">// Add run-number (index).</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="comment">// -----------------------</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a1ab07be10354b09f0dbd5d22e8eed926">addRunNumber</a>(a_permutation, a_run);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    a_data.setValue(<span class="keyword">new</span> Double(a_value), a_rowKey, a_columnKey);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evaluator_html_a8fe0028b3b402c3a4844d65f584a846a"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8fe0028b3b402c3a4844d65f584a846a">org.jgap.audit.Evaluator.createKey</a></div><div class="ttdeci">Object createKey(int a_permutation, int a_run)</div><div class="ttdef"><b>Definition:</b> Evaluator.java:138</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evaluator_html_a1ab07be10354b09f0dbd5d22e8eed926"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a1ab07be10354b09f0dbd5d22e8eed926">org.jgap.audit.Evaluator.addRunNumber</a></div><div class="ttdeci">void addRunNumber(int a_permutation, int a_run)</div><div class="ttdef"><b>Definition:</b> Evaluator.java:116</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5279539edcf3b0cba17ca726072194f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.audit.Evaluator.storeGenotype </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_run</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_genotype.html">Genotype</a>&#160;</td>
+          <td class="paramname"><em>a_genotype</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores information contained in the given genotype. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_permutation</td><td>int </td></tr>
+    <tr><td class="paramname">a_run</td><td>index of the run proceeded for the given genotype </td></tr>
+    <tr><td class="paramname">a_genotype</td><td>the genotype holding the population of chromosomes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;                                                                               {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a48f84bb9929cec12795c98bf1185ac68">storePopulation</a>(a_permutation, a_run, a_genotype.getPopulation());</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evaluator_html_a48f84bb9929cec12795c98bf1185ac68"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a48f84bb9929cec12795c98bf1185ac68">org.jgap.audit.Evaluator.storePopulation</a></div><div class="ttdeci">void storePopulation(int a_permutation, int a_run, Population a_pop)</div><div class="ttdef"><b>Definition:</b> Evaluator.java:307</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a48f84bb9929cec12795c98bf1185ac68"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.audit.Evaluator.storePopulation </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_permutation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_run</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Stores information contained in the given genotype.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_permutation</td><td>int </td></tr>
+    <tr><td class="paramname">a_run</td><td>index of the run proceeded for the given genotype </td></tr>
+    <tr><td class="paramname">a_pop</td><td>the population holding the relevant chromosomes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.5 (originally named storeGenotype) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000032">Tareas pendientes:</a></b></dt><dd>implement </dd></dl>
+<div class="fragment"><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="comment">// average and maximum fitness value</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    GenotypeData data = <span class="keyword">new</span> GenotypeData();</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordtype">int</span> generation = a_pop.getConfiguration().getGenerationNr();</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    data.generation = generation;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    Population pop = a_pop;</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    data.hashCode = a_pop.hashCode();</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    <span class="keywordtype">int</span> popSize = pop.size();</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    data.chromosomeData = <span class="keyword">new</span> ChromosomeData[popSize];</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    data.size = popSize;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <span class="comment">// Gather data of Chromosomes.</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="comment">// ---------------------------</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    IChromosome chrom;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    ChromosomeData chromData;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; popSize; i++) {</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;      chrom = pop.getChromosome(i);</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;      chromData = <span class="keyword">new</span> ChromosomeData();</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;      chromData.fitnessValue = chrom.getFitnessValue();</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;      chromData.size = chrom.size();</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;      chromData.index = i;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;      data.chromosomeData[i] = chromData;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    }</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    String key = a_permutation + <span class="stringliteral">&quot;_&quot;</span> + a_run;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    m_genotypeData.put(key, data);</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a1ab07be10354b09f0dbd5d22e8eed926">addRunNumber</a>(a_permutation, a_run);</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evaluator_html_a1ab07be10354b09f0dbd5d22e8eed926"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evaluator.html#a1ab07be10354b09f0dbd5d22e8eed926">org.jgap.audit.Evaluator.addRunNumber</a></div><div class="ttdeci">void addRunNumber(int a_permutation, int a_run)</div><div class="ttdef"><b>Definition:</b> Evaluator.java:116</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/audit/<a class="el" href="_evaluator_8java.html">Evaluator.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1audit.html">audit</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator.html">Evaluator</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:20 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

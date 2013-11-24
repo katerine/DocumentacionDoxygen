@@ -1,0 +1,2088 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.gp.impl.GPPopulation</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.gp.impl.GPPopulation</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable y Comparable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a2495394d8ede9583b5ac922b8149e37b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a2495394d8ede9583b5ac922b8149e37b">GPPopulation</a> ()  throws Exception </td></tr>
+<tr class="separator:a2495394d8ede9583b5ac922b8149e37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad19b2b5571851230b86e6f1f0f74fe0b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#ad19b2b5571851230b86e6f1f0f74fe0b">GPPopulation</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a> a_config, int a_size)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:ad19b2b5571851230b86e6f1f0f74fe0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69cc3bdcc9e18685c208485f0c3d0a52"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a69cc3bdcc9e18685c208485f0c3d0a52">GPPopulation</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html">GPPopulation</a> a_pop)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a69cc3bdcc9e18685c208485f0c3d0a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dd4478edeca976efc6f31bcdafa19f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a4dd4478edeca976efc6f31bcdafa19f0">GPPopulation</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html">GPPopulation</a> a_pop, boolean a_keepPrograms)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a4dd4478edeca976efc6f31bcdafa19f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d49b2b18535658aae05ecdc2263918b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a9d49b2b18535658aae05ecdc2263918b">sort</a> (Comparator c)</td></tr>
+<tr class="separator:a9d49b2b18535658aae05ecdc2263918b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeffef58a29ebb252060a7e2ed91227e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aeffef58a29ebb252060a7e2ed91227e2">create</a> (Class[] a_types, Class[][] a_argTypes, <a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_maxNodes, boolean[] a_fullModeAllowed)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:aeffef58a29ebb252060a7e2ed91227e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f3f874207800be662835fcbc58092cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a0f3f874207800be662835fcbc58092cf">create</a> (Class[] a_types, Class[][] a_argTypes, <a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_maxNodes, boolean[] a_fullModeAllowed, <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_program_creator.html">IProgramCreator</a> a_programCreator)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a0f3f874207800be662835fcbc58092cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21670302d6d9c5ad4bdc2903797eabff"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a21670302d6d9c5ad4bdc2903797eabff">create</a> (Class[] a_types, Class[][] a_argTypes, <a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_maxNodes, boolean[] a_fullModeAllowed, <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_program_creator.html">IProgramCreator</a> a_programCreator, int a_offset)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a21670302d6d9c5ad4bdc2903797eabff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ba57ecc975cad55e2868567baf248e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a3ba57ecc975cad55e2868567baf248e9">create</a> (Class[] a_types, Class[][] a_argTypes, <a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_depth, boolean a_grow, int a_maxNodes, boolean[] a_fullModeAllowed, int a_tries)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a3ba57ecc975cad55e2868567baf248e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d68eefb94b971473cb1487ecf9f92a0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a4d68eefb94b971473cb1487ecf9f92a0">create</a> (int a_programIndex, Class[] a_types, Class[][] a_argTypes, <a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_depth, boolean a_grow, int a_maxNodes, boolean[] a_fullModeAllowed, int a_tries)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a4d68eefb94b971473cb1487ecf9f92a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada6ec95d4f4e1b59e0270d6c00b92664"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#ada6ec95d4f4e1b59e0270d6c00b92664">create</a> (int a_programIndex, Class[] a_types, Class[][] a_argTypes, <a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_depth, boolean a_grow, int a_maxNodes, boolean[] a_fullModeAllowed, int a_tries, <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_program_creator.html">IProgramCreator</a> a_programCreator)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:ada6ec95d4f4e1b59e0270d6c00b92664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22d30c1d8d7bf5e1340fb6bf6bf36af5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a22d30c1d8d7bf5e1340fb6bf6bf36af5">getPopSize</a> ()</td></tr>
+<tr class="separator:a22d30c1d8d7bf5e1340fb6bf6bf36af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c4ab9ac1358c54cce879696e56376df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a> ()</td></tr>
+<tr class="separator:a6c4ab9ac1358c54cce879696e56376df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11dce280ef2ec6ff8a7e1078500feda0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a11dce280ef2ec6ff8a7e1078500feda0">setGPProgram</a> (final int a_index, final <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_program)</td></tr>
+<tr class="separator:a11dce280ef2ec6ff8a7e1078500feda0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85692cb78096a06ba3446f4847d0fd1e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a85692cb78096a06ba3446f4847d0fd1e">getGPProgram</a> (int a_index)</td></tr>
+<tr class="separator:a85692cb78096a06ba3446f4847d0fd1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e36a0da99ef591a5980b0f1eef83b31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a2e36a0da99ef591a5980b0f1eef83b31">setGPPrograms</a> (final <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html">GPPopulation</a> a_pop)</td></tr>
+<tr class="separator:a2e36a0da99ef591a5980b0f1eef83b31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d9d5bb131077ec72be3a0137716775e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a8d9d5bb131077ec72be3a0137716775e">setGPPrograms</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>[] a_progs)</td></tr>
+<tr class="separator:a8d9d5bb131077ec72be3a0137716775e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81449bc4b63442f9296c2f65508a155a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a81449bc4b63442f9296c2f65508a155a">copyGPPrograms</a> (final <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html">GPPopulation</a> a_pop)</td></tr>
+<tr class="separator:a81449bc4b63442f9296c2f65508a155a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45a7caf3ae473c7f75979a76526cb67a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a45a7caf3ae473c7f75979a76526cb67a">setGPPrograms</a> (final List a_pop)</td></tr>
+<tr class="separator:a45a7caf3ae473c7f75979a76526cb67a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e608302ac1da22597e9b5dbc2c0faae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6e608302ac1da22597e9b5dbc2c0faae">getGPPrograms</a> ()</td></tr>
+<tr class="separator:a6e608302ac1da22597e9b5dbc2c0faae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73feb5c387bfb23ae12620126e392ebc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">size</a> ()</td></tr>
+<tr class="separator:a73feb5c387bfb23ae12620126e392ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6daa11823812dd94682ae3a590dd38f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6daa11823812dd94682ae3a590dd38f1">determineFittestProgram</a> ()</td></tr>
+<tr class="separator:a6daa11823812dd94682ae3a590dd38f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4086d0d89287220377311d23251e10ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a4086d0d89287220377311d23251e10ba">determineFittestProgramComputed</a> ()</td></tr>
+<tr class="separator:a4086d0d89287220377311d23251e10ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb008e4b0e98c45736c53eb82021f94c"><td class="memItemLeft" align="right" valign="top">List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#afb008e4b0e98c45736c53eb82021f94c">determineFittestChromosomes</a> (final int a_numberOfPrograms)</td></tr>
+<tr class="separator:afb008e4b0e98c45736c53eb82021f94c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d7b58819ffefbefbc0baaa1d12a9cb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a0d7b58819ffefbefbc0baaa1d12a9cb6">sortByFitness</a> ()</td></tr>
+<tr class="separator:a0d7b58819ffefbefbc0baaa1d12a9cb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa780fcbd721a87a70b46abbfab096e3c"><td class="memItemLeft" align="right" valign="top">float[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aa780fcbd721a87a70b46abbfab096e3c">getFitnessRanks</a> ()</td></tr>
+<tr class="separator:aa780fcbd721a87a70b46abbfab096e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add444d666bfb69e116878039b634a4c1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#add444d666bfb69e116878039b634a4c1">getFitnessRank</a> (int a_index)</td></tr>
+<tr class="separator:add444d666bfb69e116878039b634a4c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d9efd7c3d81d1e70168ef872e587142"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a1d9efd7c3d81d1e70168ef872e587142">isChanged</a> ()</td></tr>
+<tr class="separator:a1d9efd7c3d81d1e70168ef872e587142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e749981f33246815f8124532e3136c6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a0e749981f33246815f8124532e3136c6">compareTo</a> (Object a_pop)</td></tr>
+<tr class="separator:a0e749981f33246815f8124532e3136c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45ced80a38dc1904286b4eb3ff52df96"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a45ced80a38dc1904286b4eb3ff52df96">equals</a> (Object a_pop)</td></tr>
+<tr class="separator:a45ced80a38dc1904286b4eb3ff52df96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28f3cef918cd1f82d3613d93f6e0e4e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a28f3cef918cd1f82d3613d93f6e0e4e9">addFittestProgram</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_toAdd)</td></tr>
+<tr class="separator:a28f3cef918cd1f82d3613d93f6e0e4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a815c413fb2bdd4b2b9c404868ee0426e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a815c413fb2bdd4b2b9c404868ee0426e">clear</a> ()</td></tr>
+<tr class="separator:a815c413fb2bdd4b2b9c404868ee0426e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae705ed824ebf7c7bf152f7998158239"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aae705ed824ebf7c7bf152f7998158239">isFirstEmpty</a> ()</td></tr>
+<tr class="separator:aae705ed824ebf7c7bf152f7998158239"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cdf68c27b023404e7c51b02ef2ec756"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a9cdf68c27b023404e7c51b02ef2ec756">getPersistentRepresentation</a> ()</td></tr>
+<tr class="separator:a9cdf68c27b023404e7c51b02ef2ec756"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:ab8c06531dff207ecdff0c86b3d36651e"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#ab8c06531dff207ecdff0c86b3d36651e">DELTA</a> = 0.0000001d</td></tr>
+<tr class="separator:ab8c06531dff207ecdff0c86b3d36651e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a77008e555c1d551716a52eb849694a7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">setChanged</a> (final boolean a_changed)</td></tr>
+<tr class="separator:a77008e555c1d551716a52eb849694a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a863f5c2070d60fbf599fcf49230baec1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a863f5c2070d60fbf599fcf49230baec1">setSorted</a> (final boolean a_sorted)</td></tr>
+<tr class="separator:a863f5c2070d60fbf599fcf49230baec1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6941b5054925d718727279f7e67416a"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#ac6941b5054925d718727279f7e67416a">containedInArray</a> (<a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>[] a_progs, <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_prog)</td></tr>
+<tr class="separator:ac6941b5054925d718727279f7e67416a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac97f9a8c11750bed24a8cfc486b7f44a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#ac97f9a8c11750bed24a8cfc486b7f44a">encode</a> (String a_string)</td></tr>
+<tr class="separator:ac97f9a8c11750bed24a8cfc486b7f44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a0818d5aae810ab518784a75743933a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a0a0818d5aae810ab518784a75743933a">decode</a> (String a_string)</td></tr>
+<tr class="separator:a0a0818d5aae810ab518784a75743933a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> for GP programs.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a2495394d8ede9583b5ac922b8149e37b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.gp.impl.GPPopulation.GPPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Default constructor, only for dynamic instantiation.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                       {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad19b2b5571851230b86e6f1f0f74fe0b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.gp.impl.GPPopulation.GPPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                                           {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">if</span> (a_config == null) {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> InvalidConfigurationException(<span class="stringliteral">&quot;Configuration must not be null!&quot;</span>);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">if</span> (a_size &lt; 1) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> InvalidConfigurationException(</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;          <span class="stringliteral">&quot;Population size must be greater zero!&quot;</span>);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    m_config = a_config;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    m_programs = <span class="keyword">new</span> GPProgram[a_size];</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    m_popSize = a_size;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    m_fitnessRank = <span class="keyword">new</span> <span class="keywordtype">float</span>[a_size];</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; a_size; i++) {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;      m_fitnessRank[i] = 0.5f;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a69cc3bdcc9e18685c208485f0c3d0a52"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.gp.impl.GPPopulation.GPPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html">GPPopulation</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                                           {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keyword">this</span>(a_pop, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4dd4478edeca976efc6f31bcdafa19f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.gp.impl.GPPopulation.GPPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html">GPPopulation</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>a_keepPrograms</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pop</td><td>the population to retrieve the parameters from </td></tr>
+    <tr><td class="paramname">a_keepPrograms</td><td>true copy programs of given population to this one </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                                           {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    m_config = a_pop.getGPConfiguration();</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    m_popSize = a_pop.getPopSize();</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    m_programs = <span class="keyword">new</span> GPProgram[m_popSize];</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    m_fitnessRank = <span class="keyword">new</span> <span class="keywordtype">float</span>[m_popSize];</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">if</span> (a_keepPrograms) {</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      <span class="keyword">synchronized</span> (m_programs) {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_popSize; i++) {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;          m_programs[i] = (IGPProgram)a_pop.getGPProgram(i).clone();</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;          m_fitnessRank[i] = a_pop.getFitnessRank(i);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        }</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;      }</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;      m_fittestProgram = a_pop.determineFittestProgramComputed();</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      <span class="keywordflow">if</span> (m_fittestProgram != null) {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        m_fittestProgram = (IGPProgram) m_fittestProgram.<a class="code" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#aa7e7d62077e6428ad7904932b1b4f7d5">clone</a>();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">setChanged</a>(a_pop.isChanged());</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;      <span class="keywordflow">if</span> (!m_changed) {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        m_sorted = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;      }</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_popSize; i++) {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        m_fitnessRank[i] = 0.5f;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;      }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  }</div>
+<div class="ttc" id="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable_html_aa7e7d62077e6428ad7904932b1b4f7d5"><div class="ttname"><a href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#aa7e7d62077e6428ad7904932b1b4f7d5">org.jgap.util.ICloneable.clone</a></div><div class="ttdeci">Object clone()</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a77008e555c1d551716a52eb849694a7b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">org.jgap.gp.impl.GPPopulation.setChanged</a></div><div class="ttdeci">void setChanged(final boolean a_changed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:792</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a28f3cef918cd1f82d3613d93f6e0e4e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.addFittestProgram </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td>
+          <td class="paramname"><em>a_toAdd</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds a GP program to this <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>. Does nothing when given null. The injection is actually executed in method create(..)</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_toAdd</td><td>the program to add</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;                                                          {</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;    <span class="keywordflow">if</span> (a_toAdd != null) {</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;      m_fittestToAdd = a_toAdd;</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    }</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a815c413fb2bdd4b2b9c404868ee0426e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Clears the list of programs. Normally, this should not be necessary. But especially in distributed computing, a fresh population has to be provided sometimes.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;                      {</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_programs.length; i++) {</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;      m_programs[i] = null;</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;    }</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;    m_changed = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;    m_sorted = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;    m_fittestProgram = null;</div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0e749981f33246815f8124532e3136c6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.impl.GPPopulation.compareTo </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method is not producing symmetric results as -1 is more often returned than 1 (see description of return value).</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pop</td><td>the other population to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>1: a_pop is null or having fewer programs or equal number of programs but at least one not contained. 0: both populations containing exactly the same programs. -1: this population contains fewer programs than a_pop</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;                                     {</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a2495394d8ede9583b5ac922b8149e37b">GPPopulation</a> other = (<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a2495394d8ede9583b5ac922b8149e37b">GPPopulation</a>) a_pop;</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;    <span class="keywordflow">if</span> (a_pop == null) {</div>
+<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;      <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;    }</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;    <span class="keywordtype">int</span> size1 = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">size</a>();</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;    <span class="keywordtype">int</span> size2 = other.size();</div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;    <span class="keywordflow">if</span> (size1 != size2) {</div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;      <span class="keywordflow">if</span> (size1 &lt; size2) {</div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;      }</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;      }</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;    }</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;    IGPProgram[] progs2 = other.getGPPrograms();</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; size1; i++) {</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;      <span class="keywordflow">if</span> (!<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#ac6941b5054925d718727279f7e67416a">containedInArray</a>(progs2, m_programs[i])) {</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;      }</div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;    }</div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_ac6941b5054925d718727279f7e67416a"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#ac6941b5054925d718727279f7e67416a">org.jgap.gp.impl.GPPopulation.containedInArray</a></div><div class="ttdeci">boolean containedInArray(IGPProgram[] a_progs, IGPProgram a_prog)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:866</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a73feb5c387bfb23ae12620126e392ebc"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">org.jgap.gp.impl.GPPopulation.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:643</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a2495394d8ede9583b5ac922b8149e37b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a2495394d8ede9583b5ac922b8149e37b">org.jgap.gp.impl.GPPopulation.GPPopulation</a></div><div class="ttdeci">GPPopulation()</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:78</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac6941b5054925d718727279f7e67416a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.gp.impl.GPPopulation.containedInArray </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>[]&#160;</td>
+          <td class="paramname"><em>a_progs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td>
+          <td class="paramname"><em>a_prog</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Checks if a program is contained within an array of programs. Assumes that in the array no element will follow after the first null element.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_progs</td><td>the array to search thru </td></tr>
+    <tr><td class="paramname">a_prog</td><td>the program to find </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true: program found in array via equals-method</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; a_progs.length; i++) {</div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;      <span class="keywordflow">if</span> (a_progs[i] == null) {</div>
+<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;      }</div>
+<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;      <span class="keywordflow">if</span> (a_progs[i].<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a45ced80a38dc1904286b4eb3ff52df96">equals</a>(a_prog)) {</div>
+<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;      }</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;    }</div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a45ced80a38dc1904286b4eb3ff52df96"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a45ced80a38dc1904286b4eb3ff52df96">org.jgap.gp.impl.GPPopulation.equals</a></div><div class="ttdeci">boolean equals(Object a_pop)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:887</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a81449bc4b63442f9296c2f65508a155a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.copyGPPrograms </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html">GPPopulation</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the GPPrograms of the given population to this population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pop</td><td>the population to use as template</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;                                                       {</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">size</a> = a_pop.size();</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    <span class="keyword">synchronized</span> (m_programs) {</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">size</a>; i++) {</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;        m_programs[i] = a_pop.getGPProgram(i);</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;      }</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;    }</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">setChanged</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a73feb5c387bfb23ae12620126e392ebc"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">org.jgap.gp.impl.GPPopulation.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:643</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a77008e555c1d551716a52eb849694a7b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">org.jgap.gp.impl.GPPopulation.setChanged</a></div><div class="ttdeci">void setChanged(final boolean a_changed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:792</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aeffef58a29ebb252060a7e2ed91227e2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.create </td>
+          <td>(</td>
+          <td class="paramtype">Class[]&#160;</td>
+          <td class="paramname"><em>a_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_argTypes</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>&#160;</td>
+          <td class="paramname"><em>a_nodeSets</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_minDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_maxDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_maxNodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean[]&#160;</td>
+          <td class="paramname"><em>a_fullModeAllowed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_types</td><td>the type for each chromosome, the length of the array represents the number of chromosomes </td></tr>
+    <tr><td class="paramname">a_argTypes</td><td>the types of the arguments to each chromosome, must be an array of arrays, the first dimension of which is the number of chromosomes and the second dimension of which is the number of arguments to the chromosome </td></tr>
+    <tr><td class="paramname">a_nodeSets</td><td>the nodes which are allowed to be used by each chromosome, must be an array of arrays, the first dimension of which is the number of chromosomes and the second dimension of which is the number of nodes </td></tr>
+    <tr><td class="paramname">a_minDepths</td><td>contains the minimum depth allowed for each chromosome </td></tr>
+    <tr><td class="paramname">a_maxDepths</td><td>contains the maximum depth allowed for each chromosome </td></tr>
+    <tr><td class="paramname">a_maxNodes</td><td>reserve space for a_maxNodes number of nodes </td></tr>
+    <tr><td class="paramname">a_fullModeAllowed</td><td>array of boolean values. For each chromosome there is one value indicating whether the full mode for creating chromosome generations during evolution is allowed (true) or not (false) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                                           {</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aeffef58a29ebb252060a7e2ed91227e2">create</a>(a_types, a_argTypes, a_nodeSets, a_minDepths, a_maxDepths,</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;           a_maxNodes, a_fullModeAllowed, <span class="keyword">new</span> DefaultProgramCreator());</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_aeffef58a29ebb252060a7e2ed91227e2"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aeffef58a29ebb252060a7e2ed91227e2">org.jgap.gp.impl.GPPopulation.create</a></div><div class="ttdeci">void create(Class[] a_types, Class[][] a_argTypes, CommandGene[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_maxNodes, boolean[] a_fullModeAllowed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:205</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0f3f874207800be662835fcbc58092cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.create </td>
+          <td>(</td>
+          <td class="paramtype">Class[]&#160;</td>
+          <td class="paramname"><em>a_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_argTypes</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>&#160;</td>
+          <td class="paramname"><em>a_nodeSets</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_minDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_maxDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_maxNodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean[]&#160;</td>
+          <td class="paramname"><em>a_fullModeAllowed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_program_creator.html">IProgramCreator</a>&#160;</td>
+          <td class="paramname"><em>a_programCreator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_types</td><td>the type for each chromosome, the length of the array represents the number of chromosomes </td></tr>
+    <tr><td class="paramname">a_argTypes</td><td>the types of the arguments to each chromosome, must be an array of arrays, the first dimension of which is the number of chromosomes and the second dimension of which is the number of arguments to the chromosome </td></tr>
+    <tr><td class="paramname">a_nodeSets</td><td>the nodes which are allowed to be used by each chromosome, must be an array of arrays, the first dimension of which is the number of chromosomes and the second dimension of which is the number of nodes </td></tr>
+    <tr><td class="paramname">a_minDepths</td><td>contains the minimum depth allowed for each chromosome </td></tr>
+    <tr><td class="paramname">a_maxDepths</td><td>contains the maximum depth allowed for each chromosome </td></tr>
+    <tr><td class="paramname">a_maxNodes</td><td>reserve space for a_maxNodes number of nodes </td></tr>
+    <tr><td class="paramname">a_fullModeAllowed</td><td>array of boolean values. For each chromosome there is one value indicating whether the full mode for creating chromosome generations during evolution is allowed (true) or not (false) </td></tr>
+    <tr><td class="paramname">a_programCreator</td><td>service to create new programs with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                                           {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aeffef58a29ebb252060a7e2ed91227e2">create</a>(a_types, a_argTypes, a_nodeSets, a_minDepths, a_maxDepths,</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;           a_maxNodes, a_fullModeAllowed, a_programCreator, 0);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_aeffef58a29ebb252060a7e2ed91227e2"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aeffef58a29ebb252060a7e2ed91227e2">org.jgap.gp.impl.GPPopulation.create</a></div><div class="ttdeci">void create(Class[] a_types, Class[][] a_argTypes, CommandGene[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_maxNodes, boolean[] a_fullModeAllowed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:205</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a21670302d6d9c5ad4bdc2903797eabff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.create </td>
+          <td>(</td>
+          <td class="paramtype">Class[]&#160;</td>
+          <td class="paramname"><em>a_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_argTypes</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>&#160;</td>
+          <td class="paramname"><em>a_nodeSets</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_minDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_maxDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_maxNodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean[]&#160;</td>
+          <td class="paramname"><em>a_fullModeAllowed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_program_creator.html">IProgramCreator</a>&#160;</td>
+          <td class="paramname"><em>a_programCreator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_types</td><td>the type for each chromosome, the length of the array represents the number of chromosomes </td></tr>
+    <tr><td class="paramname">a_argTypes</td><td>the types of the arguments to each chromosome, must be an array of arrays, the first dimension of which is the number of chromosomes and the second dimension of which is the number of arguments to the chromosome </td></tr>
+    <tr><td class="paramname">a_nodeSets</td><td>the nodes which are allowed to be used by each chromosome, must be an array of arrays, the first dimension of which is the number of chromosomes and the second dimension of which is the number of nodes </td></tr>
+    <tr><td class="paramname">a_minDepths</td><td>contains the minimum depth allowed for each chromosome </td></tr>
+    <tr><td class="paramname">a_maxDepths</td><td>contains the maximum depth allowed for each chromosome </td></tr>
+    <tr><td class="paramname">a_maxNodes</td><td>reserve space for a_maxNodes number of nodes </td></tr>
+    <tr><td class="paramname">a_fullModeAllowed</td><td>array of boolean values. For each chromosome there is one value indicating whether the full mode for creating chromosome generations during evolution is allowed (true) or not (false) </td></tr>
+    <tr><td class="paramname">a_programCreator</td><td>service to create new programs with </td></tr>
+    <tr><td class="paramname">a_offset</td><td>start index for new programs to put into the configuration</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000155">Tareas pendientes:</a></b></dt><dd>add element of randomness </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000156">Tareas pendientes:</a></b></dt><dd>5: make configurable </dd></dl>
+<div class="fragment"><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                                           {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordtype">int</span> divisor;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <span class="keywordflow">if</span> (m_popSize &lt; 2) {</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;      divisor = 1;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    }</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      divisor = m_popSize - 1;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    }</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <span class="keywordtype">int</span> genNr = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getGenerationNr();</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordtype">int</span> genI = <span class="keyword">new</span> Random().nextInt(m_popSize);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    RandomGenerator generator = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getRandomGenerator();</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <span class="keywordtype">int</span> minDepth = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getMinInitDepth();</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordtype">int</span> maxDepth = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getMaxInitDepth();</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = a_offset; i &lt; m_popSize; i++) {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;      IGPProgram program = null;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;      <span class="comment">// Vary depth dependent on run index.</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;      <span class="comment">// ----------------------------------</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="comment"></span>      <span class="keywordtype">int</span> depth = minDepth</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;          + (maxDepth - minDepth) * i</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;          / divisor;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;      <span class="comment">// Create new GP program.</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      <span class="comment">// ----------------------</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;      <span class="keywordtype">int</span> tries = 0;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;      <span class="keywordtype">int</span> maxTries = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getProgramCreationMaxtries();</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;      <span class="keywordflow">do</span> {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;          <span class="comment">// Randomize grow option as growing produces a valid program</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;          <span class="comment">// more likely than the full mode.</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;          <span class="comment">// ---------------------------------------------------------</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;          <span class="keywordtype">boolean</span> grow;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;          <span class="keywordflow">if</span> (i % 2 == 0 || generator.nextInt(8) &gt; 6) {</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;            grow = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;          }</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;          <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;            grow = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;          }</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;          program = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aeffef58a29ebb252060a7e2ed91227e2">create</a>(i, a_types, a_argTypes, a_nodeSets,</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                           a_minDepths, a_maxDepths, depth, grow,</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                           a_maxNodes, a_fullModeAllowed, tries,</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                           a_programCreator);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;          <span class="keywordflow">if</span> (program != null &amp;&amp; <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getPrototypeProgram() == null) {</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            <span class="comment">// Remember a prototype of a valid program in case generation</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;            <span class="comment">// cannot find a valid program within some few tries</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            <span class="comment">// --&gt; then clone the prototype.</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            <span class="comment">// Necessary if the maxNodes parameter is chosen small or a</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;            <span class="comment">// validator is used which is quite restrictive.</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;            <span class="comment">// ----------------------------------------------------------</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;            <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().setPrototypeProgram(program);</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;            LOGGER.info(<span class="stringliteral">&quot;Prototype program set&quot;</span>);</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;          }</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;          <span class="keywordflow">else</span> <span class="keywordflow">if</span> (genNr % 5 == 0 &amp;&amp; genNr &gt; 0 &amp;&amp; i == genI) {</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;            <span class="comment">// Set prototype to new value after every some evolutions.</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;            <span class="comment">// -------------------------------------------------------</span></div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;            <span class="keywordtype">double</span> protoFitness = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getPrototypeProgram().</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                getFitnessValue();</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getGPFitnessEvaluator().isFitter(program.</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                getFitnessValue(), protoFitness)) {</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;              <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().setPrototypeProgram(program);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            }</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;          }</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        } <span class="keywordflow">catch</span> (IllegalStateException iex) {</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;          <span class="keywordflow">if</span> (depth &lt; maxDepth) {</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;            depth = depth + generator.nextInt(2);</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;          }</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;          <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;            depth = depth - generator.nextInt(4);</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;            <span class="keywordflow">if</span> (depth &lt; minDepth) {</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                depth = minDepth;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;            }</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;          }</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;          tries++;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;          <span class="keywordflow">if</span> (maxTries &gt;=0 &amp;&amp; tries &gt; maxTries || (i &gt; a_offset &amp;&amp; tries &gt; 40)) {</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;            IGPProgram prototype = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getPrototypeProgram();</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;            <span class="keywordflow">if</span> (prototype != null) {</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;              ICloneHandler cloner = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getJGAPFactory().</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;                  getCloneHandlerFor(prototype, null);</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;              <span class="keywordflow">if</span> (cloner != null) {</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;                <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;                  program = (IGPProgram) cloner.perform(prototype, null, null);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;                  <span class="keywordflow">if</span> (warningPrototypeReused &gt; 0) {</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                    <span class="comment">// Only output once.</span></div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                    <span class="comment">// -----------------</span></div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                    LOGGER.warn(<span class="stringliteral">&quot;Prototype program reused because random&quot;</span></div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                                + <span class="stringliteral">&quot; program did not satisfy constraints&quot;</span>);</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                    warningPrototypeReused++;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                  }</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                  <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;                } <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;                  <span class="comment">// Rethrow original error.</span></div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;                  <span class="comment">// -----------------------</span></div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                  <span class="keywordflow">throw</span> iex;</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;                }</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;              }</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;              <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;                LOGGER.warn(<span class="stringliteral">&quot;Warning: no clone handler found for&quot;</span></div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                            + <span class="stringliteral">&quot; prototype program type &quot;</span></div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                            + prototype);</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;              }</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;            }</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            <span class="comment">// Rethrow original error.</span></div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;            <span class="comment">// -----------------------</span></div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;            <span class="keywordflow">throw</span> iex;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;          }</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        }</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;      } <span class="keywordflow">while</span> (<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a11dce280ef2ec6ff8a7e1078500feda0">setGPProgram</a>(i, program);</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    }</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">setChanged</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a11dce280ef2ec6ff8a7e1078500feda0"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a11dce280ef2ec6ff8a7e1078500feda0">org.jgap.gp.impl.GPPopulation.setGPProgram</a></div><div class="ttdeci">void setGPProgram(final int a_index, final IGPProgram a_program)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:559</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a6c4ab9ac1358c54cce879696e56376df"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">org.jgap.gp.impl.GPPopulation.getGPConfiguration</a></div><div class="ttdeci">GPConfiguration getGPConfiguration()</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:544</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_aeffef58a29ebb252060a7e2ed91227e2"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aeffef58a29ebb252060a7e2ed91227e2">org.jgap.gp.impl.GPPopulation.create</a></div><div class="ttdeci">void create(Class[] a_types, Class[][] a_argTypes, CommandGene[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_maxNodes, boolean[] a_fullModeAllowed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:205</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a77008e555c1d551716a52eb849694a7b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">org.jgap.gp.impl.GPPopulation.setChanged</a></div><div class="ttdeci">void setChanged(final boolean a_changed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:792</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3ba57ecc975cad55e2868567baf248e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> org.jgap.gp.impl.GPPopulation.create </td>
+          <td>(</td>
+          <td class="paramtype">Class[]&#160;</td>
+          <td class="paramname"><em>a_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_argTypes</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>&#160;</td>
+          <td class="paramname"><em>a_nodeSets</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_minDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_maxDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_depth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>a_grow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_maxNodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean[]&#160;</td>
+          <td class="paramname"><em>a_fullModeAllowed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_tries</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_types</td><td>Class[] </td></tr>
+    <tr><td class="paramname">a_argTypes</td><td>Class[][] </td></tr>
+    <tr><td class="paramname">a_nodeSets</td><td><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] </td></tr>
+    <tr><td class="paramname">a_minDepths</td><td>int[] </td></tr>
+    <tr><td class="paramname">a_maxDepths</td><td>int[] </td></tr>
+    <tr><td class="paramname">a_depth</td><td>int </td></tr>
+    <tr><td class="paramname">a_grow</td><td>boolean </td></tr>
+    <tr><td class="paramname">a_maxNodes</td><td>int </td></tr>
+    <tr><td class="paramname">a_fullModeAllowed</td><td>boolean[] </td></tr>
+    <tr><td class="paramname">a_tries</td><td>int </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;                                           {</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aeffef58a29ebb252060a7e2ed91227e2">create</a>(0, a_types, a_argTypes, a_nodeSets, a_minDepths, a_maxDepths,</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;                  a_depth, a_grow, a_maxNodes, a_fullModeAllowed, a_tries);</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_aeffef58a29ebb252060a7e2ed91227e2"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aeffef58a29ebb252060a7e2ed91227e2">org.jgap.gp.impl.GPPopulation.create</a></div><div class="ttdeci">void create(Class[] a_types, Class[][] a_argTypes, CommandGene[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_maxNodes, boolean[] a_fullModeAllowed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:205</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4d68eefb94b971473cb1487ecf9f92a0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> org.jgap.gp.impl.GPPopulation.create </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_programIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class[]&#160;</td>
+          <td class="paramname"><em>a_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_argTypes</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>&#160;</td>
+          <td class="paramname"><em>a_nodeSets</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_minDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_maxDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_depth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>a_grow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_maxNodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean[]&#160;</td>
+          <td class="paramname"><em>a_fullModeAllowed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_tries</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_programIndex</td><td>int </td></tr>
+    <tr><td class="paramname">a_types</td><td>Class[] </td></tr>
+    <tr><td class="paramname">a_argTypes</td><td>Class[][] </td></tr>
+    <tr><td class="paramname">a_nodeSets</td><td><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] </td></tr>
+    <tr><td class="paramname">a_minDepths</td><td>int[] </td></tr>
+    <tr><td class="paramname">a_maxDepths</td><td>int[] </td></tr>
+    <tr><td class="paramname">a_depth</td><td>int </td></tr>
+    <tr><td class="paramname">a_grow</td><td>boolean </td></tr>
+    <tr><td class="paramname">a_maxNodes</td><td>int </td></tr>
+    <tr><td class="paramname">a_fullModeAllowed</td><td>boolean[] </td></tr>
+    <tr><td class="paramname">a_tries</td><td>int </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;                                           {</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aeffef58a29ebb252060a7e2ed91227e2">create</a>(a_programIndex, a_types, a_argTypes, a_nodeSets, a_minDepths,</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;                  a_maxDepths, a_depth, a_grow, a_maxNodes, a_fullModeAllowed,</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;                  a_tries, <span class="keyword">new</span> DefaultProgramCreator());</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_aeffef58a29ebb252060a7e2ed91227e2"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#aeffef58a29ebb252060a7e2ed91227e2">org.jgap.gp.impl.GPPopulation.create</a></div><div class="ttdeci">void create(Class[] a_types, Class[][] a_argTypes, CommandGene[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_maxNodes, boolean[] a_fullModeAllowed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:205</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ada6ec95d4f4e1b59e0270d6c00b92664"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> org.jgap.gp.impl.GPPopulation.create </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_programIndex</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class[]&#160;</td>
+          <td class="paramname"><em>a_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_argTypes</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>&#160;</td>
+          <td class="paramname"><em>a_nodeSets</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_minDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_maxDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_depth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>a_grow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_maxNodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean[]&#160;</td>
+          <td class="paramname"><em>a_fullModeAllowed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_tries</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_program_creator.html">IProgramCreator</a>&#160;</td>
+          <td class="paramname"><em>a_programCreator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a valid <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>. No fitness computation is initiated here!</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_programIndex</td><td>index of the program in the population </td></tr>
+    <tr><td class="paramname">a_types</td><td>the type of each chromosome, the length is the number of chromosomes </td></tr>
+    <tr><td class="paramname">a_argTypes</td><td>the types of the arguments to each chromosome, must be an array of arrays, the first dimension of which is the number of chromosomes and the second dimension of which is the number of arguments to the chromosome </td></tr>
+    <tr><td class="paramname">a_nodeSets</td><td>the nodes which are allowed to be used by each chromosome, must be an array of arrays, the first dimension of which is the number of chromosomes and the second dimension of which is the number of nodes </td></tr>
+    <tr><td class="paramname">a_minDepths</td><td>contains the minimum depth allowed for each chromosome </td></tr>
+    <tr><td class="paramname">a_maxDepths</td><td>contains the maximum depth allowed for each chromosome </td></tr>
+    <tr><td class="paramname">a_depth</td><td>the maximum depth of the program to create </td></tr>
+    <tr><td class="paramname">a_grow</td><td>true: grow mode, false: full mode </td></tr>
+    <tr><td class="paramname">a_maxNodes</td><td>reserve space for a_maxNodes number of nodes </td></tr>
+    <tr><td class="paramname">a_fullModeAllowed</td><td>array of boolean values. For each chromosome there is one value indicating whether the full mode for creating chromosomes during evolution is allowed (true) or not (false) </td></tr>
+    <tr><td class="paramname">a_tries</td><td>maximum number of tries to get a valid program </td></tr>
+    <tr><td class="paramname">a_programCreator</td><td>strategy class to create programs for the population</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>valid program</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;                                           {</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;    <span class="comment">// Is there a fittest program to be injected?</span></div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;    <span class="comment">// ------------------------------------------</span></div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    <span class="keywordflow">if</span> (m_fittestToAdd != null) {</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;      IGPProgram program;</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;      ICloneHandler cloner = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getJGAPFactory().</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;          getCloneHandlerFor(m_fittestToAdd, null);</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;      <span class="keywordflow">if</span> (cloner == null) {</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;        program = (IGPProgram) m_fittestToAdd;</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;      }</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;          program = (IGPProgram) cloner.perform(m_fittestToAdd, null, null);</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;        } <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;          ex.printStackTrace();</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;          program = (IGPProgram) m_fittestToAdd;</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;        }</div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;      }</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;      <span class="comment">// Clear out the fittest program to add as it just has been added.</span></div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;      <span class="comment">// ---------------------------------------------------------------</span></div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;      m_fittestToAdd = null;</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;      <span class="keywordflow">return</span> program;</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;    }</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;      <span class="comment">// Create new GP program.</span></div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;      <span class="comment">// ----------------------</span></div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;      IGPProgram program;</div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;      program = a_programCreator.create(<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>(), a_programIndex,</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;                                        a_types, a_argTypes, a_nodeSets,</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;                                        a_minDepths, a_maxDepths, a_maxNodes,</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;                                        a_depth, a_grow, a_tries,</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;                                        a_fullModeAllowed);</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;      <span class="keywordflow">return</span> program;</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    }</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a6c4ab9ac1358c54cce879696e56376df"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">org.jgap.gp.impl.GPPopulation.getGPConfiguration</a></div><div class="ttdeci">GPConfiguration getGPConfiguration()</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:544</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0a0818d5aae810ab518784a75743933a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.impl.GPPopulation.decode </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_string</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;                                           {</div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;    <span class="keywordflow">return</span> StringKit.decode(a_string);</div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afb008e4b0e98c45736c53eb82021f94c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List org.jgap.gp.impl.GPPopulation.determineFittestChromosomes </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_numberOfPrograms</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sorts the GPPrograms list and returns the fittest n GPPrograms in the population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_numberOfPrograms</td><td>number of top performer GPPrograms to be returned </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>list of the fittest n GPPrograms of the population, or the fittest x GPPrograms with x = number of GPPrograms in case n &gt; x.</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;    <span class="keywordtype">int</span> numberOfChromosomes = Math.min(a_numberOfPrograms, m_programs.length);</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    <span class="keywordflow">if</span> (numberOfChromosomes &lt;= 0) {</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;      <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    }</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;    <span class="keywordflow">if</span> (!m_changed &amp;&amp; m_sorted) {</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;      <span class="keywordflow">return</span> Arrays.asList(m_programs).subList(0, numberOfChromosomes);</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    }</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;    <span class="comment">// Sort the list of chromosomes using the fitness comparator</span></div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a0d7b58819ffefbefbc0baaa1d12a9cb6">sortByFitness</a>();</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;    <span class="comment">// Return the top n chromosomes</span></div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;    <span class="keywordflow">return</span> Arrays.asList(m_programs).subList(0, numberOfChromosomes);</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a0d7b58819ffefbefbc0baaa1d12a9cb6"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a0d7b58819ffefbefbc0baaa1d12a9cb6">org.jgap.gp.impl.GPPopulation.sortByFitness</a></div><div class="ttdeci">void sortByFitness()</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:764</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6daa11823812dd94682ae3a590dd38f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> org.jgap.gp.impl.GPPopulation.determineFittestProgram </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines the fittest <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a> in the population (the one with the highest fitness value) and memorizes it. This is an optimized version compared to calling determineFittesPrograms(1).</p>
+<dl class="section return"><dt>Devuelve</dt><dd>the fittest <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a> of the population</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;                                              {</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;    <span class="keywordflow">if</span> (!m_changed &amp;&amp; m_fittestProgram != null) {</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;      <span class="keywordflow">return</span> m_fittestProgram;</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;    }</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;    <span class="keywordtype">double</span> bestFitness = -1.0d;</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;    IGPFitnessEvaluator evaluator = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getGPFitnessEvaluator();</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;    <span class="keywordtype">double</span> fitness;</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_programs.length &amp;&amp; m_programs[i] != null; i++) {</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;      IGPProgram program = m_programs[i];</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;        fitness = program.getFitnessValue();</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;      } <span class="keywordflow">catch</span> (IllegalStateException iex) {</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;        fitness = Double.NaN;</div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;      }</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;      <span class="keywordflow">if</span> (!Double.isNaN(fitness) &amp;&amp;</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;          Math.abs(GPFitnessFunction.NO_FITNESS_VALUE - fitness) &gt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#ab8c06531dff207ecdff0c86b3d36651e">DELTA</a>) {</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;        <span class="keywordflow">if</span> (m_fittestProgram == null || evaluator.isFitter(fitness, bestFitness)) {</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;          bestFitness = fitness;</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;          m_fittestProgram = program;</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;        }</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;      }</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;    }</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">setChanged</a>(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    <span class="keywordflow">if</span> (m_fittestProgram != null) {</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;      IJGAPFactory factory = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getJGAPFactory();</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;      <span class="keywordflow">if</span> (factory == null) {</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(<span class="stringliteral">&quot;JGAPFactory must not be null!&quot;</span>);</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;      }</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;      ICloneHandler cloner = factory.getCloneHandlerFor(m_fittestProgram, null);</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;      <span class="keywordflow">if</span> (cloner != null) {</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;          m_fittestProgram = (IGPProgram) cloner.perform(m_fittestProgram, null, null);</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;        } <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;          ; <span class="comment">// ignore</span></div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;        }</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;      }</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    }</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;    <span class="keywordflow">return</span> m_fittestProgram;</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a6c4ab9ac1358c54cce879696e56376df"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">org.jgap.gp.impl.GPPopulation.getGPConfiguration</a></div><div class="ttdeci">GPConfiguration getGPConfiguration()</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:544</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a77008e555c1d551716a52eb849694a7b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">org.jgap.gp.impl.GPPopulation.setChanged</a></div><div class="ttdeci">void setChanged(final boolean a_changed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:792</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_ab8c06531dff207ecdff0c86b3d36651e"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#ab8c06531dff207ecdff0c86b3d36651e">org.jgap.gp.impl.GPPopulation.DELTA</a></div><div class="ttdeci">static final double DELTA</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:37</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4086d0d89287220377311d23251e10ba"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> org.jgap.gp.impl.GPPopulation.determineFittestProgramComputed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determines the fittest <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a> in the population, but only considers programs with already computed fitness value.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>the fittest <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a> of the population</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;                                                      {</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;    <span class="keywordtype">double</span> bestFitness = -1.0d;</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;    IGPFitnessEvaluator evaluator = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().getGPFitnessEvaluator();</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    <span class="keywordtype">double</span> fitness;</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;    IGPProgram fittest = null;</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_programs.length &amp;&amp; m_programs[i] != null; i++) {</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;      IGPProgram program = m_programs[i];</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;      <span class="keywordflow">if</span> (program instanceof GPProgramBase) {</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;        GPProgramBase program1 = (GPProgramBase) program;</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;        fitness = program1.getFitnessValueDirectly();</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;      }</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        fitness = program.getFitnessValue();</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;      }</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;      <span class="keywordflow">if</span> (Math.abs(fitness - FitnessFunction.NO_FITNESS_VALUE) &gt;</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;          <a class="code" href="classorg_1_1jgap_1_1_fitness_function.html#a89cbf1ef4c08655f209ce69fde6731e7">FitnessFunction.DELTA</a>) {</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        <span class="keywordflow">if</span> (fittest == null || evaluator.isFitter(fitness, bestFitness)) {</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;          fittest = program;</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;          bestFitness = fitness;</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        }</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;      }</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    }</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    <span class="keywordflow">return</span> fittest;</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_fitness_function_html_a89cbf1ef4c08655f209ce69fde6731e7"><div class="ttname"><a href="classorg_1_1jgap_1_1_fitness_function.html#a89cbf1ef4c08655f209ce69fde6731e7">org.jgap.FitnessFunction.DELTA</a></div><div class="ttdeci">static final double DELTA</div><div class="ttdef"><b>Definition:</b> FitnessFunction.java:42</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a6c4ab9ac1358c54cce879696e56376df"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">org.jgap.gp.impl.GPPopulation.getGPConfiguration</a></div><div class="ttdeci">GPConfiguration getGPConfiguration()</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:544</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac97f9a8c11750bed24a8cfc486b7f44a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.impl.GPPopulation.encode </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_string</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;                                           {</div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;    <span class="keywordflow">return</span> StringKit.encode(a_string);</div>
+<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a45ced80a38dc1904286b4eb3ff52df96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.gp.impl.GPPopulation.equals </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The equals-method.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pop</td><td>the population instance to compare with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true: given object equal to comparing one</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;                                      {</div>
+<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a0e749981f33246815f8124532e3136c6">compareTo</a>(a_pop) == 0;</div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;    } <span class="keywordflow">catch</span> (ClassCastException e) {</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;      <span class="comment">// If the other object isn&#39;t an Population instance</span></div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;      <span class="comment">// then we&#39;re not equal.</span></div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;      <span class="comment">// ------------------------------------------------</span></div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;    }</div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a0e749981f33246815f8124532e3136c6"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a0e749981f33246815f8124532e3136c6">org.jgap.gp.impl.GPPopulation.compareTo</a></div><div class="ttdeci">int compareTo(Object a_pop)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:831</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="add444d666bfb69e116878039b634a4c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float org.jgap.gp.impl.GPPopulation.getFitnessRank </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;                                           {</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;    <span class="keywordflow">return</span> m_fitnessRank[a_index];</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa780fcbd721a87a70b46abbfab096e3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float [] org.jgap.gp.impl.GPPopulation.getFitnessRanks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;                                   {</div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;    <span class="keywordflow">return</span> m_fitnessRank;</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6c4ab9ac1358c54cce879696e56376df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a> org.jgap.gp.impl.GPPopulation.getGPConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a> set</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;                                              {</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    <span class="keywordflow">return</span> m_config;</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a85692cb78096a06ba3446f4847d0fd1e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> org.jgap.gp.impl.GPPopulation.getGPProgram </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;                                              {</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;    <span class="keywordflow">return</span> m_programs[a_index];</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6e608302ac1da22597e9b5dbc2c0faae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> [] org.jgap.gp.impl.GPPopulation.getGPPrograms </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;                                      {</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;    <span class="keywordflow">return</span> m_programs;</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9cdf68c27b023404e7c51b02ef2ec756"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.impl.GPPopulation.getPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the persistent representation of the population, including all GP programs</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;                                              {</div>
+<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;    StringBuffer b = <span class="keyword">new</span> StringBuffer();</div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;    <span class="keywordflow">for</span> (IGPProgram program : m_programs) {</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;      b.append(GPPROGRAM_DELIMITER_HEADING);</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;      b.append(<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#ac97f9a8c11750bed24a8cfc486b7f44a">encode</a>(</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;          program.getClass().getName() +</div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;          GPPROGRAM_DELIMITER +</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;          program.getPersistentRepresentation()));</div>
+<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;      b.append(GPPROGRAM_DELIMITER_CLOSING);</div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;    }</div>
+<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;    <span class="keywordflow">return</span> b.toString();</div>
+<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_ac97f9a8c11750bed24a8cfc486b7f44a"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#ac97f9a8c11750bed24a8cfc486b7f44a">org.jgap.gp.impl.GPPopulation.encode</a></div><div class="ttdeci">String encode(String a_string)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:960</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a22d30c1d8d7bf5e1340fb6bf6bf36af5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.impl.GPPopulation.getPopSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>fixed size of the population</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;                          {</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;    <span class="keywordflow">return</span> m_popSize;</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1d9efd7c3d81d1e70168ef872e587142"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.gp.impl.GPPopulation.isChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>true: population's programs (maybe) were changed, false: not changed for sure</dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;                             {</div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;    <span class="keywordflow">return</span> m_changed;</div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aae705ed824ebf7c7bf152f7998158239"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.gp.impl.GPPopulation.isFirstEmpty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;                                {</div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">size</a>() &lt; 1) {</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;    }</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;    <span class="keywordflow">if</span> (m_programs[0] == null) {</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;    }</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a73feb5c387bfb23ae12620126e392ebc"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">org.jgap.gp.impl.GPPopulation.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:643</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a77008e555c1d551716a52eb849694a7b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.setChanged </td>
+          <td>(</td>
+          <td class="paramtype">final boolean&#160;</td>
+          <td class="paramname"><em>a_changed</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Mark that for the population the fittest program may have changed.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_changed</td><td>true: population's fittest program may have changed, false: fittest program evaluated earlier is still valid</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;                                                     {</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;    m_changed = a_changed;</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a863f5c2070d60fbf599fcf49230baec1">setSorted</a>(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a863f5c2070d60fbf599fcf49230baec1"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a863f5c2070d60fbf599fcf49230baec1">org.jgap.gp.impl.GPPopulation.setSorted</a></div><div class="ttdeci">void setSorted(final boolean a_sorted)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:814</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a11dce280ef2ec6ff8a7e1078500feda0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.setGPProgram </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td>
+          <td class="paramname"><em>a_program</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the given <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a> at the given index in the list of <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a>'s. If the given index is exceeding the list by one, the chromosome is appended.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>the index to set the <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a> in </td></tr>
+    <tr><td class="paramname">a_program</td><td>the <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a> to be set</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    <span class="keyword">synchronized</span> (m_programs) {</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;      m_programs[a_index] = a_program;</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;    }</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">setChanged</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a77008e555c1d551716a52eb849694a7b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">org.jgap.gp.impl.GPPopulation.setChanged</a></div><div class="ttdeci">void setChanged(final boolean a_changed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:792</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2e36a0da99ef591a5980b0f1eef83b31"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.setGPPrograms </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html">GPPopulation</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the GPPrograms of the given population to this population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pop</td><td>the population to use as template</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;                                                      {</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    <span class="keyword">synchronized</span> (m_programs) {</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;      m_programs = a_pop.m_programs;</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;      m_popSize = m_programs.length;</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    }</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">setChanged</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a77008e555c1d551716a52eb849694a7b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">org.jgap.gp.impl.GPPopulation.setChanged</a></div><div class="ttdeci">void setChanged(final boolean a_changed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:792</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8d9d5bb131077ec72be3a0137716775e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.setGPPrograms </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>[]&#160;</td>
+          <td class="paramname"><em>a_progs</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the GPPrograms of the given array to this population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_progs</td><td>the programs to set</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;                                                        {</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;    <span class="keyword">synchronized</span> (m_programs) {</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;      m_programs = a_progs;</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;      m_popSize = m_programs.length;</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    }</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">setChanged</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a77008e555c1d551716a52eb849694a7b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">org.jgap.gp.impl.GPPopulation.setChanged</a></div><div class="ttdeci">void setChanged(final boolean a_changed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:792</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a45a7caf3ae473c7f75979a76526cb67a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.setGPPrograms </td>
+          <td>(</td>
+          <td class="paramtype">final List&#160;</td>
+          <td class="paramname"><em>a_pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the GPPrograms of the given population to this population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pop</td><td>the population to use as template</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;                                              {</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    <span class="keyword">synchronized</span> (m_programs) {</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;      <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">size</a> = a_pop.size();</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;      m_programs = <span class="keyword">new</span> GPProgram[<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">size</a>];</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">size</a>; i++) {</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;        m_programs[i] = (IGPProgram) a_pop.get(i);</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;      }</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    }</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">setChanged</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a73feb5c387bfb23ae12620126e392ebc"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a73feb5c387bfb23ae12620126e392ebc">org.jgap.gp.impl.GPPopulation.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:643</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a77008e555c1d551716a52eb849694a7b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">org.jgap.gp.impl.GPPopulation.setChanged</a></div><div class="ttdeci">void setChanged(final boolean a_changed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:792</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a863f5c2070d60fbf599fcf49230baec1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.setSorted </td>
+          <td>(</td>
+          <td class="paramtype">final boolean&#160;</td>
+          <td class="paramname"><em>a_sorted</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Mark the population as sorted. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_sorted</td><td>true: mark population as sorted</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;                                                   {</div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;    m_sorted = a_sorted;</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a73feb5c387bfb23ae12620126e392ebc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.impl.GPPopulation.size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;                    {</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;    <span class="keywordflow">return</span> m_programs.length;</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9d49b2b18535658aae05ecdc2263918b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.sort </td>
+          <td>(</td>
+          <td class="paramtype">Comparator&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sorts the population into "ascending" order using some criterion for "ascending". A Comparator is given which will compare two individuals, and if one individual compares lower than another individual, the first individual will appear in the population before the second individual.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">c</td><td>the Comparator to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                                 {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    Arrays.sort(m_programs, c);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordtype">float</span> f = 0;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_programs.length; i++) {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;      <span class="keywordflow">if</span> (m_fitnessRank.length &gt; i) {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        m_fitnessRank[i] = f;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;      }</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;      <span class="keywordflow">if</span> (m_programs[i] != null) {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        f += m_programs[i].getFitnessValue();</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      }</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    }</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0d7b58819ffefbefbc0baaa1d12a9cb6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPPopulation.sortByFitness </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sorts the programs within the population according to their fitness value using <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_fitness_comparator.html">GPProgramFitnessComparator</a>.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;                              {</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;    <span class="comment">// The following construction could be cached but wrt that the</span></div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;    <span class="comment">// evaluator registered with the configuration could change</span></div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;    <span class="comment">// --&gt; Don&#39;t cache it!</span></div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a9d49b2b18535658aae05ecdc2263918b">sort</a>(<span class="keyword">new</span> GPProgramFitnessComparator(<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">getGPConfiguration</a>().</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;                                        getGPFitnessEvaluator()));</div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">setChanged</a>(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a863f5c2070d60fbf599fcf49230baec1">setSorted</a>(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;    m_fittestProgram = m_programs[0];</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a9d49b2b18535658aae05ecdc2263918b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a9d49b2b18535658aae05ecdc2263918b">org.jgap.gp.impl.GPPopulation.sort</a></div><div class="ttdeci">void sort(Comparator c)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:169</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a863f5c2070d60fbf599fcf49230baec1"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a863f5c2070d60fbf599fcf49230baec1">org.jgap.gp.impl.GPPopulation.setSorted</a></div><div class="ttdeci">void setSorted(final boolean a_sorted)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:814</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a6c4ab9ac1358c54cce879696e56376df"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a6c4ab9ac1358c54cce879696e56376df">org.jgap.gp.impl.GPPopulation.getGPConfiguration</a></div><div class="ttdeci">GPConfiguration getGPConfiguration()</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:544</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population_html_a77008e555c1d551716a52eb849694a7b"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html#a77008e555c1d551716a52eb849694a7b">org.jgap.gp.impl.GPPopulation.setChanged</a></div><div class="ttdeci">void setChanged(final boolean a_changed)</div><div class="ttdef"><b>Definition:</b> GPPopulation.java:792</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="ab8c06531dff207ecdff0c86b3d36651e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double org.jgap.gp.impl.GPPopulation.DELTA = 0.0000001d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/gp/impl/<a class="el" href="_g_p_population_8java.html">GPPopulation.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp.html">gp</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_population.html">GPPopulation</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:45 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

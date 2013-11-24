@@ -1,0 +1,1499 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.gp.impl.GPProgram</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.gp.impl.GPProgram</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html">org.jgap.gp.GPProgramBase</a>, Serializable, Comparable, <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a> y <a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html">org.jgap.IBusinessKey</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a59b54758ea429255b3808ed4d382e3e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a59b54758ea429255b3808ed4d382e3e8">GPProgram</a> ()  throws Exception </td></tr>
+<tr class="separator:a59b54758ea429255b3808ed4d382e3e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c734a54d887f41910bd7dcefca615d6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a0c734a54d887f41910bd7dcefca615d6">GPProgram</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a> a_conf, Class[] a_types, Class[][] a_argTypes, <a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] a_nodeSets, int[] a_minDepths, int[] a_maxDepths, int a_maxNodes)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a0c734a54d887f41910bd7dcefca615d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac145944c5fa1f02adf15d163c75cd741"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac145944c5fa1f02adf15d163c75cd741">GPProgram</a> (<a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_prog)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:ac145944c5fa1f02adf15d163c75cd741"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f1006256565e614a036088e512f666e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a2f1006256565e614a036088e512f666e">GPProgram</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a> a_conf, int a_numChromosomes)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a2f1006256565e614a036088e512f666e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52e5cbf2e5421994f5139abdc8f97633"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a52e5cbf2e5421994f5139abdc8f97633">getChromosome</a> (int a_index)</td></tr>
+<tr class="separator:a52e5cbf2e5421994f5139abdc8f97633"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3681ad93308a4dfe0da29a55a7a66ab2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a3681ad93308a4dfe0da29a55a7a66ab2">setChromosome</a> (int a_index, <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a> a_chrom)</td></tr>
+<tr class="separator:a3681ad93308a4dfe0da29a55a7a66ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa3deae00dc713972f745187b993c5f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#afa3deae00dc713972f745187b993c5f0">growOrFull</a> (int a_depth, boolean a_grow, int a_maxNodes, boolean[] a_fullModeAllowed, int a_tries)</td></tr>
+<tr class="separator:afa3deae00dc713972f745187b993c5f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fc60fba88931109b56a9bf355bbf863"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a8fc60fba88931109b56a9bf355bbf863">growOrFull</a> (Class[][] a_argTypes, <a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] a_nodeSets)</td></tr>
+<tr class="separator:a8fc60fba88931109b56a9bf355bbf863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac094b8270841a331237afff26c1fd3c8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a> ()</td></tr>
+<tr class="separator:ac094b8270841a331237afff26c1fd3c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a220b6c2ed5af6eb266f396b704c8d873"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a220b6c2ed5af6eb266f396b704c8d873">toString</a> (int a_startNode)</td></tr>
+<tr class="separator:a220b6c2ed5af6eb266f396b704c8d873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88fcd847e2fe1955ea9607b2c0b2d814"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a88fcd847e2fe1955ea9607b2c0b2d814">toStringNorm</a> (int a_startNode)</td></tr>
+<tr class="separator:a88fcd847e2fe1955ea9607b2c0b2d814"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6a1ee6e89576971f68107e092c92dff"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#aa6a1ee6e89576971f68107e092c92dff">toStringDebug</a> ()</td></tr>
+<tr class="separator:aa6a1ee6e89576971f68107e092c92dff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54c512d511d99087100cc0f3cb26f0e0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a54c512d511d99087100cc0f3cb26f0e0">execute_int</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:a54c512d511d99087100cc0f3cb26f0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca7a5b7573313cbc44f9d0fd9263382"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#aeca7a5b7573313cbc44f9d0fd9263382">execute_float</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:aeca7a5b7573313cbc44f9d0fd9263382"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc63a7011940878149f3f31e1f4bd6a9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#acc63a7011940878149f3f31e1f4bd6a9">execute_double</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:acc63a7011940878149f3f31e1f4bd6a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af54a9afea07bf9faefe487d125039016"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#af54a9afea07bf9faefe487d125039016">execute_boolean</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:af54a9afea07bf9faefe487d125039016"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf96d41d757a05896eac7377607dae67"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#acf96d41d757a05896eac7377607dae67">execute_object</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:acf96d41d757a05896eac7377607dae67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad790a2a9693298dc2dcdc5c8098bbf72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ad790a2a9693298dc2dcdc5c8098bbf72">execute_void</a> (int a_chromosomeNum, Object[] a_args)</td></tr>
+<tr class="separator:ad790a2a9693298dc2dcdc5c8098bbf72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9aaed0206c092f51a05cc2fb600cf63"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac9aaed0206c092f51a05cc2fb600cf63">getCommandOfClass</a> (int a_chromosomeNum, Class a_class)</td></tr>
+<tr class="separator:ac9aaed0206c092f51a05cc2fb600cf63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ad90a59a6378e320188aed293d26ea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a34ad90a59a6378e320188aed293d26ea">compareTo</a> (Object a_other)</td></tr>
+<tr class="separator:a34ad90a59a6378e320188aed293d26ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95db8f334287b1434fbd8d12d1c1be99"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a95db8f334287b1434fbd8d12d1c1be99">clone</a> ()</td></tr>
+<tr class="separator:a95db8f334287b1434fbd8d12d1c1be99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb4433bf414be6c31533f57a89a54c34"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#afb4433bf414be6c31533f57a89a54c34">getPersistentRepresentation</a> ()</td></tr>
+<tr class="separator:afb4433bf414be6c31533f57a89a54c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef41b8fda92d9d1b3607ed7d16243468"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#aef41b8fda92d9d1b3607ed7d16243468">getBusinessKey</a> ()</td></tr>
+<tr class="separator:aef41b8fda92d9d1b3607ed7d16243468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html">org.jgap.gp.GPProgramBase</a></td></tr>
+<tr class="memitem:ac180b60f8525986b0d20db7b22885968 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ac180b60f8525986b0d20db7b22885968">GPProgramBase</a> ()  throws Exception </td></tr>
+<tr class="separator:ac180b60f8525986b0d20db7b22885968 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb94b007fec22350e9dee7a4ff86961 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a7bb94b007fec22350e9dee7a4ff86961">GPProgramBase</a> (GPConfiguration a_conf)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a7bb94b007fec22350e9dee7a4ff86961 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93a8580b9e337088bef61a43b9e8f446 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a93a8580b9e337088bef61a43b9e8f446">GPProgramBase</a> (<a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_prog)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a93a8580b9e337088bef61a43b9e8f446 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55b0712c41743e7a00c4b30899917f3a inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">GPConfiguration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">getGPConfiguration</a> ()</td></tr>
+<tr class="separator:a55b0712c41743e7a00c4b30899917f3a inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab91a9cdc3f5fa1d5f39b6768e27101c0 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ab91a9cdc3f5fa1d5f39b6768e27101c0">equals</a> (Object a_other)</td></tr>
+<tr class="separator:ab91a9cdc3f5fa1d5f39b6768e27101c0 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac70dbb17744197e32c9f0ff9380ea973 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ac70dbb17744197e32c9f0ff9380ea973">calcFitnessValue</a> ()</td></tr>
+<tr class="separator:ac70dbb17744197e32c9f0ff9380ea973 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39d74595d2584fd04e9a96d039d78eda inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a39d74595d2584fd04e9a96d039d78eda">getFitnessValue</a> ()</td></tr>
+<tr class="separator:a39d74595d2584fd04e9a96d039d78eda inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ca6210b9293b27e7feee06b3e187406 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a9ca6210b9293b27e7feee06b3e187406">getFitnessValueDirectly</a> ()</td></tr>
+<tr class="separator:a9ca6210b9293b27e7feee06b3e187406 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a910af2c40ec932de50f534c7fe5f95f0 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a910af2c40ec932de50f534c7fe5f95f0">setFitnessValue</a> (double a_fitness)</td></tr>
+<tr class="separator:a910af2c40ec932de50f534c7fe5f95f0 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9ae1f980e5fb77a4e2f6f71207e5155 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ae9ae1f980e5fb77a4e2f6f71207e5155">setTypes</a> (Class[] a_types)</td></tr>
+<tr class="separator:ae9ae1f980e5fb77a4e2f6f71207e5155 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc1707b600d621e99ce483b470e61755 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">Class[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#adc1707b600d621e99ce483b470e61755">getTypes</a> ()</td></tr>
+<tr class="separator:adc1707b600d621e99ce483b470e61755 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7da304c91bd762f68d41e7965e4ef9be inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">Class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a7da304c91bd762f68d41e7965e4ef9be">getType</a> (int a_index)</td></tr>
+<tr class="separator:a7da304c91bd762f68d41e7965e4ef9be inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96bb2d4a4a01e1456436112484562596 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a96bb2d4a4a01e1456436112484562596">setArgTypes</a> (Class[][] a_argTypes)</td></tr>
+<tr class="separator:a96bb2d4a4a01e1456436112484562596 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e928907e7e3d3b0779fc4a45652113 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">Class[][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a62e928907e7e3d3b0779fc4a45652113">getArgTypes</a> ()</td></tr>
+<tr class="separator:a62e928907e7e3d3b0779fc4a45652113 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb0088b0fb864f31801152fb9e47d78f inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">Class[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aeb0088b0fb864f31801152fb9e47d78f">getArgType</a> (int a_index)</td></tr>
+<tr class="separator:aeb0088b0fb864f31801152fb9e47d78f inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb9c0d33f365e1f3d788feb5604c01f3 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#abb9c0d33f365e1f3d788feb5604c01f3">setNodeSets</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] a_nodeSets)</td></tr>
+<tr class="separator:abb9c0d33f365e1f3d788feb5604c01f3 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3d24caa251da7607d7434fc6f70e78 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">getNodeSets</a> ()</td></tr>
+<tr class="separator:aac3d24caa251da7607d7434fc6f70e78 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0311c1615f3428bff589206c35595cc5 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a0311c1615f3428bff589206c35595cc5">getNodeSet</a> (int a_index)</td></tr>
+<tr class="separator:a0311c1615f3428bff589206c35595cc5 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15a610da6cf439e8a729a71d1b119b5a inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a15a610da6cf439e8a729a71d1b119b5a">setMaxDepths</a> (int[] a_maxDepths)</td></tr>
+<tr class="separator:a15a610da6cf439e8a729a71d1b119b5a inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad377c53d502e373c13e94176b1d5662 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad377c53d502e373c13e94176b1d5662">getMaxDepths</a> ()</td></tr>
+<tr class="separator:aad377c53d502e373c13e94176b1d5662 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a864e23f640d66d713e9ba2a74086c89d inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a864e23f640d66d713e9ba2a74086c89d">setMinDepths</a> (int[] a_minDepths)</td></tr>
+<tr class="separator:a864e23f640d66d713e9ba2a74086c89d inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3ea34d1fe09f263537df7c639814704 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ad3ea34d1fe09f263537df7c639814704">getMinDepths</a> ()</td></tr>
+<tr class="separator:ad3ea34d1fe09f263537df7c639814704 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae357dfed5c7e91ddddc3464b60dd665 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aae357dfed5c7e91ddddc3464b60dd665">setMaxNodes</a> (int a_maxNodes)</td></tr>
+<tr class="separator:aae357dfed5c7e91ddddc3464b60dd665 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad0ae3c5c5e5a0c8b736ecc3aa063a4a inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad0ae3c5c5e5a0c8b736ecc3aa063a4a">getMaxNodes</a> ()</td></tr>
+<tr class="separator:aad0ae3c5c5e5a0c8b736ecc3aa063a4a inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2bf5f122cd2867c7dd8cb5b06815a0b inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ab2bf5f122cd2867c7dd8cb5b06815a0b">setApplicationData</a> (Object a_data)</td></tr>
+<tr class="separator:ab2bf5f122cd2867c7dd8cb5b06815a0b inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2917af78464de7f0c7c6804bff8cb928 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a2917af78464de7f0c7c6804bff8cb928">getApplicationData</a> ()</td></tr>
+<tr class="separator:a2917af78464de7f0c7c6804bff8cb928 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_program_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">org.jgap.gp.IGPProgram</a></td></tr>
+<tr class="memitem:a21317711fdc6ed56ad22a30e7e8e8d92 inherit pub_methods_interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a21317711fdc6ed56ad22a30e7e8e8d92">setChromosome</a> (int a_index, ProgramChromosome a_chrom)</td></tr>
+<tr class="separator:a21317711fdc6ed56ad22a30e7e8e8d92 inherit pub_methods_interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ad7f7325e72d6e61364cde12724409c5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_info.html">GPProgramInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ad7f7325e72d6e61364cde12724409c5c">putToCache</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a> a_program)</td></tr>
+<tr class="separator:ad7f7325e72d6e61364cde12724409c5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab6c5da90ae01391bac8a116418554a4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#aab6c5da90ae01391bac8a116418554a4">encode</a> (String a_string)</td></tr>
+<tr class="separator:aab6c5da90ae01391bac8a116418554a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1231afda708bdb49aa727c26004ab3"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a0a1231afda708bdb49aa727c26004ab3">decode</a> (String a_string)</td></tr>
+<tr class="separator:a0a1231afda708bdb49aa727c26004ab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">org.jgap.gp.IGPProgram</a></td></tr>
+<tr class="memitem:a9b256f58b194a88fdc5bd5e47c33f83d inherit pub_static_attribs_interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a9b256f58b194a88fdc5bd5e47c33f83d">CVS_REVISION</a> = &quot;$Revision: 1.14 $&quot;</td></tr>
+<tr class="separator:a9b256f58b194a88fdc5bd5e47c33f83d inherit pub_static_attribs_interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a></td></tr>
+<tr class="memitem:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#a4eaaa85432026f5bc54c3e520b22caa7">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html">org.jgap.IBusinessKey</a></td></tr>
+<tr class="memitem:a6d43b687da0842739b8021f466ca451a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html#a6d43b687da0842739b8021f466ca451a">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a6d43b687da0842739b8021f466ca451a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>A GP program contains 1..n <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a>'s.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a59b54758ea429255b3808ed4d382e3e8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.gp.impl.GPProgram.GPProgram </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Default constructor, only for dynamic instantiation.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                       {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0c734a54d887f41910bd7dcefca615d6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.gp.impl.GPProgram.GPProgram </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class[]&#160;</td>
+          <td class="paramname"><em>a_types</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_argTypes</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>&#160;</td>
+          <td class="paramname"><em>a_nodeSets</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_minDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_maxDepths</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_maxNodes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Master constructor.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_types</td><td>the type of each chromosome, the length is the number of chromosomes </td></tr>
+    <tr><td class="paramname">a_argTypes</td><td>the types of the arguments to each chromosome, must be an array of arrays, the first dimension of which is the number of chromosomes and the second dimension of which is the number of arguments to the chromosome </td></tr>
+    <tr><td class="paramname">a_nodeSets</td><td>the nodes which are allowed to be used by each chromosome, must be an array of arrays, the first dimension of which is the number of chromosomes and the second dimension of which is the number of nodes </td></tr>
+    <tr><td class="paramname">a_minDepths</td><td>contains the minimum depth allowed for each chromosome </td></tr>
+    <tr><td class="paramname">a_maxDepths</td><td>contains the maximum depth allowed for each chromosome </td></tr>
+    <tr><td class="paramname">a_maxNodes</td><td>reserve space for a_maxNodes number of nodes </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                                           {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    super(a_conf);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    m_chromosomes = <span class="keyword">new</span> ProgramChromosome[a_types.length];</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ae9ae1f980e5fb77a4e2f6f71207e5155">setTypes</a>(a_types);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a96bb2d4a4a01e1456436112484562596">setArgTypes</a>(a_argTypes);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#abb9c0d33f365e1f3d788feb5604c01f3">setNodeSets</a>(a_nodeSets);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a15a610da6cf439e8a729a71d1b119b5a">setMaxDepths</a>(a_maxDepths);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a864e23f640d66d713e9ba2a74086c89d">setMinDepths</a>(a_minDepths);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aae357dfed5c7e91ddddc3464b60dd665">setMaxNodes</a>(a_maxNodes);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a96bb2d4a4a01e1456436112484562596"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a96bb2d4a4a01e1456436112484562596">org.jgap.gp.GPProgramBase.setArgTypes</a></div><div class="ttdeci">void setArgTypes(Class[][] a_argTypes)</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:184</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_ae9ae1f980e5fb77a4e2f6f71207e5155"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ae9ae1f980e5fb77a4e2f6f71207e5155">org.jgap.gp.GPProgramBase.setTypes</a></div><div class="ttdeci">void setTypes(Class[] a_types)</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:172</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_abb9c0d33f365e1f3d788feb5604c01f3"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#abb9c0d33f365e1f3d788feb5604c01f3">org.jgap.gp.GPProgramBase.setNodeSets</a></div><div class="ttdeci">void setNodeSets(CommandGene[][] a_nodeSets)</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:196</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a15a610da6cf439e8a729a71d1b119b5a"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a15a610da6cf439e8a729a71d1b119b5a">org.jgap.gp.GPProgramBase.setMaxDepths</a></div><div class="ttdeci">void setMaxDepths(int[] a_maxDepths)</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:208</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a864e23f640d66d713e9ba2a74086c89d"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a864e23f640d66d713e9ba2a74086c89d">org.jgap.gp.GPProgramBase.setMinDepths</a></div><div class="ttdeci">void setMinDepths(int[] a_minDepths)</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:216</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_aae357dfed5c7e91ddddc3464b60dd665"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aae357dfed5c7e91ddddc3464b60dd665">org.jgap.gp.GPProgramBase.setMaxNodes</a></div><div class="ttdeci">void setMaxNodes(int a_maxNodes)</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:224</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac145944c5fa1f02adf15d163c75cd741"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.gp.impl.GPProgram.GPProgram </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td>
+          <td class="paramname"><em>a_prog</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor to initialize a <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a> with values of another <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a>.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_prog</td><td>the <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a> to read the initialization values from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                           {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    super(a_prog);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    m_chromosomes = <span class="keyword">new</span> ProgramChromosome[<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#adc1707b600d621e99ce483b470e61755">getTypes</a>().length];</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_adc1707b600d621e99ce483b470e61755"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#adc1707b600d621e99ce483b470e61755">org.jgap.gp.GPProgramBase.getTypes</a></div><div class="ttdeci">Class[] getTypes()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:176</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2f1006256565e614a036088e512f666e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.gp.impl.GPProgram.GPProgram </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_numChromosomes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sort of minimalistic constructor. Use only if you are aware of what you do.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_numChromosomes</td><td>the number of chromosomes to use with this program. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                                           {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    super(a_conf);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    m_chromosomes = <span class="keyword">new</span> ProgramChromosome[a_numChromosomes];</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a95db8f334287b1434fbd8d12d1c1be99"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.gp.impl.GPProgram.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>deep clone of the object instance</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aea99f931a9608a2a721c9ed00c2dcfe2">org.jgap.gp.GPProgramBase</a>.</p>
+<div class="fragment"><div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;                        {</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;      <span class="comment">// Min and max depths can be null.</span></div>
+<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;      <span class="comment">// -------------------------------</span></div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;      <span class="keywordtype">int</span>[] minDepthsClone;</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ad3ea34d1fe09f263537df7c639814704">getMinDepths</a>() != null) {</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;        minDepthsClone = (<span class="keywordtype">int</span>[]) <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ad3ea34d1fe09f263537df7c639814704">getMinDepths</a>().clone();</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;      }</div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;        minDepthsClone = null;</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;      }</div>
+<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;      <span class="keywordtype">int</span>[] maxDepthsClone;</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad377c53d502e373c13e94176b1d5662">getMaxDepths</a>() != null) {</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        maxDepthsClone = (<span class="keywordtype">int</span>[]) <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad377c53d502e373c13e94176b1d5662">getMaxDepths</a>().clone();</div>
+<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;      }</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;        maxDepthsClone = null;</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;      }</div>
+<div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a59b54758ea429255b3808ed4d382e3e8">GPProgram</a> result = <span class="keyword">new</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a59b54758ea429255b3808ed4d382e3e8">GPProgram</a>(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">getGPConfiguration</a>(),</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;                                       (Class[]) <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#adc1707b600d621e99ce483b470e61755">getTypes</a>().<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a95db8f334287b1434fbd8d12d1c1be99">clone</a>(),</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;                                       (Class[][]) <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a62e928907e7e3d3b0779fc4a45652113">getArgTypes</a>().<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a95db8f334287b1434fbd8d12d1c1be99">clone</a>(),</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;                                       (CommandGene[][]) <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">getNodeSets</a>().<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a95db8f334287b1434fbd8d12d1c1be99">clone</a>(),</div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;                                       minDepthsClone,</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;                                       maxDepthsClone,</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;                                       <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad0ae3c5c5e5a0c8b736ecc3aa063a4a">getMaxNodes</a>());</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;      result.setFitnessValue(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a9ca6210b9293b27e7feee06b3e187406">getFitnessValueDirectly</a>());</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;      <span class="comment">// Try to clone application data.</span></div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;      <span class="comment">// ------------------------------</span></div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;      Object appData = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a2917af78464de7f0c7c6804bff8cb928">getApplicationData</a>();</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;      <span class="keywordflow">if</span> (appData != null) {</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;        ICloneHandler cloner = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">getGPConfiguration</a>().getJGAPFactory().</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;            getCloneHandlerFor(appData, null);</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;        <span class="keywordflow">if</span> (cloner != null) {</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;          result.setApplicationData(cloner.perform(appData, null, null));</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        }</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;          result.setApplicationData(appData);</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;        }</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;      }</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_chromosomes.length; i++) {</div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;        <span class="keywordflow">if</span> (m_chromosomes[i] == null) {</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;        }</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;        result.m_chromosomes[i] = (ProgramChromosome) m_chromosomes[i].<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a95db8f334287b1434fbd8d12d1c1be99">clone</a>();</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;      }</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;      <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    } <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> CloneException(ex);</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;    }</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_ad3ea34d1fe09f263537df7c639814704"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ad3ea34d1fe09f263537df7c639814704">org.jgap.gp.GPProgramBase.getMinDepths</a></div><div class="ttdeci">int[] getMinDepths()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:220</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_adc1707b600d621e99ce483b470e61755"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#adc1707b600d621e99ce483b470e61755">org.jgap.gp.GPProgramBase.getTypes</a></div><div class="ttdeci">Class[] getTypes()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:176</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_html_a95db8f334287b1434fbd8d12d1c1be99"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a95db8f334287b1434fbd8d12d1c1be99">org.jgap.gp.impl.GPProgram.clone</a></div><div class="ttdeci">Object clone()</div><div class="ttdef"><b>Definition:</b> GPProgram.java:538</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a62e928907e7e3d3b0779fc4a45652113"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a62e928907e7e3d3b0779fc4a45652113">org.jgap.gp.GPProgramBase.getArgTypes</a></div><div class="ttdeci">Class[][] getArgTypes()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:188</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a9ca6210b9293b27e7feee06b3e187406"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a9ca6210b9293b27e7feee06b3e187406">org.jgap.gp.GPProgramBase.getFitnessValueDirectly</a></div><div class="ttdeci">double getFitnessValueDirectly()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:164</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a2917af78464de7f0c7c6804bff8cb928"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a2917af78464de7f0c7c6804bff8cb928">org.jgap.gp.GPProgramBase.getApplicationData</a></div><div class="ttdeci">Object getApplicationData()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:250</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_aad377c53d502e373c13e94176b1d5662"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad377c53d502e373c13e94176b1d5662">org.jgap.gp.GPProgramBase.getMaxDepths</a></div><div class="ttdeci">int[] getMaxDepths()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:212</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_aad0ae3c5c5e5a0c8b736ecc3aa063a4a"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad0ae3c5c5e5a0c8b736ecc3aa063a4a">org.jgap.gp.GPProgramBase.getMaxNodes</a></div><div class="ttdeci">int getMaxNodes()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:228</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a55b0712c41743e7a00c4b30899917f3a"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">org.jgap.gp.GPProgramBase.getGPConfiguration</a></div><div class="ttdeci">GPConfiguration getGPConfiguration()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:98</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_html_a59b54758ea429255b3808ed4d382e3e8"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a59b54758ea429255b3808ed4d382e3e8">org.jgap.gp.impl.GPProgram.GPProgram</a></div><div class="ttdeci">GPProgram()</div><div class="ttdef"><b>Definition:</b> GPProgram.java:51</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_aac3d24caa251da7607d7434fc6f70e78"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">org.jgap.gp.GPProgramBase.getNodeSets</a></div><div class="ttdeci">CommandGene[][] getNodeSets()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:200</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a34ad90a59a6378e320188aed293d26ea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.impl.GPProgram.compareTo </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compares the given program to this program.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the program against which to compare this program </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a negative number if this program is "less than" the given program, zero if they are equal to each other, and a positive number if this program is "greater than" the given program</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;                                       {</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    <span class="comment">// First, if the other Chromosome is null, then this chromosome is</span></div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    <span class="comment">// automatically the &quot;greater&quot; Chromosome.</span></div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    <span class="comment">// ---------------------------------------------------------------</span></div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    <span class="keywordflow">if</span> (a_other == null) {</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;      <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;    }</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a> = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a>();</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a59b54758ea429255b3808ed4d382e3e8">GPProgram</a> other = (<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a59b54758ea429255b3808ed4d382e3e8">GPProgram</a>) a_other;</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    ProgramChromosome[] otherChroms = other.m_chromosomes;</div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    <span class="comment">// If the other Chromosome doesn&#39;t have the same number of genes,</span></div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    <span class="comment">// then whichever has more is the &quot;greater&quot; Chromosome.</span></div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    <span class="comment">// --------------------------------------------------------------</span></div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <span class="keywordflow">if</span> (other.size() != <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a>) {</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a>() - other.size();</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;    }</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    <span class="comment">// Next, compare the gene values (alleles) for differences. If</span></div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    <span class="comment">// one of the genes is not equal, then we return the result of its</span></div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    <span class="comment">// comparison.</span></div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;    <span class="comment">// ---------------------------------------------------------------</span></div>
+<div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    Arrays.sort(m_chromosomes);</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    Arrays.sort(otherChroms);</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a>; i++) {</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;      <span class="keywordtype">int</span> comparison = m_chromosomes[i].compareTo(otherChroms[i]);</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;      <span class="keywordflow">if</span> (comparison != 0) {</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;        <span class="keywordflow">return</span> comparison;</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;      }</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    }</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;    <span class="comment">// Everything is equal. Return zero.</span></div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    <span class="comment">// ---------------------------------</span></div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_html_ac094b8270841a331237afff26c1fd3c8"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">org.jgap.gp.impl.GPProgram.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> GPProgram.java:307</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_html_a59b54758ea429255b3808ed4d382e3e8"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a59b54758ea429255b3808ed4d382e3e8">org.jgap.gp.impl.GPProgram.GPProgram</a></div><div class="ttdeci">GPProgram()</div><div class="ttdef"><b>Definition:</b> GPProgram.java:51</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0a1231afda708bdb49aa727c26004ab3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.impl.GPProgram.decode </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_string</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;                                           {</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    <span class="keywordflow">return</span> StringKit.decode(a_string);</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aab6c5da90ae01391bac8a116418554a4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.impl.GPProgram.encode </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_string</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;                                           {</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <span class="keywordflow">return</span> StringKit.encode(a_string);</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af54a9afea07bf9faefe487d125039016"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.gp.impl.GPProgram.execute_boolean </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as a boolean function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the boolean return value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a356d62b08aafb9fcb1cc90832e9a64c1">org.jgap.gp.IGPProgram</a>.</p>
+<div class="fragment"><div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    m_chromosomes[a_chromosomeNum].setIndividual(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <span class="keywordflow">return</span> m_chromosomes[a_chromosomeNum].execute_boolean(a_args);</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acc63a7011940878149f3f31e1f4bd6a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.gp.impl.GPProgram.execute_double </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as a double function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the double return value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a5288f2f88fef5992c1f97aa5479def20">org.jgap.gp.IGPProgram</a>.</p>
+<div class="fragment"><div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    m_chromosomes[a_chromosomeNum].setIndividual(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <span class="keywordflow">return</span> m_chromosomes[a_chromosomeNum].execute_double(a_args);</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aeca7a5b7573313cbc44f9d0fd9263382"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float org.jgap.gp.impl.GPProgram.execute_float </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as a float function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the floar return value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a52e909e6d1d0e322fa92ce84ff58626c">org.jgap.gp.IGPProgram</a>.</p>
+<div class="fragment"><div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    m_chromosomes[a_chromosomeNum].setIndividual(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    <span class="keywordflow">return</span> m_chromosomes[a_chromosomeNum].execute_float(a_args);</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a54c512d511d99087100cc0f3cb26f0e0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.impl.GPProgram.execute_int </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as an integer function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the integer return value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a61921eb5f86f89d479f3633f18dcea23">org.jgap.gp.IGPProgram</a>.</p>
+<div class="fragment"><div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                                                               {</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    m_chromosomes[a_chromosomeNum].setIndividual(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <span class="keywordflow">return</span> m_chromosomes[a_chromosomeNum].execute_int(a_args);</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acf96d41d757a05896eac7377607dae67"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.gp.impl.GPProgram.execute_object </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as an object function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the object return value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a0af6f3c0ed6fb8011a44272632c26ab2">org.jgap.gp.IGPProgram</a>.</p>
+<div class="fragment"><div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;    m_chromosomes[a_chromosomeNum].setIndividual(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    <span class="keywordflow">return</span> m_chromosomes[a_chromosomeNum].execute_object(a_args);</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad790a2a9693298dc2dcdc5c8098bbf72"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPProgram.execute_void </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the given chromosome as an object function.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to execute </td></tr>
+    <tr><td class="paramname">a_args</td><td>the arguments to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a5130121e7bda2b3b38627943846bfb6f">org.jgap.gp.IGPProgram</a>.</p>
+<div class="fragment"><div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    m_chromosomes[a_chromosomeNum].setIndividual(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;    m_chromosomes[a_chromosomeNum].execute_void(a_args);</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aef41b8fda92d9d1b3607ed7d16243468"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.impl.GPProgram.getBusinessKey </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>hopefully unique key representing the state of the <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.4 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html#ab1b12087d8726e9020441a1fed6be0f8">org.jgap.IBusinessKey</a>.</p>
+<div class="fragment"><div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;                                 {</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a88fcd847e2fe1955ea9607b2c0b2d814">toStringNorm</a>(0);</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_html_a88fcd847e2fe1955ea9607b2c0b2d814"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#a88fcd847e2fe1955ea9607b2c0b2d814">org.jgap.gp.impl.GPProgram.toStringNorm</a></div><div class="ttdeci">String toStringNorm(int a_startNode)</div><div class="ttdef"><b>Definition:</b> GPProgram.java:344</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a52e5cbf2e5421994f5139abdc8f97633"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a> org.jgap.gp.impl.GPProgram.getChromosome </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>the chromosome to get </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a> with the given index</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a79007ec93261e4f49223e4e39bd1a924">org.jgap.gp.IGPProgram</a>.</p>
+<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                                      {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    IGPProgram ind = m_chromosomes[a_index].getIndividual();</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">this</span> != ind) {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      m_chromosomes[a_index].setIndividual(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">return</span> m_chromosomes[a_index];</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac9aaed0206c092f51a05cc2fb600cf63"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.impl.GPProgram.getCommandOfClass </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chromosomeNum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_class</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Searches for a chromosome that has the given class and returns its index.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_chromosomeNum</td><td>the index of the chromosome to start the search with </td></tr>
+    <tr><td class="paramname">a_class</td><td>the class to find </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the index of the first chromosome found that is of a_class, or -1</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a6299be773d5ae9ee4a554ba84677268a">org.jgap.gp.IGPProgram</a>.</p>
+<div class="fragment"><div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = a_chromosomeNum; i &lt; m_chromosomes.length; i++) {</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;      <span class="keywordtype">int</span> j = m_chromosomes[i].getCommandOfClass(0, a_class);</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;      <span class="keywordflow">if</span> (j &gt;= 0) {</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;        <span class="keywordflow">return</span> j;</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;      }</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    }</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afb4433bf414be6c31533f57a89a54c34"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.impl.GPProgram.getPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the persistent representation of the GP program, including all chromosomes</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a3cfa46075460f3b56b914603cef73c66">org.jgap.gp.IGPProgram</a>.</p>
+<div class="fragment"><div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;                                              {</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    StringBuffer b = <span class="keyword">new</span> StringBuffer();</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    <span class="keywordflow">for</span> (ProgramChromosome chrom : m_chromosomes) {</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;      b.append(PROGRAMCHROM_DELIMITER_HEADING);</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;      b.append(<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#aab6c5da90ae01391bac8a116418554a4">encode</a>(</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;          chrom.getClass().getName() +</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;          PROGRAMCHROM_DELIMITER +</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;          chrom.getPersistentRepresentation()));</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;      b.append(PROGRAMCHROM_DELIMITER_CLOSING);</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    }</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    <span class="keywordflow">return</span> b.toString();</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_html_aab6c5da90ae01391bac8a116418554a4"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#aab6c5da90ae01391bac8a116418554a4">org.jgap.gp.impl.GPProgram.encode</a></div><div class="ttdeci">String encode(String a_string)</div><div class="ttdef"><b>Definition:</b> GPProgram.java:609</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afa3deae00dc713972f745187b993c5f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPProgram.growOrFull </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_depth</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>a_grow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_maxNodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">boolean[]&#160;</td>
+          <td class="paramname"><em>a_fullModeAllowed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_tries</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Initialize the chromosomes within this GP program using the grow or the full method.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_depth</td><td>the maximum depth of the chromosome to create </td></tr>
+    <tr><td class="paramname">a_grow</td><td>true: use grow method; false: use full method </td></tr>
+    <tr><td class="paramname">a_maxNodes</td><td>maximum number of nodes allowed </td></tr>
+    <tr><td class="paramname">a_fullModeAllowed</td><td>for each chromosome: true means full mode allowed, otherwise use grow mode </td></tr>
+    <tr><td class="paramname">a_tries</td><td>maximum number of tries to create a valid program</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    GPConfiguration conf = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">getGPConfiguration</a>();</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="comment">// The number of chromosomes to create.</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="comment">// ------------------------------------</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a> = m_chromosomes.length;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a>; i++) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="comment">// Construct a chromosome with place for a_maxNodes nodes.</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="comment">// -------------------------------------------------------</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        m_chromosomes[i] = <span class="keyword">new</span> ProgramChromosome(conf, a_maxNodes, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;      } <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(iex);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;      }</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      m_chromosomes[i].setArgTypes(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a62e928907e7e3d3b0779fc4a45652113">getArgTypes</a>()[i]);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      <span class="comment">// If there are ADF&#39;s in the nodeSet, then set their type according to</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;      <span class="comment">// the chromosome it references.</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      <span class="comment">// -------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;      <span class="keywordtype">int</span> len = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">getNodeSets</a>()[i].length;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; len; j++) {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">getNodeSets</a>()[i][j] instanceof ADF) {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;          ( (ADF) <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">getNodeSets</a>()[i][j]).setReturnType(</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;              <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#adc1707b600d621e99ce483b470e61755">getTypes</a>()[ ( (ADF) <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">getNodeSets</a>()[i][j]).getChromosomeNum()]);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        }</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    }</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">int</span> depth;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a>; i++) {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;      <span class="comment">// Restrict depth to input params.</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      <span class="comment">// -------------------------------</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad377c53d502e373c13e94176b1d5662">getMaxDepths</a>() != null &amp;&amp; a_depth &gt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad377c53d502e373c13e94176b1d5662">getMaxDepths</a>()[i]) {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        depth = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad377c53d502e373c13e94176b1d5662">getMaxDepths</a>()[i];</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ad3ea34d1fe09f263537df7c639814704">getMinDepths</a>() != null &amp;&amp; a_depth &lt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ad3ea34d1fe09f263537df7c639814704">getMinDepths</a>()[i]) {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;          depth = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ad3ea34d1fe09f263537df7c639814704">getMinDepths</a>()[i];</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        }</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;          depth = a_depth;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        }</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;      <span class="comment">// Decide whether to use grow mode or full mode.</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;      <span class="comment">// Here, the program is finally created.</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;      <span class="comment">// ---------------------------------------------</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;      <span class="keywordflow">if</span> (a_grow || a_fullModeAllowed == null || !a_fullModeAllowed[i]) {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        m_chromosomes[i].growOrFull(i, depth, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a7da304c91bd762f68d41e7965e4ef9be">getType</a>(i), <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aeb0088b0fb864f31801152fb9e47d78f">getArgType</a>(i),</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                                    <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a0311c1615f3428bff589206c35595cc5">getNodeSet</a>(i), <span class="keyword">true</span>, a_tries);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;      }</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        m_chromosomes[i].growOrFull(i, depth, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a7da304c91bd762f68d41e7965e4ef9be">getType</a>(i), <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aeb0088b0fb864f31801152fb9e47d78f">getArgType</a>(i),</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                                    <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a0311c1615f3428bff589206c35595cc5">getNodeSet</a>(i), <span class="keyword">false</span>, a_tries);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;      }</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    }</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">getGPConfiguration</a>().isUseProgramCache()) {</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;      <span class="comment">// Cache fitness value by checking if a program with same</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      <span class="comment">// representation was computed before.</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      <span class="comment">// ------------------------------------------------------</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;      GPProgramInfo pcInfo = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">getGPConfiguration</a>().readProgramCache(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      <span class="keywordflow">if</span> (pcInfo == null) {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        pcInfo = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ad7f7325e72d6e61364cde12724409c5c">putToCache</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;      }</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a910af2c40ec932de50f534c7fe5f95f0">setFitnessValue</a>(pcInfo.getFitnessValue());</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;      }</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    }</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_ad3ea34d1fe09f263537df7c639814704"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#ad3ea34d1fe09f263537df7c639814704">org.jgap.gp.GPProgramBase.getMinDepths</a></div><div class="ttdeci">int[] getMinDepths()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:220</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a7da304c91bd762f68d41e7965e4ef9be"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a7da304c91bd762f68d41e7965e4ef9be">org.jgap.gp.GPProgramBase.getType</a></div><div class="ttdeci">Class getType(int a_index)</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:180</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_adc1707b600d621e99ce483b470e61755"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#adc1707b600d621e99ce483b470e61755">org.jgap.gp.GPProgramBase.getTypes</a></div><div class="ttdeci">Class[] getTypes()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:176</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a62e928907e7e3d3b0779fc4a45652113"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a62e928907e7e3d3b0779fc4a45652113">org.jgap.gp.GPProgramBase.getArgTypes</a></div><div class="ttdeci">Class[][] getArgTypes()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:188</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_html_ad7f7325e72d6e61364cde12724409c5c"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ad7f7325e72d6e61364cde12724409c5c">org.jgap.gp.impl.GPProgram.putToCache</a></div><div class="ttdeci">GPProgramInfo putToCache(GPProgram a_program)</div><div class="ttdef"><b>Definition:</b> GPProgram.java:239</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_html_ac094b8270841a331237afff26c1fd3c8"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">org.jgap.gp.impl.GPProgram.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> GPProgram.java:307</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_aad377c53d502e373c13e94176b1d5662"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aad377c53d502e373c13e94176b1d5662">org.jgap.gp.GPProgramBase.getMaxDepths</a></div><div class="ttdeci">int[] getMaxDepths()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:212</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_aeb0088b0fb864f31801152fb9e47d78f"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aeb0088b0fb864f31801152fb9e47d78f">org.jgap.gp.GPProgramBase.getArgType</a></div><div class="ttdeci">Class[] getArgType(int a_index)</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:192</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a0311c1615f3428bff589206c35595cc5"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a0311c1615f3428bff589206c35595cc5">org.jgap.gp.GPProgramBase.getNodeSet</a></div><div class="ttdeci">CommandGene[] getNodeSet(int a_index)</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:204</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a910af2c40ec932de50f534c7fe5f95f0"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a910af2c40ec932de50f534c7fe5f95f0">org.jgap.gp.GPProgramBase.setFitnessValue</a></div><div class="ttdeci">void setFitnessValue(double a_fitness)</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:168</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a55b0712c41743e7a00c4b30899917f3a"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">org.jgap.gp.GPProgramBase.getGPConfiguration</a></div><div class="ttdeci">GPConfiguration getGPConfiguration()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:98</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_aac3d24caa251da7607d7434fc6f70e78"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">org.jgap.gp.GPProgramBase.getNodeSets</a></div><div class="ttdeci">CommandGene[][] getNodeSets()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:200</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8fc60fba88931109b56a9bf355bbf863"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPProgram.growOrFull </td>
+          <td>(</td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_argTypes</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>&#160;</td>
+          <td class="paramname"><em>a_nodeSets</em>[][]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Initialize this program by using given chromosomes.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_argTypes</td><td>the types of the arguments to each chromosome, must be an array of arrays, the first dimension of which is the number of chromosomes and the second dimension of which is the number of arguments to the chromosome </td></tr>
+    <tr><td class="paramname">a_nodeSets</td><td>the nodes which are allowed to be used by each chromosome,</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a> = m_chromosomes.length;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a>; i++) {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;      m_chromosomes[i].setArgTypes(a_argTypes[i]);</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      <span class="comment">// If there are ADF&#39;s in the nodeSet, then set their type according to</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;      <span class="comment">// the chromosome it references.</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      <span class="comment">// -------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;      <span class="keywordtype">int</span> len = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">getNodeSets</a>()[i].length;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; len; j++) {</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">getNodeSets</a>()[i][j] instanceof ADF) {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;          ( (ADF) <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">getNodeSets</a>()[i][j]).setReturnType(</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;              <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#adc1707b600d621e99ce483b470e61755">getTypes</a>()[ ( (ADF) <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">getNodeSets</a>()[i][j]).getChromosomeNum()]);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        }</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;      }</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    }</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">size</a>; i++) {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;      ProgramChromosome chrom = m_chromosomes[i];</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;      chrom.setFunctionSet(a_nodeSets[i]);</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;      CommandGene[] functionSet = chrom.getFunctionSet();</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;      CommandGene[] newFktSet = <span class="keyword">new</span> CommandGene[functionSet.length +</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;          a_argTypes[i].length];</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;      System.arraycopy(functionSet, 0, newFktSet, 0,</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                       functionSet.length);</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> ii = 0; ii &lt; a_argTypes[i].length; ii++) {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;          functionSet[a_nodeSets[i].length + ii]</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;              = <span class="keyword">new</span> Argument(<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">getGPConfiguration</a>(), ii, a_argTypes[i][ii]);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        } <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;          <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(iex);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        }</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;      }</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      chrom.redepth();</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    }</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">getGPConfiguration</a>().isUseProgramCache()) {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;      <span class="comment">// Cache fitness value by checking if a program with same</span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;      <span class="comment">// representation was computed before.</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;      GPProgramInfo pcInfo = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">getGPConfiguration</a>().readProgramCache(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;      <span class="keywordflow">if</span> (pcInfo == null) {</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        pcInfo = <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ad7f7325e72d6e61364cde12724409c5c">putToCache</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;      }</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a910af2c40ec932de50f534c7fe5f95f0">setFitnessValue</a>(pcInfo.getFitnessValue());</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;      }</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    }</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_adc1707b600d621e99ce483b470e61755"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#adc1707b600d621e99ce483b470e61755">org.jgap.gp.GPProgramBase.getTypes</a></div><div class="ttdeci">Class[] getTypes()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:176</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_html_ad7f7325e72d6e61364cde12724409c5c"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ad7f7325e72d6e61364cde12724409c5c">org.jgap.gp.impl.GPProgram.putToCache</a></div><div class="ttdeci">GPProgramInfo putToCache(GPProgram a_program)</div><div class="ttdef"><b>Definition:</b> GPProgram.java:239</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_html_ac094b8270841a331237afff26c1fd3c8"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html#ac094b8270841a331237afff26c1fd3c8">org.jgap.gp.impl.GPProgram.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> GPProgram.java:307</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a910af2c40ec932de50f534c7fe5f95f0"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a910af2c40ec932de50f534c7fe5f95f0">org.jgap.gp.GPProgramBase.setFitnessValue</a></div><div class="ttdeci">void setFitnessValue(double a_fitness)</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:168</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a55b0712c41743e7a00c4b30899917f3a"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">org.jgap.gp.GPProgramBase.getGPConfiguration</a></div><div class="ttdeci">GPConfiguration getGPConfiguration()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:98</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_aac3d24caa251da7607d7434fc6f70e78"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#aac3d24caa251da7607d7434fc6f70e78">org.jgap.gp.GPProgramBase.getNodeSets</a></div><div class="ttdeci">CommandGene[][] getNodeSets()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:200</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad7f7325e72d6e61364cde12724409c5c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_info.html">GPProgramInfo</a> org.jgap.gp.impl.GPProgram.putToCache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a>&#160;</td>
+          <td class="paramname"><em>a_program</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Put program to cache.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_program</td><td>the program to put into the cache </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program_info.html">GPProgramInfo</a> info about the program</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                                                          {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">getGPConfiguration</a>().putToProgramCache(a_program);</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_program_base_html_a55b0712c41743e7a00c4b30899917f3a"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_program_base.html#a55b0712c41743e7a00c4b30899917f3a">org.jgap.gp.GPProgramBase.getGPConfiguration</a></div><div class="ttdeci">GPConfiguration getGPConfiguration()</div><div class="ttdef"><b>Definition:</b> GPProgramBase.java:98</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3681ad93308a4dfe0da29a55a7a66ab2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.GPProgram.setChromosome </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_program_chromosome.html">ProgramChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_chrom</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the given chromosome at the given index.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>sic </td></tr>
+    <tr><td class="paramname">a_chrom</td><td>sic</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    m_chromosomes[a_index] = a_chrom;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac094b8270841a331237afff26c1fd3c8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.impl.GPProgram.size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the number of chromosomes in the program</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#ac4d5977f9e68517d20eb1d810f58bac3">org.jgap.gp.IGPProgram</a>.</p>
+<div class="fragment"><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                    {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <span class="keywordflow">return</span> m_chromosomes.length;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a220b6c2ed5af6eb266f396b704c8d873"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.impl.GPProgram.toString </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_startNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Builds a string that represents the output of the <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a> in left-hand-notion.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_startNode</td><td>the node to start with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>output in left-hand notion</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                                          {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="keywordflow">if</span> (a_startNode &lt; 0) {</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;      <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    }</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    StringBuffer sb = <span class="keyword">new</span> StringBuffer();</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_chromosomes.length; i++) {</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;      <span class="keywordflow">if</span> (i &gt; 0) {</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        sb.append(<span class="stringliteral">&quot; ==&gt; &quot;</span>);</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;      }</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;      sb.append(m_chromosomes[i].toString(a_startNode));</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    }</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <span class="keywordflow">return</span> sb.toString();</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa6a1ee6e89576971f68107e092c92dff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.impl.GPProgram.toStringDebug </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Builds a string that represents the debug output of the <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a>.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>class names of all program chromosomes</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                                {</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    StringBuffer sb = <span class="keyword">new</span> StringBuffer();</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_chromosomes.length; i++) {</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;      <span class="keywordflow">if</span> (i &gt; 0) {</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        sb.append(<span class="stringliteral">&quot; ==&gt; &quot;</span>);</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;      }</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;      m_chromosomes[i].setIndividual(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      sb.append(m_chromosomes[i].toStringDebug());</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    }</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    <span class="keywordflow">return</span> sb.toString();</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a88fcd847e2fe1955ea9607b2c0b2d814"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.gp.impl.GPProgram.toStringNorm </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_startNode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Builds a string that represents the normalized output of the <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a>.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_startNode</td><td>the node to start with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>output in normalized notion</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html#a316ab62cde57da6ffa6ac78f0876fc03">org.jgap.gp.IGPProgram</a>.</p>
+<div class="fragment"><div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                                              {</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    <span class="keywordflow">if</span> (a_startNode &lt; 0) {</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;      <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    }</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    StringBuffer sb = <span class="keyword">new</span> StringBuffer();</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_chromosomes.length; i++) {</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;      <span class="keywordflow">if</span> (i &gt; 0) {</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        sb.append(<span class="stringliteral">&quot; ==&gt; &quot;</span>);</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;      }</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;      m_chromosomes[i].setIndividual(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;      sb.append(m_chromosomes[i].toStringNorm(a_startNode));</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    }</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordflow">return</span> sb.toString();</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/gp/impl/<a class="el" href="_g_p_program_8java.html">GPProgram.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp.html">gp</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_program.html">GPProgram</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:45 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

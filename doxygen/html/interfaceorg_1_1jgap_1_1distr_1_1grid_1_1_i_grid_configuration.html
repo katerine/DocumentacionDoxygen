@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Interfaz org.jgap.distr.grid.IGridConfiguration</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.jgap.distr.grid.IGridConfiguration</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a77ff1414cdb515604e1e986eb40820b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_client_feedback.html">IClientFeedback</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#a77ff1414cdb515604e1e986eb40820b9">getClientFeedback</a> ()</td></tr>
+<tr class="separator:a77ff1414cdb515604e1e986eb40820b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804ce37551b1232bfe38d9da4f7f27b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_client_evolve_strategy.html">IClientEvolveStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#a804ce37551b1232bfe38d9da4f7f27b1">getClientEvolveStrategy</a> ()</td></tr>
+<tr class="separator:a804ce37551b1232bfe38d9da4f7f27b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bc89bc6b3e62d7f046f8297250c0547"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy.html">IRequestSplitStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#a3bc89bc6b3e62d7f046f8297250c0547">getRequestSplitStrategy</a> ()</td></tr>
+<tr class="separator:a3bc89bc6b3e62d7f046f8297250c0547"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a979219f6d95a231b5b00ee927fb75292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#a979219f6d95a231b5b00ee927fb75292">getConfiguration</a> ()</td></tr>
+<tr class="separator:a979219f6d95a231b5b00ee927fb75292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a518772f9dd024dd1356b8fbf50164ac9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#a518772f9dd024dd1356b8fbf50164ac9">getWorkerEvolveStrategy</a> ()</td></tr>
+<tr class="separator:a518772f9dd024dd1356b8fbf50164ac9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac813b3b74095735b62fc943a92c5ed0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#ac813b3b74095735b62fc943a92c5ed0c">setWorkerEvolveStrategy</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a> a_strategy)</td></tr>
+<tr class="separator:ac813b3b74095735b62fc943a92c5ed0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab6942c463260fd43491e337f93e5376"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#aab6942c463260fd43491e337f93e5376">setClientEvolveStrategy</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_client_evolve_strategy.html">IClientEvolveStrategy</a> a_strategy)</td></tr>
+<tr class="separator:aab6942c463260fd43491e337f93e5376"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d4add31a85b7f7434851e831ba7eccc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#a1d4add31a85b7f7434851e831ba7eccc">setClientFeedback</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_client_feedback.html">IClientFeedback</a> a_clientFeedback)</td></tr>
+<tr class="separator:a1d4add31a85b7f7434851e831ba7eccc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a83a85853173d181d3d9c723258d621"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#a7a83a85853173d181d3d9c723258d621">setRequestSplitStrategy</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy.html">IRequestSplitStrategy</a> a_splitStrategy)</td></tr>
+<tr class="separator:a7a83a85853173d181d3d9c723258d621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc9501a927b416ffb371985360c7e5e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_return_strategy.html">IWorkerReturnStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#abc9501a927b416ffb371985360c7e5e5">getWorkerReturnStrategy</a> ()</td></tr>
+<tr class="separator:abc9501a927b416ffb371985360c7e5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72a91b11601c54ff95524ffadab2219b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#a72a91b11601c54ff95524ffadab2219b">setWorkerReturnStrategy</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_return_strategy.html">IWorkerReturnStrategy</a> a_strategy)</td></tr>
+<tr class="separator:a72a91b11601c54ff95524ffadab2219b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1e5adc26d13de61b95c1b7f365b3b4e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_genotype_initializer.html">IGenotypeInitializer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#ab1e5adc26d13de61b95c1b7f365b3b4e">getGenotypeInitializer</a> ()</td></tr>
+<tr class="separator:ab1e5adc26d13de61b95c1b7f365b3b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36afefa2cde7cf3600fd69733df106b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#a36afefa2cde7cf3600fd69733df106b9">setGenotypeInitializer</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_genotype_initializer.html">IGenotypeInitializer</a> a_initializer)</td></tr>
+<tr class="separator:a36afefa2cde7cf3600fd69733df106b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a266594d162e58fb1494155713b83ee95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#a266594d162e58fb1494155713b83ee95">initialize</a> (GridNodeClientConfig gridconfig)  throws Exception</td></tr>
+<tr class="separator:a266594d162e58fb1494155713b83ee95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f2088e7f1710e511fa3f26f8038a602"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#a6f2088e7f1710e511fa3f26f8038a602">validate</a> ()  throws Exception</td></tr>
+<tr class="separator:a6f2088e7f1710e511fa3f26f8038a602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:ad8cc715c7081403fccd494b9d0683f32"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html#ad8cc715c7081403fccd494b9d0683f32">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:ad8cc715c7081403fccd494b9d0683f32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Interface for a grid configuration. It provides all information necessary to define a problem and a strategy to distributedly solve the problem.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a804ce37551b1232bfe38d9da4f7f27b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_client_evolve_strategy.html">IClientEvolveStrategy</a> org.jgap.distr.grid.IGridConfiguration.getClientEvolveStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#a27ae917ad4de266b61ba27f0b86386cf">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a77ff1414cdb515604e1e986eb40820b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_client_feedback.html">IClientFeedback</a> org.jgap.distr.grid.IGridConfiguration.getClientFeedback </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#ad41067896961d38b0acce894f731f61b">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a979219f6d95a231b5b00ee927fb75292"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> org.jgap.distr.grid.IGridConfiguration.getConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#afef6d56bee396e8dec3fec2f7bcc6ef5">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab1e5adc26d13de61b95c1b7f365b3b4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_genotype_initializer.html">IGenotypeInitializer</a> org.jgap.distr.grid.IGridConfiguration.getGenotypeInitializer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#a177b87d9913e26b0fa6ba8c5b8127800">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3bc89bc6b3e62d7f046f8297250c0547"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy.html">IRequestSplitStrategy</a> org.jgap.distr.grid.IGridConfiguration.getRequestSplitStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#a5cd317d525fd5ebc48c77eb519ea6852">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a518772f9dd024dd1356b8fbf50164ac9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a> org.jgap.distr.grid.IGridConfiguration.getWorkerEvolveStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#a362ff61aa3ef6547e01dd237edb07661">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abc9501a927b416ffb371985360c7e5e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_return_strategy.html">IWorkerReturnStrategy</a> org.jgap.distr.grid.IGridConfiguration.getWorkerReturnStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#a6d9a6e256cb6146a65091bf70331262f">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a266594d162e58fb1494155713b83ee95"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.IGridConfiguration.initialize </td>
+          <td>(</td>
+          <td class="paramtype">GridNodeClientConfig&#160;</td>
+          <td class="paramname"><em>gridconfig</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#a882c5ff25e4da769b0648f8f749f601c">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aab6942c463260fd43491e337f93e5376"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.IGridConfiguration.setClientEvolveStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_client_evolve_strategy.html">IClientEvolveStrategy</a>&#160;</td>
+          <td class="paramname"><em>a_strategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#a3b48d890153b3c2400c5a86f0219f40d">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1d4add31a85b7f7434851e831ba7eccc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.IGridConfiguration.setClientFeedback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_client_feedback.html">IClientFeedback</a>&#160;</td>
+          <td class="paramname"><em>a_clientFeedback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#a9276cb25257f26884f6d32056f047e1b">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a36afefa2cde7cf3600fd69733df106b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.IGridConfiguration.setGenotypeInitializer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_genotype_initializer.html">IGenotypeInitializer</a>&#160;</td>
+          <td class="paramname"><em>a_initializer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#ad852cef117052acb13e53e7befc38d1c">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a7a83a85853173d181d3d9c723258d621"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.IGridConfiguration.setRequestSplitStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_request_split_strategy.html">IRequestSplitStrategy</a>&#160;</td>
+          <td class="paramname"><em>a_splitStrategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#af6fae0e7006e006dc769c036eb331fa8">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ac813b3b74095735b62fc943a92c5ed0c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.IGridConfiguration.setWorkerEvolveStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a>&#160;</td>
+          <td class="paramname"><em>a_strategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#a76731207cc7b016d58cbf9f511b0f413">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a72a91b11601c54ff95524ffadab2219b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.IGridConfiguration.setWorkerReturnStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_return_strategy.html">IWorkerReturnStrategy</a>&#160;</td>
+          <td class="paramname"><em>a_strategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#a5bb747ca7e596d2e0b527887a3cc5e0e">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6f2088e7f1710e511fa3f26f8038a602"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.IGridConfiguration.validate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_grid_configuration_base.html#a5715343422e2793d0e1c4d2505a813b2">org.jgap.distr.grid.GridConfigurationBase</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="ad8cc715c7081403fccd494b9d0683f32"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.jgap.distr.grid.IGridConfiguration.CVS_REVISION = &quot;$Revision: 1.3 $&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>String containing the CVS revision. Read out via reflection! </p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/distr/grid/<a class="el" href="_i_grid_configuration_8java.html">IGridConfiguration.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr.html">distr</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_grid_configuration.html">IGridConfiguration</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:26 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

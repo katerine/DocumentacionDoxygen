@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.gp.impl.StaticGPFitnessFunction</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.gp.impl.StaticGPFitnessFunction</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function.html">org.jgap.gp.GPFitnessFunction</a> y Comparable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a8ba75bf82185263f84a6f5673ebffcf2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html#a8ba75bf82185263f84a6f5673ebffcf2">StaticGPFitnessFunction</a> (double a_staticFitnessValue)</td></tr>
+<tr class="separator:a8ba75bf82185263f84a6f5673ebffcf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a517736742d336176365a16b5254bc430"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html#a517736742d336176365a16b5254bc430">getStaticFitnessValue</a> ()</td></tr>
+<tr class="separator:a517736742d336176365a16b5254bc430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9ad29fbfddc485e55636870d905df25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html#ab9ad29fbfddc485e55636870d905df25">setStaticFitnessValue</a> (double a_staticFitnessValue)</td></tr>
+<tr class="separator:ab9ad29fbfddc485e55636870d905df25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a9734c3ff4077fc2fee95d7c5278b21"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html#a0a9734c3ff4077fc2fee95d7c5278b21">hashCode</a> ()</td></tr>
+<tr class="separator:a0a9734c3ff4077fc2fee95d7c5278b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e408d4927861688c9f88785349af93"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html#a78e408d4927861688c9f88785349af93">compareTo</a> (Object a_other)</td></tr>
+<tr class="separator:a78e408d4927861688c9f88785349af93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function.html">org.jgap.gp.GPFitnessFunction</a></td></tr>
+<tr class="memitem:a4fdc1c998282659ffaa3b0119a9067cc inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function.html#a4fdc1c998282659ffaa3b0119a9067cc">GPFitnessFunction</a> ()</td></tr>
+<tr class="separator:a4fdc1c998282659ffaa3b0119a9067cc inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aa29634fa5b8eff5883664acec0638f inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td class="memItemLeft" align="right" valign="top">final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function.html#a3aa29634fa5b8eff5883664acec0638f">getFitnessValue</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_program)</td></tr>
+<tr class="separator:a3aa29634fa5b8eff5883664acec0638f inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e5f568f9295e653a895b588315f67cc inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function.html#a7e5f568f9295e653a895b588315f67cc">getLastComputedFitnessValue</a> ()</td></tr>
+<tr class="separator:a7e5f568f9295e653a895b588315f67cc inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a6c7d3a6b028de6926c85191ecaab0d63"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html#a6c7d3a6b028de6926c85191ecaab0d63">evaluate</a> (<a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_subject)</td></tr>
+<tr class="separator:a6c7d3a6b028de6926c85191ecaab0d63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function.html">org.jgap.gp.GPFitnessFunction</a></td></tr>
+<tr class="memitem:a1044d8e90c0a44f22c74088af71a931f inherit pub_static_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function.html#a1044d8e90c0a44f22c74088af71a931f">NO_FITNESS_VALUE</a> = -1.0000000d</td></tr>
+<tr class="separator:a1044d8e90c0a44f22c74088af71a931f inherit pub_static_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19cb0f67653683bec271ae48fcd9cfb6 inherit pub_static_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function.html#a19cb0f67653683bec271ae48fcd9cfb6">MAX_FITNESS_VALUE</a> = Double.MAX_VALUE / 2</td></tr>
+<tr class="separator:a19cb0f67653683bec271ae48fcd9cfb6 inherit pub_static_attribs_classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>GP Fitness function always returning the same value. Only for testing purpose!</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a8ba75bf82185263f84a6f5673ebffcf2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.gp.impl.StaticGPFitnessFunction.StaticGPFitnessFunction </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_staticFitnessValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_staticFitnessValue</td><td>double</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 (until 1.1: input type int) </dd></dl>
+<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                                              {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    m_staticFitnessValue = a_staticFitnessValue;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a78e408d4927861688c9f88785349af93"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.impl.StaticGPFitnessFunction.compareTo </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>sic </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>as always</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                       {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html#a8ba75bf82185263f84a6f5673ebffcf2">StaticGPFitnessFunction</a> other = (<a class="code" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html#a8ba75bf82185263f84a6f5673ebffcf2">StaticGPFitnessFunction</a>) a_other;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">if</span> (m_staticFitnessValue &gt; other.m_staticFitnessValue) {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;      <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (m_staticFitnessValue &lt; other.m_staticFitnessValue) {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;      <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function_html_a8ba75bf82185263f84a6f5673ebffcf2"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html#a8ba75bf82185263f84a6f5673ebffcf2">org.jgap.gp.impl.StaticGPFitnessFunction.StaticGPFitnessFunction</a></div><div class="ttdeci">StaticGPFitnessFunction(double a_staticFitnessValue)</div><div class="ttdef"><b>Definition:</b> StaticGPFitnessFunction.java:38</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6c7d3a6b028de6926c85191ecaab0d63"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.gp.impl.StaticGPFitnessFunction.evaluate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td>
+          <td class="paramname"><em>a_subject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_subject</td><td>ignored: the GP program to evaluate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>static fitness value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function.html#a1270a9630153695d79cb9b78b4dfc24e">org.jgap.gp.GPFitnessFunction</a>.</p>
+<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                                  {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">double</span> result = m_staticFitnessValue;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a517736742d336176365a16b5254bc430"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.gp.impl.StaticGPFitnessFunction.getStaticFitnessValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>double typed fitness value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                        {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> m_staticFitnessValue;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0a9734c3ff4077fc2fee95d7c5278b21"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.gp.impl.StaticGPFitnessFunction.hashCode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                        {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordtype">int</span> result = <span class="keyword">new</span> Double(m_staticFitnessValue).hashCode();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab9ad29fbfddc485e55636870d905df25"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.gp.impl.StaticGPFitnessFunction.setStaticFitnessValue </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_staticFitnessValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_staticFitnessValue</td><td>the value to return as fitness value when calling <a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html#a6c7d3a6b028de6926c85191ecaab0d63">evaluate()</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 (until 1.1: type int) </dd></dl>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    m_staticFitnessValue = a_staticFitnessValue;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>tests/org/jgap/gp/impl/<a class="el" href="_static_g_p_fitness_function_8java.html">StaticGPFitnessFunction.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp.html">gp</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1gp_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_static_g_p_fitness_function.html">StaticGPFitnessFunction</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:47 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

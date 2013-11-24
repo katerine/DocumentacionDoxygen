@@ -1,0 +1,774 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.audit.EvolutionMonitor</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.audit.EvolutionMonitor</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html">org.jgap.audit.IEvolutionMonitor</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a294afadc9f2e15ba3d4a9ed5a5ed5682"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a294afadc9f2e15ba3d4a9ed5a5ed5682">EvolutionMonitor</a> ()</td></tr>
+<tr class="separator:a294afadc9f2e15ba3d4a9ed5a5ed5682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78284026de991d7ee6069a89c5ef00ae"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a78284026de991d7ee6069a89c5ef00ae">nextCycle</a> (<a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop, List&lt; String &gt; a_messages)</td></tr>
+<tr class="separator:a78284026de991d7ee6069a89c5ef00ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37fea3677480717e2af5a3a31a5e4ca9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a37fea3677480717e2af5a3a31a5e4ca9">start</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config)</td></tr>
+<tr class="separator:a37fea3677480717e2af5a3a31a5e4ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c53dc71860ea1f570d1e18371fd82ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a7c53dc71860ea1f570d1e18371fd82ac">event</a> (String a_monitorEvent, int a_evolutionNo, Object[] a_information)</td></tr>
+<tr class="separator:a7c53dc71860ea1f570d1e18371fd82ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd81245edfe850b2bd4776b37b85c0f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1eval_1_1_population_history_indexed.html">PopulationHistoryIndexed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#afd81245edfe850b2bd4776b37b85c0f3">getPopulations</a> ()</td></tr>
+<tr class="separator:afd81245edfe850b2bd4776b37b85c0f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a381ca4cf44eb3d5a1fe997c16a25a64b"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a381ca4cf44eb3d5a1fe997c16a25a64b">CONTEXT_UPDATE_CHROMOSOMES1</a> = 0</td></tr>
+<tr class="separator:a381ca4cf44eb3d5a1fe997c16a25a64b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18eaee603059528ce6566d24f8ab276a"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a18eaee603059528ce6566d24f8ab276a">CONTEXT_OFFSET_NATURAL_SELECTOR1</a> = 1</td></tr>
+<tr class="separator:a18eaee603059528ce6566d24f8ab276a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ce6f389d420081290b2515d661cb4c0"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a6ce6f389d420081290b2515d661cb4c0">CONTEXT_OFFSET_AFTER_OPERATE</a> = 10</td></tr>
+<tr class="separator:a6ce6f389d420081290b2515d661cb4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77402b10c3318b6bc1cff7b98eb193a3"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a77402b10c3318b6bc1cff7b98eb193a3">CONTEXT_AFTER_BULK_EVALUATION</a> = 20</td></tr>
+<tr class="separator:a77402b10c3318b6bc1cff7b98eb193a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abed0b9acfd069cd676575e6d3922e5ba"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#abed0b9acfd069cd676575e6d3922e5ba">CONTEXT_UPDATE_CHROMOSOMES2</a> = 22</td></tr>
+<tr class="separator:abed0b9acfd069cd676575e6d3922e5ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05835f8659f5d78f66d08b197f1edcb0"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a05835f8659f5d78f66d08b197f1edcb0">CONTEXT_NEW_CHROMOSOME</a> = 22</td></tr>
+<tr class="separator:a05835f8659f5d78f66d08b197f1edcb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ecef07f3b676117f73f38ba48381cd"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a48ecef07f3b676117f73f38ba48381cd">CONTEXT_READD_FITTEST</a> = 23</td></tr>
+<tr class="separator:a48ecef07f3b676117f73f38ba48381cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae72fa4d283a303569b89657fa232968c"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#ae72fa4d283a303569b89657fa232968c">CONTEXT_OFFSET_NATURAL_SELECTOR2</a> = 30</td></tr>
+<tr class="separator:ae72fa4d283a303569b89657fa232968c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e859e46b419081b3cab290da4cba45"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a62e859e46b419081b3cab290da4cba45">CONTEXT_END_OF_CYCLE</a> = 999</td></tr>
+<tr class="separator:a62e859e46b419081b3cab290da4cba45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html">org.jgap.audit.IEvolutionMonitor</a></td></tr>
+<tr class="memitem:a7fbd292e0d067b82eb5de8d6ee84c634 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a7fbd292e0d067b82eb5de8d6ee84c634">CVS_REVISION</a> = &quot;$Revision: 1.5 $&quot;</td></tr>
+<tr class="separator:a7fbd292e0d067b82eb5de8d6ee84c634 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1338d6231278758869cfd6a5e8acea5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#af1338d6231278758869cfd6a5e8acea5">MONITOR_EVENT_REMOVE_CHROMOSOME</a></td></tr>
+<tr class="separator:af1338d6231278758869cfd6a5e8acea5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e6e58c771efa19aeaa27cc7025b6de4 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a1e6e58c771efa19aeaa27cc7025b6de4">MONITOR_EVENT_BEFORE_UPDATE_CHROMOSOMES1</a></td></tr>
+<tr class="separator:a1e6e58c771efa19aeaa27cc7025b6de4 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8063f1e15ac4292270e92e6393ab3124 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a8063f1e15ac4292270e92e6393ab3124">MONITOR_EVENT_BEFORE_UPDATE_CHROMOSOMES2</a></td></tr>
+<tr class="separator:a8063f1e15ac4292270e92e6393ab3124 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c2b0d2ba80028cf13d9fc7997c1873 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#ab3c2b0d2ba80028cf13d9fc7997c1873">MONITOR_EVENT_AFTER_UPDATE_CHROMOSOMES1</a></td></tr>
+<tr class="separator:ab3c2b0d2ba80028cf13d9fc7997c1873 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa3ffaf6df6b5ae5b41e8352969b503a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#aaa3ffaf6df6b5ae5b41e8352969b503a">MONITOR_EVENT_AFTER_UPDATE_CHROMOSOMES2</a></td></tr>
+<tr class="separator:aaa3ffaf6df6b5ae5b41e8352969b503a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad8673b6b084b7a1bceaa9877a34f1e3 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#aad8673b6b084b7a1bceaa9877a34f1e3">MONITOR_EVENT_BEFORE_SELECT</a> = &quot;before_select&quot;</td></tr>
+<tr class="separator:aad8673b6b084b7a1bceaa9877a34f1e3 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c7a5270a8d8bbbf8ebec5a912c42ee5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a2c7a5270a8d8bbbf8ebec5a912c42ee5">MONITOR_EVENT_AFTER_SELECT</a> = &quot;after_select&quot;</td></tr>
+<tr class="separator:a2c7a5270a8d8bbbf8ebec5a912c42ee5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c8f32a3a154f0702aeb79a14c7d4c7c inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a4c8f32a3a154f0702aeb79a14c7d4c7c">MONITOR_EVENT_BEFORE_OPERATE</a> = &quot;before_operate&quot;</td></tr>
+<tr class="separator:a4c8f32a3a154f0702aeb79a14c7d4c7c inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ea08a5d8ba3f459ceb69f1a55b19b7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a51ea08a5d8ba3f459ceb69f1a55b19b7">MONITOR_EVENT_AFTER_OPERATE</a> = &quot;after_operate&quot;</td></tr>
+<tr class="separator:a51ea08a5d8ba3f459ceb69f1a55b19b7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a1325167413069474b3200b1d2cdc5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a10a1325167413069474b3200b1d2cdc5">MONITOR_EVENT_BEFORE_BULK_EVAL</a></td></tr>
+<tr class="separator:a10a1325167413069474b3200b1d2cdc5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3ab36dfd359ca20f62c29782ddf215a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#ae3ab36dfd359ca20f62c29782ddf215a">MONITOR_EVENT_AFTER_BULK_EVAL</a> = &quot;after_bulk_eval&quot;</td></tr>
+<tr class="separator:ae3ab36dfd359ca20f62c29782ddf215a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a834f6249a8af5b20e45d42d2db509efa inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a834f6249a8af5b20e45d42d2db509efa">MONITOR_EVENT_BEFORE_ADD_CHROMOSOME</a></td></tr>
+<tr class="separator:a834f6249a8af5b20e45d42d2db509efa inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9fbd726604f3e1949e158dbf5662c91 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#ac9fbd726604f3e1949e158dbf5662c91">MONITOR_EVENT_READD_FITTEST</a></td></tr>
+<tr class="separator:ac9fbd726604f3e1949e158dbf5662c91 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a0bcc69c26e4b793ed68dc4e3c410a455"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a0bcc69c26e4b793ed68dc4e3c410a455">init</a> ()</td></tr>
+<tr class="separator:a0bcc69c26e4b793ed68dc4e3c410a455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Monitors the evolution progress extensively. Keeps track of the population development for each single generation during the whole evolution process. Monitors chromosomes as well as genes. For each chromosome the originating chromosome is monitored (applies for natural selectors as well as for genetic operators that transform a single chromosome, like MutationOperator). For more complex genetic operators, like CrossoverOperator, all originating chromosomes are monitored (in crossover there are two). For genes an analogue monitoring is supported as for chromosomes.</p>
+<p>TO ACTIVATE MONITORING: <a class="el" href="classorg_1_1jgap_1_1_configuration.html#a836ee94d0df06bf651d4d5d9dfddf4ae">Configuration.setMonitor</a>(new <a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a294afadc9f2e15ba3d4a9ed5a5ed5682">EvolutionMonitor()</a>);</p>
+<p>Each chromosome and gene itself has a unique ID. This ID is set by method setUniqueID. A unique ID is a String value that, in best case, is unique worldwide.</p>
+<p>A chromosome's or gene's originator is set by method setUniqueIDTemplate. This method accepts an index, as there could be more than one originator (see below). </p>
+<hr/>
+<p>To give a better view, here are the population snapshots that are taken during a single evolution generation (chromosomes are given by *,+,-,.): </p>
+<pre class="fragment">|-------|      |-------|      |-------|      |-------|      |-------|
+| ** *  |      | **    |      |  *    |      |  +    |      |  +    |
+|* *  * |  =&gt;  |* *  * |  =&gt;  |*    * |  =&gt;  |*    - |  =&gt;  |*    . |
+| * **  |      |   **  |      |   **  |      |   **  |      |   -*  |
+|-------|      |-------|      |-------|      |-------|      |-------|
+  Update        Natural        Natural        Genetic        Genetic
+</pre><p> Chromosomes Selector 1 Selector i Operator 1 Operator j (Fitness calc.)</p>
+<p>|----&mdash;| |----&mdash;| |----&mdash;| |----&mdash;| |----&mdash;| | + | | + | | +** | | +** | | + * | =&gt; |* . | =&gt; |* . | =&gt; |* . | =&gt; |* * . | =&gt; |* * . | | -* | | -* | |* -* | |* -* | |* - | |----&mdash;| |----&mdash;| |----&mdash;| |----&mdash;| |----&mdash;| Bulk Fitness Update Add new Re-add Natural Function Chromosomes Chromosomes Fittest Selector k (optional) <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> (Post-Sel.)</p>
+<p>|----&mdash;| | + * | =&gt; |* * . | |* - | |----&mdash;| End of cycle</p>
+<p>For each single evolution cycle, these population states are kept separately. </p>
+<hr/>
+<p>For each chromosome the originating chromosomes are tracked. Here are examples:</p>
+<p>Natural Selection, e.g. WeightedRouletteSelector: <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> 4715 has originator <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> 4711 (different ID because of cloning)</p>
+<p>Genetic Operation, e.g. MutationOperator: <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> 5512 has originator <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> 1139</p>
+<p>Genetic Operation, e.g. CrossoverOperator: <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> 7119 has originator Chromosomes 807 and 5703 <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> 7120 has originator Chromosomes 807 and 5703 =&gt; two resulting Chromosomes have the same originators!</p>
+<p>Genetic, Operation, e.g. YourOperator: There can be as many originating Chromosomes as your operator regards </p>
+<hr/>
+<p>For each gene the originating genes are tracked. Examples:</p>
+<p>Natural Selection, e.g. WeightedRouletteSelector: All Genes in <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> 4711 have the same originating genes as <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> 4711's originating <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a>'s genes. =&gt; <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> is selected only, not modified, thus the Genes stick to the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> they belong to. Genes unique ID of template is not set.</p>
+<p>Genetic Operation, e.g. MutationOperator: Each mutated <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> originates from exactly one other <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a></p>
+<p>Genetic Operation, e.g. CrossoverOperator: Each crossed over <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> A has one originating <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> B. In turn, <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> B has one originating <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> A, as their alleles are swapped. All uncrossed Genes have the same originator as the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> they belong to, thus their unique ID of template is not set.</p>
+<p>Genetic, Operation, e.g. YourOperator: A <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> could virtually have any number of originators.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.5 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a294afadc9f2e15ba3d4a9ed5a5ed5682"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.audit.EvolutionMonitor.EvolutionMonitor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                            {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a0bcc69c26e4b793ed68dc4e3c410a455">init</a>();</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evolution_monitor_html_a0bcc69c26e4b793ed68dc4e3c410a455"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a0bcc69c26e4b793ed68dc4e3c410a455">org.jgap.audit.EvolutionMonitor.init</a></div><div class="ttdeci">void init()</div><div class="ttdef"><b>Definition:</b> EvolutionMonitor.java:149</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a7c53dc71860ea1f570d1e18371fd82ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.audit.EvolutionMonitor.event </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_monitorEvent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_evolutionNo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object[]&#160;</td>
+          <td class="paramname"><em>a_information</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Called whenever it's worth monitoring.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_monitorEvent</td><td>see constants at top of class <a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html">IEvolutionMonitor</a> </td></tr>
+    <tr><td class="paramname">a_evolutionNo</td><td>the index of the evolution round (1, 2, ...) </td></tr>
+    <tr><td class="paramname">a_information</td><td>event-specific information</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.5 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a0358692771cccc5f0affe4ae2ac17869">org.jgap.audit.IEvolutionMonitor</a>.</p>
+<div class="fragment"><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                                            {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent == null) {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      <span class="comment">// Should never happen.</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;      <span class="comment">// --------------------</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    }</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordflow">if</span> (a_information == null) {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    }</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    PopulationContext context;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="comment">// The events are queried in the chronological order they do appear.</span></div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="comment">// -----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent.equals(IEvolutionMonitor.MONITOR_EVENT_REMOVE_CHROMOSOME)) {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;      <span class="comment">// Initiated by Population.keepPopSizeConstant()</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;      Population pop = (Population) a_information[0];</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      Integer chromosomeIndex = (Integer) a_information[1];</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      IChromosome chrom = pop.getChromosome(chromosomeIndex);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent.equals(IEvolutionMonitor.</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                              <a class="code" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a1e6e58c771efa19aeaa27cc7025b6de4">MONITOR_EVENT_BEFORE_UPDATE_CHROMOSOMES1</a>)) {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;      <span class="comment">// Initiated by GABreeder.evolve before calling updateChromosomes(..)</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;      Population pop = (Population) a_information[0];</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    }</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent.equals(IEvolutionMonitor.</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                              <a class="code" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#ab3c2b0d2ba80028cf13d9fc7997c1873">MONITOR_EVENT_AFTER_UPDATE_CHROMOSOMES1</a>)) {</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;      <span class="comment">// Initiated by GABreeder.evolve after calling updateChromosomes(..)</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      Population pop = (Population) ( (Population) a_information[0]).clone();</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      <span class="comment">// Record population as now each chromosome has a fitness value assigned.</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;      <span class="comment">// ----------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="comment">//      m_evaluator.storePopulation(CONTEXT_UPDATE_CHROMOSOMES1, m_checks, pop);</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      context = <span class="keyword">new</span> PopulationContext(pop);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      m_popHist.addPopulation(m_checks, <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a381ca4cf44eb3d5a1fe997c16a25a64b">CONTEXT_UPDATE_CHROMOSOMES1</a>, context);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    }</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent.equals(IEvolutionMonitor.MONITOR_EVENT_BEFORE_SELECT)) {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;      NaturalSelector selector = (NaturalSelector) a_information[0];</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;      Population pop = (Population) a_information[1];</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;      <span class="keywordtype">int</span> selectionSize = (Integer) a_information[2];</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      <span class="keywordtype">boolean</span> a_processBeforeGeneticOperators = (Boolean) a_information[3];</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    }</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent.equals(IEvolutionMonitor.MONITOR_EVENT_AFTER_SELECT)) {</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;      NaturalSelector selector = (NaturalSelector) a_information[0];</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;      Population pop = (Population) ( (Population) a_information[1]).clone();</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      Population newPop = (Population) ( (Population) a_information[2]).clone();</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;      <span class="keywordtype">int</span> selectionSize = (Integer) a_information[3];</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      <span class="keywordtype">boolean</span> a_processBeforeGeneticOperators = (Boolean) a_information[4];</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;      <span class="keywordflow">if</span> (a_processBeforeGeneticOperators) {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <span class="comment">// Selection executed before genetic operators.</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="comment">// --------------------------------------------</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="comment">// Store data for each selector subsequently.</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="comment">// ------------------------------------------</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        context = <span class="keyword">new</span> PopulationContext(pop);</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        context.setSelector(selector);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        m_popHist.addPopulation(m_checks, <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a18eaee603059528ce6566d24f8ab276a">CONTEXT_OFFSET_NATURAL_SELECTOR1</a> +</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                                m_selectorIndex * 2 + 0, context);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        context = <span class="keyword">new</span> PopulationContext(newPop);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        context.setSelector(selector);</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        m_popHist.addPopulation(m_checks, <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a18eaee603059528ce6566d24f8ab276a">CONTEXT_OFFSET_NATURAL_SELECTOR1</a> +</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                                m_selectorIndex * 2 + 1, context);</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        m_selectorIndex++;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;      }</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        <span class="comment">// Selection executed after genetic operators.</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="comment">// -------------------------------------------</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        context = <span class="keyword">new</span> PopulationContext(pop);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        context.setSelector(selector);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        <span class="comment">// Store data for each selector subsequently.</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="comment">// ------------------------------------------</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        m_popHist.addPopulation(m_checks, <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#ae72fa4d283a303569b89657fa232968c">CONTEXT_OFFSET_NATURAL_SELECTOR2</a> +</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                                m_selectorIndex * 2 + 0, context);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        context = <span class="keyword">new</span> PopulationContext(newPop);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        context.setSelector(selector);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        m_popHist.addPopulation(m_checks, <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#ae72fa4d283a303569b89657fa232968c">CONTEXT_OFFSET_NATURAL_SELECTOR2</a> +</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                                m_selectorIndex * 2 + 1, context);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;      }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    }</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent.equals(IEvolutionMonitor.MONITOR_EVENT_BEFORE_OPERATE)) {</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;      GeneticOperator operator = (GeneticOperator) a_information[0];</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;      Population pop = (Population) a_information[1];</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;      List&lt;IChromosome&gt; chromosomes = (List&lt;IChromosome&gt;) a_information[2];</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    }</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    if (a_monitorEvent.equals(IEvolutionMonitor.<a class="code" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a51ea08a5d8ba3f459ceb69f1a55b19b7">MONITOR_EVENT_AFTER_OPERATE</a>)) {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;      GeneticOperator operator = (GeneticOperator) a_information[0];</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      Population pop = (Population) a_information[1];</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;      List&lt;IChromosome&gt; chromosomes = (List&lt;IChromosome&gt;) a_information[2];</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;      <span class="comment">// Store data for each selector subsequently.</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;      <span class="comment">// ------------------------------------------</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      context = new PopulationContext(pop);</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;      context.setOperator(operator);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;      m_popHist.addPopulation(m_checks, <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a6ce6f389d420081290b2515d661cb4c0">CONTEXT_OFFSET_AFTER_OPERATE</a> +</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                              m_operatorIndex, context);</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;      m_operatorIndex++;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      m_selectorIndex = 0;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    }</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    if (a_monitorEvent.equals(IEvolutionMonitor.<a class="code" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a10a1325167413069474b3200b1d2cdc5">MONITOR_EVENT_BEFORE_BULK_EVAL</a>)) {</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;      BulkFitnessFunction bulkFitnessFunction = (BulkFitnessFunction)</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;          a_information[0];</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;      Population pop = (Population) a_information[1];</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    }</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent.equals(IEvolutionMonitor.MONITOR_EVENT_AFTER_BULK_EVAL)) {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;      BulkFitnessFunction bulkFitnessFunction = (BulkFitnessFunction)</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;          a_information[0];</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;      Population pop = (Population) ( (Population) a_information[1]).clone();</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;      context = <span class="keyword">new</span> PopulationContext(pop);</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;      context.setBulkFitnessFunction(bulkFitnessFunction);</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;      m_popHist.addPopulation(m_checks, <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a77402b10c3318b6bc1cff7b98eb193a3">CONTEXT_AFTER_BULK_EVALUATION</a>, context);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    }</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent.equals(IEvolutionMonitor.</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                              <a class="code" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a8063f1e15ac4292270e92e6393ab3124">MONITOR_EVENT_BEFORE_UPDATE_CHROMOSOMES2</a>)) {</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;      Population pop = (Population) a_information[0];</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    }</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent.equals(IEvolutionMonitor.</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;                              <a class="code" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#aaa3ffaf6df6b5ae5b41e8352969b503a">MONITOR_EVENT_AFTER_UPDATE_CHROMOSOMES2</a>)) {</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;      Population pop = (Population) a_information[0];</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;      context = <span class="keyword">new</span> PopulationContext(pop);</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;      m_popHist.addPopulation(m_checks, <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#abed0b9acfd069cd676575e6d3922e5ba">CONTEXT_UPDATE_CHROMOSOMES2</a>, context);</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    }</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent.equals(IEvolutionMonitor.</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                              <a class="code" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a834f6249a8af5b20e45d42d2db509efa">MONITOR_EVENT_BEFORE_ADD_CHROMOSOME</a>)) {</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;      Population pop = (Population) a_information[0];</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;      IChromosome newChromosome = (IChromosome) ( (IChromosome) a_information[1]).</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;          clone();</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;      context = <span class="keyword">new</span> PopulationContext(pop);</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;      context.setChromosome(newChromosome);</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;      m_popHist.addPopulation(m_checks, <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a05835f8659f5d78f66d08b197f1edcb0">CONTEXT_NEW_CHROMOSOME</a>, context);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    }</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="keywordflow">if</span> (a_monitorEvent.equals(IEvolutionMonitor.MONITOR_EVENT_READD_FITTEST)) {</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;      Population pop = (Population) a_information[0];</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;      IChromosome fittest = (IChromosome) ( (IChromosome) a_information[1]).</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;          clone();</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;      context = <span class="keyword">new</span> PopulationContext(pop);</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;      context.setChromosome(fittest);</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;      m_popHist.addPopulation(m_checks, <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a48ecef07f3b676117f73f38ba48381cd">CONTEXT_READD_FITTEST</a>, context);</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    }</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;  }</div>
+<div class="ttc" id="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor_html_a1e6e58c771efa19aeaa27cc7025b6de4"><div class="ttname"><a href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a1e6e58c771efa19aeaa27cc7025b6de4">org.jgap.audit.IEvolutionMonitor.MONITOR_EVENT_BEFORE_UPDATE_CHROMOSOMES1</a></div><div class="ttdeci">static final String MONITOR_EVENT_BEFORE_UPDATE_CHROMOSOMES1</div><div class="ttdef"><b>Definition:</b> IEvolutionMonitor.java:31</div></div>
+<div class="ttc" id="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor_html_a10a1325167413069474b3200b1d2cdc5"><div class="ttname"><a href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a10a1325167413069474b3200b1d2cdc5">org.jgap.audit.IEvolutionMonitor.MONITOR_EVENT_BEFORE_BULK_EVAL</a></div><div class="ttdeci">static final String MONITOR_EVENT_BEFORE_BULK_EVAL</div><div class="ttdef"><b>Definition:</b> IEvolutionMonitor.java:51</div></div>
+<div class="ttc" id="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor_html_a51ea08a5d8ba3f459ceb69f1a55b19b7"><div class="ttname"><a href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a51ea08a5d8ba3f459ceb69f1a55b19b7">org.jgap.audit.IEvolutionMonitor.MONITOR_EVENT_AFTER_OPERATE</a></div><div class="ttdeci">static final String MONITOR_EVENT_AFTER_OPERATE</div><div class="ttdef"><b>Definition:</b> IEvolutionMonitor.java:49</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evolution_monitor_html_a6ce6f389d420081290b2515d661cb4c0"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a6ce6f389d420081290b2515d661cb4c0">org.jgap.audit.EvolutionMonitor.CONTEXT_OFFSET_AFTER_OPERATE</a></div><div class="ttdeci">static final int CONTEXT_OFFSET_AFTER_OPERATE</div><div class="ttdef"><b>Definition:</b> EvolutionMonitor.java:123</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evolution_monitor_html_a77402b10c3318b6bc1cff7b98eb193a3"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a77402b10c3318b6bc1cff7b98eb193a3">org.jgap.audit.EvolutionMonitor.CONTEXT_AFTER_BULK_EVALUATION</a></div><div class="ttdeci">static final int CONTEXT_AFTER_BULK_EVALUATION</div><div class="ttdef"><b>Definition:</b> EvolutionMonitor.java:125</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evolution_monitor_html_a05835f8659f5d78f66d08b197f1edcb0"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a05835f8659f5d78f66d08b197f1edcb0">org.jgap.audit.EvolutionMonitor.CONTEXT_NEW_CHROMOSOME</a></div><div class="ttdeci">static final int CONTEXT_NEW_CHROMOSOME</div><div class="ttdef"><b>Definition:</b> EvolutionMonitor.java:129</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evolution_monitor_html_a18eaee603059528ce6566d24f8ab276a"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a18eaee603059528ce6566d24f8ab276a">org.jgap.audit.EvolutionMonitor.CONTEXT_OFFSET_NATURAL_SELECTOR1</a></div><div class="ttdeci">static final int CONTEXT_OFFSET_NATURAL_SELECTOR1</div><div class="ttdef"><b>Definition:</b> EvolutionMonitor.java:121</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evolution_monitor_html_abed0b9acfd069cd676575e6d3922e5ba"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#abed0b9acfd069cd676575e6d3922e5ba">org.jgap.audit.EvolutionMonitor.CONTEXT_UPDATE_CHROMOSOMES2</a></div><div class="ttdeci">static final int CONTEXT_UPDATE_CHROMOSOMES2</div><div class="ttdef"><b>Definition:</b> EvolutionMonitor.java:127</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evolution_monitor_html_a381ca4cf44eb3d5a1fe997c16a25a64b"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a381ca4cf44eb3d5a1fe997c16a25a64b">org.jgap.audit.EvolutionMonitor.CONTEXT_UPDATE_CHROMOSOMES1</a></div><div class="ttdeci">static final int CONTEXT_UPDATE_CHROMOSOMES1</div><div class="ttdef"><b>Definition:</b> EvolutionMonitor.java:119</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evolution_monitor_html_a48ecef07f3b676117f73f38ba48381cd"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a48ecef07f3b676117f73f38ba48381cd">org.jgap.audit.EvolutionMonitor.CONTEXT_READD_FITTEST</a></div><div class="ttdeci">static final int CONTEXT_READD_FITTEST</div><div class="ttdef"><b>Definition:</b> EvolutionMonitor.java:131</div></div>
+<div class="ttc" id="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor_html_ab3c2b0d2ba80028cf13d9fc7997c1873"><div class="ttname"><a href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#ab3c2b0d2ba80028cf13d9fc7997c1873">org.jgap.audit.IEvolutionMonitor.MONITOR_EVENT_AFTER_UPDATE_CHROMOSOMES1</a></div><div class="ttdeci">static final String MONITOR_EVENT_AFTER_UPDATE_CHROMOSOMES1</div><div class="ttdef"><b>Definition:</b> IEvolutionMonitor.java:37</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evolution_monitor_html_ae72fa4d283a303569b89657fa232968c"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#ae72fa4d283a303569b89657fa232968c">org.jgap.audit.EvolutionMonitor.CONTEXT_OFFSET_NATURAL_SELECTOR2</a></div><div class="ttdeci">static final int CONTEXT_OFFSET_NATURAL_SELECTOR2</div><div class="ttdef"><b>Definition:</b> EvolutionMonitor.java:133</div></div>
+<div class="ttc" id="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor_html_a8063f1e15ac4292270e92e6393ab3124"><div class="ttname"><a href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a8063f1e15ac4292270e92e6393ab3124">org.jgap.audit.IEvolutionMonitor.MONITOR_EVENT_BEFORE_UPDATE_CHROMOSOMES2</a></div><div class="ttdeci">static final String MONITOR_EVENT_BEFORE_UPDATE_CHROMOSOMES2</div><div class="ttdef"><b>Definition:</b> IEvolutionMonitor.java:34</div></div>
+<div class="ttc" id="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor_html_a834f6249a8af5b20e45d42d2db509efa"><div class="ttname"><a href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a834f6249a8af5b20e45d42d2db509efa">org.jgap.audit.IEvolutionMonitor.MONITOR_EVENT_BEFORE_ADD_CHROMOSOME</a></div><div class="ttdeci">static final String MONITOR_EVENT_BEFORE_ADD_CHROMOSOME</div><div class="ttdef"><b>Definition:</b> IEvolutionMonitor.java:56</div></div>
+<div class="ttc" id="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor_html_aaa3ffaf6df6b5ae5b41e8352969b503a"><div class="ttname"><a href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#aaa3ffaf6df6b5ae5b41e8352969b503a">org.jgap.audit.IEvolutionMonitor.MONITOR_EVENT_AFTER_UPDATE_CHROMOSOMES2</a></div><div class="ttdeci">static final String MONITOR_EVENT_AFTER_UPDATE_CHROMOSOMES2</div><div class="ttdef"><b>Definition:</b> IEvolutionMonitor.java:40</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afd81245edfe850b2bd4776b37b85c0f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1eval_1_1_population_history_indexed.html">PopulationHistoryIndexed</a> org.jgap.audit.EvolutionMonitor.getPopulations </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the gathered monitoring data</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.5 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a1e5a15cbea7eb8277b70db7e8318bc6d">org.jgap.audit.IEvolutionMonitor</a>.</p>
+<div class="fragment"><div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                                                   {</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="keywordflow">return</span> m_popHist;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0bcc69c26e4b793ed68dc4e3c410a455"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.audit.EvolutionMonitor.init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                        {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    m_popHist = <span class="keyword">new</span> PopulationHistoryIndexed();</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a78284026de991d7ee6069a89c5ef00ae"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.audit.EvolutionMonitor.nextCycle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; String &gt;&#160;</td>
+          <td class="paramname"><em>a_messages</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Called after another evolution cycle has been executed.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pop</td><td>the currently evolved population </td></tr>
+    <tr><td class="paramname">a_messages</td><td>the monitor can append messages to indicate why it asks evolution to stop </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true: continue with the evolution; false: stop evolution</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.4.4 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a564db6ed7124c706e5828c3ef1e1be82">org.jgap.audit.IEvolutionMonitor</a>.</p>
+<div class="fragment"><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="comment">// Let&#39;s verify the progress since our last check.</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="comment">// -----------------------------------------------</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    IChromosome best = a_pop.determineFittestChromosome();</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordflow">if</span> (best != null) {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      <span class="comment">// A best solution exists.</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      <span class="comment">// -----------------------</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;      <span class="comment">// No solution exists at all.</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;      <span class="comment">// --------------------------</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="comment">// Store the population</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    Population popClone = (Population) a_pop.clone();</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="comment">//    m_evaluator.storePopulation(CONTEXT_END_OF_CYCLE, m_checks, popClone);</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    PopulationContext context = <span class="keyword">new</span> PopulationContext(popClone);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    context.setChromosome(best);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    m_popHist.addPopulation(m_checks, <a class="code" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a62e859e46b419081b3cab290da4cba45">CONTEXT_END_OF_CYCLE</a>, context);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    m_checks++;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    initCounters();</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="comment">// No continouos processing as in this example there is an outer main loop.</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="comment">// ------------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1audit_1_1_evolution_monitor_html_a62e859e46b419081b3cab290da4cba45"><div class="ttname"><a href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html#a62e859e46b419081b3cab290da4cba45">org.jgap.audit.EvolutionMonitor.CONTEXT_END_OF_CYCLE</a></div><div class="ttdeci">static final int CONTEXT_END_OF_CYCLE</div><div class="ttdef"><b>Definition:</b> EvolutionMonitor.java:135</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a37fea3677480717e2af5a3a31a5e4ca9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.audit.EvolutionMonitor.start </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Called just before the evolution starts.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_config</td><td>the configuration used</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.5 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1audit_1_1_i_evolution_monitor.html#a4352de2b8b067f78d8a4befcd6bf6593">org.jgap.audit.IEvolutionMonitor</a>.</p>
+<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                                            {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    initCounters();</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a77402b10c3318b6bc1cff7b98eb193a3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.audit.EvolutionMonitor.CONTEXT_AFTER_BULK_EVALUATION = 20</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a62e859e46b419081b3cab290da4cba45"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.audit.EvolutionMonitor.CONTEXT_END_OF_CYCLE = 999</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a05835f8659f5d78f66d08b197f1edcb0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.audit.EvolutionMonitor.CONTEXT_NEW_CHROMOSOME = 22</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6ce6f389d420081290b2515d661cb4c0"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.audit.EvolutionMonitor.CONTEXT_OFFSET_AFTER_OPERATE = 10</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a18eaee603059528ce6566d24f8ab276a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.audit.EvolutionMonitor.CONTEXT_OFFSET_NATURAL_SELECTOR1 = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae72fa4d283a303569b89657fa232968c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.audit.EvolutionMonitor.CONTEXT_OFFSET_NATURAL_SELECTOR2 = 30</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a48ecef07f3b676117f73f38ba48381cd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.audit.EvolutionMonitor.CONTEXT_READD_FITTEST = 23</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a381ca4cf44eb3d5a1fe997c16a25a64b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.audit.EvolutionMonitor.CONTEXT_UPDATE_CHROMOSOMES1 = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abed0b9acfd069cd676575e6d3922e5ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int org.jgap.audit.EvolutionMonitor.CONTEXT_UPDATE_CHROMOSOMES2 = 22</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/audit/<a class="el" href="_evolution_monitor_8java.html">EvolutionMonitor.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1audit.html">audit</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1audit_1_1_evolution_monitor.html">EvolutionMonitor</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:20 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

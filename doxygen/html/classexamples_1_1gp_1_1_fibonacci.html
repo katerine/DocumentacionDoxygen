@@ -1,0 +1,548 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase examples.gp.Fibonacci</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classexamples_1_1gp_1_1_fibonacci.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classexamples_1_1gp_1_1_fibonacci-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase examples.gp.Fibonacci</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html">org.jgap.gp.GPProblem</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>FormulaFitnessFunction</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a0f490a98e4d8c454e8dadedd78bef135"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1_fibonacci.html#a0f490a98e4d8c454e8dadedd78bef135">Fibonacci</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a> a_conf)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a0f490a98e4d8c454e8dadedd78bef135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09f676281515cca71bae669293152c09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_genotype.html">GPGenotype</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1_fibonacci.html#a09f676281515cca71bae669293152c09">create</a> ()  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a09f676281515cca71bae669293152c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html">org.jgap.gp.GPProblem</a></td></tr>
+<tr class="memitem:abeb5ab6abffaa068b9bd506c0908e06a inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#abeb5ab6abffaa068b9bd506c0908e06a">GPProblem</a> (GPConfiguration a_conf)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:abeb5ab6abffaa068b9bd506c0908e06a inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a746c560c416662e7faebf10bf522c1ba inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#a746c560c416662e7faebf10bf522c1ba">GPProblem</a> ()</td></tr>
+<tr class="separator:a746c560c416662e7faebf10bf522c1ba inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec7c228e86c1f67331e95b1ab7bfb852 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#aec7c228e86c1f67331e95b1ab7bfb852">showTree</a> (<a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_prog, String a_filename)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:aec7c228e86c1f67331e95b1ab7bfb852 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d318e39fde759fbf39599da214baef inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#a27d318e39fde759fbf39599da214baef">showTree</a> (<a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_prog, String a_filename, TreeBranchRenderer a_treeBranchRenderer, TreeNodeRenderer a_treeNodeRenderer)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a27d318e39fde759fbf39599da214baef inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af091b9b1746a7d056c062dbb7406176a inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memItemLeft" align="right" valign="top">TreeNode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#af091b9b1746a7d056c062dbb7406176a">createTree</a> (<a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_prog)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:af091b9b1746a7d056c062dbb7406176a inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8fe980a790816ca78e05f3f01392b79 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memItemLeft" align="right" valign="top">GPConfiguration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#ab8fe980a790816ca78e05f3f01392b79">getGPConfiguration</a> ()</td></tr>
+<tr class="separator:ab8fe980a790816ca78e05f3f01392b79 inherit pub_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:aa302a328b0c018867302cf9ee1e6b418"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1_fibonacci.html#aa302a328b0c018867302cf9ee1e6b418">main</a> (String[] args)</td></tr>
+<tr class="separator:aa302a328b0c018867302cf9ee1e6b418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0cc0c9e9c44f183f90084cd8e48cfe7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1_fibonacci.html#ac0cc0c9e9c44f183f90084cd8e48cfe7">writeToStream</a> (<a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> prog)  throws Exception </td></tr>
+<tr class="separator:ac0cc0c9e9c44f183f90084cd8e48cfe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20d007984347ba590b240dc5959f20c1"><td class="memItemLeft" align="right" valign="top">static Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1_fibonacci.html#a20d007984347ba590b240dc5959f20c1">readFromStream</a> ()  throws Exception </td></tr>
+<tr class="separator:a20d007984347ba590b240dc5959f20c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pro_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem')"><img src="closed.png" alt="-"/>&#160;Métodos protegidos heredados desde <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html">org.jgap.gp.GPProblem</a></td></tr>
+<tr class="memitem:ade62af80c6156199cac52f8aa7c9b444 inherit pro_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#ade62af80c6156199cac52f8aa7c9b444">setGPConfiguration</a> (GPConfiguration a_conf)</td></tr>
+<tr class="separator:ade62af80c6156199cac52f8aa7c9b444 inherit pro_methods_classorg_1_1jgap_1_1gp_1_1_g_p_problem"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Example demonstrating Genetic Programming (GP) capabilities of JGAP.</p>
+<p>Here, the <a class="el" href="classexamples_1_1gp_1_1_fibonacci.html">Fibonacci</a> sequence is calculated (only integers are used).</p>
+<p>Please note: We try to find a program that computes <a class="el" href="classexamples_1_1gp_1_1_fibonacci.html">Fibonacci</a> iteratively.</p>
+<p>This example utilizes a INodeValidator (see <a class="el" href="classexamples_1_1gp_1_1_fibonacci_node_validator.html">FibonacciNodeValidator</a>).</p>
+<p>Each new best solution found will be displayed as a graphical tree representing the GP. The tree is written to a PNG-imagefile onto harddisk.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a0f490a98e4d8c454e8dadedd78bef135"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">examples.gp.Fibonacci.Fibonacci </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                                           {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    super(a_conf);</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    po = <span class="keyword">new</span> PersistableObject(PERSISTFILENAME);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a09f676281515cca71bae669293152c09"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_genotype.html">GPGenotype</a> examples.gp.Fibonacci.create </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Sets up the functions to use and other parameters. Then creates the initial genotype.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>the genotype created </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">InvalidConfigurationException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Tareas pendientes:</a></b></dt><dd>allow to optionally preset a static program in each chromosome </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#a9c453825ecc8d4f20a6cc17c6c5d78cb">org.jgap.gp.GPProblem</a>.</p>
+<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                           {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">// Define return types of sub programs (see nodeSets).</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">// The first entry in types corresponds with the first entry in nodeSets,</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">// etc.</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    Class[] types = {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html#a1214548cf4ac295646ccdf73259210d6">CommandGene.VoidClass</a>, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html#a1214548cf4ac295646ccdf73259210d6">CommandGene.VoidClass</a>, CommandGene.IntegerClass};</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">// The following is only relevant for ADF&#39;s and not used here.</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    Class[][] argTypes = { {}, {}, {}</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    };</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="comment">// Configure desired minimum number of nodes per sub program.</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">// Same as with types: First entry here corresponds with first entry in</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="comment">// nodeSets.</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">int</span>[] minDepths = <span class="keyword">new</span> <span class="keywordtype">int</span>[] {2, 3, 0};</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="comment">// Configure desired maximum number of nodes per sub program.</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="comment">// First entry here corresponds with first entry in nodeSets.</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordtype">int</span>[] maxDepths = <span class="keyword">new</span> <span class="keywordtype">int</span>[] {4, 9, 1};</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    GPConfiguration conf = <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#ab8fe980a790816ca78e05f3f01392b79">getGPConfiguration</a>();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    CommandGene[][] nodeSets = { {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keyword">new</span> SubProgram(conf, <span class="keyword">new</span> Class[] {<a class="code" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html#a1214548cf4ac295646ccdf73259210d6">CommandGene.VoidClass</a>,</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                       CommandGene.VoidClass}),</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="comment">//        new Constant(conf, CommandGene.IntegerClass, new Integer(1)),</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keyword">new</span> StoreTerminal(conf, <span class="stringliteral">&quot;mem0&quot;</span>, CommandGene.IntegerClass),</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keyword">new</span> StoreTerminal(conf, <span class="stringliteral">&quot;mem1&quot;</span>, CommandGene.IntegerClass),</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keyword">new</span> Increment(conf, CommandGene.IntegerClass),</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keyword">new</span> NOP(conf),</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keyword">new</span> Terminal(conf, CommandGene.IntegerClass, 0.0, 10.0),</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }, {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        vx = Variable.create(conf, <span class="stringliteral">&quot;X&quot;</span>, <a class="code" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html#a8e354d57c541097dab355e145b048b22">CommandGene.IntegerClass</a>),</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keyword">new</span> AddAndStore(conf, CommandGene.IntegerClass, <span class="stringliteral">&quot;mem2&quot;</span>),</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keyword">new</span> ForLoop(conf, CommandGene.IntegerClass, 1, NUMFIB),</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keyword">new</span> Increment(conf, CommandGene.IntegerClass, -1),</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keyword">new</span> TransferMemory(conf, <span class="stringliteral">&quot;mem2&quot;</span>, <span class="stringliteral">&quot;mem1&quot;</span>),</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keyword">new</span> TransferMemory(conf, <span class="stringliteral">&quot;mem1&quot;</span>, <span class="stringliteral">&quot;mem0&quot;</span>),</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keyword">new</span> ReadTerminal(conf, CommandGene.IntegerClass, <span class="stringliteral">&quot;mem0&quot;</span>),</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keyword">new</span> ReadTerminal(conf, CommandGene.IntegerClass, <span class="stringliteral">&quot;mem1&quot;</span>),</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keyword">new</span> SubProgram(conf, <span class="keyword">new</span> Class[] {<a class="code" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html#a1214548cf4ac295646ccdf73259210d6">CommandGene.VoidClass</a>,</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                       <a class="code" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html#a1214548cf4ac295646ccdf73259210d6">CommandGene.VoidClass</a>, CommandGene.VoidClass}),</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }, {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="comment">// Commands will be added programmatically, see below.</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="comment">// ---------------------------------------------------</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    };</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="comment">// Add commands working with internal memory.</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="comment">// ------------------------------------------</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    nodeSets[2] = CommandFactory.createReadOnlyCommands(nodeSets[2], conf,</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html#a8e354d57c541097dab355e145b048b22">CommandGene.IntegerClass</a>, <span class="stringliteral">&quot;mem&quot;</span>, 1, 2, !<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="comment">// Randomly initialize function data (X-Y table) for Fib(x).</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="comment">// ---------------------------------------------------------</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; NUMFIB; i++) {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <span class="keywordtype">int</span> index = i;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;      x[i] = <span class="keyword">new</span> Integer(index);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      y[i] = fib_iter(index);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      System.out.println(i + <span class="stringliteral">&quot;) &quot;</span> + x[i] + <span class="stringliteral">&quot;   &quot;</span> + y[i]);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="comment">// Create genotype with initial population.</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="comment">// ----------------------------------------</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">return</span> GPGenotype.randomInitialGenotype(conf, types, argTypes, nodeSets,</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        minDepths, maxDepths, 20, <span class="keyword">new</span> <span class="keywordtype">boolean</span>[] {!<span class="keyword">true</span>, !<span class="keyword">true</span>, <span class="keyword">false</span>}, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_command_gene_html_a1214548cf4ac295646ccdf73259210d6"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_command_gene.html#a1214548cf4ac295646ccdf73259210d6">org.jgap.gp.CommandGene.VoidClass</a></div><div class="ttdeci">static final Class VoidClass</div><div class="ttdef"><b>Definition:</b> CommandGene.java:59</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_command_gene_html_a8e354d57c541097dab355e145b048b22"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_command_gene.html#a8e354d57c541097dab355e145b048b22">org.jgap.gp.CommandGene.IntegerClass</a></div><div class="ttdeci">static final Class IntegerClass</div><div class="ttdef"><b>Definition:</b> CommandGene.java:51</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_problem_html_ab8fe980a790816ca78e05f3f01392b79"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#ab8fe980a790816ca78e05f3f01392b79">org.jgap.gp.GPProblem.getGPConfiguration</a></div><div class="ttdeci">GPConfiguration getGPConfiguration()</div><div class="ttdef"><b>Definition:</b> GPProblem.java:173</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa302a328b0c018867302cf9ee1e6b418"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void examples.gp.Fibonacci.main </td>
+          <td>(</td>
+          <td class="paramtype">String[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Starts the example.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>ignored </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<p>New best solution found.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_firedEvent</td><td>GeneticEvent</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                                         {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      System.out.println(<span class="stringliteral">&quot;Program to discover: Fibonacci(x)&quot;</span>);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      GPConfiguration config = <span class="keyword">new</span> GPConfiguration();</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;      config.setGPFitnessEvaluator(<span class="keyword">new</span> DeltaGPFitnessEvaluator());</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;      config.setSelectionMethod(<span class="keyword">new</span> TournamentSelector(4));</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;      <span class="keywordtype">int</span> popSize;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      <span class="keywordflow">if</span> (args.length == 1) {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        popSize = Integer.parseInt(args[0]);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;      }</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        popSize = 600;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;      }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      System.out.println(<span class="stringliteral">&quot;Using population size of &quot;</span> + popSize);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      config.setMaxInitDepth(6);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      config.setPopulationSize(popSize);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      config.setFitnessFunction(<span class="keyword">new</span> Fibonacci.FormulaFitnessFunction());</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;      config.setStrictProgramCreation(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      config.setProgramCreationMaxTries(3);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;      config.setMaxCrossoverDepth(5);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;      <span class="comment">// Set a node validator to demonstrate speedup when something is known</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;      <span class="comment">// about the solution (see FibonacciNodeValidator).</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;      <span class="comment">// -------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;      config.setNodeValidator(<span class="keyword">new</span> FibonacciNodeValidator());</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;      <span class="comment">// Activate caching of GP programs --&gt; Fitness values will be cached</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;      <span class="comment">// for programs equal to previously evolved ones.</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;      <span class="comment">// -----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;      config.setUseProgramCache(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;      <span class="keyword">final</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#a746c560c416662e7faebf10bf522c1ba">GPProblem</a> problem = <span class="keyword">new</span> <a class="code" href="classexamples_1_1gp_1_1_fibonacci.html#a0f490a98e4d8c454e8dadedd78bef135">Fibonacci</a>(config);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;      GPGenotype gp = problem.create();</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;      gp.setVerboseOutput(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;      <span class="keyword">final</span> Thread t = <span class="keyword">new</span> Thread(gp);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;      <span class="comment">// Simple implementation of running evolution in a thread.</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;      <span class="comment">// -------------------------------------------------------</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      config.getEventManager().addEventListener(GeneticEvent.</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;          GPGENOTYPE_EVOLVED_EVENT, <span class="keyword">new</span> GeneticEventListener() {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">void</span> geneticEventFired(GeneticEvent a_firedEvent) {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;          GPGenotype genotype = (GPGenotype) a_firedEvent.getSource();</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;          <span class="keywordtype">int</span> evno = genotype.getGPConfiguration().getGenerationNr();</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;          <span class="keywordtype">double</span> freeMem = SystemKit.getFreeMemoryMB();</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;          <span class="keywordflow">if</span> (genotype.getAllTimeBest() != null) {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;              <span class="keywordflow">if</span> (!<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                <a class="code" href="classexamples_1_1gp_1_1_fibonacci.html#ac0cc0c9e9c44f183f90084cd8e48cfe7">writeToStream</a>(genotype.getAllTimeBest());</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                <a class="code" href="classexamples_1_1gp_1_1_fibonacci.html#a20d007984347ba590b240dc5959f20c1">readFromStream</a>();</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;              }</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            } <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;              ex.printStackTrace();</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            }</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;          }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;          <span class="keywordflow">if</span> (evno % 50 == 0) {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            <span class="keywordtype">double</span> allBestFitness = genotype.getAllTimeBest().getFitnessValue();</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            LOGGER.info(<span class="stringliteral">&quot;Evolving generation &quot;</span> + evno</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                        + <span class="stringliteral">&quot;, all-time-best fitness: &quot;</span> + allBestFitness</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                        + <span class="stringliteral">&quot;, memory free: &quot;</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                        + NumberKit.niceDecimalNumber(freeMem, 2) + <span class="stringliteral">&quot; MB&quot;</span>);</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;          }</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;          <span class="keywordflow">if</span> (evno &gt; 3000) {</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            t.stop();</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;          }</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;          <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;              <span class="comment">// Collect garbage if memory low.</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;              <span class="comment">// ------------------------------</span></div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;              <span class="keywordflow">if</span> (freeMem &lt; 50) {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                System.gc();</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                t.sleep(500);</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;              }</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;              <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                <span class="comment">// Avoid 100% CPU load.</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                <span class="comment">// --------------------</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                t.sleep(30);</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;              }</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            } <span class="keywordflow">catch</span> (InterruptedException iex) {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;              iex.printStackTrace();</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;              System.exit(1);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            }</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;          }</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        }</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;      });</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;      config.getEventManager().addEventListener(GeneticEvent.</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;          GPGENOTYPE_NEW_BEST_SOLUTION, <span class="keyword">new</span> GeneticEventListener() {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <span class="keyword">public</span> <span class="keywordtype">void</span> geneticEventFired(GeneticEvent a_firedEvent) {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;          GPGenotype genotype = (GPGenotype) a_firedEvent.getSource();</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;          <span class="keywordtype">int</span> evno = genotype.getGPConfiguration().getGenerationNr();</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;          String indexString = <span class="stringliteral">&quot;&quot;</span> + evno;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;          <span class="keywordflow">while</span> (indexString.length() &lt; 5) {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            indexString = <span class="stringliteral">&quot;0&quot;</span> + indexString;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;          }</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;          String filename = <span class="stringliteral">&quot;fibonacci_best&quot;</span> + indexString + <span class="stringliteral">&quot;.png&quot;</span>;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;          IGPProgram best = genotype.getAllTimeBest();</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;          <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            problem.showTree(best, filename);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;          } <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            iex.printStackTrace();</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;          }</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;          <span class="keywordtype">double</span> bestFitness = genotype.getFittestProgram().</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;              getFitnessValue();</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;          <span class="keywordflow">if</span> (bestFitness &lt; 0.001) {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            genotype.outputSolution(best);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            t.stop();</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            System.exit(0);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;          }</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        }</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;      });</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;      t.start();</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    } <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;      ex.printStackTrace();</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;      System.exit(1);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    }</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1gp_1_1_fibonacci_html_a0f490a98e4d8c454e8dadedd78bef135"><div class="ttname"><a href="classexamples_1_1gp_1_1_fibonacci.html#a0f490a98e4d8c454e8dadedd78bef135">examples.gp.Fibonacci.Fibonacci</a></div><div class="ttdeci">Fibonacci(GPConfiguration a_conf)</div><div class="ttdef"><b>Definition:</b> Fibonacci.java:55</div></div>
+<div class="ttc" id="classexamples_1_1gp_1_1_fibonacci_html_a20d007984347ba590b240dc5959f20c1"><div class="ttname"><a href="classexamples_1_1gp_1_1_fibonacci.html#a20d007984347ba590b240dc5959f20c1">examples.gp.Fibonacci.readFromStream</a></div><div class="ttdeci">static Object readFromStream()</div><div class="ttdef"><b>Definition:</b> Fibonacci.java:387</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_problem_html_a746c560c416662e7faebf10bf522c1ba"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_problem.html#a746c560c416662e7faebf10bf522c1ba">org.jgap.gp.GPProblem.GPProblem</a></div><div class="ttdeci">GPProblem()</div><div class="ttdef"><b>Definition:</b> GPProblem.java:49</div></div>
+<div class="ttc" id="classexamples_1_1gp_1_1_fibonacci_html_ac0cc0c9e9c44f183f90084cd8e48cfe7"><div class="ttname"><a href="classexamples_1_1gp_1_1_fibonacci.html#ac0cc0c9e9c44f183f90084cd8e48cfe7">examples.gp.Fibonacci.writeToStream</a></div><div class="ttdeci">static void writeToStream(IGPProgram prog)</div><div class="ttdef"><b>Definition:</b> Fibonacci.java:361</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a20d007984347ba590b240dc5959f20c1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Object examples.gp.Fibonacci.readFromStream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                       {</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    <span class="keywordflow">if</span> (!<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;      <span class="keywordflow">return</span> po.load();</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    }</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;      XStream xstream = <span class="keyword">new</span> JGAPGPXStream();</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;<span class="comment">//      xstream.setMode(XStream.ID_REFERENCES);</span></div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;      InputStream oi = <span class="keyword">new</span> FileInputStream(PERSISTFILENAME);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;      GPProgram result = (GPProgram) xstream.fromXML(oi);</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;      <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    }</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac0cc0c9e9c44f183f90084cd8e48cfe7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void examples.gp.Fibonacci.writeToStream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td>
+          <td class="paramname"><em>prog</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;                       {</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordflow">if</span> (!<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;      po.setObject(prog);</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;      po.save(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    }</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;      XStream xstream = <span class="keyword">new</span> JGAPGPXStream();</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;<span class="comment">//      xstream.setMode(XStream.ID_REFERENCES);</span></div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;      <span class="comment">// Don&#39;t write the configuration object.</span></div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;      <span class="comment">// -------------------------------------</span></div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;      xstream.omitField(GPProgramBase.class,<span class="stringliteral">&quot;m_conf&quot;</span>);</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;      xstream.omitField(GPProgram.class,<span class="stringliteral">&quot;m_conf&quot;</span>);</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;      xstream.omitField(CommandGene.class,<span class="stringliteral">&quot;m_configuration&quot;</span>);</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;      xstream.omitField(ProgramChromosome.class,<span class="stringliteral">&quot;m_configuration&quot;</span>);</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;      xstream.omitField(BaseGPChromosome.class,<span class="stringliteral">&quot;m_configuration&quot;</span>);</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;      PrintWriter outFile = <span class="keyword">new</span> PrintWriter(<span class="keyword">new</span> FileOutputStream(</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;          PERSISTFILENAME, <span class="keyword">false</span>));</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;      String xml = xstream.toXML(prog);</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;      outFile.print(xml);</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;      outFile.flush();</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;      outFile.close();</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    }</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>examples/src/examples/gp/<a class="el" href="_fibonacci_8java.html">Fibonacci.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceexamples.html">examples</a></li><li class="navelem"><a class="el" href="namespaceexamples_1_1gp.html">gp</a></li><li class="navelem"><a class="el" href="classexamples_1_1gp_1_1_fibonacci.html">Fibonacci</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:22:50 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

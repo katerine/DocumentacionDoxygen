@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Interfaz org.jgap.ICompositeGene</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1jgap_1_1_i_composite_gene.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="interfaceorg_1_1jgap_1_1_i_composite_gene-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.jgap.ICompositeGene</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a>.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">org.jgap.impl.CompositeGene</a> y <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html">org.jgap.supergenes.Supergene</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a28fc3a076dc6983c39108dc10751596d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html#a28fc3a076dc6983c39108dc10751596d">addGene</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> a_gene)</td></tr>
+<tr class="separator:a28fc3a076dc6983c39108dc10751596d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adad062c4c8453eb4bfafd2d7c8abd1fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html#adad062c4c8453eb4bfafd2d7c8abd1fb">geneAt</a> (int a_index)</td></tr>
+<tr class="separator:adad062c4c8453eb4bfafd2d7c8abd1fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1_gene')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a></td></tr>
+<tr class="memitem:ae4ddccb7bf569c0ed6cdc19def590964 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ae4ddccb7bf569c0ed6cdc19def590964">newGene</a> ()</td></tr>
+<tr class="separator:ae4ddccb7bf569c0ed6cdc19def590964 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af46a0c31e0fecea483497e87ca278127 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af46a0c31e0fecea483497e87ca278127">setAllele</a> (Object a_newValue)</td></tr>
+<tr class="separator:af46a0c31e0fecea483497e87ca278127 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa06c80639659ddbcfa1cfe7b7bb109f9 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#aa06c80639659ddbcfa1cfe7b7bb109f9">getAllele</a> ()</td></tr>
+<tr class="separator:aa06c80639659ddbcfa1cfe7b7bb109f9 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a044aa8f0a04ee06bb04bbd35ad4c7f2f inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a044aa8f0a04ee06bb04bbd35ad4c7f2f">getPersistentRepresentation</a> ()  throws UnsupportedOperationException</td></tr>
+<tr class="separator:a044aa8f0a04ee06bb04bbd35ad4c7f2f inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a057e5d6cce5ae768cbf626e0ccf70520 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a057e5d6cce5ae768cbf626e0ccf70520">setValueFromPersistentRepresentation</a> (String a_representation)  throws UnsupportedOperationException, UnsupportedRepresentationException</td></tr>
+<tr class="separator:a057e5d6cce5ae768cbf626e0ccf70520 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef135da7549ee98139928e21adb841a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a4ef135da7549ee98139928e21adb841a">setToRandomValue</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> a_numberGenerator)</td></tr>
+<tr class="separator:a4ef135da7549ee98139928e21adb841a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e353bbf6a9576b702bf466a5f952b82 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a5e353bbf6a9576b702bf466a5f952b82">cleanup</a> ()</td></tr>
+<tr class="separator:a5e353bbf6a9576b702bf466a5f952b82 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac62239b4b7bf81179fd491a4c4bd1901 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ac62239b4b7bf81179fd491a4c4bd1901">toString</a> ()</td></tr>
+<tr class="separator:ac62239b4b7bf81179fd491a4c4bd1901 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a975e180dd0ac0fd33cdc182f64bea8 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a7a975e180dd0ac0fd33cdc182f64bea8">size</a> ()</td></tr>
+<tr class="separator:a7a975e180dd0ac0fd33cdc182f64bea8 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af506b6e1d6ceb3e88e522da4c79adba4 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af506b6e1d6ceb3e88e522da4c79adba4">applyMutation</a> (int index, double a_percentage)</td></tr>
+<tr class="separator:af506b6e1d6ceb3e88e522da4c79adba4 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8405395f244a18424794e8f2e36c608 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ae8405395f244a18424794e8f2e36c608">setApplicationData</a> (Object a_newData)</td></tr>
+<tr class="separator:ae8405395f244a18424794e8f2e36c608 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eb1d079f14465a2324ad41a6ee3b77a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a4eb1d079f14465a2324ad41a6ee3b77a">getApplicationData</a> ()</td></tr>
+<tr class="separator:a4eb1d079f14465a2324ad41a6ee3b77a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404ee1527c7dab2f8115f18507d0544b inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a404ee1527c7dab2f8115f18507d0544b">setCompareApplicationData</a> (boolean a_doCompare)</td></tr>
+<tr class="separator:a404ee1527c7dab2f8115f18507d0544b inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71de32c2c6bf2b71332449f20d604f81 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a71de32c2c6bf2b71332449f20d604f81">isCompareApplicationData</a> ()</td></tr>
+<tr class="separator:a71de32c2c6bf2b71332449f20d604f81 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1794038b5018cdb49998639c79cb57a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#aa1794038b5018cdb49998639c79cb57a">getEnergy</a> ()</td></tr>
+<tr class="separator:aa1794038b5018cdb49998639c79cb57a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c429a29c338d2ad5d5514d5beea6e7 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af5c429a29c338d2ad5d5514d5beea6e7">setEnergy</a> (double a_energy)</td></tr>
+<tr class="separator:af5c429a29c338d2ad5d5514d5beea6e7 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ef8e9cd912cc68ebe6cd246cf896633 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a1ef8e9cd912cc68ebe6cd246cf896633">setConstraintChecker</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_gene_constraint_checker.html">IGeneConstraintChecker</a> a_constraintChecker)</td></tr>
+<tr class="separator:a1ef8e9cd912cc68ebe6cd246cf896633 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa178414303649867b6176de80c6ba892 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#aa178414303649867b6176de80c6ba892">getConfiguration</a> ()</td></tr>
+<tr class="separator:aa178414303649867b6176de80c6ba892 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1_i_unique_key"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1_i_unique_key')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html">org.jgap.IUniqueKey</a></td></tr>
+<tr class="memitem:a1276412b558e169199771997a190f876 inherit pub_methods_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html#a1276412b558e169199771997a190f876">getUniqueID</a> ()</td></tr>
+<tr class="separator:a1276412b558e169199771997a190f876 inherit pub_methods_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac223774f93ba6640bc07cc97a9ef4c inherit pub_methods_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html#aeac223774f93ba6640bc07cc97a9ef4c">setUniqueIDTemplate</a> (String a_templateID, int a_index)</td></tr>
+<tr class="separator:aeac223774f93ba6640bc07cc97a9ef4c inherit pub_methods_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af26fbe03487632a16c84b62325489652 inherit pub_methods_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html#af26fbe03487632a16c84b62325489652">getUniqueIDTemplate</a> (int a_index)</td></tr>
+<tr class="separator:af26fbe03487632a16c84b62325489652 inherit pub_methods_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a4cfd0957faa0fbf511876986728e6be5"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html#a4cfd0957faa0fbf511876986728e6be5">CVS_REVISION</a> = &quot;$Revision: 1.4 $&quot;</td></tr>
+<tr class="separator:a4cfd0957faa0fbf511876986728e6be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_gene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a></td></tr>
+<tr class="memitem:a771652182ee68c96d4107eee7692fee2 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a771652182ee68c96d4107eee7692fee2">CVS_REVISION</a> = &quot;$Revision: 1.26 $&quot;</td></tr>
+<tr class="separator:a771652182ee68c96d4107eee7692fee2 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae49de1c9f46601f1b60d393a9ce3901a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ae49de1c9f46601f1b60d393a9ce3901a">PERSISTENT_FIELD_DELIMITER</a> = &quot;:&quot;</td></tr>
+<tr class="separator:ae49de1c9f46601f1b60d393a9ce3901a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html">org.jgap.IUniqueKey</a></td></tr>
+<tr class="memitem:a5b6472b1e40001ee262da59ee449a77b inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html#a5b6472b1e40001ee262da59ee449a77b">CVS_REVISION</a> = &quot;$Revision: 1.1 $&quot;</td></tr>
+<tr class="separator:a5b6472b1e40001ee262da59ee449a77b inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Interface for Genes being composed by other genes.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a28fc3a076dc6983c39108dc10751596d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.ICompositeGene.addGene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td>
+          <td class="paramname"><em>a_gene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds a gene to the composed <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_gene</td><td>the gene to add</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 (since earlier in CompositeGene) </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_abstract_supergene.html#a8b9835e9be1cc5edc8507c957b1f1f2d">org.jgap.supergenes.AbstractSupergene</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adad062c4c8453eb4bfafd2d7c8abd1fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> org.jgap.ICompositeGene.geneAt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>index to return the gene at </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the gene at the given index</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 (since 1.1 in CompositeGene) </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aa5c573b6b4343fe76163357c021e35ce">org.jgap.impl.CompositeGene</a> y <a class="el" href="interfaceorg_1_1jgap_1_1supergenes_1_1_supergene.html#a62e038f5ed00578a997a044f49136bbd">org.jgap.supergenes.Supergene</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a4cfd0957faa0fbf511876986728e6be5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.jgap.ICompositeGene.CVS_REVISION = &quot;$Revision: 1.4 $&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>String containing the CVS revision. Read out via reflection! </p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/<a class="el" href="_i_composite_gene_8java.html">ICompositeGene.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html">ICompositeGene</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:15 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

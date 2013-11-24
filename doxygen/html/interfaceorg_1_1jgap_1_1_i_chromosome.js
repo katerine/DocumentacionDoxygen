@@ -1,0 +1,25 @@
+var interfaceorg_1_1jgap_1_1_i_chromosome =
+[
+    [ "cleanup", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a184e942f9b44185236492ee7261b2b14", null ],
+    [ "getAge", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a6186b5e6184d55dbc03adee6bacc8e9a", null ],
+    [ "getApplicationData", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a1734f351c78c6d36bec48fdc8a334902", null ],
+    [ "getConfiguration", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a4426723f5d26695fd80a0b28b3acb9eb", null ],
+    [ "getFitnessValue", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a9b68991c832a2054176d522e49a19ebd", null ],
+    [ "getFitnessValueDirectly", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a743303c75d2a001f88af579051862964", null ],
+    [ "getGene", "interfaceorg_1_1jgap_1_1_i_chromosome.html#ac84a3ec514b365e25f023d9e78bfa382", null ],
+    [ "getGenes", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a995b4203af3bd22b8fd2028749736a03", null ],
+    [ "increaseAge", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a651016ea5a204fc14c7c146e32fd76cf", null ],
+    [ "increaseOperatedOn", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a8fda999d5a66640dd577bcff960b368b", null ],
+    [ "isSelectedForNextGeneration", "interfaceorg_1_1jgap_1_1_i_chromosome.html#af4aa1487bfa13ba0f038b628f44554be", null ],
+    [ "operatedOn", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a47f09dd85e4f9f0e3908c85b63394a7d", null ],
+    [ "resetAge", "interfaceorg_1_1jgap_1_1_i_chromosome.html#aefc4884cc5bbbc511feb8d9ec827a31f", null ],
+    [ "resetOperatedOn", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a4fb2f78d39b20b7f5a9ff8d37402f7bd", null ],
+    [ "setAge", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a9146b114972d86aac3cfb32b249b166f", null ],
+    [ "setApplicationData", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a99da03ae9bca8f2ca884186aea82c771", null ],
+    [ "setConstraintChecker", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a05c61ae9fb2caf56455eb66405a164c4", null ],
+    [ "setFitnessValue", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a56f82d43b102fc5da8e0a071e32dc13d", null ],
+    [ "setFitnessValueDirectly", "interfaceorg_1_1jgap_1_1_i_chromosome.html#ac2acf33157b233e8c5553fc62861fa23", null ],
+    [ "setGenes", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a0ff42f1935dab73296301b29ad0a1716", null ],
+    [ "setIsSelectedForNextGeneration", "interfaceorg_1_1jgap_1_1_i_chromosome.html#afeeed3697d5f22154cab618432602ca6", null ],
+    [ "size", "interfaceorg_1_1jgap_1_1_i_chromosome.html#a9b460ad665ea1ab4e789061233fc6fa3", null ]
+];

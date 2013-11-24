@@ -1,0 +1,341 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.FitnessFunction</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1_fitness_function.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1_fitness_function-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.FitnessFunction<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable y <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a>.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1jgap_1_1_cached_fitness_function.html">org.jgap.CachedFitnessFunction</a>, org.jgap.FitnessFunctionTest.FitnessFunctionImpl, <a class="el" href="classorg_1_1jgap_1_1_genotype_test_1_1_test2_function.html">org.jgap.GenotypeTest.Test2Function</a>, org.jgap.impl.BulkFitnessOffsetRemoverTest.DummyFitnessFunction, <a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html">org.jgap.impl.fitness.TruthTableFitnessFunction</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_max_function.html">org.jgap.impl.job.MaxFunction</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_random_fitness_function.html">org.jgap.impl.RandomFitnessFunction</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman_fitness_function.html">org.jgap.impl.salesman.SalesmanFitnessFunction</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_static_fitness_function.html">org.jgap.impl.StaticFitnessFunction</a>, <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case_1_1_test_fitness_function.html">org.jgap.JGAPTestCase.TestFitnessFunction</a> y <a class="el" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html">org.jgap.perf.TestOverallPerformanceFitnessFunc</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a05fff0534d3cfdccd1d4d96d8ba6dda2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a05fff0534d3cfdccd1d4d96d8ba6dda2">getFitnessValue</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_subject)</td></tr>
+<tr class="separator:a05fff0534d3cfdccd1d4d96d8ba6dda2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc5e20816cb3fd6f3486adb53b1e563d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#adc5e20816cb3fd6f3486adb53b1e563d">getLastComputedFitnessValue</a> ()</td></tr>
+<tr class="separator:adc5e20816cb3fd6f3486adb53b1e563d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa47c6f886479efc5ed5fe84eb7f9b5ca"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#aa47c6f886479efc5ed5fe84eb7f9b5ca">clone</a> ()</td></tr>
+<tr class="separator:aa47c6f886479efc5ed5fe84eb7f9b5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a5f1f23e6f8a0f9606aee5d52fac6a06b"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a5f1f23e6f8a0f9606aee5d52fac6a06b">NO_FITNESS_VALUE</a> = -1.0000000d</td></tr>
+<tr class="separator:a5f1f23e6f8a0f9606aee5d52fac6a06b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89cbf1ef4c08655f209ce69fde6731e7"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a89cbf1ef4c08655f209ce69fde6731e7">DELTA</a> = 0.0000001d</td></tr>
+<tr class="separator:a89cbf1ef4c08655f209ce69fde6731e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a></td></tr>
+<tr class="memitem:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#a4eaaa85432026f5bc54c3e520b22caa7">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a0078e42480eac93729f906ac4dc185d9"><td class="memItemLeft" align="right" valign="top">abstract double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a0078e42480eac93729f906ac4dc185d9">evaluate</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> a_subject)</td></tr>
+<tr class="separator:a0078e42480eac93729f906ac4dc185d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Fitness functions are used to determine how optimal a particular solution is relative to other solutions. This abstract class should be extended and the <a class="el" href="classorg_1_1jgap_1_1_fitness_function.html#a0078e42480eac93729f906ac4dc185d9">evaluate()</a> method implemented. The fitness function is given a <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> to evaluate and should return a positive double that reflects its fitness value. The higher the value, the more fit the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a>. The actual range of fitness values isn't important (other than the fact that they must be positive doubles): it's the relative difference as a percentage that tends to determine the success or failure of a <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a>. So in other words, two Chromosomes with respective fitness values of 1 and 100 have the same relative fitness to each other as two Chromosomes with respective fitness values of 10 and 1000 (in each case, the first is 1% as fit as the second). </p>
+<p>Note: Two Chromosomes with equivalent sets of genes should always be assigned the same fitness value by any implementation of this interface.</p>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="aa47c6f886479efc5ed5fe84eb7f9b5ca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.FitnessFunction.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Please override in your implementations!</p>
+<dl class="section return"><dt>Devuelve</dt><dd>deep clone of the current instance</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#aa7e7d62077e6428ad7904932b1b4f7d5">org.jgap.util.ICloneable</a>.</p>
+<div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                        {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;      <span class="keywordflow">return</span> super.clone();</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    } <span class="keywordflow">catch</span> (CloneNotSupportedException cex) {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> CloneException(cex);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0078e42480eac93729f906ac4dc185d9"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract double org.jgap.FitnessFunction.evaluate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_subject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Determine the fitness of the given <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance. The higher the return value, the more fit the instance. This method should always return the same fitness value for two equivalent <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instances.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_subject</td><td>the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> instance to evaluate</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>positive double reflecting the fitness rating of the given <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a>. Note that if a non-positive double is returned, a RuntimeException should be generated</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 (until 1.1: return type int) </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1_genotype_test_1_1_test2_function.html#ac741afc698abf042df1f9944c4de9b64">org.jgap.GenotypeTest.Test2Function</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function.html#a3f159f68ac2f247c18d1e62ff030c56c">org.jgap.impl.fitness.TruthTableFitnessFunction</a>, <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case_1_1_test_fitness_function.html#a394849df24473b2a23c394f46024e817">org.jgap.JGAPTestCase.TestFitnessFunction</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_static_fitness_function.html#a0be7d9763e3cd063933c2ac39c742b41">org.jgap.impl.StaticFitnessFunction</a>, <a class="el" href="classorg_1_1jgap_1_1perf_1_1_test_overall_performance_fitness_func.html#ad03ee237768a581313bb05c1a7fdf481">org.jgap.perf.TestOverallPerformanceFitnessFunc</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_random_fitness_function.html#a946f5cf586ad067f029a4ab65f45f1f0">org.jgap.impl.RandomFitnessFunction</a> y <a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_max_function.html#a6b0344c8642af9170743d9be9a6509b8">org.jgap.impl.job.MaxFunction</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a05fff0534d3cfdccd1d4d96d8ba6dda2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.FitnessFunction.getFitnessValue </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td>
+          <td class="paramname"><em>a_subject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves the fitness value of the given <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a>. The fitness value will be a positive double.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_subject</td><td>the <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a> for which to compute and return the fitness value </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the fitness value of the given <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 (until 1.1: return type int) </dd></dl>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                                             {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// Delegate to the evaluate() method to actually compute the</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// fitness value. If the returned value is less than one,</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="comment">// then we throw a runtime exception.</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="comment">// ---------------------------------------------------------</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">double</span> fitnessValue = <a class="code" href="classorg_1_1jgap_1_1_fitness_function.html#a0078e42480eac93729f906ac4dc185d9">evaluate</a>(a_subject);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordflow">if</span> (fitnessValue &lt; 0.00000000d) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;          <span class="stringliteral">&quot;Fitness values must be positive! Received value: &quot;</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;          + fitnessValue);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    m_lastComputedFitnessValue = fitnessValue;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">return</span> fitnessValue;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_fitness_function_html_a0078e42480eac93729f906ac4dc185d9"><div class="ttname"><a href="classorg_1_1jgap_1_1_fitness_function.html#a0078e42480eac93729f906ac4dc185d9">org.jgap.FitnessFunction.evaluate</a></div><div class="ttdeci">abstract double evaluate(IChromosome a_subject)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adc5e20816cb3fd6f3486adb53b1e563d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.FitnessFunction.getLastComputedFitnessValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the last fitness value computed via method getFitnessValue( <a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a>), or NO_FITNES_VALUE if the former method has not been called yet</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                              {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">return</span> m_lastComputedFitnessValue;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a89cbf1ef4c08655f209ce69fde6731e7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double org.jgap.FitnessFunction.DELTA = 0.0000001d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5f1f23e6f8a0f9606aee5d52fac6a06b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double org.jgap.FitnessFunction.NO_FITNESS_VALUE = -1.0000000d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/<a class="el" href="_fitness_function_8java.html">FitnessFunction.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">FitnessFunction</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:14 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

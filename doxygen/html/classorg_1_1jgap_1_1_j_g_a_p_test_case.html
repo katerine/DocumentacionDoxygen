@@ -1,0 +1,784 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.JGAPTestCase</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1_j_g_a_p_test_case.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-attribs">Atributos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-static-attribs">Atributos protegidos estáticos</a> &#124;
+<a href="classorg_1_1jgap_1_1_j_g_a_p_test_case-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.JGAPTestCase</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias TestCase.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1jgap_1_1audit_1_1_evaluator_test.html">org.jgap.audit.EvaluatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1audit_1_1_keyed_values2_d_test.html">org.jgap.audit.KeyedValues2DTest</a>, <a class="el" href="classorg_1_1jgap_1_1audit_1_1_keyed_values_test.html">org.jgap.audit.KeyedValuesTest</a>, <a class="el" href="classorg_1_1jgap_1_1audit_1_1_keyed_value_test.html">org.jgap.audit.KeyedValueTest</a>, <a class="el" href="classorg_1_1jgap_1_1audit_1_1_permuting_configuration_test.html">org.jgap.audit.PermutingConfigurationTest</a>, <a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html">org.jgap.BaseGeneTest</a>, <a class="el" href="classorg_1_1jgap_1_1_base_rate_calculator_test.html">org.jgap.BaseRateCalculatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1_chromosome_test.html">org.jgap.ChromosomeTest</a>, <a class="el" href="classorg_1_1jgap_1_1_configuration_test.html">org.jgap.ConfigurationTest</a>, <a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_config_property_test.html">org.jgap.data.config.ConfigPropertyTest</a>, <a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_meta_config_test.html">org.jgap.data.config.MetaConfigTest</a>, <a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler_test.html">org.jgap.data.config.RootConfigurationHandlerTest</a>, <a class="el" href="classorg_1_1jgap_1_1data_1_1_data_elements_document_test.html">org.jgap.data.DataElementsDocumentTest</a>, <a class="el" href="classorg_1_1jgap_1_1data_1_1_data_element_test.html">org.jgap.data.DataElementTest</a>, <a class="el" href="classorg_1_1jgap_1_1data_1_1_data_tree_builder_test.html">org.jgap.data.DataTreeBuilderTest</a>, <a class="el" href="classorg_1_1jgap_1_1_default_fitness_evaluator_test.html">org.jgap.DefaultFitnessEvaluatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1_delta_fitness_evaluator_test.html">org.jgap.DeltaFitnessEvaluatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_test.html">org.jgap.distr.CultureMemoryCellTest</a>, <a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_test.html">org.jgap.distr.CultureTest</a>, <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_default_genotype_initializer_test.html">org.jgap.distr.grid.DefaultGenotypeInitializerTest</a>, <a class="el" href="classorg_1_1jgap_1_1distr_1_1_problem_test.html">org.jgap.distr.ProblemTest</a>, <a class="el" href="classorg_1_1jgap_1_1eval_1_1_population_history_test.html">org.jgap.eval.PopulationHistoryTest</a>, <a class="el" href="classorg_1_1jgap_1_1event_1_1_event_manager_test.html">org.jgap.event.EventManagerTest</a>, <a class="el" href="classorg_1_1jgap_1_1event_1_1_genetic_event_test.html">org.jgap.event.GeneticEventTest</a>, <a class="el" href="classorg_1_1jgap_1_1_fitness_function_test.html">org.jgap.FitnessFunctionTest</a>, <a class="el" href="classorg_1_1jgap_1_1_genotype_test.html">org.jgap.GenotypeTest</a>, <a class="el" href="classorg_1_1jgap_1_1gp_1_1_g_p_test_case.html">org.jgap.gp.GPTestCase</a>, <a class="el" href="classorg_1_1jgap_1_1gui_1_1_config_writer_test.html">org.jgap.gui.ConfigWriterTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator_test.html">org.jgap.impl.AveragingCrossoverOperatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_best_chromosomes_selector_test.html">org.jgap.impl.BestChromosomesSelectorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_boolean_gene_test.html">org.jgap.impl.BooleanGeneTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_bulk_fitness_offset_remover_test.html">org.jgap.impl.BulkFitnessOffsetRemoverTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_cauchy_random_generator_test.html">org.jgap.impl.CauchyRandomGeneratorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_chain_of_selectors_test.html">org.jgap.impl.ChainOfSelectorsTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_chromosome_pool_test.html">org.jgap.impl.ChromosomePoolTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene_persistent_repr_test.html">org.jgap.impl.CompositeGenePersistentReprTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene_test.html">org.jgap.impl.CompositeGeneTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_crossover_operator_test.html">org.jgap.impl.CrossoverOperatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_default_clone_handler_test.html">org.jgap.impl.DefaultCloneHandlerTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_default_compare_to_handler_test.html">org.jgap.impl.DefaultCompareToHandlerTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_default_configuration_test.html">org.jgap.impl.DefaultConfigurationTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_default_crossover_rate_calculator_test.html">org.jgap.impl.DefaultCrossoverRateCalculatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_default_initializer_test.html">org.jgap.impl.DefaultInitializerTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_default_mutation_rate_calculator_test.html">org.jgap.impl.DefaultMutationRateCalculatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_double_gene_test.html">org.jgap.impl.DoubleGeneTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1fitness_1_1_truth_table_fitness_function_test.html">org.jgap.impl.fitness.TruthTableFitnessFunctionTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fittest_population_merger_test.html">org.jgap.impl.FittestPopulationMergerTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_test.html">org.jgap.impl.FixedBinaryGeneTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_mutation_operator_test.html">org.jgap.impl.GaussianMutationOperatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator_test.html">org.jgap.impl.GaussianRandomGeneratorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_greedy_crossover_test.html">org.jgap.impl.GreedyCrossoverTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_integer_gene_test.html">org.jgap.impl.IntegerGeneTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_inversion_operator_test.html">org.jgap.impl.InversionOperatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_j_g_a_p_factory_test.html">org.jgap.impl.JGAPFactoryTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_evolve_data_test.html">org.jgap.impl.job.EvolveDataTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_map_gene_test.html">org.jgap.impl.MapGeneTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_mutation_operator_test.html">org.jgap.impl.MutationOperatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_number_gene_test.html">org.jgap.impl.NumberGeneTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_pool_test.html">org.jgap.impl.PoolTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_travelling_salesman_test.html">org.jgap.impl.salesman.TravellingSalesmanTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_seeded_random_generator_test.html">org.jgap.impl.SeededRandomGeneratorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_set_gene_test.html">org.jgap.impl.SetGeneTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_stock_random_generator_test.html">org.jgap.impl.StockRandomGeneratorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_string_gene_test.html">org.jgap.impl.StringGeneTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_swapping_mutation_operator_test.html">org.jgap.impl.SwappingMutationOperatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_threshold_selector_test.html">org.jgap.impl.ThresholdSelectorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_tournament_selector_test.html">org.jgap.impl.TournamentSelectorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_two_way_mutation_operator_test.html">org.jgap.impl.TwoWayMutationOperatorTest</a>, <a class="el" href="classorg_1_1jgap_1_1impl_1_1_weighted_roulette_selector_test.html">org.jgap.impl.WeightedRouletteSelectorTest</a>, <a class="el" href="classorg_1_1jgap_1_1_population_test.html">org.jgap.PopulationTest</a>, <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_supergene_internal_parser_test.html">org.jgap.supergenes.SupergeneInternalParserTest</a>, <a class="el" href="classorg_1_1jgap_1_1supergenes_1_1_supergene_persistent_representation_test.html">org.jgap.supergenes.SupergenePersistentRepresentationTest</a>, <a class="el" href="classorg_1_1jgap_1_1util_1_1_file_kit_test.html">org.jgap.util.FileKitTest</a>, <a class="el" href="classorg_1_1jgap_1_1util_1_1_number_kit_test.html">org.jgap.util.NumberKitTest</a>, <a class="el" href="classorg_1_1jgap_1_1util_1_1_plugin_discoverer_test.html">org.jgap.util.PluginDiscovererTest</a>, <a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_document_builder_test.html">org.jgap.xml.XMLDocumentBuilderTest</a> y <a class="el" href="classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html">org.jgap.xml.XMLManagerTest</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case_1_1_test_fitness_function.html">TestFitnessFunction</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:adf378e0444b264c507f8cc459d8a26ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#adf378e0444b264c507f8cc459d8a26ee">JGAPTestCase</a> (String a_name)</td></tr>
+<tr class="separator:adf378e0444b264c507f8cc459d8a26ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472f2e2903439a8a484ba5ff0639fa02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a472f2e2903439a8a484ba5ff0639fa02">JGAPTestCase</a> ()</td></tr>
+<tr class="separator:a472f2e2903439a8a484ba5ff0639fa02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7278f46bafa651d39a1d301f6edacece"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a7278f46bafa651d39a1d301f6edacece">setUp</a> ()</td></tr>
+<tr class="separator:a7278f46bafa651d39a1d301f6edacece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29296ff97e1d62bc9fd84f8571d3e654"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a29296ff97e1d62bc9fd84f8571d3e654">isSerializable</a> (Object a_obj)</td></tr>
+<tr class="separator:a29296ff97e1d62bc9fd84f8571d3e654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac979f355528f40c594bf83535f3925b8"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#ac979f355528f40c594bf83535f3925b8">doSerialize</a> (Object a_obj)  throws Exception </td></tr>
+<tr class="separator:ac979f355528f40c594bf83535f3925b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1068930066ebd33ed69ccfe34a7f78ed"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a1068930066ebd33ed69ccfe34a7f78ed">getNestedField</a> (Object a_instance, String a_parentFieldName, String a_childFieldName)  throws NoSuchFieldException </td></tr>
+<tr class="separator:a1068930066ebd33ed69ccfe34a7f78ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77399f44cc0bd6e5ac3832e0ad2b2f7e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a77399f44cc0bd6e5ac3832e0ad2b2f7e">setNestedField</a> (Object a_instance, String a_parentFieldName, String a_childFieldName, Object a_value)  throws NoSuchFieldException </td></tr>
+<tr class="separator:a77399f44cc0bd6e5ac3832e0ad2b2f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653121052ecd3600acbcabf78dc1e193"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a653121052ecd3600acbcabf78dc1e193">uniqueChromosomes</a> (<a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop)</td></tr>
+<tr class="separator:a653121052ecd3600acbcabf78dc1e193"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55e45761cdd59a4489404bb7aa775b79"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a> (double a_one, double a_two)</td></tr>
+<tr class="separator:a55e45761cdd59a4489404bb7aa775b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a4f484987731cdc5276ee2575a165fcf3"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a4f484987731cdc5276ee2575a165fcf3">isChromosomesEqual</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>[] a_list1, <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>[] a_list2)</td></tr>
+<tr class="separator:a4f484987731cdc5276ee2575a165fcf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ccc244fd7637efacc27641a3b4bac99"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a3ccc244fd7637efacc27641a3b4bac99">assertEqualsMap</a> (Map a_map1, Map a_map2)</td></tr>
+<tr class="separator:a3ccc244fd7637efacc27641a3b4bac99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f7793db6d254be9753ed623ae09653b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a0f7793db6d254be9753ed623ae09653b">assertInList</a> (final Map a_list, Object a_object)</td></tr>
+<tr class="separator:a0f7793db6d254be9753ed623ae09653b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9df927cb9282d81abfd7daf6407416"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2b9df927cb9282d81abfd7daf6407416">assertInList</a> (final List a_list, Object a_object)</td></tr>
+<tr class="separator:a2b9df927cb9282d81abfd7daf6407416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Atributos públicos</h2></td></tr>
+<tr class="memitem:a2f976f156a2ab015f30f0828671764e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a></td></tr>
+<tr class="separator:a2f976f156a2ab015f30f0828671764e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a32462e38877d88fea7d7aad0538a42bd"><td class="memItemLeft" align="right" valign="top">static final PrivateAccessor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a32462e38877d88fea7d7aad0538a42bd">privateAccessor</a> = null</td></tr>
+<tr class="separator:a32462e38877d88fea7d7aad0538a42bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-attribs"></a>
+Atributos protegidos estáticos</h2></td></tr>
+<tr class="memitem:a9526215e5c49deb8f2811944f050d30b"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">DELTA</a> = 0.0000001</td></tr>
+<tr class="separator:a9526215e5c49deb8f2811944f050d30b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Abstract test case for all JGAP test cases providing a common infrastructure.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="adf378e0444b264c507f8cc459d8a26ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.JGAPTestCase.JGAPTestCase </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                                     {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    super(a_name);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a472f2e2903439a8a484ba5ff0639fa02"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.JGAPTestCase.JGAPTestCase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                        {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    super();</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a55e45761cdd59a4489404bb7aa775b79"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.JGAPTestCase.assertEquals </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_one</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_two</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Helper for assertion comparing two doubles with a JGAP-wide delta.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_one</td><td>first double to compare </td></tr>
+    <tr><td class="paramname">a_two</td><td>second double to compare</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                                                       {</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(a_one, a_two, <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">DELTA</a>);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a9526215e5c49deb8f2811944f050d30b"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">org.jgap.JGAPTestCase.DELTA</a></div><div class="ttdeci">static final double DELTA</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:30</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3ccc244fd7637efacc27641a3b4bac99"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.JGAPTestCase.assertEqualsMap </td>
+          <td>(</td>
+          <td class="paramtype">Map&#160;</td>
+          <td class="paramname"><em>a_map1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Map&#160;</td>
+          <td class="paramname"><em>a_map2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000206">Tareas pendientes:</a></b></dt><dd>implement </dd></dl>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                                             {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0f7793db6d254be9753ed623ae09653b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.JGAPTestCase.assertInList </td>
+          <td>(</td>
+          <td class="paramtype">final Map&#160;</td>
+          <td class="paramname"><em>a_list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_object</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span> (a_list.containsKey(a_object)) {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;      a_list.remove(a_object);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      <span class="comment">// Because only source code is browsed (also non-compilable code!),</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      <span class="comment">// there is no disctinction between class java.lang.X and class X</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      <span class="keywordflow">if</span> (a_list.containsKey(<span class="stringliteral">&quot;java.lang.&quot;</span> + a_object)) {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        a_list.remove(<span class="stringliteral">&quot;java.lang.&quot;</span> + a_object);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;      }</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        fail(<span class="stringliteral">&quot;Object &quot;</span> + a_object + <span class="stringliteral">&quot; not in list!&quot;</span>);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;      }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2b9df927cb9282d81abfd7daf6407416"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.JGAPTestCase.assertInList </td>
+          <td>(</td>
+          <td class="paramtype">final List&#160;</td>
+          <td class="paramname"><em>a_list</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_object</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">if</span> (a_list.contains(a_object)) {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      a_list.remove(a_object);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <span class="comment">// Because only source code is browsed (also non-compilable code!),</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;      <span class="comment">// there is no disctinction between class java.lang.X and class X</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      <span class="keywordflow">if</span> (a_list.contains(<span class="stringliteral">&quot;java.lang.&quot;</span> + a_object)) {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        a_list.remove(<span class="stringliteral">&quot;java.lang.&quot;</span> + a_object);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        fail(<span class="stringliteral">&quot;Object &quot;</span> + a_object + <span class="stringliteral">&quot; not in list!&quot;</span>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      }</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac979f355528f40c594bf83535f3925b8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.JGAPTestCase.doSerialize </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_obj</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_obj</td><td>object to serialize, then deserialize </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>deserialized object that has previously been serialized </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                       {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="comment">// Serialize object to a file.</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="comment">// ---------------------------</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    File f = File.createTempFile(<span class="stringliteral">&quot;object&quot;</span>, <span class="stringliteral">&quot;ser&quot;</span>);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    OutputStream os = <span class="keyword">new</span> FileOutputStream(f);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    ObjectOutputStream oos = <span class="keyword">new</span> ObjectOutputStream(os);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    oos.writeObject(a_obj);</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    oos.flush();</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    oos.close();</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    InputStream oi = <span class="keyword">new</span> FileInputStream(f);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    ObjectInputStream ois = <span class="keyword">new</span> ObjectInputStream(oi);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    Object result = ois.readObject();</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    ois.close();</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1068930066ebd33ed69ccfe34a7f78ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.JGAPTestCase.getNestedField </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_instance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_parentFieldName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_childFieldName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws NoSuchFieldException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves a nested (private) field, that is field2 from "field1.field2".</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_instance</td><td>the instance the parent field is located in </td></tr>
+    <tr><td class="paramname">a_parentFieldName</td><td>the name of the parent field (case sensitive!) </td></tr>
+    <tr><td class="paramname">a_childFieldName</td><td>the name of the child field (case sensitive!) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NoSuchFieldException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the value of the child field</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                  {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    Object parentField = privateAccessor.getField(a_instance, a_parentFieldName);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    Object childField = privateAccessor.getField(parentField, a_childFieldName);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">return</span> childField;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4f484987731cdc5276ee2575a165fcf3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean org.jgap.JGAPTestCase.isChromosomesEqual </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>[]&#160;</td>
+          <td class="paramname"><em>a_list1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>[]&#160;</td>
+          <td class="paramname"><em>a_list2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_list1</td><td>first list of chromosomes </td></tr>
+    <tr><td class="paramname">a_list2</td><td>second list of chromosomes </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true lists of chromosomes are equal</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                                                  {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">if</span> (a_list1 == null) {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <span class="keywordflow">return</span> (a_list2 == null);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (a_list2 == null) {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;      <span class="keywordflow">if</span> (a_list1.length != a_list2.length) {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; a_list1.length; i++) {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;          IChromosome c1 = (IChromosome) a_list1[i];</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;          IChromosome c2 = (IChromosome) a_list2[i];</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;          <span class="keywordflow">if</span> (!c1.equals(c2)) {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;          }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a29296ff97e1d62bc9fd84f8571d3e654"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.JGAPTestCase.isSerializable </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_obj</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_obj</td><td>object to verify </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true: object implements serializable</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                                              {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    <span class="keywordflow">return</span> Serializable.class.isInstance(a_obj);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a77399f44cc0bd6e5ac3832e0ad2b2f7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.JGAPTestCase.setNestedField </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_instance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_parentFieldName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_childFieldName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws NoSuchFieldException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets a nested (private) field, that is field2 from "field1.field2".</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_instance</td><td>the instance the parent field is located in </td></tr>
+    <tr><td class="paramname">a_parentFieldName</td><td>the name of the parent field (case sensitive!) </td></tr>
+    <tr><td class="paramname">a_childFieldName</td><td>the name of the child field (case sensitive!) </td></tr>
+    <tr><td class="paramname">a_value</td><td>the value to set the child field to </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">NoSuchFieldException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                                  {</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    Object parentField = privateAccessor.getField(a_instance, a_parentFieldName);</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    privateAccessor.setField(parentField, a_childFieldName, a_value);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7278f46bafa651d39a1d301f6edacece"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.JGAPTestCase.setUp </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                      {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    Genotype.setStaticConfiguration(null);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="comment">// reset property --&gt; use JGAPFactory</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    System.setProperty(<a class="code" href="classorg_1_1jgap_1_1_configuration.html#a7b5b91f069a6043a14d5ccde9fd480d7">Configuration.PROPERTY_JGAPFACTORY_CLASS</a>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    conf.resetProperty(conf.PROPERTY_FITEVAL_INST);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    conf.resetProperty(conf.PROPERTY_EVENT_MGR_INST);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a> = <span class="keyword">new</span> DefaultConfiguration();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_configuration_html_a7b5b91f069a6043a14d5ccde9fd480d7"><div class="ttname"><a href="classorg_1_1jgap_1_1_configuration.html#a7b5b91f069a6043a14d5ccde9fd480d7">org.jgap.Configuration.PROPERTY_JGAPFACTORY_CLASS</a></div><div class="ttdeci">static final String PROPERTY_JGAPFACTORY_CLASS</div><div class="ttdef"><b>Definition:</b> Configuration.java:54</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a653121052ecd3600acbcabf78dc1e193"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.JGAPTestCase.uniqueChromosomes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Are all chromosomes in the given population unique?</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pop</td><td>the population to verify </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true if all chromosomes in the population are unique</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                                                     {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="comment">// Check that all chromosomes are unique</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;a_pop.size()-1;i++) {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;      IChromosome c = a_pop.getChromosome(i);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=i+1;j&lt;a_pop.size();j++) {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        IChromosome c2 =a_pop.getChromosome(j);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="keywordflow">if</span> (c == c2) {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        }</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;      }</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a2f976f156a2ab015f30f0828671764e1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> org.jgap.JGAPTestCase.conf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9526215e5c49deb8f2811944f050d30b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double org.jgap.JGAPTestCase.DELTA = 0.0000001</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a32462e38877d88fea7d7aad0538a42bd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final PrivateAccessor org.jgap.JGAPTestCase.privateAccessor = null</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>tests/org/jgap/<a class="el" href="_j_g_a_p_test_case_8java.html">JGAPTestCase.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">JGAPTestCase</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:19 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

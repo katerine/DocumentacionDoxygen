@@ -1,0 +1,890 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.BaseGeneTest</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1_base_gene_test.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1jgap_1_1_base_gene_test-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.BaseGeneTest</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">org.jgap.JGAPTestCase</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>AppDataForTesting</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>BaseGeneImpl</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a8e52d151cf5b8df62a727d2b904be58c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a8e52d151cf5b8df62a727d2b904be58c">testConstruct_0</a> ()  throws Exception </td></tr>
+<tr class="separator:a8e52d151cf5b8df62a727d2b904be58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f40cae2a08a312d2a151cce68b9b6b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a0f40cae2a08a312d2a151cce68b9b6b9">testToString_0</a> ()  throws Exception </td></tr>
+<tr class="separator:a0f40cae2a08a312d2a151cce68b9b6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aead7ff4df4c451b9651c71d5511448fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#aead7ff4df4c451b9651c71d5511448fb">testToString_1</a> ()  throws Exception </td></tr>
+<tr class="separator:aead7ff4df4c451b9651c71d5511448fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc93f7f406a22a00b578002e99a22fcb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#adc93f7f406a22a00b578002e99a22fcb">testToString_2</a> ()  throws Exception </td></tr>
+<tr class="separator:adc93f7f406a22a00b578002e99a22fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455a90298c73ab7d52e5e559ba3710de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a455a90298c73ab7d52e5e559ba3710de">testGetAllele_0</a> ()  throws Exception </td></tr>
+<tr class="separator:a455a90298c73ab7d52e5e559ba3710de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73d2f1e2216984439d5d81aab9354d3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a73d2f1e2216984439d5d81aab9354d3f">testSize_0</a> ()  throws Exception </td></tr>
+<tr class="separator:a73d2f1e2216984439d5d81aab9354d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1606c51e50a973ac47f4b94b99c1b6a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a1606c51e50a973ac47f4b94b99c1b6a4">testEquals_0</a> ()  throws Exception </td></tr>
+<tr class="separator:a1606c51e50a973ac47f4b94b99c1b6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0654ebf43db9b60b2f55e557b6ff5b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#af0654ebf43db9b60b2f55e557b6ff5b5">testEquals_1</a> ()  throws Exception </td></tr>
+<tr class="separator:af0654ebf43db9b60b2f55e557b6ff5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3435dca715dbf596e3c2923bc0e4ebfd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a3435dca715dbf596e3c2923bc0e4ebfd">testEquals_2</a> ()  throws Exception </td></tr>
+<tr class="separator:a3435dca715dbf596e3c2923bc0e4ebfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e859f6d03d8eb3ce5dfe926d11eed92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a8e859f6d03d8eb3ce5dfe926d11eed92">testEquals_3</a> ()  throws Exception </td></tr>
+<tr class="separator:a8e859f6d03d8eb3ce5dfe926d11eed92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09d667a803f0e86c783f702c2e42d4fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a09d667a803f0e86c783f702c2e42d4fa">testCleanup_0</a> ()  throws Exception </td></tr>
+<tr class="separator:a09d667a803f0e86c783f702c2e42d4fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4e1dca49bf17b54149dcde4c25df007"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#af4e1dca49bf17b54149dcde4c25df007">testHashCode_0</a> ()  throws Exception </td></tr>
+<tr class="separator:af4e1dca49bf17b54149dcde4c25df007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cacd1fb9a9279cd4f747a9db827c7c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a7cacd1fb9a9279cd4f747a9db827c7c0">testHashCode_1</a> ()  throws Exception </td></tr>
+<tr class="separator:a7cacd1fb9a9279cd4f747a9db827c7c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a114e42c4580104520d13d7b15aebdc34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a114e42c4580104520d13d7b15aebdc34">testSetEnergy_0</a> ()  throws Exception </td></tr>
+<tr class="separator:a114e42c4580104520d13d7b15aebdc34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17325d21cc9a65fe7e8e49f4d6d3b04e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a17325d21cc9a65fe7e8e49f4d6d3b04e">testSetEnergy_1</a> ()  throws Exception </td></tr>
+<tr class="separator:a17325d21cc9a65fe7e8e49f4d6d3b04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0253799ad5bf1f0f586c3b767afab10"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#af0253799ad5bf1f0f586c3b767afab10">testSetApplicationData_0</a> ()  throws Exception </td></tr>
+<tr class="separator:af0253799ad5bf1f0f586c3b767afab10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00bdb1c53bcf6d47c9ad16fec5a52de3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a00bdb1c53bcf6d47c9ad16fec5a52de3">testSetApplicationData_1</a> ()  throws Exception </td></tr>
+<tr class="separator:a00bdb1c53bcf6d47c9ad16fec5a52de3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2cd872d724507f006962aecc05830f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#ab2cd872d724507f006962aecc05830f6">testSetApplicationData_2</a> ()  throws Exception </td></tr>
+<tr class="separator:ab2cd872d724507f006962aecc05830f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e4dea7bc733738ded517705bf5b6be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#ad1e4dea7bc733738ded517705bf5b6be">testIsCompareApplicationData_0</a> ()  throws Exception </td></tr>
+<tr class="separator:ad1e4dea7bc733738ded517705bf5b6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">org.jgap.JGAPTestCase</a></td></tr>
+<tr class="memitem:adf378e0444b264c507f8cc459d8a26ee inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#adf378e0444b264c507f8cc459d8a26ee">JGAPTestCase</a> (String a_name)</td></tr>
+<tr class="separator:adf378e0444b264c507f8cc459d8a26ee inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472f2e2903439a8a484ba5ff0639fa02 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a472f2e2903439a8a484ba5ff0639fa02">JGAPTestCase</a> ()</td></tr>
+<tr class="separator:a472f2e2903439a8a484ba5ff0639fa02 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7278f46bafa651d39a1d301f6edacece inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a7278f46bafa651d39a1d301f6edacece">setUp</a> ()</td></tr>
+<tr class="separator:a7278f46bafa651d39a1d301f6edacece inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29296ff97e1d62bc9fd84f8571d3e654 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a29296ff97e1d62bc9fd84f8571d3e654">isSerializable</a> (Object a_obj)</td></tr>
+<tr class="separator:a29296ff97e1d62bc9fd84f8571d3e654 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac979f355528f40c594bf83535f3925b8 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#ac979f355528f40c594bf83535f3925b8">doSerialize</a> (Object a_obj)  throws Exception </td></tr>
+<tr class="separator:ac979f355528f40c594bf83535f3925b8 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1068930066ebd33ed69ccfe34a7f78ed inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a1068930066ebd33ed69ccfe34a7f78ed">getNestedField</a> (Object a_instance, String a_parentFieldName, String a_childFieldName)  throws NoSuchFieldException </td></tr>
+<tr class="separator:a1068930066ebd33ed69ccfe34a7f78ed inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77399f44cc0bd6e5ac3832e0ad2b2f7e inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a77399f44cc0bd6e5ac3832e0ad2b2f7e">setNestedField</a> (Object a_instance, String a_parentFieldName, String a_childFieldName, Object a_value)  throws NoSuchFieldException </td></tr>
+<tr class="separator:a77399f44cc0bd6e5ac3832e0ad2b2f7e inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653121052ecd3600acbcabf78dc1e193 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a653121052ecd3600acbcabf78dc1e193">uniqueChromosomes</a> (<a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop)</td></tr>
+<tr class="separator:a653121052ecd3600acbcabf78dc1e193 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55e45761cdd59a4489404bb7aa775b79 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a> (double a_one, double a_two)</td></tr>
+<tr class="separator:a55e45761cdd59a4489404bb7aa775b79 inherit pub_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a844331adc01c1d874a86ba1a0663e26d"><td class="memItemLeft" align="right" valign="top">static Test&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html#a844331adc01c1d874a86ba1a0663e26d">suite</a> ()</td></tr>
+<tr class="separator:a844331adc01c1d874a86ba1a0663e26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case')"><img src="closed.png" alt="-"/>&#160;Métodos públicos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">org.jgap.JGAPTestCase</a></td></tr>
+<tr class="memitem:a4f484987731cdc5276ee2575a165fcf3 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a4f484987731cdc5276ee2575a165fcf3">isChromosomesEqual</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>[] a_list1, <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>[] a_list2)</td></tr>
+<tr class="separator:a4f484987731cdc5276ee2575a165fcf3 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ccc244fd7637efacc27641a3b4bac99 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a3ccc244fd7637efacc27641a3b4bac99">assertEqualsMap</a> (Map a_map1, Map a_map2)</td></tr>
+<tr class="separator:a3ccc244fd7637efacc27641a3b4bac99 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f7793db6d254be9753ed623ae09653b inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a0f7793db6d254be9753ed623ae09653b">assertInList</a> (final Map a_list, Object a_object)</td></tr>
+<tr class="separator:a0f7793db6d254be9753ed623ae09653b inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9df927cb9282d81abfd7daf6407416 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2b9df927cb9282d81abfd7daf6407416">assertInList</a> (final List a_list, Object a_object)</td></tr>
+<tr class="separator:a2b9df927cb9282d81abfd7daf6407416 inherit pub_static_methods_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case')"><img src="closed.png" alt="-"/>&#160;Atributos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">org.jgap.JGAPTestCase</a></td></tr>
+<tr class="memitem:a2f976f156a2ab015f30f0828671764e1 inherit pub_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a></td></tr>
+<tr class="separator:a2f976f156a2ab015f30f0828671764e1 inherit pub_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">org.jgap.JGAPTestCase</a></td></tr>
+<tr class="memitem:a32462e38877d88fea7d7aad0538a42bd inherit pub_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static final PrivateAccessor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a32462e38877d88fea7d7aad0538a42bd">privateAccessor</a> = null</td></tr>
+<tr class="separator:a32462e38877d88fea7d7aad0538a42bd inherit pub_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td colspan="2" onclick="javascript:toggleInherit('pro_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case')"><img src="closed.png" alt="-"/>&#160;Atributos protegidos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html">org.jgap.JGAPTestCase</a></td></tr>
+<tr class="memitem:a9526215e5c49deb8f2811944f050d30b inherit pro_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">DELTA</a> = 0.0000001</td></tr>
+<tr class="separator:a9526215e5c49deb8f2811944f050d30b inherit pro_static_attribs_classorg_1_1jgap_1_1_j_g_a_p_test_case"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Tests the <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">BaseGene</a> class.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a844331adc01c1d874a86ba1a0663e26d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Test org.jgap.BaseGeneTest.suite </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                             {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    TestSuite <a class="code" href="classorg_1_1jgap_1_1_base_gene_test.html#a844331adc01c1d874a86ba1a0663e26d">suite</a> = <span class="keyword">new</span> TestSuite(BaseGeneTest.class);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1_base_gene_test.html#a844331adc01c1d874a86ba1a0663e26d">suite</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_test_html_a844331adc01c1d874a86ba1a0663e26d"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene_test.html#a844331adc01c1d874a86ba1a0663e26d">org.jgap.BaseGeneTest.suite</a></div><div class="ttdeci">static Test suite()</div><div class="ttdef"><b>Definition:</b> BaseGeneTest.java:26</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a09d667a803f0e86c783f702c2e42d4fa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testCleanup_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Simple cleanup should be possible without exception. </p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                       {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    Gene gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    gene.setAllele(<span class="keyword">new</span> Double(75));</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    gene.cleanup();</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8e52d151cf5b8df62a727d2b904be58c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testConstruct_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Following should be possible without exception. </p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                       {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    assertNotNull(<span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>));</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1606c51e50a973ac47f4b94b99c1b6a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testEquals_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                       {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    gene.m_compareTo_result = 0;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    assertTrue(gene.equals(null));</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    assertTrue(gene.equals(gene));</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    assertTrue(gene.equals(<span class="keyword">new</span> Integer(2)));</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af0654ebf43db9b60b2f55e557b6ff5b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testEquals_1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                       {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    gene.m_compareTo_result = -1;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    assertFalse(gene.equals(null));</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    assertFalse(gene.equals(gene));</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    assertFalse(gene.equals(<span class="keyword">new</span> Integer(2)));</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3435dca715dbf596e3c2923bc0e4ebfd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testEquals_2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                       {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    gene.m_compareTo_result = 1;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    assertFalse(gene.equals(null));</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    assertFalse(gene.equals(gene));</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    assertFalse(gene.equals(<span class="keyword">new</span> Integer(2)));</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8e859f6d03d8eb3ce5dfe926d11eed92"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testEquals_3 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compare application data.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000184">Tareas pendientes:</a></b></dt><dd>use other than JGAPFactory to be able to receive a null CompareToHandler for the application data object </dd></dl>
+<div class="fragment"><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                       {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    Configuration <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a> = <span class="keyword">new</span> ConfigurationForTesting();</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="comment">//    Genotype.setConfiguration(new ConfigurationForTest());</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment">//    Genotype.getConfiguration().getJGAPFactory();</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(conf);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    gene.m_compareTo_result = 0;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    gene.setApplicationData(<span class="keyword">new</span> AppDataForTesting());</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    BaseGeneImpl gene2 = <span class="keyword">new</span> BaseGeneImpl(conf);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    gene2.m_compareTo_result = 0;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    gene2.setApplicationData(<span class="keyword">new</span> AppDataForTesting());</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    gene.setCompareApplicationData(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    assertTrue(gene.equals(gene2));</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a455a90298c73ab7d52e5e559ba3710de"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testGetAllele_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                       {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    Gene gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    gene.setAllele(<span class="keyword">new</span> Double(75));</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(<span class="keyword">new</span> Double(75), gene.getAllele());</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af4e1dca49bf17b54149dcde4c25df007"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testHashCode_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                       {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>( -79, gene.hashCode());</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7cacd1fb9a9279cd4f747a9db827c7c0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testHashCode_1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                       {</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    gene.setAllele(<span class="keyword">new</span> Double(1.5d));</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(<span class="keyword">new</span> Double(1.5d).hashCode(), gene.hashCode());</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad1e4dea7bc733738ded517705bf5b6be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testIsCompareApplicationData_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                       {</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    assertFalse(gene.isCompareApplicationData());</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    gene.setCompareApplicationData(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    assertFalse(gene.isCompareApplicationData());</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    gene.setCompareApplicationData(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    assertTrue(gene.isCompareApplicationData());</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af0253799ad5bf1f0f586c3b767afab10"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testSetApplicationData_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                       {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    assertNull(gene.getApplicationData());</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    Integer i = <span class="keyword">new</span> Integer(23);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    gene.setApplicationData(i);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    assertSame(i, gene.getApplicationData());</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    String s = <span class="stringliteral">&quot;Hallo&quot;</span>;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    gene.setApplicationData(s);</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    assertSame(s, gene.getApplicationData());</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a00bdb1c53bcf6d47c9ad16fec5a52de3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testSetApplicationData_1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2.2 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000185">Tareas pendientes:</a></b></dt><dd>find the one chromosome </dd></dl>
+<div class="fragment"><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                       {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    String appData = <span class="stringliteral">&quot;Hallo&quot;</span>;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    IChromosome c = <span class="keyword">new</span> Chromosome(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>, gene, 2);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    conf.reset();</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    conf.setFitnessFunction(<span class="keyword">new</span> TestFitnessFunction());</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    conf.setSampleChromosome(c);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    conf.setPopulationSize(5);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    Genotype genotype = Genotype.randomInitialGenotype(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    Population pop = genotype.getPopulation();</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    c = pop.getChromosome(0);</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    c.setApplicationData(appData);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    pop.setChromosome(0, c);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    genotype.evolve();</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    Population pop2 = genotype.getPopulation();</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="comment">//    c = pop2.getChromosome(2);// 2 = 0 + 2 X-Overs</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="comment">//    assertSame(appData, c.getApplicationData());</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab2cd872d724507f006962aecc05830f6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testSetApplicationData_2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000186">Tareas pendientes:</a></b></dt><dd>find the one chromosome </dd></dl>
+<div class="fragment"><div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                       {</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    String appData = <span class="stringliteral">&quot;Hallo&quot;</span>;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    IChromosome c = <span class="keyword">new</span> Chromosome(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>, gene, 2);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    conf.reset();</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    conf.setFitnessFunction(<span class="keyword">new</span> TestFitnessFunction());</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    conf.setSampleChromosome(c);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    conf.setPopulationSize(5);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    Genotype genotype = Genotype.randomInitialGenotype(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    Population pop = genotype.getPopulation();</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    c = pop.getChromosome(0);</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    c.setApplicationData(appData);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    List geneAppData = <span class="keyword">new</span> Vector();</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    geneAppData.add(<span class="stringliteral">&quot;x&quot;</span>);</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    geneAppData.add(<span class="keyword">new</span> Integer(3));</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    Gene g = c.getGene(0);</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    g.setApplicationData(geneAppData);</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    pop.setChromosome(0, c);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    genotype.evolve();</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    Population pop2 = genotype.getPopulation();</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="comment">//    c = pop2.getChromosome(2);// 2 = 0 + 2 X-Overs</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="comment">//    assertSame(appData, c.getApplicationData());</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="comment">//    g = c.getGene(0);</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="comment">//    assertSame(geneAppData, g.getApplicationData());</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a114e42c4580104520d13d7b15aebdc34"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testSetEnergy_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                       {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(0.0, gene.getEnergy(), <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">DELTA</a>);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    gene.setEnergy(2.3);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(2.3, gene.getEnergy(), <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">DELTA</a>);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a9526215e5c49deb8f2811944f050d30b"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">org.jgap.JGAPTestCase.DELTA</a></div><div class="ttdeci">static final double DELTA</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:30</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a17325d21cc9a65fe7e8e49f4d6d3b04e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testSetEnergy_1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                       {</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    BaseGeneImpl gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    gene.setEnergy(2.3);</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(2.3, gene.getEnergy(), <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">DELTA</a>);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    gene.setEnergy( -55.8);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>( -55.8, gene.getEnergy(), <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">DELTA</a>);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    gene.setEnergy(0.5);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    gene.setEnergy(0.8);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(0.8, gene.getEnergy(), <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">DELTA</a>);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a9526215e5c49deb8f2811944f050d30b"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a9526215e5c49deb8f2811944f050d30b">org.jgap.JGAPTestCase.DELTA</a></div><div class="ttdeci">static final double DELTA</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:30</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a73d2f1e2216984439d5d81aab9354d3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testSize_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                       {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    Gene gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(1, gene.size());</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0f40cae2a08a312d2a151cce68b9b6b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testToString_0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                       {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    Gene gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(<span class="stringliteral">&quot;null, &quot;</span> + BaseGene.S_APPLICATION_DATA + <span class="stringliteral">&quot;:null&quot;</span>,</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                 gene.toString());</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aead7ff4df4c451b9651c71d5511448fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testToString_1 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                       {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    Gene gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    gene.setAllele(<span class="keyword">new</span> Integer(98));</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(<span class="stringliteral">&quot;98, &quot;</span> + BaseGene.S_APPLICATION_DATA + <span class="stringliteral">&quot;:null&quot;</span>,</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                 gene.toString());</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adc93f7f406a22a00b578002e99a22fcb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.BaseGeneTest.testToString_2 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                       {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    Gene gene = <span class="keyword">new</span> BaseGeneImpl(<a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">conf</a>);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    gene.setAllele(<span class="keyword">new</span> Integer(98));</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    gene.setApplicationData(<span class="stringliteral">&quot;myAppData&quot;</span>);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">assertEquals</a>(<span class="stringliteral">&quot;98, &quot;</span> + BaseGene.S_APPLICATION_DATA + <span class="stringliteral">&quot;:myAppData&quot;</span>,</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                 gene.toString());</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a2f976f156a2ab015f30f0828671764e1"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a2f976f156a2ab015f30f0828671764e1">org.jgap.JGAPTestCase.conf</a></div><div class="ttdeci">Configuration conf</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:33</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_j_g_a_p_test_case_html_a55e45761cdd59a4489404bb7aa775b79"><div class="ttname"><a href="classorg_1_1jgap_1_1_j_g_a_p_test_case.html#a55e45761cdd59a4489404bb7aa775b79">org.jgap.JGAPTestCase.assertEquals</a></div><div class="ttdeci">void assertEquals(double a_one, double a_two)</div><div class="ttdef"><b>Definition:</b> JGAPTestCase.java:241</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>tests/org/jgap/<a class="el" href="_base_gene_test_8java.html">BaseGeneTest.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1_base_gene_test.html">BaseGeneTest</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:17 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

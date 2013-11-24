@@ -1,0 +1,530 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.data.config.RootConfigurationHandler</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.data.config.RootConfigurationHandler</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html">org.jgap.data.config.ConfigurationHandler</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:aae8e13674f79c02665def867f95f633f"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#aae8e13674f79c02665def867f95f633f">getName</a> ()</td></tr>
+<tr class="separator:aae8e13674f79c02665def867f95f633f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ba39a7530f7b00ad252c18a4a7c13c3"><td class="memItemLeft" align="right" valign="top">List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#a2ba39a7530f7b00ad252c18a4a7c13c3">getConfigProperties</a> ()</td></tr>
+<tr class="separator:a2ba39a7530f7b00ad252c18a4a7c13c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c79d1f7c1ccc36e27fe9f82a04c40f9"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#a3c79d1f7c1ccc36e27fe9f82a04c40f9">getNS</a> ()</td></tr>
+<tr class="separator:a3c79d1f7c1ccc36e27fe9f82a04c40f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade997372877bd63adeac47f2ebde995a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#ade997372877bd63adeac47f2ebde995a">readConfig</a> ()  throws ConfigException, InvalidConfigurationException </td></tr>
+<tr class="separator:ade997372877bd63adeac47f2ebde995a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a953d5e716d1029b3cdefed4f271ffa9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#a953d5e716d1029b3cdefed4f271ffa9a">setConfigurable</a> (<a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configurable.html">Configurable</a> a_configurable)</td></tr>
+<tr class="separator:a953d5e716d1029b3cdefed4f271ffa9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae535baaf2667f1861137e89cdf0275e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#aae535baaf2667f1861137e89cdf0275e">setConfigProperty</a> (Object a_configurable, String a_propertyName, String a_value)  throws IllegalAccessException </td></tr>
+<tr class="separator:aae535baaf2667f1861137e89cdf0275e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a40700244917cc560e5291cd7c0e40fda"><td class="memItemLeft" align="right" valign="top">static Field&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#a40700244917cc560e5291cd7c0e40fda">getPrivateField</a> (Object a_instance, String a_fieldName)</td></tr>
+<tr class="separator:a40700244917cc560e5291cd7c0e40fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39c3887fe8ea96ee4b6af7a16de2b6b2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#a39c3887fe8ea96ee4b6af7a16de2b6b2">configureClass</a> (String className)  throws ConfigException </td></tr>
+<tr class="separator:a39c3887fe8ea96ee4b6af7a16de2b6b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html">org.jgap.data.config.ConfigurationHandler</a></td></tr>
+<tr class="memitem:a36c79d84ace5cb07b47732b1ca361e91 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html#a36c79d84ace5cb07b47732b1ca361e91">CVS_REVISION</a> = &quot;$Revision: 1.5 $&quot;</td></tr>
+<tr class="separator:a36c79d84ace5cb07b47732b1ca361e91 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>The <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html">ConfigurationHandler</a> for the <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> class itself. This is the entry point for a <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>. In other words this is for dynamically building up a <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>.</p>
+<dl class="section author"><dt>Autor</dt><dd>Siddhartha Azad </dd>
+<dd>
+Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a39c3887fe8ea96ee4b6af7a16de2b6b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.data.config.RootConfigurationHandler.configureClass </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>className</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_config_exception.html">ConfigException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Retrieve all instances of a certain property from the config file reader and configure each of these. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">className</td><td>the name of the property to configure </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_config_exception.html">ConfigException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Siddhartha Azad </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                             {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    List values = ConfigFileReader.instance().getValues(className);</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordflow">if</span> (values != null &amp;&amp; values.size() &gt; 0) {</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;      String cName = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;      <span class="comment">// iterate through all instances of this property and create Configurables</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;      <span class="comment">// for them, then configure these</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;      <span class="keywordflow">for</span> (Iterator iter = values.iterator(); iter.hasNext(); ) {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;          cName = (String) iter.next();</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;          Class genClass = Class.forName(cName);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;          Configurable conObj = (Configurable) genClass.newInstance();</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="comment">//TODO          ConfigurationHandler cHandler = conObj.getConfigurationHandler();</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="comment">//TODO          cHandler.readConfig();</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        } <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;          <span class="keywordflow">throw</span> <span class="keyword">new</span> ConfigException(<span class="stringliteral">&quot;Error while configuring &quot;</span> + className +</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                                    <span class="stringliteral">&quot;.&quot;</span> + cName);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        }</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2ba39a7530f7b00ad252c18a4a7c13c3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List org.jgap.data.config.RootConfigurationHandler.getConfigProperties </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return the information to generate the GUI for configuring this class. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>a list of <a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_config_property.html">ConfigProperty</a> objects </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html#afab2c248c1508f4c5aff07476d14535c">org.jgap.data.config.ConfigurationHandler</a>.</p>
+<div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                                    {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aae8e13674f79c02665def867f95f633f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.data.config.RootConfigurationHandler.getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>Name of this <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> Object (name of what you are configuring) to be used in the properties file.</dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html#a37c99182a454a723a40dba5da3a0b569">org.jgap.data.config.ConfigurationHandler</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                          {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;Configuration&quot;</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3c79d1f7c1ccc36e27fe9f82a04c40f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.data.config.RootConfigurationHandler.getNS </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Get the namespace to be used in the config file for the <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configurable.html">Configurable</a> this <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html">ConfigurationHandler</a> belongs to. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>the namespace of the <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configurable.html">Configurable</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Siddhartha Azad </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html#a2ecd95a1925db767c89f887b3e585b04">org.jgap.data.config.ConfigurationHandler</a>.</p>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                        {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">return</span> CONFIG_NAMESPACE;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a40700244917cc560e5291cd7c0e40fda"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Field org.jgap.data.config.RootConfigurationHandler.getPrivateField </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_instance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_fieldName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Helper method: Read a private field. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_instance</td><td>the instance the field is contained with </td></tr>
+    <tr><td class="paramname">a_fieldName</td><td>the name of the field to read </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the Field object or null, if none found</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keyword">final</span> Field fields[] = a_instance.getClass().getDeclaredFields();</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; fields.length; ++i) {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      <span class="keywordflow">if</span> (a_fieldName.equals(fields[i].getName())) {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        fields[i].setAccessible(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">return</span> fields[i];</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;      }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ade997372877bd63adeac47f2ebde995a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.data.config.RootConfigurationHandler.readConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_config_exception.html">ConfigException</a>, <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Method that will populate an <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configurable.html">Configurable</a> with the properties in the config file.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_config_exception.html">ConfigException</a></td><td></td></tr>
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Siddhartha Azad </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html#a36e474a6166d082c375cf521e0174804">org.jgap.data.config.ConfigurationHandler</a>.</p>
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                                            {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="comment">// TODO adapt to new concept of configuration via reflection and marker</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="comment">// interface</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="comment">// set the namespace to get the properties from</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    ConfigFileReader.instance().setNS(CONFIG_NAMESPACE);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    String value = ConfigFileReader.instance().getValue(<span class="stringliteral">&quot;m_populationSize&quot;</span>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;      <span class="keywordflow">if</span> (value != null) {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#aae535baaf2667f1861137e89cdf0275e">setConfigProperty</a>(m_configurable, <span class="stringliteral">&quot;m_populationSize&quot;</span>, value);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;      }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    } <span class="keywordflow">catch</span> (IllegalAccessException ex) {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;      ex.printStackTrace();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> InvalidConfigurationException(ex.getMessage());</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="comment">// go through all genetic operators and configure them</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#a39c3887fe8ea96ee4b6af7a16de2b6b2">configureClass</a>(GENETIC_OPS);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="comment">// go through all natural selectors and configure them</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#a39c3887fe8ea96ee4b6af7a16de2b6b2">configureClass</a>(NATURAL_SELS);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler_html_a39c3887fe8ea96ee4b6af7a16de2b6b2"><div class="ttname"><a href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#a39c3887fe8ea96ee4b6af7a16de2b6b2">org.jgap.data.config.RootConfigurationHandler.configureClass</a></div><div class="ttdeci">static void configureClass(String className)</div><div class="ttdef"><b>Definition:</b> RootConfigurationHandler.java:210</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler_html_aae535baaf2667f1861137e89cdf0275e"><div class="ttname"><a href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#aae535baaf2667f1861137e89cdf0275e">org.jgap.data.config.RootConfigurationHandler.setConfigProperty</a></div><div class="ttdeci">void setConfigProperty(Object a_configurable, String a_propertyName, String a_value)</div><div class="ttdef"><b>Definition:</b> RootConfigurationHandler.java:129</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aae535baaf2667f1861137e89cdf0275e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.data.config.RootConfigurationHandler.setConfigProperty </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_configurable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_propertyName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws IllegalAccessException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the property of a configurable to a given value. Uses reflection to do so. Queries the method getConfigVarName for the name of the field hosting the configurable properties.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_configurable</td><td>the configurable to use </td></tr>
+    <tr><td class="paramname">a_propertyName</td><td>the property to set </td></tr>
+    <tr><td class="paramname">a_value</td><td>the value to assign to the property </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IllegalAccessException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                    {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="comment">//    Use following in case variable name &quot;m_config&quot; should be determined</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="comment">//    dynamically.</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="comment">//    Method m = null;</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="comment">//    try {</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="comment">//      m = a_configurable.getClass().getDeclaredMethod(&quot;getConfigVarName&quot;,</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="comment">//          new Class[0]);</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="comment">//    } catch (NoSuchMethodException nex) {</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="comment">//      // nothing to set here</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment">//      return;</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="comment">//    }</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    String configVarName = <span class="stringliteral">&quot;m_config&quot;</span>; <span class="comment">//(String)m.invoke(a_configurable, new Object[0]);</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    Field configVar = <a class="code" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#a40700244917cc560e5291cd7c0e40fda">getPrivateField</a>(a_configurable, configVarName);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    configVar.setAccessible(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    Object configObj = configVar.get(a_configurable);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    Field propertyVar = <a class="code" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#a40700244917cc560e5291cd7c0e40fda">getPrivateField</a>(configObj, a_propertyName);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    propertyVar.setAccessible(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    Class type = propertyVar.getType();</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordflow">if</span> (type.equals(<span class="keywordtype">boolean</span>.class)) {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      propertyVar.setBoolean(configObj, Boolean.valueOf(a_value).booleanValue());</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type.equals(byte.class)) {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;      propertyVar.setByte(configObj, Byte.valueOf(a_value).byteValue());</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type.equals(<span class="keywordtype">char</span>.class)) {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;      propertyVar.setChar(configObj, a_value.charAt(0));</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    }</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type.equals(<span class="keywordtype">double</span>.class)) {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;      propertyVar.setDouble(configObj, Double.valueOf(a_value).doubleValue());</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type.equals(<span class="keywordtype">float</span>.class)) {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;      propertyVar.setFloat(configObj, Float.valueOf(a_value).floatValue());</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    }</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type.equals(<span class="keywordtype">int</span>.class)) {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;      propertyVar.setInt(configObj, Integer.valueOf(a_value).intValue());</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    }</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type.equals(<span class="keywordtype">long</span>.class)) {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      propertyVar.setLong(configObj, Long.valueOf(a_value).longValue());</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    }</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type.equals(<span class="keywordtype">short</span>.class)) {</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      propertyVar.setShort(configObj, Short.valueOf(a_value).shortValue());</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (type.equals(String.class)) {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;      propertyVar.set(configObj, a_value);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(<span class="stringliteral">&quot;Unknown field type: &quot;</span> + type.getName());</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    }</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler_html_a40700244917cc560e5291cd7c0e40fda"><div class="ttname"><a href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html#a40700244917cc560e5291cd7c0e40fda">org.jgap.data.config.RootConfigurationHandler.getPrivateField</a></div><div class="ttdeci">static Field getPrivateField(Object a_instance, String a_fieldName)</div><div class="ttdef"><b>Definition:</b> RootConfigurationHandler.java:190</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a953d5e716d1029b3cdefed4f271ffa9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.data.config.RootConfigurationHandler.setConfigurable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configurable.html">Configurable</a>&#160;</td>
+          <td class="paramname"><em>a_configurable</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set the <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configurable.html">Configurable</a> to which this <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html">ConfigurationHandler</a> belongs. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_configurable</td><td>the <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configurable.html">Configurable</a> to which this <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html">ConfigurationHandler</a> belongs</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Siddhartha Azad </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1data_1_1config_1_1_configuration_handler.html#a831ec614e3a75bb8c8ef395877d21178">org.jgap.data.config.ConfigurationHandler</a>.</p>
+<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                                                           {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    m_configurable = a_configurable;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/data/config/<a class="el" href="_root_configuration_handler_8java.html">RootConfigurationHandler.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1data.html">data</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1data_1_1config.html">config</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1data_1_1config_1_1_root_configuration_handler.html">RootConfigurationHandler</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:23 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

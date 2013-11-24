@@ -1,0 +1,587 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.util.TestHashcode</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1util_1_1_test_hashcode.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1jgap_1_1util_1_1_test_hashcode-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.util.TestHashcode</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ae131c5551de0bf40b9225b14922743d7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#ae131c5551de0bf40b9225b14922743d7">setVerbose</a> (boolean a_verbose)</td></tr>
+<tr class="separator:ae131c5551de0bf40b9225b14922743d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae8175c503c5865df1b053f1a069f0af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#aae8175c503c5865df1b053f1a069f0af">setAverageMax</a> (double a_averageMax)</td></tr>
+<tr class="separator:aae8175c503c5865df1b053f1a069f0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22b485c1780827f6aac105ee0195a894"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a22b485c1780827f6aac105ee0195a894">setAverageMin</a> (double a_averageMin)</td></tr>
+<tr class="separator:a22b485c1780827f6aac105ee0195a894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a8fc1bfe0d7798c1ec2bb2953d8dc61"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a9a8fc1bfe0d7798c1ec2bb2953d8dc61">setStdDevMax</a> (double a_stdDevMax)</td></tr>
+<tr class="separator:a9a8fc1bfe0d7798c1ec2bb2953d8dc61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55f2e3c33a14b3d618fa4639f52532e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a55f2e3c33a14b3d618fa4639f52532e5">setStdDevMin</a> (double a_stdDevMin)</td></tr>
+<tr class="separator:a55f2e3c33a14b3d618fa4639f52532e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a183ef9ad688b366f44bdc2c4d8fb4afe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a183ef9ad688b366f44bdc2c4d8fb4afe">setFractionUnique</a> (double a_fractionUnique)</td></tr>
+<tr class="separator:a183ef9ad688b366f44bdc2c4d8fb4afe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba4717a5deb8ccff616483c261234097"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#aba4717a5deb8ccff616483c261234097">getActualFractionUnique</a> ()</td></tr>
+<tr class="separator:aba4717a5deb8ccff616483c261234097"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b64668c1d3ab567efb816ac2ed597e9"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a8b64668c1d3ab567efb816ac2ed597e9">testHashCodeUniqueness</a> (List a_ObjectList)</td></tr>
+<tr class="separator:a8b64668c1d3ab567efb816ac2ed597e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b0812f682b3941831c04a842b05c4fb"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a6b0812f682b3941831c04a842b05c4fb">testHashCodeEquality</a> (List a_ObjectList)</td></tr>
+<tr class="separator:a6b0812f682b3941831c04a842b05c4fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08e541143a78fdf8902cedac17e1f65d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a08e541143a78fdf8902cedac17e1f65d">testDispersion</a> (List a_ObjectList)</td></tr>
+<tr class="separator:a08e541143a78fdf8902cedac17e1f65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:ab61a6696c7db9342aab2b0edfb1d328e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#ab61a6696c7db9342aab2b0edfb1d328e">main</a> (String[] args)</td></tr>
+<tr class="separator:ab61a6696c7db9342aab2b0edfb1d328e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Class used to help in the testing of the hashCode() method.</p>
+<dl class="section author"><dt>Autor</dt><dd>John Serri </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.1 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="aba4717a5deb8ccff616483c261234097"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.util.TestHashcode.getActualFractionUnique </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                          {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordflow">return</span> m_actualFractionUnique;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab61a6696c7db9342aab2b0edfb1d328e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.util.TestHashcode.main </td>
+          <td>(</td>
+          <td class="paramtype">String[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Simple main method to test the class.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>ignored</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>John Serri </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                                         {</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="keywordtype">int</span> com;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    TestHashcode th = <span class="keyword">new</span> TestHashcode();</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    List tl = <span class="keyword">new</span> ArrayList();</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="keywordflow">for</span> (com = 600000; com &lt; 600100; com++) {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      tl.add(<span class="keyword">new</span> BigDecimal(com));</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    }</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    th.testDispersion(tl);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    th.setFractionUnique(0.8);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    th.testHashCodeUniqueness(tl);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aae8175c503c5865df1b053f1a069f0af"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.util.TestHashcode.setAverageMax </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_averageMax</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set's the maximum average value of hashCodes needed to pass the <a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a08e541143a78fdf8902cedac17e1f65d">testDispersion()</a> test. Also see TestHascode::testDispersion.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_averageMax</td><td>New Maximum average </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                                                 {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    m_AverageMax = a_averageMax;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a22b485c1780827f6aac105ee0195a894"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.util.TestHashcode.setAverageMin </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_averageMin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set's the minimum average value of hashCodes needed to pass the <a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a08e541143a78fdf8902cedac17e1f65d">testDispersion()</a> test</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_averageMin</td><td>new Minimum average </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Ver también</dt><dd><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a08e541143a78fdf8902cedac17e1f65d">TestHashcode::testDispersion</a> </dd></dl>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                                 {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    m_AverageMin = a_averageMin;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a183ef9ad688b366f44bdc2c4d8fb4afe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.util.TestHashcode.setFractionUnique </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_fractionUnique</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set's the fraction of hashCodes that must be unique for the testHashCodeUniqueness method to succed.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_fractionUnique</td><td>new value, must be between 0.0 and 1.0 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">IllegalArgumentException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Ver también</dt><dd><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a8b64668c1d3ab567efb816ac2ed597e9">TestHashcode::testHashCodeUniqueness</a></dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                                         {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordflow">if</span> ( (a_fractionUnique &lt; 0.0) || (a_fractionUnique &gt; 1.0)) {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;          <span class="stringliteral">&quot;fractionUnique must be between 0.0 and 1.0&quot;</span>);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    m_fractionUnique = a_fractionUnique;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9a8fc1bfe0d7798c1ec2bb2953d8dc61"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.util.TestHashcode.setStdDevMax </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_stdDevMax</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set's the Maximum standard deviationvalue of hashCodes needed to pass the <a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a08e541143a78fdf8902cedac17e1f65d">testDispersion()</a> test</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_stdDevMax</td><td>new Maximum standard deviation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Ver también</dt><dd><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a08e541143a78fdf8902cedac17e1f65d">TestHashcode::testDispersion</a></dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                                               {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    m_StdDevMax = a_stdDevMax;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a55f2e3c33a14b3d618fa4639f52532e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.util.TestHashcode.setStdDevMin </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_stdDevMin</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set's the Minimum standard deviationvalue of hashCodes needed to pass the <a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a08e541143a78fdf8902cedac17e1f65d">testDispersion()</a> test</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_stdDevMin</td><td>new Minimum standard deviation </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Ver también</dt><dd><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a08e541143a78fdf8902cedac17e1f65d">TestHashcode::testDispersion</a></dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                               {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    m_StdDevMin = a_stdDevMin;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae131c5551de0bf40b9225b14922743d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.util.TestHashcode.setVerbose </td>
+          <td>(</td>
+          <td class="paramtype">boolean&#160;</td>
+          <td class="paramname"><em>a_verbose</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set whether the object will output debug information.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_verbose</td><td>true if you want debug information, else set to false</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Desde</dt><dd>2.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                            {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    m_verbose = a_verbose;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a08e541143a78fdf8902cedac17e1f65d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.util.TestHashcode.testDispersion </td>
+          <td>(</td>
+          <td class="paramtype">List&#160;</td>
+          <td class="paramname"><em>a_ObjectList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Test that verifies if average and Standard deviation of hashCodes in list match criteria.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_ObjectList</td><td>list of objects to test </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true if average and Standard deviation of hashCodes in List match criterias. Else false </dd></dl>
+<dl class="section see"><dt>Ver también</dt><dd><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#aae8175c503c5865df1b053f1a069f0af">TestHashcode::setAverageMax</a> </dd>
+<dd>
+<a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a22b485c1780827f6aac105ee0195a894">TestHashcode::setAverageMin</a> </dd>
+<dd>
+<a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a9a8fc1bfe0d7798c1ec2bb2953d8dc61">TestHashcode::setStdDevMax</a> </dd>
+<dd>
+<a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a55f2e3c33a14b3d618fa4639f52532e5">TestHashcode::setStdDevMin</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>John Serri </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                                                   {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordtype">int</span> index;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordtype">boolean</span> result = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keywordtype">int</span>[] hashCodes = <span class="keyword">new</span> <span class="keywordtype">int</span>[a_ObjectList.size()];</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordtype">long</span> numObjects = a_ObjectList.size();</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keywordtype">double</span> average = 0;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordtype">double</span> stdDev;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordtype">double</span> sumOfSquare;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordtype">double</span> squareOfSum;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordflow">for</span> (index = 0; index &lt; numObjects; index++) {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;      hashCodes[index] = a_ObjectList.get(index).hashCode();</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    }</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="comment">//Average</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">for</span> (index = 0; index &lt; numObjects; index++) {</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;      average += hashCodes[index];</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    average /= numObjects;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="comment">//STD Deviation</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    sumOfSquare = 0;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    squareOfSum = 0;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">for</span> (index = 0; index &lt; numObjects; index++) {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;      sumOfSquare += (double) hashCodes[index]</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;          * (<span class="keywordtype">double</span>) hashCodes[index];</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;      squareOfSum += hashCodes[index];</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    }</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    squareOfSum *= squareOfSum;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    stdDev = (sumOfSquare * numObjects) - squareOfSum;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    stdDev /= numObjects * (numObjects - 1);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    stdDev = Math.sqrt(stdDev);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordflow">if</span> (m_verbose) {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;      System.out.println(<span class="stringliteral">&quot;Average =&quot;</span> + average + <span class="stringliteral">&quot; StdDev =&quot;</span> + stdDev);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;      System.out.println(<span class="stringliteral">&quot;Average - StdDev =&quot;</span> + (average - stdDev));</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;      System.out.println(<span class="stringliteral">&quot;Average + StdDev =&quot;</span> + (average + stdDev));</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    }</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="keywordflow">if</span> ( (m_AverageMin &lt; average) &amp;&amp; (average &lt; m_AverageMax)) {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;      result = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    }</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;      result = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    }</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordflow">if</span> ( (m_StdDevMin &lt; stdDev) &amp;&amp; (stdDev &lt; m_StdDevMax)) {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      result &amp;= <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    }</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;      result = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6b0812f682b3941831c04a842b05c4fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.util.TestHashcode.testHashCodeEquality </td>
+          <td>(</td>
+          <td class="paramtype">List&#160;</td>
+          <td class="paramname"><em>a_ObjectList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Test to make sure that equal objects all have the same hashCode.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_ObjectList</td><td>list of objects to test </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true if all hashCodes in List are the same. Else false</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>John Serri </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                                                         {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordtype">int</span> index;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordtype">int</span> hashCode;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordtype">long</span> numObjects = a_ObjectList.size();</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordflow">if</span> (numObjects &lt; 2) {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    }</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    hashCode = a_ObjectList.get(0).hashCode();</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">for</span> (index = 1; index &lt; numObjects; index++) {</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;      <span class="keywordflow">if</span> (hashCode != a_ObjectList.get(index).hashCode()) {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      }</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    }</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8b64668c1d3ab567efb816ac2ed597e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.util.TestHashcode.testHashCodeUniqueness </td>
+          <td>(</td>
+          <td class="paramtype">List&#160;</td>
+          <td class="paramname"><em>a_ObjectList</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Test that verifies that a the fraction of unique hashCodes is greater than the one specified.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_ObjectList</td><td>list of objects to test </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true if the fraction of unique hashCodes is greater than the one specified. Else false </dd></dl>
+<dl class="section see"><dt>Ver también</dt><dd><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html#a183ef9ad688b366f44bdc2c4d8fb4afe">TestHashcode::setFractionUnique</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>John Serri </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                                                           {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keywordtype">boolean</span> result = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordtype">int</span> index;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordtype">int</span> newvalue;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordtype">int</span> numObjects = a_ObjectList.size();</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    Hashtable hashCodes = <span class="keyword">new</span> Hashtable();</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    Integer key;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordflow">for</span> (index = 0; index &lt; numObjects; index++) {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      <span class="keywordtype">int</span> hashcode = a_ObjectList.get(index).hashCode();</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;      key = <span class="keyword">new</span> Integer(hashcode);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      <span class="keywordflow">if</span> (hashCodes.containsKey(key)) {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        newvalue = ( (Integer) hashCodes.get(key)).intValue() + 1;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        hashCodes.put(key, <span class="keyword">new</span> Integer(newvalue));</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;      }</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        hashCodes.put(key, <span class="keyword">new</span> Integer(1));</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;      }</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    m_actualFractionUnique = ( (double) hashCodes.size() / (double) numObjects);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordflow">if</span> (m_actualFractionUnique &lt; m_fractionUnique) {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;      result = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      result = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>tests/org/jgap/util/<a class="el" href="_test_hashcode_8java.html">TestHashcode.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1util.html">util</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1util_1_1_test_hashcode.html">TestHashcode</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:24:04 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

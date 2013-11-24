@@ -1,0 +1,859 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.util.ClassKit</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1util_1_1_class_kit.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Clases</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1jgap_1_1util_1_1_class_kit-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.util.ClassKit</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Clases</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>ExtensionsFilter</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:aa2b281a15d71471b15810fbf81587fc2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#aa2b281a15d71471b15810fbf81587fc2">main</a> (String[] args)  throws Exception </td></tr>
+<tr class="separator:aa2b281a15d71471b15810fbf81587fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eb98cd025d7bb9755a162b9392fa5d6"><td class="memItemLeft" align="right" valign="top">static List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a2eb98cd025d7bb9755a162b9392fa5d6">find</a> (final String a_tosubclassname)</td></tr>
+<tr class="separator:a2eb98cd025d7bb9755a162b9392fa5d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74bdc6e5f9ee6a4593a007b979c1e7a5"><td class="memItemLeft" align="right" valign="top">static List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a74bdc6e5f9ee6a4593a007b979c1e7a5">find</a> (final String a_pckname, final String a_tosubclassname)  throws ClassNotFoundException </td></tr>
+<tr class="separator:a74bdc6e5f9ee6a4593a007b979c1e7a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af422020391bbc23d196aeddfa752e76d"><td class="memItemLeft" align="right" valign="top">static List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#af422020391bbc23d196aeddfa752e76d">find</a> (final String a_pckgname, final Class a_tosubclass)</td></tr>
+<tr class="separator:af422020391bbc23d196aeddfa752e76d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2588544ca151013f32f2571746620eba"><td class="memItemLeft" align="right" valign="top">static List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a2588544ca151013f32f2571746620eba">find</a> (final URL a_url, final String a_pckgname, final Class a_tosubclass)</td></tr>
+<tr class="separator:a2588544ca151013f32f2571746620eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03374974cb1e241e6c9a3a60390ebde1"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a03374974cb1e241e6c9a3a60390ebde1">findInJar</a> (final List a_result, final URL a_url, Class a_tosubclass)</td></tr>
+<tr class="separator:a03374974cb1e241e6c9a3a60390ebde1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cbe0db83368d14b20a9f2183f3c637a"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a3cbe0db83368d14b20a9f2183f3c637a">implementsInterface</a> (final Class a_o, final Class a_clazz)</td></tr>
+<tr class="separator:a3cbe0db83368d14b20a9f2183f3c637a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a819363a1edce22437209324b781b1989"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a819363a1edce22437209324b781b1989">extendsClass</a> (final Class a_o, final Class a_clazz)</td></tr>
+<tr class="separator:a819363a1edce22437209324b781b1989"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3cdf47ea2ab88910b62eb16425585b2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#ab3cdf47ea2ab88910b62eb16425585b2">getPlugins</a> (final String a_directory)</td></tr>
+<tr class="separator:ab3cdf47ea2ab88910b62eb16425585b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a228f4f952302e46bf78abbb6ba4c96ba"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a228f4f952302e46bf78abbb6ba4c96ba">addClasses</a> (final Vector a_v, final File a_path, final String a_name)</td></tr>
+<tr class="separator:a228f4f952302e46bf78abbb6ba4c96ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab70d7c17d435f84073a70044f93c3168"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#ab70d7c17d435f84073a70044f93c3168">addClassesJar</a> (final Vector a_v, final File a_path)</td></tr>
+<tr class="separator:ab70d7c17d435f84073a70044f93c3168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1de54c5270228efc74e8002c9ffa31e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#af1de54c5270228efc74e8002c9ffa31e">addClassesFile</a> (Vector a_v, final File a_path, final String a_name)</td></tr>
+<tr class="separator:af1de54c5270228efc74e8002c9ffa31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a228f4f952302e46bf78abbb6ba4c96ba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.util.ClassKit.addClasses </td>
+          <td>(</td>
+          <td class="paramtype">final Vector&#160;</td>
+          <td class="paramname"><em>a_v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final File&#160;</td>
+          <td class="paramname"><em>a_path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                                                     {</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#af1de54c5270228efc74e8002c9ffa31e">addClassesFile</a>(a_v, a_path, a_name);</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#ab70d7c17d435f84073a70044f93c3168">addClassesJar</a>(a_v, a_path);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_ab70d7c17d435f84073a70044f93c3168"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#ab70d7c17d435f84073a70044f93c3168">org.jgap.util.ClassKit.addClassesJar</a></div><div class="ttdeci">static void addClassesJar(final Vector a_v, final File a_path)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:278</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_af1de54c5270228efc74e8002c9ffa31e"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#af1de54c5270228efc74e8002c9ffa31e">org.jgap.util.ClassKit.addClassesFile</a></div><div class="ttdeci">static void addClassesFile(Vector a_v, final File a_path, final String a_name)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:299</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af1de54c5270228efc74e8002c9ffa31e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.util.ClassKit.addClassesFile </td>
+          <td>(</td>
+          <td class="paramtype">Vector&#160;</td>
+          <td class="paramname"><em>a_v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final File&#160;</td>
+          <td class="paramname"><em>a_path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                                                         {</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    File[] files = a_path.listFiles(<span class="keyword">new</span> ExtensionsFilter(<span class="stringliteral">&quot;class&quot;</span>, <span class="keyword">true</span>));</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; files.length; i++) {</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      <span class="keywordflow">if</span> (files[i].isDirectory()) {</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#af1de54c5270228efc74e8002c9ffa31e">addClassesFile</a>(a_v, files[i], a_name + files[i].getName() + <span class="stringliteral">&quot;.&quot;</span>);</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;      }</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;      <span class="keywordflow">else</span> <span class="keywordflow">if</span> (files[i].getName().indexOf(<span class="stringliteral">&quot;$&quot;</span>) == -1) {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        a_v.add(a_name</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                + files[i].getName().</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                substring(0, files[i].getName().length() - 6));</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;      }</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    }</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_af1de54c5270228efc74e8002c9ffa31e"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#af1de54c5270228efc74e8002c9ffa31e">org.jgap.util.ClassKit.addClassesFile</a></div><div class="ttdeci">static void addClassesFile(Vector a_v, final File a_path, final String a_name)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:299</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab70d7c17d435f84073a70044f93c3168"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.util.ClassKit.addClassesJar </td>
+          <td>(</td>
+          <td class="paramtype">final Vector&#160;</td>
+          <td class="paramname"><em>a_v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final File&#160;</td>
+          <td class="paramname"><em>a_path</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    File[] files = a_path.listFiles(<span class="keyword">new</span> ExtensionsFilter(<span class="stringliteral">&quot;jar&quot;</span>, <span class="keyword">false</span>));</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; files.length; i++) {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        java.util.jar.JarFile jar = <span class="keyword">new</span> java.util.jar.JarFile(files[i]);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        String wa;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        java.util.Enumeration e = jar.entries();</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordflow">while</span> (e.hasMoreElements()) {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;          wa = e.nextElement().toString();</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;          <span class="keywordflow">if</span> (wa.endsWith(<span class="stringliteral">&quot;.class&quot;</span>) &amp;&amp; (wa.indexOf(<span class="stringliteral">&quot;$&quot;</span>) == -1)) {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            a_v.add(wa.substring(0, wa.length() - 6).replace(<span class="charliteral">&#39;/&#39;</span>, <span class="charliteral">&#39;.&#39;</span>));</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;          }</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;      }</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;      <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        ; <span class="comment">// do nothing?</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;      }</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    }</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a819363a1edce22437209324b781b1989"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean org.jgap.util.ClassKit.extendsClass </td>
+          <td>(</td>
+          <td class="paramtype">final Class&#160;</td>
+          <td class="paramname"><em>a_o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Class&#160;</td>
+          <td class="paramname"><em>a_clazz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordflow">if</span> (a_clazz.getName().equals(a_o.getName())) {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    }</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordflow">if</span> (a_clazz.isAssignableFrom(a_o)) {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    }</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2eb98cd025d7bb9755a162b9392fa5d6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List org.jgap.util.ClassKit.find </td>
+          <td>(</td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_tosubclassname</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Retrieves all the classes inheriting or implementing a given class in the currently loaded packages. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_tosubclassname</td><td>the name of the class to inherit from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>classes inheriting or implementing a given class in the currently loaded packages </dd></dl>
+<dl class="section see"><dt>Ver también</dt><dd>http//www.javaworld.com/javaworld/javatips/jw-javatip113.html </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000179">Tareas pendientes:</a></b></dt><dd>take care of abstract classes &ndash;&gt; introduce parameter for that </dd></dl>
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                                                         {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;      List result = <span class="keyword">new</span> Vector();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;      Class tosubclass = Class.forName(a_tosubclassname);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;      Package[] pcks = Package.getPackages();</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; pcks.length; i++) {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        List subresult = <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a2eb98cd025d7bb9755a162b9392fa5d6">find</a>(pcks[i].getName(), tosubclass);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        result.addAll(subresult);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;      }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">//        List subresult = find(&quot;org.jgap.impl&quot;, tosubclass);</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">//        result.addAll(subresult);</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">catch</span> (ClassNotFoundException ex) {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;      LOGGER.warn(<span class="stringliteral">&quot;Class &quot;</span> + a_tosubclassname + <span class="stringliteral">&quot; not found!&quot;</span>);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;      <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_a2eb98cd025d7bb9755a162b9392fa5d6"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a2eb98cd025d7bb9755a162b9392fa5d6">org.jgap.util.ClassKit.find</a></div><div class="ttdeci">static List find(final String a_tosubclassname)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:51</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a74bdc6e5f9ee6a4593a007b979c1e7a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List org.jgap.util.ClassKit.find </td>
+          <td>(</td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_pckname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_tosubclassname</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws ClassNotFoundException</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Display all the classes inheriting or implementing a given class in a given package.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pckname</td><td>the fully qualified name of the package </td></tr>
+    <tr><td class="paramname">a_tosubclassname</td><td>the name of the class to inherit from </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>classes inheriting or implementing a given class in a given package </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ClassNotFoundException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>Ver también</dt><dd>http//www.javaworld.com/javaworld/javatips/jw-javatip113.html </dd></dl>
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                    {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    Class tosubclass = Class.forName(a_tosubclassname);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a2eb98cd025d7bb9755a162b9392fa5d6">find</a>(a_pckname, tosubclass);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_a2eb98cd025d7bb9755a162b9392fa5d6"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a2eb98cd025d7bb9755a162b9392fa5d6">org.jgap.util.ClassKit.find</a></div><div class="ttdeci">static List find(final String a_tosubclassname)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:51</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af422020391bbc23d196aeddfa752e76d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List org.jgap.util.ClassKit.find </td>
+          <td>(</td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_pckgname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Class&#160;</td>
+          <td class="paramname"><em>a_tosubclass</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Display all the classes inheriting or implementing a given class in a given package. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pckgname</td><td>the fully qualified name of the package </td></tr>
+    <tr><td class="paramname">a_tosubclass</td><td>the Class object to inherit from See http//www.javaworld.com/javaworld/javatips/jw-javatip113.html </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                                                             {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    List result = <span class="keyword">new</span> Vector();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="comment">// Translate the package name into an absolute path</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    String name = a_pckgname;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">if</span> (!name.startsWith(<span class="stringliteral">&quot;/&quot;</span>)) {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;      name = <span class="stringliteral">&quot;/&quot;</span> + name;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    name = name.replace(<span class="charliteral">&#39;.&#39;</span>, <span class="charliteral">&#39;/&#39;</span>);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="comment">// Get a File object for the package</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    URL url = ClassKit.class.getResource(name);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="comment">//    URL url = tosubclass.getResource(name);</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="comment">// URL url = ClassLoader.getSystemClassLoader().getResource(name);</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="comment">// Happens only if the jar file is not well constructed, i.e.</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="comment">// if the directories do not appear alone in the jar file like here:</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="comment">//          meta-inf/</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="comment">//          meta-inf/manifest.mf</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="comment">//          commands/                  &lt;== IMPORTANT</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="comment">//          commands/Command.class</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="comment">//          commands/DoorClose.class</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="comment">//          commands/DoorOpen.class</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="comment">//          ClassKit.class</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="comment">//</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">if</span> (url == null) {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a2eb98cd025d7bb9755a162b9392fa5d6">find</a>(url, a_pckgname, a_tosubclass);</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_a2eb98cd025d7bb9755a162b9392fa5d6"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a2eb98cd025d7bb9755a162b9392fa5d6">org.jgap.util.ClassKit.find</a></div><div class="ttdeci">static List find(final String a_tosubclassname)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:51</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2588544ca151013f32f2571746620eba"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static List org.jgap.util.ClassKit.find </td>
+          <td>(</td>
+          <td class="paramtype">final URL&#160;</td>
+          <td class="paramname"><em>a_url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_pckgname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Class&#160;</td>
+          <td class="paramname"><em>a_tosubclass</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                                                    {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    List result = <span class="keyword">new</span> Vector();</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    File directory = <span class="keyword">new</span> File(a_url.getFile());</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">if</span> (directory.exists()) {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;      <span class="comment">// Get the list of the files contained in the package</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      String[] files = directory.list();</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; files.length; i++) {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="comment">// we are only interested in .class files</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordflow">if</span> (files[i].endsWith(<span class="stringliteral">&quot;.class&quot;</span>)) {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;          <span class="comment">// removes the .class extension</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;          String classname = files[i].substring(0, files[i].length() - 6);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;          <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            <span class="comment">// Try to create an instance of the object</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            Class c = Class.forName(a_pckgname + <span class="stringliteral">&quot;.&quot;</span> + classname);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a3cbe0db83368d14b20a9f2183f3c637a">implementsInterface</a>(c, a_tosubclass)</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                || <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a819363a1edce22437209324b781b1989">extendsClass</a>(c, a_tosubclass)) {</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;              result.add(a_pckgname + <span class="stringliteral">&quot;.&quot;</span> + classname);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            }</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;          }</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;          <span class="keywordflow">catch</span> (ClassNotFoundException cnfex) {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            LOGGER.error(cnfex);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;          }</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="comment">//          catch (InstantiationException iex) {</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="comment">//            // We try to instanciate an interface or an object that does not</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment">//            // have a default constructor</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="comment">//          }</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="comment">//          catch (IllegalAccessException iaex) {</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="comment">//            // The class is not public</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="comment">//          }</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        }</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;      }</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    }</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a03374974cb1e241e6c9a3a60390ebde1">findInJar</a>(result, a_url, a_tosubclass);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_a3cbe0db83368d14b20a9f2183f3c637a"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a3cbe0db83368d14b20a9f2183f3c637a">org.jgap.util.ClassKit.implementsInterface</a></div><div class="ttdeci">static boolean implementsInterface(final Class a_o, final Class a_clazz)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:205</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_a03374974cb1e241e6c9a3a60390ebde1"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a03374974cb1e241e6c9a3a60390ebde1">org.jgap.util.ClassKit.findInJar</a></div><div class="ttdeci">static void findInJar(final List a_result, final URL a_url, Class a_tosubclass)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:164</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_a819363a1edce22437209324b781b1989"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a819363a1edce22437209324b781b1989">org.jgap.util.ClassKit.extendsClass</a></div><div class="ttdeci">static boolean extendsClass(final Class a_o, final Class a_clazz)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:217</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a03374974cb1e241e6c9a3a60390ebde1"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.util.ClassKit.findInJar </td>
+          <td>(</td>
+          <td class="paramtype">final List&#160;</td>
+          <td class="paramname"><em>a_result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final URL&#160;</td>
+          <td class="paramname"><em>a_url</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_tosubclass</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                                   {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;      <span class="comment">// It does not work with the filesystem: we must</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;      <span class="comment">// be in the case of a package contained in a jar file.</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      JarURLConnection conn = (JarURLConnection) a_url.openConnection();</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      String starts = conn.getEntryName();</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      JarFile jfile = conn.getJarFile();</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;      Enumeration e = jfile.entries();</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;      <span class="keywordflow">while</span> (e.hasMoreElements()) {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        ZipEntry entry = (ZipEntry) e.nextElement();</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        String entryname = entry.getName();</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">if</span> (entryname.startsWith(starts)</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            &amp;&amp; (entryname.lastIndexOf(<span class="charliteral">&#39;/&#39;</span>) &lt;= starts.length())</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            &amp;&amp; entryname.endsWith(<span class="stringliteral">&quot;.class&quot;</span>)) {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;          String classname = entryname.substring(0, entryname.length() - 6);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;          <span class="keywordflow">if</span> (classname.startsWith(<span class="stringliteral">&quot;/&quot;</span>)) {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            classname = classname.substring(1);</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;          }</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;          classname = classname.replace(<span class="charliteral">&#39;/&#39;</span>, <span class="charliteral">&#39;.&#39;</span>);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;          <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            <span class="comment">// Try to create an instance of the object</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            Class c = Class.forName(classname);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a3cbe0db83368d14b20a9f2183f3c637a">implementsInterface</a>(c, a_tosubclass)</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                || <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a819363a1edce22437209324b781b1989">extendsClass</a>(c, a_tosubclass)) {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="comment">//              Object o = Class.forName(classname).newInstance();</span></div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="comment">//              if (tosubclass.isInstance(o)) {</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;              a_result.add(classname);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;          }</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;          <span class="keywordflow">catch</span> (ClassNotFoundException cnfex) {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            LOGGER.error(cnfex);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;          }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      }</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordflow">catch</span> (IOException ioex) {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      LOGGER.error(ioex);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    }</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_a3cbe0db83368d14b20a9f2183f3c637a"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a3cbe0db83368d14b20a9f2183f3c637a">org.jgap.util.ClassKit.implementsInterface</a></div><div class="ttdeci">static boolean implementsInterface(final Class a_o, final Class a_clazz)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:205</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_a819363a1edce22437209324b781b1989"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a819363a1edce22437209324b781b1989">org.jgap.util.ClassKit.extendsClass</a></div><div class="ttdeci">static boolean extendsClass(final Class a_o, final Class a_clazz)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:217</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab3cdf47ea2ab88910b62eb16425585b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.util.ClassKit.getPlugins </td>
+          <td>(</td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_directory</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000180">Tareas pendientes:</a></b></dt><dd>add input param: type (or list of types) to look for </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000181">Tareas pendientes:</a></b></dt><dd>check if class assignable from given type </dd></dl>
+<div class="fragment"><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                                                          {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    File modulePath = <span class="keyword">new</span> File(a_directory);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="comment">//        if(modulePath == null || !modulePath.exists())modulePath.mkdirs();</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    File[] jarFiles = modulePath.listFiles(<span class="keyword">new</span> ExtensionsFilter(<span class="stringliteral">&quot;jar&quot;</span>, <span class="keyword">false</span>));</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    URL[] urls = <span class="keyword">new</span> URL[jarFiles.length + 1];</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordtype">int</span> i = 0;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keywordflow">for</span> (; i &lt; jarFiles.length; i++) {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        urls[i] = jarFiles[i].toURL();</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      }</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;      <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;      }</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;      urls[i] = modulePath.toURL();</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    }</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      ; <span class="comment">//do nothing?</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    }</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    ClassLoader ucl = <span class="keyword">new</span> URLClassLoader(urls);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="comment">// -------------------------------</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    Vector classes = <span class="keyword">new</span> Vector();</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordtype">long</span> startTime = System.currentTimeMillis();</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a228f4f952302e46bf78abbb6ba4c96ba">addClasses</a>(classes, modulePath, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    LOGGER.info(<span class="stringliteral">&quot;Found plugin classes in: &quot;</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                       + (System.currentTimeMillis() - startTime)</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                       + <span class="stringliteral">&quot; milliseconds&quot;</span>);</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <span class="comment">// -------------------------------</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="comment">//    Vector implementingClasses = new Vector();</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    Enumeration e = classes.elements();</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordflow">while</span> (e.hasMoreElements()) {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        String name = e.nextElement().toString();</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        LOGGER.info(<span class="stringliteral">&quot;Found plugin class: &quot;</span> + name);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;      }</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;      <span class="keywordflow">catch</span> (Throwable ex) {</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        ; <span class="comment">// do nothing?</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;      }</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    }</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_a228f4f952302e46bf78abbb6ba4c96ba"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a228f4f952302e46bf78abbb6ba4c96ba">org.jgap.util.ClassKit.addClasses</a></div><div class="ttdeci">static void addClasses(final Vector a_v, final File a_path, final String a_name)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:272</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3cbe0db83368d14b20a9f2183f3c637a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static boolean org.jgap.util.ClassKit.implementsInterface </td>
+          <td>(</td>
+          <td class="paramtype">final Class&#160;</td>
+          <td class="paramname"><em>a_o</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final Class&#160;</td>
+          <td class="paramname"><em>a_clazz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    Class[] interfaces = a_o.getInterfaces();</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; interfaces.length; i++) {</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;      Class c = interfaces[i];</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;      <span class="keywordflow">if</span> (c.equals(a_clazz)) {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;      }</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    }</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa2b281a15d71471b15810fbf81587fc2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void org.jgap.util.ClassKit.main </td>
+          <td>(</td>
+          <td class="paramtype">String[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                       {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    File f = <span class="keyword">new</span> File(<span class="stringliteral">&quot;.&quot;</span>);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">//    getPlugins(&quot;c:\\java\\jgap\\lib&quot;);</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#ab3cdf47ea2ab88910b62eb16425585b2">getPlugins</a>(f.getCanonicalPath() + <span class="stringliteral">&quot;\\lib&quot;</span>);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">true</span>) {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;      <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    List result = <span class="keyword">new</span> Vector();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    result = <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a2eb98cd025d7bb9755a162b9392fa5d6">find</a>(<span class="stringliteral">&quot;org.jgap.INaturalSelector&quot;</span>);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; result.size(); i++) {</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      LOGGER.debug(result.get(i));</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">//    URL url = ClassKit.class.getResource(&quot;/info/clearthought/layout/&quot;);</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    URL url = ClassKit.class.getResource(<span class="stringliteral">&quot;/org/jgap/impl/&quot;</span>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a03374974cb1e241e6c9a3a60390ebde1">findInJar</a>(result, url, Class.forName(<span class="stringliteral">&quot;java.io.Serializable&quot;</span>));</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_a2eb98cd025d7bb9755a162b9392fa5d6"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a2eb98cd025d7bb9755a162b9392fa5d6">org.jgap.util.ClassKit.find</a></div><div class="ttdeci">static List find(final String a_tosubclassname)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:51</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_ab3cdf47ea2ab88910b62eb16425585b2"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#ab3cdf47ea2ab88910b62eb16425585b2">org.jgap.util.ClassKit.getPlugins</a></div><div class="ttdeci">static void getPlugins(final String a_directory)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:230</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_class_kit_html_a03374974cb1e241e6c9a3a60390ebde1"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_class_kit.html#a03374974cb1e241e6c9a3a60390ebde1">org.jgap.util.ClassKit.findInJar</a></div><div class="ttdeci">static void findInJar(final List a_result, final URL a_url, Class a_tosubclass)</div><div class="ttdef"><b>Definition:</b> ClassKit.java:164</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/util/<a class="el" href="_class_kit_8java.html">ClassKit.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1util.html">util</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1util_1_1_class_kit.html">ClassKit</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:24:03 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

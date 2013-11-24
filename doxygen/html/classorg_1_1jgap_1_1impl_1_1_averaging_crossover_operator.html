@@ -1,0 +1,634 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.impl.AveragingCrossoverOperator</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.impl.AveragingCrossoverOperator</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html">org.jgap.BaseGeneticOperator</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a445b36b5652013a1c76d10e0863025ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a445b36b5652013a1c76d10e0863025ca">AveragingCrossoverOperator</a> ()  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a445b36b5652013a1c76d10e0863025ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e09ea7b51ae0506f7afdb2acad786e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a3e09ea7b51ae0506f7afdb2acad786e4">AveragingCrossoverOperator</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_configuration)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a3e09ea7b51ae0506f7afdb2acad786e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac417121ec63c38f40703fdd07cec2410"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#ac417121ec63c38f40703fdd07cec2410">AveragingCrossoverOperator</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_configuration, final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> a_generatorForAveraging)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:ac417121ec63c38f40703fdd07cec2410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9647d105455fe598519bfb512b8a4a98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a9647d105455fe598519bfb512b8a4a98">AveragingCrossoverOperator</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_configuration, final <a class="el" href="interfaceorg_1_1jgap_1_1_i_universal_rate_calculator.html">IUniversalRateCalculator</a> a_crossoverRateCalculator)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a9647d105455fe598519bfb512b8a4a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6acef66720d9c62e2be2f570bd0755f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a6acef66720d9c62e2be2f570bd0755f9">operate</a> (final <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_population, final List a_candidateChromosomes)</td></tr>
+<tr class="separator:a6acef66720d9c62e2be2f570bd0755f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09845e6953f1666564ee8b0b5656533b"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a09845e6953f1666564ee8b0b5656533b">equals</a> (final Object a_other)</td></tr>
+<tr class="separator:a09845e6953f1666564ee8b0b5656533b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64d5267c8a2a2087c24839db5d2ff892"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a64d5267c8a2a2087c24839db5d2ff892">compareTo</a> (final Object a_other)</td></tr>
+<tr class="separator:a64d5267c8a2a2087c24839db5d2ff892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f32339f91d5f29c452f2a01b19d815d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a8f32339f91d5f29c452f2a01b19d815d">setCrossoverRate</a> (int a_rate)</td></tr>
+<tr class="separator:a8f32339f91d5f29c452f2a01b19d815d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_base_genetic_operator')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html">org.jgap.BaseGeneticOperator</a></td></tr>
+<tr class="memitem:a061b47c0f891c0041d5ece5bc6e052f8 inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a061b47c0f891c0041d5ece5bc6e052f8">BaseGeneticOperator</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_configuration)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a061b47c0f891c0041d5ece5bc6e052f8 inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addbc6b98f572331d47397227b7a49f6a inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html#addbc6b98f572331d47397227b7a49f6a">getConfiguration</a> ()</td></tr>
+<tr class="separator:addbc6b98f572331d47397227b7a49f6a inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4db6fa1a99177114c0f19f02cd4a87ec inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a4db6fa1a99177114c0f19f02cd4a87ec">equals</a> (final Object a_other)</td></tr>
+<tr class="separator:a4db6fa1a99177114c0f19f02cd4a87ec inherit pub_methods_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ae6166be762fcee1c05d90279bf8c47d2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#ae6166be762fcee1c05d90279bf8c47d2">getLocus</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> a_generator, final int a_index, final int a_max)</td></tr>
+<tr class="separator:ae6166be762fcee1c05d90279bf8c47d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_genetic_operator"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_genetic_operator')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html">org.jgap.GeneticOperator</a></td></tr>
+<tr class="memitem:ad0ddbf3fa1dfd7bd8639eba1d9e35267 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_genetic_operator"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html#ad0ddbf3fa1dfd7bd8639eba1d9e35267">CVS_REVISION</a> = &quot;$Revision: 1.16 $&quot;</td></tr>
+<tr class="separator:ad0ddbf3fa1dfd7bd8639eba1d9e35267 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator')"><img src="closed.png" alt="-"/>&#160;Atributos protegidos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html">org.jgap.BaseGeneticOperator</a></td></tr>
+<tr class="memitem:a516d89e8f56eb2e58768218c7f9cf3de inherit pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memItemLeft" align="right" valign="top">IEvolutionMonitor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a516d89e8f56eb2e58768218c7f9cf3de">m_monitor</a></td></tr>
+<tr class="separator:a516d89e8f56eb2e58768218c7f9cf3de inherit pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5194e705ed206f99852bf158546646b5 inherit pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a5194e705ed206f99852bf158546646b5">m_monitorActive</a></td></tr>
+<tr class="separator:a5194e705ed206f99852bf158546646b5 inherit pro_attribs_classorg_1_1jgap_1_1_base_genetic_operator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>The averaging crossover operator randomly selects two Chromosomes from the population and "mates" them by randomly picking a gene and then swapping that gene and all subsequent genes between the two Chromosomes. The two modified Chromosomes are then added to the list of candidate Chromosomes. This operation is performed half as many times as there are Chromosomes in the population. Additionally, the loci of crossing over are cached for each index, i.e., after randomizing the loci for each index once, they don't change again.</p>
+<p>If you work with <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a>'s, this operator expects them to contain genes of the same type (e.g. <a class="el" href="classorg_1_1jgap_1_1impl_1_1_integer_gene.html">IntegerGene</a>). If you have mixed types, please provide your own crossover operator.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a445b36b5652013a1c76d10e0863025ca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.AveragingCrossoverOperator.AveragingCrossoverOperator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Using the same random generator for randomizing the loci for crossing over as for selecting the genes to be crossed over.</p>
+<p>Attention: The configuration used is the one set with the static method Genotype.setConfiguration.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                           {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keyword">this</span>(Genotype.getStaticConfiguration(), (RandomGenerator)null);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3e09ea7b51ae0506f7afdb2acad786e4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.AveragingCrossoverOperator.AveragingCrossoverOperator </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_configuration</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Using the same random generator for randomizing the loci for crossing over as for selecting the genes to be crossed over.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_configuration</td><td>the configuration to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                           {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keyword">this</span>(a_configuration, (RandomGenerator)null);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac417121ec63c38f40703fdd07cec2410"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.AveragingCrossoverOperator.AveragingCrossoverOperator </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_configuration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a>&#160;</td>
+          <td class="paramname"><em>a_generatorForAveraging</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Using a different random generator for randomizing the loci for crossing over than for selecting the genes to be crossed over </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_configuration</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_generatorForAveraging</td><td><a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 (since 2.0 without a_configuration) </dd></dl>
+<div class="fragment"><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                                           {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    super(a_configuration);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    init();</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    m_crossoverGenerator = a_generatorForAveraging;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9647d105455fe598519bfb512b8a4a98"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.AveragingCrossoverOperator.AveragingCrossoverOperator </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_configuration</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_i_universal_rate_calculator.html">IUniversalRateCalculator</a>&#160;</td>
+          <td class="paramname"><em>a_crossoverRateCalculator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs a new instance of this <a class="el" href="classorg_1_1jgap_1_1impl_1_1_crossover_operator.html">CrossoverOperator</a> with a specified crossover rate calculator, which results in dynamic crossover being turned on. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_configuration</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_crossoverRateCalculator</td><td>calculator for dynamic crossover rate computation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 (since 2.0 without a_configuration) </dd></dl>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                           {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    super(a_configuration);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    init();</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    setCrossoverRateCalc(a_crossoverRateCalculator);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a64d5267c8a2a2087c24839db5d2ff892"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.AveragingCrossoverOperator.compareTo </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compares the given object to this one.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the instance against which to compare this instance </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a negative number if this instance is "less than" the given instance, zero if they are equal to each other, and a positive number if this is "greater than" the given instance</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                                             {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordflow">if</span> (a_other == null) {</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a445b36b5652013a1c76d10e0863025ca">AveragingCrossoverOperator</a> op = (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a445b36b5652013a1c76d10e0863025ca">AveragingCrossoverOperator</a>) a_other;</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">if</span> (m_crossoverRateCalc == null) {</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      <span class="keywordflow">if</span> (op.m_crossoverRateCalc != null) {</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;      }</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    }</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      <span class="keywordflow">if</span> (op.m_crossoverRateCalc == null) {</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;      }</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    }</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">if</span> (m_crossoverRate != op.m_crossoverRate) {</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;      <span class="keywordflow">if</span> (m_crossoverRate &gt; op.m_crossoverRate) {</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      }</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;      }</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    }</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="comment">// Everything is equal. Return zero.</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="comment">// ---------------------------------</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator_html_a445b36b5652013a1c76d10e0863025ca"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a445b36b5652013a1c76d10e0863025ca">org.jgap.impl.AveragingCrossoverOperator.AveragingCrossoverOperator</a></div><div class="ttdeci">AveragingCrossoverOperator()</div><div class="ttdef"><b>Definition:</b> AveragingCrossoverOperator.java:74</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a09845e6953f1666564ee8b0b5656533b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.impl.AveragingCrossoverOperator.equals </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compares this <a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html">GeneticOperator</a> against the specified object. The result is true if and the argument is an instance of this class and is equal wrt the data.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the object to compare against </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true: if the objects are the same, false otherwise</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                                              {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a64d5267c8a2a2087c24839db5d2ff892">compareTo</a>(a_other) == 0;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    }</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordflow">catch</span> (ClassCastException cex) {</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    }</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator_html_a64d5267c8a2a2087c24839db5d2ff892"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#a64d5267c8a2a2087c24839db5d2ff892">org.jgap.impl.AveragingCrossoverOperator.compareTo</a></div><div class="ttdeci">int compareTo(final Object a_other)</div><div class="ttdef"><b>Definition:</b> AveragingCrossoverOperator.java:297</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae6166be762fcee1c05d90279bf8c47d2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.AveragingCrossoverOperator.getLocus </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a>&#160;</td>
+          <td class="paramname"><em>a_generator</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_max</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the crossover location for a given index. For each index the crossover locatio is the same, therefor it is cached!</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_generator</td><td>to generate random values the first time </td></tr>
+    <tr><td class="paramname">a_index</td><td>the index of the crossover operation </td></tr>
+    <tr><td class="paramname">a_max</td><td>upper boundary for random generator</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>crossover location for a given index</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                                          {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    Integer locus = (Integer) m_loci.get(<span class="keyword">new</span> Integer(a_index));</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">if</span> (locus == null) {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;      locus = <span class="keyword">new</span> Integer(a_generator.nextInt(a_max));</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;      m_loci.put(<span class="keyword">new</span> Integer(a_index), locus);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    }</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">return</span> locus.intValue();</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6acef66720d9c62e2be2f570bd0755f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.AveragingCrossoverOperator.operate </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_population</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final List&#160;</td>
+          <td class="paramname"><em>a_candidateChromosomes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Crossover that acts as a perturbed mean of two individuals. x_i = p*x1_i + (1-p)*x2_i p - uniform random value over [0,1]. Averaging over line means p is same for every i, averaging over space if different p is chosen for each i. See <a class="el" href="classorg_1_1jgap_1_1impl_1_1_crossover_operator.html">CrossoverOperator</a> for general description, also see feature request 708774</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_population</td><td><a class="el" href="classorg_1_1jgap_1_1_chromosome.html">Chromosome</a>[] </td></tr>
+    <tr><td class="paramname">a_candidateChromosomes</td><td>List</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_genetic_operator.html#a0f9dfe925c4c21e07522be67d6c5d084">org.jgap.GeneticOperator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                                                         {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="comment">// Determine the number of crossovers that should be performed</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordtype">int</span> size = Math.min(<a class="code" href="classorg_1_1jgap_1_1_base_genetic_operator.html#addbc6b98f572331d47397227b7a49f6a">getConfiguration</a>().getPopulationSize(),</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                        a_population.size());</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordtype">int</span> numCrossovers = 0;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="keywordflow">if</span> (m_crossoverRateCalc == null) {</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      numCrossovers = size / m_crossoverRate;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;      numCrossovers = size / m_crossoverRateCalc.calculateCurrentRate();</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    RandomGenerator generator = <a class="code" href="classorg_1_1jgap_1_1_base_genetic_operator.html#addbc6b98f572331d47397227b7a49f6a">getConfiguration</a>().getRandomGenerator();</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <span class="keywordflow">if</span> (m_crossoverGenerator == null) {</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      m_crossoverGenerator = generator;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    }</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    <span class="comment">// For each crossover, grab two random chromosomes, pick a random</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="comment">// locus (gene location), and then swap that gene and all genes</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    <span class="comment">// to the &quot;right&quot; (those with greater loci) of that gene between</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="comment">// the two chromosomes.</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="comment">// --------------------------------------------------------------</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordtype">int</span> index1, index2;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; numCrossovers; i++) {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;      index1 = generator.nextInt(size);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;      index2 = generator.nextInt(size);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;      IChromosome origChrom1 = a_population.getChromosome(index1);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;      IChromosome origChrom2 = a_population.getChromosome(index2);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;      IChromosome firstMate = (IChromosome)origChrom1.clone();</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;      IChromosome secondMate = (IChromosome)origChrom2.clone();</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      <span class="comment">// In case monitoring is active, support it.</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;      <span class="comment">// -----------------------------------------</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1_base_genetic_operator.html#a5194e705ed206f99852bf158546646b5">m_monitorActive</a>) {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        firstMate.setUniqueIDTemplate(origChrom1.getUniqueID(), 1);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        firstMate.setUniqueIDTemplate(origChrom2.getUniqueID(), 2);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        secondMate.setUniqueIDTemplate(origChrom1.getUniqueID(), 1);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        secondMate.setUniqueIDTemplate(origChrom2.getUniqueID(), 2);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      }</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      Gene[] firstGenes = firstMate.getGenes();</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;      Gene[] secondGenes = secondMate.getGenes();</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      <span class="keywordtype">int</span> locus = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#ae6166be762fcee1c05d90279bf8c47d2">getLocus</a>(m_crossoverGenerator, i, firstGenes.length);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;      <span class="comment">// Swap the genes.</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;      <span class="comment">// ---------------</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;      Gene gene1;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;      Gene gene2;</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;      Object firstAllele;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = locus; j &lt; firstGenes.length; j++) {</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <span class="comment">// Make a distinction to ICompositeGene for the first gene.</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="comment">// --------------------------------------------------------</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="keywordflow">if</span> (firstGenes[j] instanceof ICompositeGene) {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;          <span class="comment">// Randomly determine gene to be considered</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;          index1 = generator.nextInt(firstGenes[j].size());</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;          gene1 = ( (ICompositeGene) firstGenes[j]).geneAt(index1);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        }</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;          gene1 = firstGenes[j];</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        }</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="comment">// Make a distinction to ICompositeGene for the second gene.</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="comment">// ---------------------------------------------------------</span></div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <span class="keywordflow">if</span> (secondGenes[j] instanceof CompositeGene) {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;          <span class="comment">// Randomly determine gene to be considered</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;          index2 = generator.nextInt(secondGenes[j].size());</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;          gene2 = ( (ICompositeGene) secondGenes[j]).geneAt(index2);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        }</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;          gene2 = secondGenes[j];</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        firstAllele = gene1.getAllele();</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        gene1.setAllele(gene2.getAllele());</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        gene2.setAllele(firstAllele);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      }</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;      <span class="comment">// Add the modified chromosomes to the candidate pool so that</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      <span class="comment">// they&#39;ll be considered for natural selection during the next</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;      <span class="comment">// phase of evolution.</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;      <span class="comment">// -----------------------------------------------------------</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;      a_candidateChromosomes.add(firstMate);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      a_candidateChromosomes.add(secondMate);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_genetic_operator_html_addbc6b98f572331d47397227b7a49f6a"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_genetic_operator.html#addbc6b98f572331d47397227b7a49f6a">org.jgap.BaseGeneticOperator.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGeneticOperator.java:57</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator_html_ae6166be762fcee1c05d90279bf8c47d2"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html#ae6166be762fcee1c05d90279bf8c47d2">org.jgap.impl.AveragingCrossoverOperator.getLocus</a></div><div class="ttdeci">int getLocus(final RandomGenerator a_generator, final int a_index, final int a_max)</div><div class="ttdef"><b>Definition:</b> AveragingCrossoverOperator.java:256</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_genetic_operator_html_a5194e705ed206f99852bf158546646b5"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_genetic_operator.html#a5194e705ed206f99852bf158546646b5">org.jgap.BaseGeneticOperator.m_monitorActive</a></div><div class="ttdeci">boolean m_monitorActive</div><div class="ttdef"><b>Definition:</b> BaseGeneticOperator.java:30</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8f32339f91d5f29c452f2a01b19d815d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.AveragingCrossoverOperator.setCrossoverRate </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_rate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_rate</td><td>crossover rate to use by this crossover operator </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.6 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                                           {</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    m_crossoverRate = a_rate;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/impl/<a class="el" href="_averaging_crossover_operator_8java.html">AveragingCrossoverOperator.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_averaging_crossover_operator.html">AveragingCrossoverOperator</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:49 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

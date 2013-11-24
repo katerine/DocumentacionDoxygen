@@ -1,0 +1,25 @@
+var classorg_1_1jgap_1_1audit_1_1_evaluator =
+[
+    [ "ChromosomeData", "classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_chromosome_data.html", "classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_chromosome_data" ],
+    [ "GenotypeData", "classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data.html", "classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data" ],
+    [ "GenotypeDataAvg", "classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data_avg.html", "classorg_1_1jgap_1_1audit_1_1_evaluator_1_1_genotype_data_avg" ],
+    [ "Evaluator", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a81edfe668ff07b19b1e5bd8d034d4056", null ],
+    [ "addRunNumber", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a1ab07be10354b09f0dbd5d22e8eed926", null ],
+    [ "calcAvgFitness", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a383bb97616629ca05ef5c3164dd8de0a", null ],
+    [ "calcAvgFitnessHelper", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8f86ce5030064340d82ec8a96b2b6e21", null ],
+    [ "calcAvgFitnessImpr", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a68331d6b5db79708b87b72d5077a0e5e", null ],
+    [ "calcPerformance", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a586c5d8e9e31c16f2187c09f3f320727", null ],
+    [ "createKey", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a8fe0028b3b402c3a4844d65f584a846a", null ],
+    [ "getData", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#afd40b95d423944b71ec75f14d61baf39", null ],
+    [ "getGenotypeAverageData", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a4860d3c1dadcc98c8889552e62358b67", null ],
+    [ "getNumberOfRuns", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#aa7d5310dff0a906381202f502f24565c", null ],
+    [ "getValue", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a89b956f95eb37137ca2b5f12a1d5402d", null ],
+    [ "getValue", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a4e5098189bebb031f0a49eed915ed2e4", null ],
+    [ "hasNext", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#ad8cafe98e1b94dff9a556fdd455b49d2", null ],
+    [ "next", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a2576280461955eb41abffc0e56491608", null ],
+    [ "retrieveGenotype", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#af00e41cf4dfd12a799a1c4f3e2f7f1a9", null ],
+    [ "setValue", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a06ec484afd450635db73cf803ee4334c", null ],
+    [ "setValue", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#ab0b472080690febf2bbf4d537f20cb72", null ],
+    [ "storeGenotype", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a5279539edcf3b0cba17ca726072194f1", null ],
+    [ "storePopulation", "classorg_1_1jgap_1_1audit_1_1_evaluator.html#a48f84bb9929cec12795c98bf1185ac68", null ]
+];

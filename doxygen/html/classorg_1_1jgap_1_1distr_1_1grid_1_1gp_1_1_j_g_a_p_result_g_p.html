@@ -1,0 +1,705 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.distr.grid.gp.JGAPResultGP</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.distr.grid.gp.JGAPResultGP</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias WorkResult.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a5df026b60ed9712890fbf6078eb59552"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a5df026b60ed9712890fbf6078eb59552">JGAPResultGP</a> (String a_sessionName, String a_id, int a_chunk, IGPProgram a_fittestProg, long a_unitdone)</td></tr>
+<tr class="separator:a5df026b60ed9712890fbf6078eb59552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a534bf79f1b2fac3add0139edeea57e37"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a534bf79f1b2fac3add0139edeea57e37">JGAPResultGP</a> (String a_sessionName, String a_id, int a_chunk, GPPopulation a_programs, long a_unitdone)</td></tr>
+<tr class="separator:a534bf79f1b2fac3add0139edeea57e37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b9f0ef167c810310a32b98521adc8c7"><td class="memItemLeft" align="right" valign="top">IGPProgram&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a9b9f0ef167c810310a32b98521adc8c7">getFittest</a> ()</td></tr>
+<tr class="separator:a9b9f0ef167c810310a32b98521adc8c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003bc42f396643cbab1b4e9e10979b2a"><td class="memItemLeft" align="right" valign="top">GPPopulation&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a003bc42f396643cbab1b4e9e10979b2a">getPopulation</a> ()</td></tr>
+<tr class="separator:a003bc42f396643cbab1b4e9e10979b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd82f8a07de8bcd3b753cbee7116e899"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#acd82f8a07de8bcd3b753cbee7116e899">getUnitDone</a> ()</td></tr>
+<tr class="separator:acd82f8a07de8bcd3b753cbee7116e899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9b14d36d76989e7eafb06dd0fb8b985"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#ae9b14d36d76989e7eafb06dd0fb8b985">setGenericData</a> (Object a_genericData)</td></tr>
+<tr class="separator:ae9b14d36d76989e7eafb06dd0fb8b985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55ed20fa4c267c9af4b801ae0780b612"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a55ed20fa4c267c9af4b801ae0780b612">getGenericData</a> ()</td></tr>
+<tr class="separator:a55ed20fa4c267c9af4b801ae0780b612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49b31c7b36d46db48acdb2ee1d3d1ae9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a49b31c7b36d46db48acdb2ee1d3d1ae9">getChunk</a> ()</td></tr>
+<tr class="separator:a49b31c7b36d46db48acdb2ee1d3d1ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32c5338f225405c92f2ad28cb966d00b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_master_info.html">MasterInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a32c5338f225405c92f2ad28cb966d00b">getWorkerInfo</a> ()</td></tr>
+<tr class="separator:a32c5338f225405c92f2ad28cb966d00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7557dc32464d4c21192065b63ffe77d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a7557dc32464d4c21192065b63ffe77d8">setWorkerInfo</a> (<a class="el" href="classorg_1_1jgap_1_1distr_1_1_master_info.html">MasterInfo</a> a_workerInfo)</td></tr>
+<tr class="separator:a7557dc32464d4c21192065b63ffe77d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c632c2ea26db15542890f30e0b64daa"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a5c632c2ea26db15542890f30e0b64daa">getID</a> ()</td></tr>
+<tr class="separator:a5c632c2ea26db15542890f30e0b64daa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac81114389359ee8f9e4995b59fcbbd49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#ac81114389359ee8f9e4995b59fcbbd49">setResponseDate</a> (Date a_date)</td></tr>
+<tr class="separator:ac81114389359ee8f9e4995b59fcbbd49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa388ab62c4e3f9e329f8c5ac90cb3c25"><td class="memItemLeft" align="right" valign="top">Date&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#aa388ab62c4e3f9e329f8c5ac90cb3c25">getResponseDate</a> ()</td></tr>
+<tr class="separator:aa388ab62c4e3f9e329f8c5ac90cb3c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af886f34c36968f5d1b5d7fdf0636ff7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#af886f34c36968f5d1b5d7fdf0636ff7c">setDescription</a> (String a_descr)</td></tr>
+<tr class="separator:af886f34c36968f5d1b5d7fdf0636ff7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b6ed3cd2ab2f5159e8bb369e67c344a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a5b6ed3cd2ab2f5159e8bb369e67c344a">getDescription</a> ()</td></tr>
+<tr class="separator:a5b6ed3cd2ab2f5159e8bb369e67c344a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abea49c4161060254a0195b5fe3fa6719"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#abea49c4161060254a0195b5fe3fa6719">getDurationComputation</a> ()</td></tr>
+<tr class="separator:abea49c4161060254a0195b5fe3fa6719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa68cd1682909060d4f5d745522f76b70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#aa68cd1682909060d4f5d745522f76b70">setDurationComputation</a> (long a_durationComputation)</td></tr>
+<tr class="separator:aa68cd1682909060d4f5d745522f76b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eab37d427b7ffe9251e0c8e5aa243f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a7eab37d427b7ffe9251e0c8e5aa243f3">setTitle</a> (String a_title)</td></tr>
+<tr class="separator:a7eab37d427b7ffe9251e0c8e5aa243f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4da5946d13369008818a16519496f127"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a4da5946d13369008818a16519496f127">getTitle</a> ()</td></tr>
+<tr class="separator:a4da5946d13369008818a16519496f127"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fbbd66403b7c7aa6c29791a3067e5db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html#a3fbbd66403b7c7aa6c29791a3067e5db">clearFittest</a> ()</td></tr>
+<tr class="separator:a3fbbd66403b7c7aa6c29791a3067e5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Holds the result of a worker.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.1 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a5df026b60ed9712890fbf6078eb59552"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.grid.gp.JGAPResultGP.JGAPResultGP </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_sessionName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chunk</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IGPProgram&#160;</td>
+          <td class="paramname"><em>a_fittestProg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>a_unitdone</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor: Takes the fittest program determined as result of a worker's computation.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_sessionName</td><td>arbitrary session name to distinct from other results </td></tr>
+    <tr><td class="paramname">a_id</td><td>ID of the result, should be unique </td></tr>
+    <tr><td class="paramname">a_chunk</td><td>running index of request chunk, should be unique within an identification </td></tr>
+    <tr><td class="paramname">a_fittestProg</td><td>the fittest program determined </td></tr>
+    <tr><td class="paramname">a_unitdone</td><td>number of units done </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000003">Obsoleto:</a></b></dt><dd>use other constructor with GPPopulation parameter instead </dd></dl>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    super(a_sessionName, 0);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    m_fittest = a_fittestProg;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    m_unitDone = a_unitdone;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    m_chunk = a_chunk;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    m_id = a_id;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a534bf79f1b2fac3add0139edeea57e37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.grid.gp.JGAPResultGP.JGAPResultGP </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_sessionName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_chunk</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GPPopulation&#160;</td>
+          <td class="paramname"><em>a_programs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>a_unitdone</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor: Takes a population as result of a worker's computation.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_sessionName</td><td>arbitrary session name to distinct from other results </td></tr>
+    <tr><td class="paramname">a_id</td><td>ID of the result, should be unique </td></tr>
+    <tr><td class="paramname">a_chunk</td><td>running index of request chunk, should be unique within an identification </td></tr>
+    <tr><td class="paramname">a_programs</td><td>the result of a worker's computation </td></tr>
+    <tr><td class="paramname">a_unitdone</td><td>number of units done</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                                                {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    super(a_sessionName, 0);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    m_fittest = null;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    m_pop = a_programs;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    m_unitDone = a_unitdone;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    m_chunk = a_chunk;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    m_id = a_id;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a3fbbd66403b7c7aa6c29791a3067e5db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.JGAPResultGP.clearFittest </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Clear the fittes program.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                             {</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    m_fittest = null;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a49b31c7b36d46db48acdb2ee1d3d1ae9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.distr.grid.gp.JGAPResultGP.getChunk </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                        {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordflow">return</span> m_chunk;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5b6ed3cd2ab2f5159e8bb369e67c344a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.distr.grid.gp.JGAPResultGP.getDescription </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>arbitrary description of the result</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                                 {</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordflow">return</span> m_description;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abea49c4161060254a0195b5fe3fa6719"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long org.jgap.distr.grid.gp.JGAPResultGP.getDurationComputation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                                       {</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">return</span> m_durationComputation;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9b9f0ef167c810310a32b98521adc8c7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IGPProgram org.jgap.distr.grid.gp.JGAPResultGP.getFittest </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>IGPProgram the fittest program known </dd></dl>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000004">Obsoleto:</a></b></dt><dd>use getPopulation instead </dd></dl>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                                 {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">return</span> m_fittest;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a55ed20fa4c267c9af4b801ae0780b612"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.distr.grid.gp.JGAPResultGP.getGenericData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>generic data contained in the result.</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                 {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">return</span> m_genericData;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5c632c2ea26db15542890f30e0b64daa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.distr.grid.gp.JGAPResultGP.getID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                        {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordflow">return</span> m_id;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a003bc42f396643cbab1b4e9e10979b2a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GPPopulation org.jgap.distr.grid.gp.JGAPResultGP.getPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the GPPopulation as a result from a worker's computation</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                                      {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">return</span> m_pop;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa388ab62c4e3f9e329f8c5ac90cb3c25"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Date org.jgap.distr.grid.gp.JGAPResultGP.getResponseDate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the date the response was computed</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                                {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">return</span> m_responseDate;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4da5946d13369008818a16519496f127"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.distr.grid.gp.JGAPResultGP.getTitle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the title set</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                           {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordflow">return</span> m_title;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acd82f8a07de8bcd3b753cbee7116e899"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long org.jgap.distr.grid.gp.JGAPResultGP.getUnitDone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                            {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">return</span> m_unitDone;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a32c5338f225405c92f2ad28cb966d00b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_master_info.html">MasterInfo</a> org.jgap.distr.grid.gp.JGAPResultGP.getWorkerInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>information about the worker</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                                    {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">return</span> m_workerInfo;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af886f34c36968f5d1b5d7fdf0636ff7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.JGAPResultGP.setDescription </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_descr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_descr</td><td>arbitrary description of the result</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                                             {</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    m_description = a_descr;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa68cd1682909060d4f5d745522f76b70"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.JGAPResultGP.setDurationComputation </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>a_durationComputation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    m_durationComputation = a_durationComputation;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae9b14d36d76989e7eafb06dd0fb8b985"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.JGAPResultGP.setGenericData </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_genericData</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds arbitrary generic data to the result.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_genericData</td><td>arbitrary generic data</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                                                   {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    m_genericData = a_genericData;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac81114389359ee8f9e4995b59fcbbd49"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.JGAPResultGP.setResponseDate </td>
+          <td>(</td>
+          <td class="paramtype">Date&#160;</td>
+          <td class="paramname"><em>a_date</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_date</td><td>date the response was computed</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                                           {</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    m_responseDate = a_date;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7eab37d427b7ffe9251e0c8e5aa243f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.JGAPResultGP.setTitle </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_title</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_title</td><td>the title to set</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                                       {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    m_title = a_title;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7557dc32464d4c21192065b63ffe77d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.JGAPResultGP.setWorkerInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_master_info.html">MasterInfo</a>&#160;</td>
+          <td class="paramname"><em>a_workerInfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_workerInfo</td><td>set information about the worker</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                                                     {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    m_workerInfo = a_workerInfo;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/distr/grid/gp/<a class="el" href="_j_g_a_p_result_g_p_8java.html">JGAPResultGP.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr.html">distr</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr_1_1grid_1_1gp.html">gp</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_j_g_a_p_result_g_p.html">JGAPResultGP</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:29 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

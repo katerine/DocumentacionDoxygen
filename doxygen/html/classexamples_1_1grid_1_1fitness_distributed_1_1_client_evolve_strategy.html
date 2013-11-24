@@ -1,0 +1,412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase examples.grid.fitnessDistributed.ClientEvolveStrategy</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase examples.grid.fitnessDistributed.ClientEvolveStrategy</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias IClientEvolveStrategy.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a9ff44774bab591094bf29e7de42cd877"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy.html#a9ff44774bab591094bf29e7de42cd877">ClientEvolveStrategy</a> ()</td></tr>
+<tr class="separator:a9ff44774bab591094bf29e7de42cd877"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7821818153d45fdd3f44661c65fe165a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy.html#a7821818153d45fdd3f44661c65fe165a">initialize</a> (GridClient a_gc, Configuration a_config, IClientFeedback a_clientFeedback)  throws Exception </td></tr>
+<tr class="separator:a7821818153d45fdd3f44661c65fe165a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24c4adbb97ab9fdab3bedd117bc4aa32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy.html#a24c4adbb97ab9fdab3bedd117bc4aa32">afterWorkRequestsSent</a> ()  throws Exception </td></tr>
+<tr class="separator:a24c4adbb97ab9fdab3bedd117bc4aa32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9408472eecd367346c323d11adcd7393"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy.html#a9408472eecd367346c323d11adcd7393">isEvolutionFinished</a> (int a_evolutionsDone)</td></tr>
+<tr class="separator:a9408472eecd367346c323d11adcd7393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac908aac515d3bae2d6b1f201d2b93a3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy.html#ac908aac515d3bae2d6b1f201d2b93a3c">onFinished</a> ()</td></tr>
+<tr class="separator:ac908aac515d3bae2d6b1f201d2b93a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4fdba9a574a7ffcdaaef9df7d8a41e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy.html#ad4fdba9a574a7ffcdaaef9df7d8a41e5">evolve</a> ()  throws Exception </td></tr>
+<tr class="separator:ad4fdba9a574a7ffcdaaef9df7d8a41e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add1d3c9743ec44a5929ffe39cf237960"><td class="memItemLeft" align="right" valign="top">JGAPRequest[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy.html#add1d3c9743ec44a5929ffe39cf237960">generateWorkRequests</a> (JGAPRequest m_workReq, IRequestSplitStrategy m_splitStrategy, Object data)  throws Exception </td></tr>
+<tr class="separator:add1d3c9743ec44a5929ffe39cf237960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a068302207f44050958ec7057bbc57771"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy.html#a068302207f44050958ec7057bbc57771">resultReceived</a> (JGAPResult a_result)  throws Exception </td></tr>
+<tr class="separator:a068302207f44050958ec7057bbc57771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:ad66b843778b4280bc65527d80e4a6ae2"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy.html#ad66b843778b4280bc65527d80e4a6ae2">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:ad66b843778b4280bc65527d80e4a6ae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Sample implementation of a strategy for evolving a generation on the client.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a9ff44774bab591094bf29e7de42cd877"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">examples.grid.fitnessDistributed.ClientEvolveStrategy.ClientEvolveStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Default constructor is necessary here as it will be called dynamically! Don't declare any other constructor as it will not be called! </p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                                {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a24c4adbb97ab9fdab3bedd117bc4aa32"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void examples.grid.fitnessDistributed.ClientEvolveStrategy.afterWorkRequestsSent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                       {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    m_pop = <span class="keyword">new</span> Population(m_config, m_config.getPopulationSize());</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad4fdba9a574a7ffcdaaef9df7d8a41e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void examples.grid.fitnessDistributed.ClientEvolveStrategy.evolve </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                       {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="comment">// Do the evolution locally.</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="comment">// Note: It would be easy to also distribute this task.</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="comment">// ----------------------------------------------------</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    Genotype gen = <span class="keyword">new</span> Genotype(m_config, m_pop);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    gen.evolve();</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="comment">// Get back the evolved population for further evolutions</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="comment">// (see beginning of the iteration).</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="comment">// ------------------------------------------------------</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    m_pop = gen.getPopulation();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="add1d3c9743ec44a5929ffe39cf237960"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">JGAPRequest [] examples.grid.fitnessDistributed.ClientEvolveStrategy.generateWorkRequests </td>
+          <td>(</td>
+          <td class="paramtype">JGAPRequest&#160;</td>
+          <td class="paramname"><em>m_workReq</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IRequestSplitStrategy&#160;</td>
+          <td class="paramname"><em>m_splitStrategy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                       {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="comment">// Calculate fitness values of chromosomes.</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="comment">// Let each worker compute one fitness value.</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="comment">// ------------------------------------------</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    JGAPRequest[] workList;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    m_workReq.setPopulation(m_pop);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    workList = m_splitStrategy.split(m_workReq);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">return</span> workList;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7821818153d45fdd3f44661c65fe165a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void examples.grid.fitnessDistributed.ClientEvolveStrategy.initialize </td>
+          <td>(</td>
+          <td class="paramtype">GridClient&#160;</td>
+          <td class="paramname"><em>a_gc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Configuration&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IClientFeedback&#160;</td>
+          <td class="paramname"><em>a_clientFeedback</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Called at the very beginning and only once before distributed evolution starts.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_gc</td><td>GridClient </td></tr>
+    <tr><td class="paramname">a_config</td><td>Configuration </td></tr>
+    <tr><td class="paramname">a_clientFeedback</td><td>IClientFeedback </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                       {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    m_clientFeedback = a_clientFeedback;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    m_config = a_config;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">//    m_gc = a_gc;</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// Initialize population randomly.</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// -------------------------------</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    Genotype gen = Genotype.randomInitialGenotype(a_config);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    m_pop = gen.getPopulation();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9408472eecd367346c323d11adcd7393"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean examples.grid.fitnessDistributed.ClientEvolveStrategy.isEvolutionFinished </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_evolutionsDone</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                                           {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">// Do the complete evolution cycle 3 times.</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">// ----------------------------------------</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">if</span> (a_evolutionsDone &gt; m_maxEvolutions) {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac908aac515d3bae2d6b1f201d2b93a3c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void examples.grid.fitnessDistributed.ClientEvolveStrategy.onFinished </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                           {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    IChromosome best = m_pop.determineFittestChromosome();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    m_clientFeedback.info(<span class="stringliteral">&quot;Best solution evolved: &quot;</span> + best);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a068302207f44050958ec7057bbc57771"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void examples.grid.fitnessDistributed.ClientEvolveStrategy.resultReceived </td>
+          <td>(</td>
+          <td class="paramtype">JGAPResult&#160;</td>
+          <td class="paramname"><em>a_result</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                       {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    m_pop.addChromosomes(a_result.getPopulation());</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="ad66b843778b4280bc65527d80e4a6ae2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String examples.grid.fitnessDistributed.ClientEvolveStrategy.CVS_REVISION = &quot;$Revision: 1.3 $&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>String containing the CVS revision. Read out via reflection! </p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>examples/src/examples/grid/fitnessDistributed/<a class="el" href="fitness_distributed_2_client_evolve_strategy_8java.html">ClientEvolveStrategy.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceexamples.html">examples</a></li><li class="navelem"><a class="el" href="namespaceexamples_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="namespaceexamples_1_1grid_1_1fitness_distributed.html">fitnessDistributed</a></li><li class="navelem"><a class="el" href="classexamples_1_1grid_1_1fitness_distributed_1_1_client_evolve_strategy.html">ClientEvolveStrategy</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:03 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

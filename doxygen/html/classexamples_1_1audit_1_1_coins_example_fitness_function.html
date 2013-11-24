@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase examples.audit.CoinsExampleFitnessFunction</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classexamples_1_1audit_1_1_coins_example_fitness_function.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classexamples_1_1audit_1_1_coins_example_fitness_function-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase examples.audit.CoinsExampleFitnessFunction</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias FitnessFunction.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ab5d9ed7b6212098bf6a810d2f601d43d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#ab5d9ed7b6212098bf6a810d2f601d43d">CoinsExampleFitnessFunction</a> (int a_targetAmount)</td></tr>
+<tr class="separator:ab5d9ed7b6212098bf6a810d2f601d43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed089c3cf48df47309416160e1746d7f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#aed089c3cf48df47309416160e1746d7f">evaluate</a> (IChromosome a_subject)</td></tr>
+<tr class="separator:aed089c3cf48df47309416160e1746d7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a27bfff7299c88e40420530d963f0c047"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a27bfff7299c88e40420530d963f0c047">amountOfChange</a> (IChromosome a_potentialSolution)</td></tr>
+<tr class="separator:a27bfff7299c88e40420530d963f0c047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba197bfba22c3d7d510dc83aa8a4e0e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a9ba197bfba22c3d7d510dc83aa8a4e0e">getNumberOfCoinsAtGene</a> (IChromosome a_potentialSolution, int a_position)</td></tr>
+<tr class="separator:a9ba197bfba22c3d7d510dc83aa8a4e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6737f37061b5800e64fea85f29c69471"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a6737f37061b5800e64fea85f29c69471">getTotalNumberOfCoins</a> (IChromosome a_potentialsolution)</td></tr>
+<tr class="separator:a6737f37061b5800e64fea85f29c69471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a8cef507218435b4d205761e8f3ed4341"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a8cef507218435b4d205761e8f3ed4341">MAX_BOUND</a> = 1000</td></tr>
+<tr class="separator:a8cef507218435b4d205761e8f3ed4341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a1f5dd049791f0ec71fa9f380ccdafa1d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a1f5dd049791f0ec71fa9f380ccdafa1d">computeCoinNumberBonus</a> (int a_coins)</td></tr>
+<tr class="separator:a1f5dd049791f0ec71fa9f380ccdafa1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Sample fitness function for the coins example.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="ab5d9ed7b6212098bf6a810d2f601d43d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">examples.audit.CoinsExampleFitnessFunction.CoinsExampleFitnessFunction </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_targetAmount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                                                         {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">if</span> (a_targetAmount &lt; 1 || a_targetAmount &gt;= <a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a8cef507218435b4d205761e8f3ed4341">MAX_BOUND</a>) {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;          <span class="stringliteral">&quot;Change amount must be between 1 and &quot;</span> + <a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a8cef507218435b4d205761e8f3ed4341">MAX_BOUND</a> + <span class="stringliteral">&quot; cents.&quot;</span>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    m_targetAmount = a_targetAmount;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1audit_1_1_coins_example_fitness_function_html_a8cef507218435b4d205761e8f3ed4341"><div class="ttname"><a href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a8cef507218435b4d205761e8f3ed4341">examples.audit.CoinsExampleFitnessFunction.MAX_BOUND</a></div><div class="ttdeci">static final int MAX_BOUND</div><div class="ttdef"><b>Definition:</b> CoinsExampleFitnessFunction.java:27</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a27bfff7299c88e40420530d963f0c047"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int examples.audit.CoinsExampleFitnessFunction.amountOfChange </td>
+          <td>(</td>
+          <td class="paramtype">IChromosome&#160;</td>
+          <td class="paramname"><em>a_potentialSolution</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Calculates the total amount of change (in cents) represented by the given potential solution and returns that amount.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_potentialSolution</td><td>the pontential solution to evaluate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the total amount of change (in cents) represented by the given solution</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">int</span> numQuarters = <a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a9ba197bfba22c3d7d510dc83aa8a4e0e">getNumberOfCoinsAtGene</a>(a_potentialSolution, 0);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">int</span> numDimes = <a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a9ba197bfba22c3d7d510dc83aa8a4e0e">getNumberOfCoinsAtGene</a>(a_potentialSolution, 1);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">int</span> numNickels = <a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a9ba197bfba22c3d7d510dc83aa8a4e0e">getNumberOfCoinsAtGene</a>(a_potentialSolution, 2);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">int</span> numPennies = <a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a9ba197bfba22c3d7d510dc83aa8a4e0e">getNumberOfCoinsAtGene</a>(a_potentialSolution, 3);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">return</span> (numQuarters * 25) + (numDimes * 10) + (numNickels * 5) +</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        numPennies;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1audit_1_1_coins_example_fitness_function_html_a9ba197bfba22c3d7d510dc83aa8a4e0e"><div class="ttname"><a href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a9ba197bfba22c3d7d510dc83aa8a4e0e">examples.audit.CoinsExampleFitnessFunction.getNumberOfCoinsAtGene</a></div><div class="ttdeci">static int getNumberOfCoinsAtGene(IChromosome a_potentialSolution, int a_position)</div><div class="ttdef"><b>Definition:</b> CoinsExampleFitnessFunction.java:121</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1f5dd049791f0ec71fa9f380ccdafa1d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double examples.audit.CoinsExampleFitnessFunction.computeCoinNumberBonus </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_coins</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                                                       {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a8cef507218435b4d205761e8f3ed4341">MAX_BOUND</a> - ( (<a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a8cef507218435b4d205761e8f3ed4341">MAX_BOUND</a> * 0.05d) * a_coins);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1audit_1_1_coins_example_fitness_function_html_a8cef507218435b4d205761e8f3ed4341"><div class="ttname"><a href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a8cef507218435b4d205761e8f3ed4341">examples.audit.CoinsExampleFitnessFunction.MAX_BOUND</a></div><div class="ttdeci">static final int MAX_BOUND</div><div class="ttdef"><b>Definition:</b> CoinsExampleFitnessFunction.java:27</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aed089c3cf48df47309416160e1746d7f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double examples.audit.CoinsExampleFitnessFunction.evaluate </td>
+          <td>(</td>
+          <td class="paramtype">IChromosome&#160;</td>
+          <td class="paramname"><em>a_subject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determine the fitness of the given Chromosome instance. The higher the return value, the more fit the instance. This method should always return the same fitness value for two equivalent Chromosome instances.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_subject</td><td>the Chromosome instance to evaluate</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a positive integer reflecting the fitness rating of the given Chromosome</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                                                {</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="comment">// The fitness value measures both how close the value is to the</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="comment">// target amount supplied by the user and the total number of coins</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// represented by the solution. We do this in two steps: first,</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// we consider only the represented amount of change vs. the target</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">// amount of change and return higher fitness values for amounts</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// closer to the target, and lower fitness values for amounts further</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">// away from the target. If the amount equals the target, then we go</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">// to step 2, which returns a higher fitness value for solutions</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">// representing fewer total coins, and lower fitness values for</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// solutions representing more total coins.</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// ------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">int</span> changeAmount = <a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a27bfff7299c88e40420530d963f0c047">amountOfChange</a>(a_subject);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordtype">int</span> totalCoins = <a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a6737f37061b5800e64fea85f29c69471">getTotalNumberOfCoins</a>(a_subject);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">int</span> changeDifference = Math.abs(m_targetAmount - changeAmount);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="comment">// Step 1: Determine distance of amount represented by solution from</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">// the target amount. Since we know  the maximum amount of change is</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">// 999 cents, we&#39;ll subtract the difference in change between the</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">// solution amount and the target amount. That will give the desired effect</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">// of returning higher values for amounts closer to the target amount and</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment">// lower values for amounts further away from the target amount.</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">// -----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">double</span> fitness = (<a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a8cef507218435b4d205761e8f3ed4341">MAX_BOUND</a> - 1 - changeDifference * 20);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">// Step 2: If the solution amount equals the target amount, then</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">// we add additional fitness points for solutions representing fewer</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">// total coins.</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// -----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">if</span> (changeDifference == 0) {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;      fitness += <a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a1f5dd049791f0ec71fa9f380ccdafa1d">computeCoinNumberBonus</a>(totalCoins);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// Make sure fitness value is always positive.</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="comment">// -------------------------------------------</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">return</span> Math.max(1.0d, fitness);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1audit_1_1_coins_example_fitness_function_html_a1f5dd049791f0ec71fa9f380ccdafa1d"><div class="ttname"><a href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a1f5dd049791f0ec71fa9f380ccdafa1d">examples.audit.CoinsExampleFitnessFunction.computeCoinNumberBonus</a></div><div class="ttdeci">double computeCoinNumberBonus(int a_coins)</div><div class="ttdef"><b>Definition:</b> CoinsExampleFitnessFunction.java:85</div></div>
+<div class="ttc" id="classexamples_1_1audit_1_1_coins_example_fitness_function_html_a27bfff7299c88e40420530d963f0c047"><div class="ttname"><a href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a27bfff7299c88e40420530d963f0c047">examples.audit.CoinsExampleFitnessFunction.amountOfChange</a></div><div class="ttdeci">static int amountOfChange(IChromosome a_potentialSolution)</div><div class="ttdef"><b>Definition:</b> CoinsExampleFitnessFunction.java:100</div></div>
+<div class="ttc" id="classexamples_1_1audit_1_1_coins_example_fitness_function_html_a8cef507218435b4d205761e8f3ed4341"><div class="ttname"><a href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a8cef507218435b4d205761e8f3ed4341">examples.audit.CoinsExampleFitnessFunction.MAX_BOUND</a></div><div class="ttdeci">static final int MAX_BOUND</div><div class="ttdef"><b>Definition:</b> CoinsExampleFitnessFunction.java:27</div></div>
+<div class="ttc" id="classexamples_1_1audit_1_1_coins_example_fitness_function_html_a6737f37061b5800e64fea85f29c69471"><div class="ttname"><a href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a6737f37061b5800e64fea85f29c69471">examples.audit.CoinsExampleFitnessFunction.getTotalNumberOfCoins</a></div><div class="ttdeci">static int getTotalNumberOfCoins(IChromosome a_potentialsolution)</div><div class="ttdef"><b>Definition:</b> CoinsExampleFitnessFunction.java:137</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9ba197bfba22c3d7d510dc83aa8a4e0e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int examples.audit.CoinsExampleFitnessFunction.getNumberOfCoinsAtGene </td>
+          <td>(</td>
+          <td class="paramtype">IChromosome&#160;</td>
+          <td class="paramname"><em>a_potentialSolution</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Retrieves the number of coins represented by the given potential solution at the given gene position.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_potentialSolution</td><td>the potential solution to evaluate </td></tr>
+    <tr><td class="paramname">a_position</td><td>the gene position to evaluate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the number of coins represented by the potential solution at the given gene position.</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                                                           {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    Integer numCoins =</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        (Integer) a_potentialSolution.getGene(a_position).getAllele();</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">return</span> numCoins.intValue();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6737f37061b5800e64fea85f29c69471"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int examples.audit.CoinsExampleFitnessFunction.getTotalNumberOfCoins </td>
+          <td>(</td>
+          <td class="paramtype">IChromosome&#160;</td>
+          <td class="paramname"><em>a_potentialsolution</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the total number of coins represented by all of the genes in the given potential solution.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_potentialsolution</td><td>The potential solution to evaluate. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>The total number of coins represented by the given Chromosome.</dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordtype">int</span> totalCoins = 0;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keywordtype">int</span> numberOfGenes = a_potentialsolution.size();</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; numberOfGenes; i++) {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;      totalCoins += <a class="code" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a9ba197bfba22c3d7d510dc83aa8a4e0e">getNumberOfCoinsAtGene</a>(a_potentialsolution, i);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">return</span> totalCoins;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1audit_1_1_coins_example_fitness_function_html_a9ba197bfba22c3d7d510dc83aa8a4e0e"><div class="ttname"><a href="classexamples_1_1audit_1_1_coins_example_fitness_function.html#a9ba197bfba22c3d7d510dc83aa8a4e0e">examples.audit.CoinsExampleFitnessFunction.getNumberOfCoinsAtGene</a></div><div class="ttdeci">static int getNumberOfCoinsAtGene(IChromosome a_potentialSolution, int a_position)</div><div class="ttdef"><b>Definition:</b> CoinsExampleFitnessFunction.java:121</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a8cef507218435b4d205761e8f3ed4341"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int examples.audit.CoinsExampleFitnessFunction.MAX_BOUND = 1000</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>examples/src/examples/audit/<a class="el" href="_coins_example_fitness_function_8java.html">CoinsExampleFitnessFunction.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceexamples.html">examples</a></li><li class="navelem"><a class="el" href="namespaceexamples_1_1audit.html">audit</a></li><li class="navelem"><a class="el" href="classexamples_1_1audit_1_1_coins_example_fitness_function.html">CoinsExampleFitnessFunction</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:22:48 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

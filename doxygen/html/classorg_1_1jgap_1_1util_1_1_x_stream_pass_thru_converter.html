@@ -1,0 +1,511 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.util.XStreamPassThruConverter</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.util.XStreamPassThruConverter<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Converter.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a21ee385b3d8eae875cae8021c4f662ad"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#a21ee385b3d8eae875cae8021c4f662ad">XStreamPassThruConverter</a> (Mapper mapper, ReflectionProvider reflectionProvider, Class a_clazz)</td></tr>
+<tr class="separator:a21ee385b3d8eae875cae8021c4f662ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac851819015873b58b6b547550b68226a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#ac851819015873b58b6b547550b68226a">XStreamPassThruConverter</a> (XStream a_xstream, Class a_clazz)</td></tr>
+<tr class="separator:ac851819015873b58b6b547550b68226a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afadae00cbdbb4fdfda4deded61b719a1"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#afadae00cbdbb4fdfda4deded61b719a1">canConvert</a> (Class type)</td></tr>
+<tr class="separator:afadae00cbdbb4fdfda4deded61b719a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2fc582ab278339a8e47ed910273380f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#ae2fc582ab278339a8e47ed910273380f">marshal</a> (Object source, HierarchicalStreamWriter writer, MarshallingContext context)</td></tr>
+<tr class="separator:ae2fc582ab278339a8e47ed910273380f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af64a26c53629c6876645b7188b256b9a"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#af64a26c53629c6876645b7188b256b9a">unmarshal</a> (HierarchicalStreamReader reader, UnmarshallingContext context)</td></tr>
+<tr class="separator:af64a26c53629c6876645b7188b256b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6de1d9f9d67e5efae2a6ed3a7ee2ff3"><td class="memItemLeft" align="right" valign="top">abstract Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#ab6de1d9f9d67e5efae2a6ed3a7ee2ff3">doUnmarshal</a> (UnmarshallingContext context)  throws Exception</td></tr>
+<tr class="separator:ab6de1d9f9d67e5efae2a6ed3a7ee2ff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7629d59cf51f33d74d1bf36ddf609f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#ac7629d59cf51f33d74d1bf36ddf609f3">setConfiguration</a> (GPConfiguration a_conf)</td></tr>
+<tr class="separator:ac7629d59cf51f33d74d1bf36ddf609f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac47ce7d0582cbef01efacfcfccfd5ae5"><td class="memItemLeft" align="right" valign="top">GPConfiguration&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#ac47ce7d0582cbef01efacfcfccfd5ae5">getConfiguration</a> ()</td></tr>
+<tr class="separator:ac47ce7d0582cbef01efacfcfccfd5ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:af8497b8893e2d6519f89ba4fbbeab666"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#af8497b8893e2d6519f89ba4fbbeab666">marshalDefault</a> (Object source, HierarchicalStreamWriter writer, MarshallingContext context)</td></tr>
+<tr class="separator:af8497b8893e2d6519f89ba4fbbeab666"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2552885f070e0d2cb06a2b5aafd4126e"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#a2552885f070e0d2cb06a2b5aafd4126e">unmarshalDefault</a> (UnmarshallingContext context, Object a_obj)</td></tr>
+<tr class="separator:a2552885f070e0d2cb06a2b5aafd4126e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6eabbdf4a4d3e31cadd3bcbc9e0fec93"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#a6eabbdf4a4d3e31cadd3bcbc9e0fec93">setConfiguration</a> (Object a_obj, String a_fieldName)  throws Exception </td></tr>
+<tr class="separator:a6eabbdf4a4d3e31cadd3bcbc9e0fec93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>An abstract XSTream converter that offers services for default marshalling and unmarshalling of objects.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.4 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a21ee385b3d8eae875cae8021c4f662ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.util.XStreamPassThruConverter.XStreamPassThruConverter </td>
+          <td>(</td>
+          <td class="paramtype">Mapper&#160;</td>
+          <td class="paramname"><em>mapper</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ReflectionProvider&#160;</td>
+          <td class="paramname"><em>reflectionProvider</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_clazz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                                 {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    m_mapper = mapper;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    m_reflectionProvider = reflectionProvider;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    m_annotationProvider = <span class="keyword">new</span> AnnotationProvider();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    m_clazz = a_clazz;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac851819015873b58b6b547550b68226a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.util.XStreamPassThruConverter.XStreamPassThruConverter </td>
+          <td>(</td>
+          <td class="paramtype">XStream&#160;</td>
+          <td class="paramname"><em>a_xstream</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_clazz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keyword">this</span>(a_xstream.getMapper(), a_xstream.getReflectionProvider(), a_clazz);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="afadae00cbdbb4fdfda4deded61b719a1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.util.XStreamPassThruConverter.canConvert </td>
+          <td>(</td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                                        {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> m_clazz.equals(type);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab6de1d9f9d67e5efae2a6ed3a7ee2ff3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract Object org.jgap.util.XStreamPassThruConverter.doUnmarshal </td>
+          <td>(</td>
+          <td class="paramtype">UnmarshallingContext&#160;</td>
+          <td class="paramname"><em>context</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac47ce7d0582cbef01efacfcfccfd5ae5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GPConfiguration org.jgap.util.XStreamPassThruConverter.getConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                                            {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">return</span> m_conf;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae2fc582ab278339a8e47ed910273380f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.util.XStreamPassThruConverter.marshal </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HierarchicalStreamWriter&#160;</td>
+          <td class="paramname"><em>writer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MarshallingContext&#160;</td>
+          <td class="paramname"><em>context</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                                  {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#af8497b8893e2d6519f89ba4fbbeab666">marshalDefault</a>(source, writer, context);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter_html_af8497b8893e2d6519f89ba4fbbeab666"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#af8497b8893e2d6519f89ba4fbbeab666">org.jgap.util.XStreamPassThruConverter.marshalDefault</a></div><div class="ttdeci">void marshalDefault(Object source, HierarchicalStreamWriter writer, MarshallingContext context)</div><div class="ttdef"><b>Definition:</b> XStreamPassThruConverter.java:67</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af8497b8893e2d6519f89ba4fbbeab666"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.util.XStreamPassThruConverter.marshalDefault </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">HierarchicalStreamWriter&#160;</td>
+          <td class="paramname"><em>writer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MarshallingContext&#160;</td>
+          <td class="paramname"><em>context</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                                                            {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keyword">new</span> AnnotationReflectionConverter(m_mapper, m_reflectionProvider,</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                                      m_annotationProvider).marshal(source,</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        writer, context);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac7629d59cf51f33d74d1bf36ddf609f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.util.XStreamPassThruConverter.setConfiguration </td>
+          <td>(</td>
+          <td class="paramtype">GPConfiguration&#160;</td>
+          <td class="paramname"><em>a_conf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                                                       {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    m_conf = a_conf;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6eabbdf4a4d3e31cadd3bcbc9e0fec93"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.util.XStreamPassThruConverter.setConfiguration </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_fieldName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                       {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    Object conf = PrivateAccessor.getField(a_obj, a_fieldName);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">if</span> (conf == null) {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;      PrivateAccessor.setField(a_obj, a_fieldName, <a class="code" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#ac47ce7d0582cbef01efacfcfccfd5ae5">getConfiguration</a>());</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter_html_ac47ce7d0582cbef01efacfcfccfd5ae5"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#ac47ce7d0582cbef01efacfcfccfd5ae5">org.jgap.util.XStreamPassThruConverter.getConfiguration</a></div><div class="ttdeci">GPConfiguration getConfiguration()</div><div class="ttdef"><b>Definition:</b> XStreamPassThruConverter.java:96</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af64a26c53629c6876645b7188b256b9a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.util.XStreamPassThruConverter.unmarshal </td>
+          <td>(</td>
+          <td class="paramtype">HierarchicalStreamReader&#160;</td>
+          <td class="paramname"><em>reader</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnmarshallingContext&#160;</td>
+          <td class="paramname"><em>context</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                                        {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#ab6de1d9f9d67e5efae2a6ed3a7ee2ff3">doUnmarshal</a>(context);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    } <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(<span class="stringliteral">&quot;unmarshalling failed&quot;</span>, ex);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter_html_ab6de1d9f9d67e5efae2a6ed3a7ee2ff3"><div class="ttname"><a href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html#ab6de1d9f9d67e5efae2a6ed3a7ee2ff3">org.jgap.util.XStreamPassThruConverter.doUnmarshal</a></div><div class="ttdeci">abstract Object doUnmarshal(UnmarshallingContext context)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2552885f070e0d2cb06a2b5aafd4126e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.util.XStreamPassThruConverter.unmarshalDefault </td>
+          <td>(</td>
+          <td class="paramtype">UnmarshallingContext&#160;</td>
+          <td class="paramname"><em>context</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_obj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                                                                                {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">return</span> context.convertAnother(a_obj, a_obj.getClass(),</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                  <span class="keyword">new</span> AnnotationReflectionConverter(m_mapper,</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        m_reflectionProvider, m_annotationProvider));</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/util/<a class="el" href="_x_stream_pass_thru_converter_8java.html">XStreamPassThruConverter.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1util.html">util</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1util_1_1_x_stream_pass_thru_converter.html">XStreamPassThruConverter</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:24:04 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,916 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase examples.gp.paintedDesert.AntMap</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase examples.gp.paintedDesert.AntMap</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a13f277ea92c85cce0ac88ae86bf4a660"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a13f277ea92c85cce0ac88ae86bf4a660">AntMap</a> (final int[][] a_map, <a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant.html">Ant</a>[] a_ants)</td></tr>
+<tr class="separator:a13f277ea92c85cce0ac88ae86bf4a660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fdacf61c9a101d45150e1801c53cd3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a2fdacf61c9a101d45150e1801c53cd3a">placeSand</a> (int sandColor, int x, int y)</td></tr>
+<tr class="separator:a2fdacf61c9a101d45150e1801c53cd3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86da65d9ca66bb54824e94ec18e2bb7e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a86da65d9ca66bb54824e94ec18e2bb7e">atLocation</a> (int x, int y)</td></tr>
+<tr class="separator:a86da65d9ca66bb54824e94ec18e2bb7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7516e2ccf2b9deeefc6fc16ebfb8ece"><td class="memItemLeft" align="right" valign="top">int[][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#af7516e2ccf2b9deeefc6fc16ebfb8ece">getMap</a> ()</td></tr>
+<tr class="separator:af7516e2ccf2b9deeefc6fc16ebfb8ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22c4b8c6d867929f181a22a8389f7e11"><td class="memItemLeft" align="right" valign="top">int[][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a22c4b8c6d867929f181a22a8389f7e11">getInitialMap</a> ()</td></tr>
+<tr class="separator:a22c4b8c6d867929f181a22a8389f7e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac94942c52d455e444eedbc7930cebd6c"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#ac94942c52d455e444eedbc7930cebd6c">sandAtLocation</a> (int x, int y)</td></tr>
+<tr class="separator:ac94942c52d455e444eedbc7930cebd6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49737bef6006c9f6a60c601f84d7cfc2"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a49737bef6006c9f6a60c601f84d7cfc2">sandBelongsHere</a> (int sandColor, int x)</td></tr>
+<tr class="separator:a49737bef6006c9f6a60c601f84d7cfc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a118978c36a3420debc0c13d7be7322cb"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a118978c36a3420debc0c13d7be7322cb">mayDropSand</a> (int x, int y)</td></tr>
+<tr class="separator:a118978c36a3420debc0c13d7be7322cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0273eb3484b415b36b723e12638f5ee2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a0273eb3484b415b36b723e12638f5ee2">removeSand</a> (int x, int y)</td></tr>
+<tr class="separator:a0273eb3484b415b36b723e12638f5ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae915cb30323586695bf98a92701726db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant.html">Ant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#ae915cb30323586695bf98a92701726db">getAnt</a> ()</td></tr>
+<tr class="separator:ae915cb30323586695bf98a92701726db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e6c68130318484bfefb84cf506b52ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a4e6c68130318484bfefb84cf506b52ce">finalize</a> ()</td></tr>
+<tr class="separator:a4e6c68130318484bfefb84cf506b52ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a322b29185aeefd4f1817d05ec9b30aa1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a322b29185aeefd4f1817d05ec9b30aa1">fitness</a> ()</td></tr>
+<tr class="separator:a322b29185aeefd4f1817d05ec9b30aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eee6ab93fe62810236695b022a68e61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant.html">Ant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a0eee6ab93fe62810236695b022a68e61">nextAnt</a> ()</td></tr>
+<tr class="separator:a0eee6ab93fe62810236695b022a68e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa431d59f37bd4596e31af682beb22fe7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#aa431d59f37bd4596e31af682beb22fe7">getMoveCount</a> ()</td></tr>
+<tr class="separator:aa431d59f37bd4596e31af682beb22fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f267aae1f0c060a1a5db2cb1b27bc22"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a3f267aae1f0c060a1a5db2cb1b27bc22">getWidth</a> ()</td></tr>
+<tr class="separator:a3f267aae1f0c060a1a5db2cb1b27bc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abefbd714aff019a3068d901223171771"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#abefbd714aff019a3068d901223171771">getHeight</a> ()</td></tr>
+<tr class="separator:abefbd714aff019a3068d901223171771"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f3458131a74e8c74f465720ec118e62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant.html">Ant</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a> ()</td></tr>
+<tr class="separator:a8f3458131a74e8c74f465720ec118e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac62a8b1c0ca10639ad9e02b207b45274"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#ac62a8b1c0ca10639ad9e02b207b45274">init</a> ()</td></tr>
+<tr class="separator:ac62a8b1c0ca10639ad9e02b207b45274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29bd145c0f00792b34591f3894251c75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a29bd145c0f00792b34591f3894251c75">resetMap</a> ()</td></tr>
+<tr class="separator:a29bd145c0f00792b34591f3894251c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a615af6a550b5cc40655f383d6f7ee97e"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a615af6a550b5cc40655f383d6f7ee97e">EMPTY</a> = -1</td></tr>
+<tr class="separator:a615af6a550b5cc40655f383d6f7ee97e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93de6de82fae66c7bf8423d40669ece8"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a93de6de82fae66c7bf8423d40669ece8">BLACK</a> = 0</td></tr>
+<tr class="separator:a93de6de82fae66c7bf8423d40669ece8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac514259c0de4809ffc65dbdbddc0c9f6"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#ac514259c0de4809ffc65dbdbddc0c9f6">GRAY</a> = 1</td></tr>
+<tr class="separator:ac514259c0de4809ffc65dbdbddc0c9f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06515b627b9763787dd76324bd151d73"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a06515b627b9763787dd76324bd151d73">STRIPED</a> = 2</td></tr>
+<tr class="separator:a06515b627b9763787dd76324bd151d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a261d8f6c6336a40455682b2cc4a03924"><td class="memItemLeft" align="right" valign="top">static final int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a261d8f6c6336a40455682b2cc4a03924">ANT_AT_POSITION</a> = 9</td></tr>
+<tr class="separator:a261d8f6c6336a40455682b2cc4a03924"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Holds the map of the painted desert sand locations</p>
+<dl class="section author"><dt>Autor</dt><dd>Scott Mueller </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a13f277ea92c85cce0ac88ae86bf4a660"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">examples.gp.paintedDesert.AntMap.AntMap </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_map</em>[][], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant.html">Ant</a>[]&#160;</td>
+          <td class="paramname"><em>a_ants</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Maximum number of moves allowed. Creates the map.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_map</td><td>the map itself </td></tr>
+    <tr><td class="paramname">a_ants</td><td>the list of ants </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                                   {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    m_sizex = a_map.length;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    m_sizey = a_map[0].length;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    m_ants = a_ants;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    m_popSize = m_ants.length;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    m_currentAnt = -1;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    m_initialPosition = <span class="keyword">new</span> <span class="keywordtype">int</span>[m_sizex][m_sizey];</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    this.m_currentMap = <span class="keyword">new</span> <span class="keywordtype">int</span>[m_sizex][m_sizey];</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt; m_sizex; x++) {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> y = 0; y &lt; m_sizey; y++) {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">if</span> (a_map[x][y] == <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a261d8f6c6336a40455682b2cc4a03924">ANT_AT_POSITION</a>) {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;          m_initialPosition[x][y] = a_map[x][y]; <span class="comment">//nextAntIndex + this.ANT_INDEX_OFFSET;</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;          m_currentMap[x][y] = a_map[x][y];</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;          m_initialPosition[x][y] = a_map[x][y];</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;          m_currentMap[x][y] = a_map[x][y];</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        }</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;      }</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a261d8f6c6336a40455682b2cc4a03924"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a261d8f6c6336a40455682b2cc4a03924">examples.gp.paintedDesert.AntMap.ANT_AT_POSITION</a></div><div class="ttdeci">static final int ANT_AT_POSITION</div><div class="ttdef"><b>Definition:</b> AntMap.java:52</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a86da65d9ca66bb54824e94ec18e2bb7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int examples.gp.paintedDesert.AntMap.atLocation </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the color of sand at the provided location </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">y</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                                      {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordflow">return</span> m_currentMap[x][y];</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4e6c68130318484bfefb84cf506b52ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void examples.gp.paintedDesert.AntMap.finalize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determine the final position of grains of sand. If an ant is carrying sand and there is no sand at the current position, drop the sand at this position. If there is sand, rubberband the sand back to where the ant picked up the sand. If both locations are full, then pick the nearest open spot </p>
+<dl class="section see"><dt>Ver también</dt><dd>java.lang.Object::finalize() </dd></dl>
+<div class="fragment"><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                         {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> antIndex = 0; antIndex &lt; m_popSize; antIndex++) {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getCarrying() &gt;= 0) {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#af7516e2ccf2b9deeefc6fc16ebfb8ece">getMap</a>()[<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getXpos()][<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getYpos()] !=</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a13f277ea92c85cce0ac88ae86bf4a660">AntMap</a>.EMPTY) {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;          <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#af7516e2ccf2b9deeefc6fc16ebfb8ece">getMap</a>()[<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getXpos()][<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getYpos()] =</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;              <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getCarrying();</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        }</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;          <span class="comment">/*System.out.println(&quot;carrying &quot;+ getAnts()[antIndex].getCarrying());</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;<span class="comment">                System.out.println(&quot;ant index = &quot;+antIndex );</span></div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="comment">                System.out.println(&quot;picked up fromX`&quot; + getAnts()[antIndex].getPickedUpFromXLoc());</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="comment">                System.out.println(&quot;picked up fromY + getAnts()[antIndex].getPickedUpFromYLoc());</span></div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="comment">           */</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;          <span class="keywordflow">if</span> (<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#af7516e2ccf2b9deeefc6fc16ebfb8ece">getMap</a>()[<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getPickedUpFromXLoc()][<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;              antIndex].getPickedUpFromYLoc()] != <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a13f277ea92c85cce0ac88ae86bf4a660">AntMap</a>.EMPTY) {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#af7516e2ccf2b9deeefc6fc16ebfb8ece">getMap</a>()[<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getPickedUpFromXLoc()][<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                antIndex].getPickedUpFromYLoc()] = <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                getCarrying();</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;          }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;          <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            placeNear(<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getCarrying(),</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                      <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getXpos(),</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                      <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getYpos());</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;          }</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;      }</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    }</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_af7516e2ccf2b9deeefc6fc16ebfb8ece"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#af7516e2ccf2b9deeefc6fc16ebfb8ece">examples.gp.paintedDesert.AntMap.getMap</a></div><div class="ttdeci">int[][] getMap()</div><div class="ttdef"><b>Definition:</b> AntMap.java:144</div></div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a8f3458131a74e8c74f465720ec118e62"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">examples.gp.paintedDesert.AntMap.getAnts</a></div><div class="ttdeci">Ant[] getAnts()</div><div class="ttdef"><b>Definition:</b> AntMap.java:394</div></div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a13f277ea92c85cce0ac88ae86bf4a660"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a13f277ea92c85cce0ac88ae86bf4a660">examples.gp.paintedDesert.AntMap.AntMap</a></div><div class="ttdeci">AntMap(final int[][] a_map, Ant[] a_ants)</div><div class="ttdef"><b>Definition:</b> AntMap.java:98</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a322b29185aeefd4f1817d05ec9b30aa1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int examples.gp.paintedDesert.AntMap.fitness </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Calculates how well the sand is moved to the proper columns. </p>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                       {</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="comment">//Causes all ants to drop their sand at a location</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    this.finalize();</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a322b29185aeefd4f1817d05ec9b30aa1">fitness</a> = 0;<span class="comment">//(int) GPFitnessFunction.MAX_FITNESS_VALUE;</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="keywordtype">int</span> hit = 0;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt; this.getWidth(); x++) {</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> y = 0; y &lt; this.getHeight(); y++) {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#af7516e2ccf2b9deeefc6fc16ebfb8ece">getMap</a>()[x][y] != <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a615af6a550b5cc40655f383d6f7ee97e">AntMap.EMPTY</a>) {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;          <span class="comment">// The proper column for the color is the same as the x = color</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;          <span class="comment">// Black = 0, Gray = 1, Striped = 2</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;          <span class="comment">// so subtract the color of sand from the x value to find the delta</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;          <span class="comment">// and take the absolute value</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;          <span class="comment">// when all sand is in the proper location fitness = 0</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;          <span class="comment">//fitness = fitness + Math.abs(x- antmap.getMap()[x][y]);</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;          fitness = fitness +</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;              fitnessValue(<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#af7516e2ccf2b9deeefc6fc16ebfb8ece">getMap</a>(), <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#af7516e2ccf2b9deeefc6fc16ebfb8ece">getMap</a>()[x][y], x, y);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;          <span class="keywordflow">if</span> (<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#af7516e2ccf2b9deeefc6fc16ebfb8ece">getMap</a>()[x][y] == x) {</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            <span class="comment">// Sand is in the correct position - color = x value</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            hit++;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;          }</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        }</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;      }</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    }</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a322b29185aeefd4f1817d05ec9b30aa1">fitness</a>;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a322b29185aeefd4f1817d05ec9b30aa1"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a322b29185aeefd4f1817d05ec9b30aa1">examples.gp.paintedDesert.AntMap.fitness</a></div><div class="ttdeci">int fitness()</div><div class="ttdef"><b>Definition:</b> AntMap.java:251</div></div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_af7516e2ccf2b9deeefc6fc16ebfb8ece"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#af7516e2ccf2b9deeefc6fc16ebfb8ece">examples.gp.paintedDesert.AntMap.getMap</a></div><div class="ttdeci">int[][] getMap()</div><div class="ttdef"><b>Definition:</b> AntMap.java:144</div></div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a615af6a550b5cc40655f383d6f7ee97e"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a615af6a550b5cc40655f383d6f7ee97e">examples.gp.paintedDesert.AntMap.EMPTY</a></div><div class="ttdeci">static final int EMPTY</div><div class="ttdef"><b>Definition:</b> AntMap.java:32</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae915cb30323586695bf98a92701726db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant.html">Ant</a> examples.gp.paintedDesert.AntMap.getAnt </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the current <a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant.html">Ant</a>. The current ant is incremented by the NextAnt method. </p>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                      {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[m_currentAnt] == null) {</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;          <span class="stringliteral">&quot;currentAnt does not point at a valid ant instance&quot;</span>);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    }</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[m_currentAnt];</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a8f3458131a74e8c74f465720ec118e62"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">examples.gp.paintedDesert.AntMap.getAnts</a></div><div class="ttdeci">Ant[] getAnts()</div><div class="ttdef"><b>Definition:</b> AntMap.java:394</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8f3458131a74e8c74f465720ec118e62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant.html">Ant</a> [] examples.gp.paintedDesert.AntMap.getAnts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns this list of ants </p>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;                         {</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    <span class="keywordflow">return</span> m_ants;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abefbd714aff019a3068d901223171771"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int examples.gp.paintedDesert.AntMap.getHeight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the height of the map </p>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;                         {</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    <span class="keywordflow">return</span> m_sizey;</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a22c4b8c6d867929f181a22a8389f7e11"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [][] examples.gp.paintedDesert.AntMap.getInitialMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a representation of the initial map </p>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                                 {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keywordflow">return</span> this.m_initialPosition;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af7516e2ccf2b9deeefc6fc16ebfb8ece"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [][] examples.gp.paintedDesert.AntMap.getMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a representation of the current map </p>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                          {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">return</span> this.m_currentMap;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa431d59f37bd4596e31af682beb22fe7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int examples.gp.paintedDesert.AntMap.getMoveCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Asks each ant for the number of moves and sums up the result. </p>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                            {</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <span class="keywordtype">int</span> moves = 0;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> antIndex = 0; antIndex &lt; m_popSize; antIndex++) {</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex] != null) {</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        moves = <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[antIndex].getMoves();</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;      }</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    }</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <span class="keywordflow">return</span> moves;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a8f3458131a74e8c74f465720ec118e62"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">examples.gp.paintedDesert.AntMap.getAnts</a></div><div class="ttdeci">Ant[] getAnts()</div><div class="ttdef"><b>Definition:</b> AntMap.java:394</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3f267aae1f0c060a1a5db2cb1b27bc22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int examples.gp.paintedDesert.AntMap.getWidth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the width of the map </p>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;                        {</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    <span class="keywordflow">return</span> m_sizex;</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac62a8b1c0ca10639ad9e02b207b45274"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void examples.gp.paintedDesert.AntMap.init </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;                     {</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a29bd145c0f00792b34591f3894251c75">resetMap</a>();</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a29bd145c0f00792b34591f3894251c75"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a29bd145c0f00792b34591f3894251c75">examples.gp.paintedDesert.AntMap.resetMap</a></div><div class="ttdeci">void resetMap()</div><div class="ttdef"><b>Definition:</b> AntMap.java:406</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a118978c36a3420debc0c13d7be7322cb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean examples.gp.paintedDesert.AntMap.mayDropSand </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Identifies that sand may be placed here </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">y</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                                           {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <span class="keywordflow">return</span> this.m_currentMap[x][y] == <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a615af6a550b5cc40655f383d6f7ee97e">AntMap.EMPTY</a>;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a615af6a550b5cc40655f383d6f7ee97e"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a615af6a550b5cc40655f383d6f7ee97e">examples.gp.paintedDesert.AntMap.EMPTY</a></div><div class="ttdeci">static final int EMPTY</div><div class="ttdef"><b>Definition:</b> AntMap.java:32</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0eee6ab93fe62810236695b022a68e61"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant.html">Ant</a> examples.gp.paintedDesert.AntMap.nextAnt </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Increments the index to the next ant. </p>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                       {</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keywordflow">if</span> (m_currentAnt + 1 &lt; m_popSize) {</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;      m_currentAnt++;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    }</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;      System.out.println(<span class="stringliteral">&quot;nextAnt with m_currentAnt=&quot;</span> + m_currentAnt +</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                         <span class="stringliteral">&quot; and m_popSize=&quot;</span> + m_popSize);</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(<span class="stringliteral">&quot;Iterated beyond last ant&quot;</span>);</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    }</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">getAnts</a>()[m_currentAnt];</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a8f3458131a74e8c74f465720ec118e62"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a8f3458131a74e8c74f465720ec118e62">examples.gp.paintedDesert.AntMap.getAnts</a></div><div class="ttdeci">Ant[] getAnts()</div><div class="ttdef"><b>Definition:</b> AntMap.java:394</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2fdacf61c9a101d45150e1801c53cd3a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void examples.gp.paintedDesert.AntMap.placeSand </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sandColor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Places sand or identifies an empty spot at the current position </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sandColor</td><td></td></tr>
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">y</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                                                     {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    m_currentMap[x][y] = sandColor;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0273eb3484b415b36b723e12638f5ee2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int examples.gp.paintedDesert.AntMap.removeSand </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes the sand from the current position </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">y</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                                      {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordtype">int</span> removed = this.m_currentMap[x][y];</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    this.m_currentMap[x][y] = <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a615af6a550b5cc40655f383d6f7ee97e">AntMap.EMPTY</a>;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">return</span> removed;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a615af6a550b5cc40655f383d6f7ee97e"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a615af6a550b5cc40655f383d6f7ee97e">examples.gp.paintedDesert.AntMap.EMPTY</a></div><div class="ttdeci">static final int EMPTY</div><div class="ttdef"><b>Definition:</b> AntMap.java:32</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a29bd145c0f00792b34591f3894251c75"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void examples.gp.paintedDesert.AntMap.resetMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Resets the sand and ant back to their positions before the program was applied </p>
+<div class="fragment"><div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;                         {</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    m_currentAnt = -1;</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;<span class="comment">//    m_fitnessFailure = false;</span></div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> antIndex = 0; antIndex &lt; m_ants.length; antIndex++) {</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;      m_ants[antIndex].reset();</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    }</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt; m_sizex; x++) {</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> y = 0; y &lt; m_sizey; y++) {</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        m_currentMap[x][y] = m_initialPosition[x][y];</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;      }</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    }</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac94942c52d455e444eedbc7930cebd6c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean examples.gp.paintedDesert.AntMap.sandAtLocation </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Identifies whether there is sand at the provided location </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">y</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                                              {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordflow">return</span> this.m_currentMap[x][y] != <a class="code" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a615af6a550b5cc40655f383d6f7ee97e">AntMap.EMPTY</a>;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1gp_1_1painted_desert_1_1_ant_map_html_a615af6a550b5cc40655f383d6f7ee97e"><div class="ttname"><a href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html#a615af6a550b5cc40655f383d6f7ee97e">examples.gp.paintedDesert.AntMap.EMPTY</a></div><div class="ttdeci">static final int EMPTY</div><div class="ttdef"><b>Definition:</b> AntMap.java:32</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a49737bef6006c9f6a60c601f84d7cfc2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean examples.gp.paintedDesert.AntMap.sandBelongsHere </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>sandColor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>x</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Identifies that sand is at that location </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sandColor</td><td></td></tr>
+    <tr><td class="paramname">x</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                                                       {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">return</span> sandColor == x;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a261d8f6c6336a40455682b2cc4a03924"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int examples.gp.paintedDesert.AntMap.ANT_AT_POSITION = 9</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant.html">Ant</a> at this location </p>
+
+</div>
+</div>
+<a class="anchor" id="a93de6de82fae66c7bf8423d40669ece8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int examples.gp.paintedDesert.AntMap.BLACK = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Black sand at this location or carried by the ant </p>
+
+</div>
+</div>
+<a class="anchor" id="a615af6a550b5cc40655f383d6f7ee97e"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int examples.gp.paintedDesert.AntMap.EMPTY = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>No Sand at this location or carried by the ant </p>
+
+</div>
+</div>
+<a class="anchor" id="ac514259c0de4809ffc65dbdbddc0c9f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int examples.gp.paintedDesert.AntMap.GRAY = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Gray sand at this location or carried by the ant </p>
+
+</div>
+</div>
+<a class="anchor" id="a06515b627b9763787dd76324bd151d73"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final int examples.gp.paintedDesert.AntMap.STRIPED = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Striped sand at this location or carried by the ant </p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>examples/src/examples/gp/paintedDesert/<a class="el" href="painted_desert_2_ant_map_8java.html">AntMap.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceexamples.html">examples</a></li><li class="navelem"><a class="el" href="namespaceexamples_1_1gp.html">gp</a></li><li class="navelem"><a class="el" href="namespaceexamples_1_1gp_1_1painted_desert.html">paintedDesert</a></li><li class="navelem"><a class="el" href="classexamples_1_1gp_1_1painted_desert_1_1_ant_map.html">AntMap</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:22:55 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

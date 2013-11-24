@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Interfaz org.jgap.impl.job.IJob</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('interfaceorg_1_1jgap_1_1impl_1_1job_1_1_i_job.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="interfaceorg_1_1jgap_1_1impl_1_1job_1_1_i_job-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Interfaz org.jgap.impl.job.IJob</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable y Runnable.</p>
+
+<p>Heredado por <a class="el" href="interfaceorg_1_1jgap_1_1impl_1_1job_1_1_i_evolve_job.html">org.jgap.impl.job.IEvolveJob</a> y <a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_base.html">org.jgap.impl.job.JobBase</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a5318a1ce0e973553131c3cb268c8b3f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_result.html">JobResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1impl_1_1job_1_1_i_job.html#a5318a1ce0e973553131c3cb268c8b3f2">execute</a> (<a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_data.html">JobData</a> a_data)  throws Exception</td></tr>
+<tr class="separator:a5318a1ce0e973553131c3cb268c8b3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee1614176eba42e6405b0ae1ce216754"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_data.html">JobData</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1impl_1_1job_1_1_i_job.html#aee1614176eba42e6405b0ae1ce216754">getJobData</a> ()</td></tr>
+<tr class="separator:aee1614176eba42e6405b0ae1ce216754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adab19ae6b78cabf77f43aefb5aa74650"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1impl_1_1job_1_1_i_job.html#adab19ae6b78cabf77f43aefb5aa74650">run</a> ()</td></tr>
+<tr class="separator:adab19ae6b78cabf77f43aefb5aa74650"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b72a2342b23ac0cfba5d41dde3ef8ac"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1impl_1_1job_1_1_i_job.html#a9b72a2342b23ac0cfba5d41dde3ef8ac">isFinished</a> ()</td></tr>
+<tr class="separator:a9b72a2342b23ac0cfba5d41dde3ef8ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bcd1a7d7f165baba66b8fa4e0b9bf43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_result.html">JobResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1impl_1_1job_1_1_i_job.html#a2bcd1a7d7f165baba66b8fa4e0b9bf43">getResult</a> ()</td></tr>
+<tr class="separator:a2bcd1a7d7f165baba66b8fa4e0b9bf43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:a8d76655b9eddf18c2cc184cb362dd0e3"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1impl_1_1job_1_1_i_job.html#a8d76655b9eddf18c2cc184cb362dd0e3">CVS_REVISION</a> = &quot;$Revision: 1.7 $&quot;</td></tr>
+<tr class="separator:a8d76655b9eddf18c2cc184cb362dd0e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Interface for jobs of any kind.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a5318a1ce0e973553131c3cb268c8b3f2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_result.html">JobResult</a> org.jgap.impl.job.IJob.execute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_data.html">JobData</a>&#160;</td>
+          <td class="paramname"><em>a_data</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes a job.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_data</td><td>generic input parameters, as needed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>result of execution</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td>in case of any error </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_evolve_job.html#a15941e3a369e59b86a5688181875204d">org.jgap.impl.job.EvolveJob</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aee1614176eba42e6405b0ae1ce216754"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_data.html">JobData</a> org.jgap.impl.job.IJob.getJobData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_base.html#a95104e54e5fb2719a025cb95389d4805">org.jgap.impl.job.JobBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2bcd1a7d7f165baba66b8fa4e0b9bf43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_result.html">JobResult</a> org.jgap.impl.job.IJob.getResult </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_base.html#ae5cacf4304620ad0b831db78a6323af2">org.jgap.impl.job.JobBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9b72a2342b23ac0cfba5d41dde3ef8ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.impl.job.IJob.isFinished </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_base.html#a7a763c3c6874b7aff8f1643efc22fcf0">org.jgap.impl.job.JobBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="adab19ae6b78cabf77f43aefb5aa74650"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.job.IJob.run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1impl_1_1job_1_1_job_base.html#a4395288c6b1143da26fc7edb5d2bc792">org.jgap.impl.job.JobBase</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="a8d76655b9eddf18c2cc184cb362dd0e3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.jgap.impl.job.IJob.CVS_REVISION = &quot;$Revision: 1.7 $&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>String containing the CVS revision. Read out via reflection! </p>
+
+</div>
+</div>
+<hr/>La documentación para este interfaz fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/impl/job/<a class="el" href="_i_job_8java.html">IJob.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl_1_1job.html">job</a></li><li class="navelem"><a class="el" href="interfaceorg_1_1jgap_1_1impl_1_1job_1_1_i_job.html">IJob</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:24:00 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

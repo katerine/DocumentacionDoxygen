@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.impl.GaussianRandomGenerator</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.impl.GaussianRandomGenerator</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">org.jgap.RandomGenerator</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a2871c5bd1227c8a34197955d9f752afd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#a2871c5bd1227c8a34197955d9f752afd">GaussianRandomGenerator</a> ()</td></tr>
+<tr class="separator:a2871c5bd1227c8a34197955d9f752afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95775aac692072a487de922f6c1a516f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#a95775aac692072a487de922f6c1a516f">GaussianRandomGenerator</a> (final double a_standardDeviation)</td></tr>
+<tr class="separator:a95775aac692072a487de922f6c1a516f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d196e9eff9b867e34edc8d1ea41bf3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#a03d196e9eff9b867e34edc8d1ea41bf3">setGaussianStdDeviation</a> (final double a_standardDeviation)</td></tr>
+<tr class="separator:a03d196e9eff9b867e34edc8d1ea41bf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1635642b24a965dc72f82240b575ef6a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#a1635642b24a965dc72f82240b575ef6a">getGaussianStdDeviation</a> ()</td></tr>
+<tr class="separator:a1635642b24a965dc72f82240b575ef6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e174018c76eddb6c09c05eceeb83e11"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#a2e174018c76eddb6c09c05eceeb83e11">nextInt</a> ()</td></tr>
+<tr class="separator:a2e174018c76eddb6c09c05eceeb83e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab825ac259fdacdd0cebecfaa6cea44bf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#ab825ac259fdacdd0cebecfaa6cea44bf">nextInt</a> (final int a_ceiling)</td></tr>
+<tr class="separator:ab825ac259fdacdd0cebecfaa6cea44bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b311f4d24b41b670187515bd6795b7"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#a88b311f4d24b41b670187515bd6795b7">nextLong</a> ()</td></tr>
+<tr class="separator:a88b311f4d24b41b670187515bd6795b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae84caa388b60147fac8fbba721275cca"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#ae84caa388b60147fac8fbba721275cca">nextDouble</a> ()</td></tr>
+<tr class="separator:ae84caa388b60147fac8fbba721275cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20b553e1eaf81d7fdb405dbb8201aa19"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#a20b553e1eaf81d7fdb405dbb8201aa19">nextFloat</a> ()</td></tr>
+<tr class="separator:a20b553e1eaf81d7fdb405dbb8201aa19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26567fd1a8a095c2dbf12c552d2da0be"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#a26567fd1a8a095c2dbf12c552d2da0be">nextBoolean</a> ()</td></tr>
+<tr class="separator:a26567fd1a8a095c2dbf12c552d2da0be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1_random_generator"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1_random_generator')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">org.jgap.RandomGenerator</a></td></tr>
+<tr class="memitem:a29411be7a476ab217372b7f046536be6 inherit pub_methods_interfaceorg_1_1jgap_1_1_random_generator"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html#a29411be7a476ab217372b7f046536be6">nextInt</a> (int a_ceiling)</td></tr>
+<tr class="separator:a29411be7a476ab217372b7f046536be6 inherit pub_methods_interfaceorg_1_1jgap_1_1_random_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_random_generator"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_random_generator')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">org.jgap.RandomGenerator</a></td></tr>
+<tr class="memitem:a160f82fe77aae0cfc802a2db56b4ee44 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_random_generator"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html#a160f82fe77aae0cfc802a2db56b4ee44">CVS_REVISION</a> = &quot;$Revision: 1.8 $&quot;</td></tr>
+<tr class="separator:a160f82fe77aae0cfc802a2db56b4ee44 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_random_generator"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Gaussian deviation serving as basis for randomly finding a number.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a2871c5bd1227c8a34197955d9f752afd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.GaussianRandomGenerator.GaussianRandomGenerator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                                   {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">this</span>(1.0d);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a95775aac692072a487de922f6c1a516f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.GaussianRandomGenerator.GaussianRandomGenerator </td>
+          <td>(</td>
+          <td class="paramtype">final double&#160;</td>
+          <td class="paramname"><em>a_standardDeviation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor speicifying the (obliagtory) standard deviation.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_standardDeviation</td><td>the standard deviation to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                                                                   {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    super();</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    init();</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#a03d196e9eff9b867e34edc8d1ea41bf3">setGaussianStdDeviation</a>(a_standardDeviation);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator_html_a03d196e9eff9b867e34edc8d1ea41bf3"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html#a03d196e9eff9b867e34edc8d1ea41bf3">org.jgap.impl.GaussianRandomGenerator.setGaussianStdDeviation</a></div><div class="ttdeci">void setGaussianStdDeviation(final double a_standardDeviation)</div><div class="ttdef"><b>Definition:</b> GaussianRandomGenerator.java:59</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a1635642b24a965dc72f82240b575ef6a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.impl.GaussianRandomGenerator.getGaussianStdDeviation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                          {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">return</span> m_standardDeviation;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a26567fd1a8a095c2dbf12c552d2da0be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.impl.GaussianRandomGenerator.nextBoolean </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the next pseudorandom, uniformly distributed boolean value from this random number generator's sequence. The general contract of nextBoolean is that one boolean value is pseudorandomly generated and returned. The values true and false are produced with (approximately) equal probability.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>a pseudorandom boolean value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html#ae1e8373d795fa8269c2f51f2e5525150">org.jgap.RandomGenerator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                               {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">return</span> nextGaussian() &gt;= 0.5d;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae84caa388b60147fac8fbba721275cca"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.impl.GaussianRandomGenerator.nextDouble </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the next pseudorandom, uniformly distributed double value between 0.0 and 1.0 from this random number generator's sequence.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>a psuedorandom double value GREATER/EQUAL 0 AND LESS THAN 1</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html#a708f273cc71846c2ae973172f20f2c01">org.jgap.RandomGenerator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                             {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">return</span> nextGaussian();</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a20b553e1eaf81d7fdb405dbb8201aa19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float org.jgap.impl.GaussianRandomGenerator.nextFloat </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns the next pseudorandom, uniformly distributed float value between 0.0 and 1.0 from this random number generator's sequence.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>a psuedorandom float value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html#a0c5ff6cb7faf2d5385405f56f463a070">org.jgap.RandomGenerator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                           {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">return</span> (<span class="keywordtype">float</span>) (nextGaussian());</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2e174018c76eddb6c09c05eceeb83e11"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.GaussianRandomGenerator.nextInt </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>positive integer value </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html#a993f3b23cfbc3f8001405544580eda2e">org.jgap.RandomGenerator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                       {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">return</span> Math.abs(Math.min(Integer.MAX_VALUE - 1,</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                             (int) Math.round(nextGaussian()</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        * Integer.MAX_VALUE)));</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab825ac259fdacdd0cebecfaa6cea44bf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.GaussianRandomGenerator.nextInt </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_ceiling</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_ceiling</td><td>the upper boundary excluded </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>positive integer value between 0 and (ceiling - 1) </dd></dl>
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                                          {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">return</span> Math.min(a_ceiling - 1,</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                    (int) Math.round(nextGaussian() * a_ceiling / (5.8d * 2)));</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a88b311f4d24b41b670187515bd6795b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long org.jgap.impl.GaussianRandomGenerator.nextLong </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>positive long value </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html#a09b1ace0d1020d186b726bb725557ad2">org.jgap.RandomGenerator</a>.</p>
+<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                         {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">long</span> result = Math.min(Long.MAX_VALUE,</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                           (long) (nextGaussian() * Long.MAX_VALUE / (5.8d * 2)));</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a03d196e9eff9b867e34edc8d1ea41bf3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.GaussianRandomGenerator.setGaussianStdDeviation </td>
+          <td>(</td>
+          <td class="paramtype">final double&#160;</td>
+          <td class="paramname"><em>a_standardDeviation</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">if</span> (a_standardDeviation &lt;= DELTA) {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;          <span class="stringliteral">&quot;Standard deviation must be greater 0!&quot;</span>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    m_standardDeviation = a_standardDeviation;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/impl/<a class="el" href="_gaussian_random_generator_8java.html">GaussianRandomGenerator.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_gaussian_random_generator.html">GaussianRandomGenerator</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:51 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

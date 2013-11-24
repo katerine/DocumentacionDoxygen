@@ -1,0 +1,525 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.distr.grid.wan.WANUtils</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.distr.grid.wan.WANUtils</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a93257f7c8d6d101a4a54484f87221420"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#a93257f7c8d6d101a4a54484f87221420">WANUtils</a> ()</td></tr>
+<tr class="separator:a93257f7c8d6d101a4a54484f87221420"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:aa1079bf67b6a9f6b6db134ada2dfe707"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#aa1079bf67b6a9f6b6db134ada2dfe707">outputRequestInformation</a> (<a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_received_packet.html">ReceivedPacket</a> a_packet)</td></tr>
+<tr class="separator:aa1079bf67b6a9f6b6db134ada2dfe707"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf0877136808285579743b06f0122d3"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#adbf0877136808285579743b06f0122d3">outputRequestInformation</a> (<a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_request_information.html">RequestInformation</a> a_info)</td></tr>
+<tr class="separator:adbf0877136808285579743b06f0122d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eda7e32388b0e22d110ff2b85698576"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#a1eda7e32388b0e22d110ff2b85698576">outputResultInformation</a> (<a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_received_packet.html">ReceivedPacket</a> a_packet)</td></tr>
+<tr class="separator:a1eda7e32388b0e22d110ff2b85698576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0873ab53122c61bebdd63846361f900c"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#a0873ab53122c61bebdd63846361f900c">outputResultInformation</a> (<a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_result_information.html">ResultInformation</a> a_info)</td></tr>
+<tr class="separator:a0873ab53122c61bebdd63846361f900c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe85eb32057c55c1b89a56bb31686149"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#abe85eb32057c55c1b89a56bb31686149">getFitnessString</a> (JGAPResultGP res)</td></tr>
+<tr class="separator:abe85eb32057c55c1b89a56bb31686149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e3ce8394c09963b007838ae1f27e73"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#ac7e3ce8394c09963b007838ae1f27e73">outputInformation</a> (<a class="el" href="classorg_1_1jgap_1_1distr_1_1_master_info.html">MasterInfo</a> worker, String postFix)</td></tr>
+<tr class="separator:ac7e3ce8394c09963b007838ae1f27e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adabbd9b59a59c5fac76d919765242a4f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#adabbd9b59a59c5fac76d919765242a4f">getFittest</a> (JGAPResultGP a_res)</td></tr>
+<tr class="separator:adabbd9b59a59c5fac76d919765242a4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab03c59c2e28d651895c49358bccf0629"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#ab03c59c2e28d651895c49358bccf0629">getFitnessValue</a> (<a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> a_prog)</td></tr>
+<tr class="separator:ab03c59c2e28d651895c49358bccf0629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>WAN Utilities.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.3.4 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a93257f7c8d6d101a4a54484f87221420"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.grid.wan.WANUtils.WANUtils </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                    {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="abe85eb32057c55c1b89a56bb31686149"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String org.jgap.distr.grid.wan.WANUtils.getFitnessString </td>
+          <td>(</td>
+          <td class="paramtype">JGAPResultGP&#160;</td>
+          <td class="paramname"><em>res</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                                                          {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    String fitness = <span class="stringliteral">&quot; / fitness: &quot;</span>;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">if</span> (res.getFittest() != null) {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      fitness = fitness + res.getFittest().<a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#ab03c59c2e28d651895c49358bccf0629">getFitnessValue</a>();</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    }</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      <span class="keywordflow">if</span> (res.getPopulation() != null) {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">if</span> (res.getPopulation().getGPProgram(0) != null) {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;          fitness = fitness + NumberKit.niceDecimalNumber(</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;              res.getPopulation().getGPProgram(0).getFitnessValue(), 2);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        }</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;          fitness += <span class="stringliteral">&quot;N/A&quot;</span>;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        }</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        fitness += <span class="stringliteral">&quot;N/A&quot;</span>;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordflow">return</span> fitness;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils_html_ab03c59c2e28d651895c49358bccf0629"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#ab03c59c2e28d651895c49358bccf0629">org.jgap.distr.grid.wan.WANUtils.getFitnessValue</a></div><div class="ttdeci">static double getFitnessValue(IGPProgram a_prog)</div><div class="ttdef"><b>Definition:</b> WANUtils.java:171</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab03c59c2e28d651895c49358bccf0629"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static double org.jgap.distr.grid.wan.WANUtils.getFitnessValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a>&#160;</td>
+          <td class="paramname"><em>a_prog</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                                                          {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordflow">if</span> (a_prog == null) {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function.html#a1044d8e90c0a44f22c74088af71a931f">GPFitnessFunction.NO_FITNESS_VALUE</a>;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    }</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">return</span> a_prog.getFitnessValue();</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function_html_a1044d8e90c0a44f22c74088af71a931f"><div class="ttname"><a href="classorg_1_1jgap_1_1gp_1_1_g_p_fitness_function.html#a1044d8e90c0a44f22c74088af71a931f">org.jgap.gp.GPFitnessFunction.NO_FITNESS_VALUE</a></div><div class="ttdeci">static final double NO_FITNESS_VALUE</div><div class="ttdef"><b>Definition:</b> GPFitnessFunction.java:25</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adabbd9b59a59c5fac76d919765242a4f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="interfaceorg_1_1jgap_1_1gp_1_1_i_g_p_program.html">IGPProgram</a> org.jgap.distr.grid.wan.WANUtils.getFittest </td>
+          <td>(</td>
+          <td class="paramtype">JGAPResultGP&#160;</td>
+          <td class="paramname"><em>a_res</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                                                          {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">if</span> (a_res == null) {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;      <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="keywordflow">if</span> (a_res.getFittest() != null) {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;      <span class="keywordflow">return</span> a_res.getFittest();</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    }</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keywordflow">if</span> (a_res.getPopulation() == null) {</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;      <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordflow">return</span> a_res.getPopulation().determineFittestProgram();</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac7e3ce8394c09963b007838ae1f27e73"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String org.jgap.distr.grid.wan.WANUtils.outputInformation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_master_info.html">MasterInfo</a>&#160;</td>
+          <td class="paramname"><em>worker</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>postFix</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    String s = worker.m_IPAddress + <span class="stringliteral">&quot;:&quot;</span> + worker.m_name + <span class="stringliteral">&quot; / &quot;</span> + postFix;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa1079bf67b6a9f6b6db134ada2dfe707"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String org.jgap.distr.grid.wan.WANUtils.outputRequestInformation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_received_packet.html">ReceivedPacket</a>&#160;</td>
+          <td class="paramname"><em>a_packet</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    GridMessageWorkRequest greq = (GridMessageWorkRequest) a_packet.getData();</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    JGAPRequestGP req = (JGAPRequestGP) greq.getWorkRequest();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    MasterInfo worker = req.getRequesterInfo();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    String postfix = req.getID();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    String descr = req.getDescription();</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (descr != null &amp;&amp; descr.length() &gt; 0) {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      postfix += <span class="stringliteral">&quot;(&quot;</span> + descr + <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">int</span> popSize = req.getConfiguration().getPopulationSize();</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    String popSizeS = <span class="stringliteral">&quot;pop:&quot;</span> + popSize;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    postfix += <span class="stringliteral">&quot;, &quot;</span> + popSizeS;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#ac7e3ce8394c09963b007838ae1f27e73">outputInformation</a>(worker, postfix);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils_html_ac7e3ce8394c09963b007838ae1f27e73"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#ac7e3ce8394c09963b007838ae1f27e73">org.jgap.distr.grid.wan.WANUtils.outputInformation</a></div><div class="ttdeci">static String outputInformation(MasterInfo worker, String postFix)</div><div class="ttdef"><b>Definition:</b> WANUtils.java:153</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adbf0877136808285579743b06f0122d3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String org.jgap.distr.grid.wan.WANUtils.outputRequestInformation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_request_information.html">RequestInformation</a>&#160;</td>
+          <td class="paramname"><em>a_info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    MasterInfo worker = a_info.requesterInfo;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    String postfix = a_info.getID();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    String descr = a_info.getDescription();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span> (descr != null &amp;&amp; descr.length() &gt; 0) {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;      postfix += <span class="stringliteral">&quot;(&quot;</span> + descr + <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    String reqDate;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">if</span> (a_info.getRequestDate() == null) {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      reqDate = <span class="stringliteral">&quot;unkn. date&quot;</span>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      reqDate = DateKit.dateToString(a_info.getRequestDate(),</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                                     DateKit.DATEFORMAT_FULL_1);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    }</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    String title = a_info.getTitle();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">if</span> (title == null) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      title = <span class="stringliteral">&quot;no title&quot;</span>;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">int</span> popSize = a_info.getPopSize();</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    String popSizeS = <span class="stringliteral">&quot;pop:&quot;</span> + popSize;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    String s = worker.m_IPAddress + <span class="stringliteral">&quot;:&quot;</span> + worker.m_name + <span class="stringliteral">&quot; / &quot;</span> + postfix +</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="stringliteral">&quot; / &quot;</span> + title + <span class="stringliteral">&quot; / &quot;</span> + reqDate + <span class="stringliteral">&quot; / &quot;</span> + popSizeS;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1eda7e32388b0e22d110ff2b85698576"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String org.jgap.distr.grid.wan.WANUtils.outputResultInformation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_received_packet.html">ReceivedPacket</a>&#160;</td>
+          <td class="paramname"><em>a_packet</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    JGAPResultGP res = (JGAPResultGP) a_packet.getData();</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    MasterInfo worker = res.getWorkerInfo();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    String fitness = <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#abe85eb32057c55c1b89a56bb31686149">getFitnessString</a>(res);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    String postfix = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    String descr = res.getDescription();</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">if</span> (descr != null &amp;&amp; descr.length() &gt; 0) {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      postfix += <span class="stringliteral">&quot; (&quot;</span> + descr + <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    String dur;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordtype">long</span> duration = res.getDurationComputation();</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">if</span> (duration &gt; 1) {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;      dur = <span class="stringliteral">&quot; / &quot;</span> + (long) (duration / 1000) + <span class="stringliteral">&quot;sec.&quot;</span>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;      dur = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#ac7e3ce8394c09963b007838ae1f27e73">outputInformation</a>(worker, res.getID()) + fitness + dur + postfix;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils_html_ac7e3ce8394c09963b007838ae1f27e73"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#ac7e3ce8394c09963b007838ae1f27e73">org.jgap.distr.grid.wan.WANUtils.outputInformation</a></div><div class="ttdeci">static String outputInformation(MasterInfo worker, String postFix)</div><div class="ttdef"><b>Definition:</b> WANUtils.java:153</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils_html_abe85eb32057c55c1b89a56bb31686149"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html#abe85eb32057c55c1b89a56bb31686149">org.jgap.distr.grid.wan.WANUtils.getFitnessString</a></div><div class="ttdeci">static String getFitnessString(JGAPResultGP res)</div><div class="ttdef"><b>Definition:</b> WANUtils.java:131</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0873ab53122c61bebdd63846361f900c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static String org.jgap.distr.grid.wan.WANUtils.outputResultInformation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_result_information.html">ResultInformation</a>&#160;</td>
+          <td class="paramname"><em>a_info</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    MasterInfo worker = a_info.workerInfo;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    String fitness = NumberKit.niceDecimalNumber(a_info.m_fittest, 2);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    String postfix = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    String respDate;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">if</span> (a_info.getResponseDate() == null) {</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;      respDate = <span class="stringliteral">&quot;unkn. date&quot;</span>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      respDate = DateKit.dateToString(a_info.getResponseDate(),</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                      DateKit.DATEFORMAT_FULL_1);</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    String descr = a_info.getDescription();</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">if</span> (descr != null &amp;&amp; descr.length() &gt; 0) {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      postfix += <span class="stringliteral">&quot; (&quot;</span> + descr + <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    String dur;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordtype">long</span> duration = a_info.getDurationComputation();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">if</span> (duration &gt; 1) {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;      dur = (long) (duration / 1000) + <span class="stringliteral">&quot;sec.&quot;</span>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;      dur = <span class="stringliteral">&quot;unkn. duration&quot;</span>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    String title = a_info.getTitle();</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">if</span> (title == null) {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      title = <span class="stringliteral">&quot;no title&quot;</span>;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    String ID = a_info.getID();</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordtype">int</span> popSize = a_info.getPopSize();</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    String popSizeS = <span class="stringliteral">&quot;pop:&quot;</span> + popSize;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    postfix += <span class="stringliteral">&quot;, &quot;</span> + popSizeS;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    String s = worker.m_IPAddress + <span class="stringliteral">&quot;:&quot;</span> + worker.m_name + <span class="stringliteral">&quot; / &quot;</span> + ID + <span class="stringliteral">&quot;/ &quot;</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        + fitness + <span class="stringliteral">&quot; / &quot;</span> + title + <span class="stringliteral">&quot; / &quot;</span> + respDate + <span class="stringliteral">&quot; / &quot;</span> + popSizeS + <span class="stringliteral">&quot; / &quot;</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        + dur + postfix;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/distr/grid/wan/<a class="el" href="_w_a_n_utils_8java.html">WANUtils.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr.html">distr</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr_1_1grid_1_1wan.html">wan</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1wan_1_1_w_a_n_utils.html">WANUtils</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:29 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

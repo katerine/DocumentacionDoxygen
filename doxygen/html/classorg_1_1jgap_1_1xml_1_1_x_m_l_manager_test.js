@@ -1,0 +1,26 @@
+var classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test =
+[
+    [ "setUp", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#af66223a86e1f624566ccd9a174526319", null ],
+    [ "testChromosome_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a480486e51c7675af4a60d220453a17f2", null ],
+    [ "testGenotype_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a5009e86d6fd6fbd919e257c8127c555f", null ],
+    [ "testGetChromosomeFromDocument_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a120cc96813e702eedec3b6fb527a47b9", null ],
+    [ "testGetChromosomeFromDocument_1", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a86ea5d61eb6d4772e5e2c6b967cceec3", null ],
+    [ "testGetChromosomeFromElement_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a65c5dd87b6a721001e3638b6c16a975e", null ],
+    [ "testGetChromosomeFromElement_1", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#ac31dc4f8cc743091e8d3697c8f8fe135", null ],
+    [ "testGetGenesFromElement_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#acdd7b50bce4fda55324ee6aa8d261fa8", null ],
+    [ "testGetGenesFromElement_1", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#aed2dabae37337b3f15f58508bbdbae91", null ],
+    [ "testGetGenesFromElement_2", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#ad282f6e2a0c83a833f453b49519eecd0", null ],
+    [ "testGetGenotypeFromDocument_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#aba29e2518a2247a3e98c9c7a3e086658", null ],
+    [ "testGetGenotypeFromDocument_1", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a100fec0620b0aa17daa436ea40b77309", null ],
+    [ "testGetGenotypeFromElement_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a397d5609e5540501b6829b5d9e107ef8", null ],
+    [ "testGetGenotypeFromElement_1", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#ac65c601529b2de0ec611566a918b3d30", null ],
+    [ "testReadFile_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a5038171e76916690a1cfcbae17d651c6", null ],
+    [ "testReadFile_1", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a54259c2a6572e4a57aa202ed969a1a55", null ],
+    [ "testRepresentChromosomeAsDocument_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a9e749d8b13a568ef47b6031cfc93ec88", null ],
+    [ "testRepresentChromosomeAsElement_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#acf4d3da562fbff6fce639563bd334ba4", null ],
+    [ "testRepresentGenesAsElement_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a8f937b8b6da87d0928b3cadd9a6ed045", null ],
+    [ "testRepresentGenotypeAsDocument_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a075c8269a4aa6de99fc845c173fff97f", null ],
+    [ "testRepresentGenotypeAsElement_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a54720c86535818e6d660e6b7917ac594", null ],
+    [ "testWriteFile_0", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#ab9e52b7f53e05246c0ec32c3b6b89efa", null ],
+    [ "testWriteFile_1", "classorg_1_1jgap_1_1xml_1_1_x_m_l_manager_test.html#a5c51f9c8e14dfdbbd963693294ebcf21", null ]
+];

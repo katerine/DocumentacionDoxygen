@@ -1,0 +1,1385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.impl.FixedBinaryGene</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.impl.FixedBinaryGene</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a> y <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html">org.jgap.IPersistentRepresentation</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:ada1b64f43007aa838440e58689147818"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">FixedBinaryGene</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config, final int a_length)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:ada1b64f43007aa838440e58689147818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a563a12cceac65a4f5b1d03152630aec3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a563a12cceac65a4f5b1d03152630aec3">FixedBinaryGene</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config, final <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html">FixedBinaryGene</a> a_toCopy)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a563a12cceac65a4f5b1d03152630aec3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa67e18910e728f47403f74f063f33cf8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a> ()</td></tr>
+<tr class="separator:aa67e18910e728f47403f74f063f33cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7763fec4b36cd24c4a75850c66258387"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a7763fec4b36cd24c4a75850c66258387">clone</a> ()</td></tr>
+<tr class="separator:a7763fec4b36cd24c4a75850c66258387"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae253eaecdab77e190ec9deb4c01bafb7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ae253eaecdab77e190ec9deb4c01bafb7">setAllele</a> (final Object a_newValue)</td></tr>
+<tr class="separator:ae253eaecdab77e190ec9deb4c01bafb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a538336e75c89f2df35bc7301f187e9a7"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a538336e75c89f2df35bc7301f187e9a7">getAllele</a> ()</td></tr>
+<tr class="separator:a538336e75c89f2df35bc7301f187e9a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae852ca3daeb30e73092a857e4139ab0c"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ae852ca3daeb30e73092a857e4139ab0c">getIntValues</a> ()</td></tr>
+<tr class="separator:ae852ca3daeb30e73092a857e4139ab0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f193522e6c09322a2302af6ba843be9"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a3f193522e6c09322a2302af6ba843be9">getBit</a> (final int a_index)</td></tr>
+<tr class="separator:a3f193522e6c09322a2302af6ba843be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52df0ecfc1ebc56cc7d2acf55bed6a16"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">setBit</a> (final int a_index, final boolean a_value)</td></tr>
+<tr class="separator:a52df0ecfc1ebc56cc7d2acf55bed6a16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a581d875e5a56d9a36a71c05cc7a5505c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a581d875e5a56d9a36a71c05cc7a5505c">setBit</a> (final int a_index, final int a_value)</td></tr>
+<tr class="separator:a581d875e5a56d9a36a71c05cc7a5505c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb4c759a52ad0fbdb1a8861cb66e479b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aeb4c759a52ad0fbdb1a8861cb66e479b">setBit</a> (final int a_from, final int a_to, final boolean a_value)</td></tr>
+<tr class="separator:aeb4c759a52ad0fbdb1a8861cb66e479b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d04b8ab55987767b139f363016adc86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a4d04b8ab55987767b139f363016adc86">setBit</a> (final int a_from, final int a_to, final <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html">FixedBinaryGene</a> a_values)</td></tr>
+<tr class="separator:a4d04b8ab55987767b139f363016adc86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea3c1ac18b8d5f5973d19f3341391fc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html">FixedBinaryGene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aea3c1ac18b8d5f5973d19f3341391fc4">substring</a> (final int a_from, final int a_to)</td></tr>
+<tr class="separator:aea3c1ac18b8d5f5973d19f3341391fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7598834041ed4d44e314e7ba14b6408"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ad7598834041ed4d44e314e7ba14b6408">flip</a> (final int a_index)</td></tr>
+<tr class="separator:ad7598834041ed4d44e314e7ba14b6408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a195ad657263776ccbff547e6d720efb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a195ad657263776ccbff547e6d720efb5">setUnchecked</a> (final int a_index, final boolean a_value)</td></tr>
+<tr class="separator:a195ad657263776ccbff547e6d720efb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c557fe781b49efc9afb7c4b5f00ad38"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a9c557fe781b49efc9afb7c4b5f00ad38">getPersistentRepresentation</a> ()</td></tr>
+<tr class="separator:a9c557fe781b49efc9afb7c4b5f00ad38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b079182739f988716e7bcb26664a77f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a1b079182739f988716e7bcb26664a77f">setValueFromPersistentRepresentation</a> (String a_representation)  throws UnsupportedRepresentationException </td></tr>
+<tr class="separator:a1b079182739f988716e7bcb26664a77f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa827e651eccd75a92b29e72563ebb29d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa827e651eccd75a92b29e72563ebb29d">setToRandomValue</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> a_numberGenerator)</td></tr>
+<tr class="separator:aa827e651eccd75a92b29e72563ebb29d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50ac7f407c3570cecf66f7b423d98187"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a50ac7f407c3570cecf66f7b423d98187">toString</a> ()</td></tr>
+<tr class="separator:a50ac7f407c3570cecf66f7b423d98187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a028399260d741704b157bfdd0d411a3a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a028399260d741704b157bfdd0d411a3a">getBusinessKey</a> ()</td></tr>
+<tr class="separator:a028399260d741704b157bfdd0d411a3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f65b004a1004c6e5acf7ad64628a72e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a1f65b004a1004c6e5acf7ad64628a72e">size</a> ()</td></tr>
+<tr class="separator:a1f65b004a1004c6e5acf7ad64628a72e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49cc6b322997c5a5507956b714d5d735"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a49cc6b322997c5a5507956b714d5d735">applyMutation</a> (final int a_index, final double a_percentage)</td></tr>
+<tr class="separator:a49cc6b322997c5a5507956b714d5d735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35ddbee61a1634d7f92b12304672f10b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a35ddbee61a1634d7f92b12304672f10b">compareTo</a> (final Object a_other)</td></tr>
+<tr class="separator:a35ddbee61a1634d7f92b12304672f10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d37f0b41a92f1a945befe54e25b52a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ad7d37f0b41a92f1a945befe54e25b52a">hashCode</a> ()</td></tr>
+<tr class="separator:ad7d37f0b41a92f1a945befe54e25b52a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:acea53de5bb68978322967e8019607f24 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acea53de5bb68978322967e8019607f24">BaseGene</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_configuration)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:acea53de5bb68978322967e8019607f24 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35e754e8e217bdd26962e1c3c31d0169 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a35e754e8e217bdd26962e1c3c31d0169">getAllele</a> ()</td></tr>
+<tr class="separator:a35e754e8e217bdd26962e1c3c31d0169 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af842a106d90ca973956f560ae448464e inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#af842a106d90ca973956f560ae448464e">hashCode</a> ()</td></tr>
+<tr class="separator:af842a106d90ca973956f560ae448464e inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569b99cf460d27d2c1acbea2b7775975 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a569b99cf460d27d2c1acbea2b7775975">cleanup</a> ()</td></tr>
+<tr class="separator:a569b99cf460d27d2c1acbea2b7775975 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935dfec06cb77bff0d2a45859d6a35b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a935dfec06cb77bff0d2a45859d6a35b7">toString</a> ()</td></tr>
+<tr class="separator:a935dfec06cb77bff0d2a45859d6a35b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c00775111b327b178288164ed9c667 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a26c00775111b327b178288164ed9c667">size</a> ()</td></tr>
+<tr class="separator:a26c00775111b327b178288164ed9c667 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb0e302ae57ee3f2f5d1ee08a75bf43 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a9fb0e302ae57ee3f2f5d1ee08a75bf43">equals</a> (final Object a_other)</td></tr>
+<tr class="separator:a9fb0e302ae57ee3f2f5d1ee08a75bf43 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f71c4c1282de2ca2cf8f4009c4615a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a48f71c4c1282de2ca2cf8f4009c4615a">getEnergy</a> ()</td></tr>
+<tr class="separator:a48f71c4c1282de2ca2cf8f4009c4615a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb39fbd8997971a140a9a4380ceecc4a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#afb39fbd8997971a140a9a4380ceecc4a">setEnergy</a> (final double a_energy)</td></tr>
+<tr class="separator:afb39fbd8997971a140a9a4380ceecc4a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb9a5f42018c057c8197fb0e7d57354 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#afeb9a5f42018c057c8197fb0e7d57354">setApplicationData</a> (final Object a_newData)</td></tr>
+<tr class="separator:afeb9a5f42018c057c8197fb0e7d57354 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0520139dc694dc6034aeb631ae7d70bd inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a0520139dc694dc6034aeb631ae7d70bd">getApplicationData</a> ()</td></tr>
+<tr class="separator:a0520139dc694dc6034aeb631ae7d70bd inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adad4ccd46efd7b2a3dc81bd0ba0c410c inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#adad4ccd46efd7b2a3dc81bd0ba0c410c">setCompareApplicationData</a> (final boolean a_doCompare)</td></tr>
+<tr class="separator:adad4ccd46efd7b2a3dc81bd0ba0c410c inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6431c06c81bc03b4abbe32e4d9d8ef inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acd6431c06c81bc03b4abbe32e4d9d8ef">isCompareApplicationData</a> ()</td></tr>
+<tr class="separator:acd6431c06c81bc03b4abbe32e4d9d8ef inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334db8a543f3008719d78ee219826b65 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a334db8a543f3008719d78ee219826b65">setConstraintChecker</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_gene_constraint_checker.html">IGeneConstraintChecker</a> a_constraintChecker)</td></tr>
+<tr class="separator:a334db8a543f3008719d78ee219826b65 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9823bef7c550fc1533afb8ab2b34d93 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_i_gene_constraint_checker.html">IGeneConstraintChecker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">getConstraintChecker</a> ()</td></tr>
+<tr class="separator:ae9823bef7c550fc1533afb8ab2b34d93 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f8f3d249145ad028892cd706ba9dae inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a40f8f3d249145ad028892cd706ba9dae">newGene</a> ()</td></tr>
+<tr class="separator:a40f8f3d249145ad028892cd706ba9dae inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a316c9cc9e273bd75182cbdf188fb6 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a> ()</td></tr>
+<tr class="separator:a32a316c9cc9e273bd75182cbdf188fb6 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4e7c0fad73465365953b375cfa802a8 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ac4e7c0fad73465365953b375cfa802a8">getBusinessKey</a> ()</td></tr>
+<tr class="separator:ac4e7c0fad73465365953b375cfa802a8 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab53d562a62f5c72fc88c7e5315a23ed7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ab53d562a62f5c72fc88c7e5315a23ed7">getUniqueID</a> ()</td></tr>
+<tr class="separator:ab53d562a62f5c72fc88c7e5315a23ed7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d9f1c3c2e727d496d66a85818c17d0 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#aa7d9f1c3c2e727d496d66a85818c17d0">setUniqueIDTemplate</a> (String a_templateID, int a_index)</td></tr>
+<tr class="separator:aa7d9f1c3c2e727d496d66a85818c17d0 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3c210e440f2b542391db5a909fda3b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ad3c210e440f2b542391db5a909fda3b7">getUniqueIDTemplate</a> (int a_index)</td></tr>
+<tr class="separator:ad3c210e440f2b542391db5a909fda3b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1_gene')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a></td></tr>
+<tr class="memitem:af46a0c31e0fecea483497e87ca278127 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af46a0c31e0fecea483497e87ca278127">setAllele</a> (Object a_newValue)</td></tr>
+<tr class="separator:af46a0c31e0fecea483497e87ca278127 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ef135da7549ee98139928e21adb841a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a4ef135da7549ee98139928e21adb841a">setToRandomValue</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> a_numberGenerator)</td></tr>
+<tr class="separator:a4ef135da7549ee98139928e21adb841a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af506b6e1d6ceb3e88e522da4c79adba4 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af506b6e1d6ceb3e88e522da4c79adba4">applyMutation</a> (int index, double a_percentage)</td></tr>
+<tr class="separator:af506b6e1d6ceb3e88e522da4c79adba4 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8405395f244a18424794e8f2e36c608 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ae8405395f244a18424794e8f2e36c608">setApplicationData</a> (Object a_newData)</td></tr>
+<tr class="separator:ae8405395f244a18424794e8f2e36c608 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404ee1527c7dab2f8115f18507d0544b inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a404ee1527c7dab2f8115f18507d0544b">setCompareApplicationData</a> (boolean a_doCompare)</td></tr>
+<tr class="separator:a404ee1527c7dab2f8115f18507d0544b inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c429a29c338d2ad5d5514d5beea6e7 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af5c429a29c338d2ad5d5514d5beea6e7">setEnergy</a> (double a_energy)</td></tr>
+<tr class="separator:af5c429a29c338d2ad5d5514d5beea6e7 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:acf83c8bd879cbbcf3e091eaf718594be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#acf83c8bd879cbbcf3e091eaf718594be">newGeneInternal</a> ()</td></tr>
+<tr class="separator:acf83c8bd879cbbcf3e091eaf718594be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeced77e3bafb3ffcbad495031e8566cd"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aeced77e3bafb3ffcbad495031e8566cd">getValue</a> ()</td></tr>
+<tr class="separator:aeced77e3bafb3ffcbad495031e8566cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37b97db39e23dda57af35e144d54468"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#af37b97db39e23dda57af35e144d54468">checkSubLength</a> (final int a_from, final int a_to)</td></tr>
+<tr class="separator:af37b97db39e23dda57af35e144d54468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a605be07294785daba606e05229769439"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a605be07294785daba606e05229769439">checkIndex</a> (final int a_index)</td></tr>
+<tr class="separator:a605be07294785daba606e05229769439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0565a6731613027e86e6df8f6579057d"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a0565a6731613027e86e6df8f6579057d">getUnchecked</a> (final int a_index)</td></tr>
+<tr class="separator:a0565a6731613027e86e6df8f6579057d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c3d7ad5bd78dbdf8b6c17278fe14f11"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a9c3d7ad5bd78dbdf8b6c17278fe14f11">getInternalValue</a> ()</td></tr>
+<tr class="separator:a9c3d7ad5bd78dbdf8b6c17278fe14f11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Métodos protegidos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:a72fa365cdcc9f2eb399fb8346a0a511b inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a72fa365cdcc9f2eb399fb8346a0a511b">compareApplicationData</a> (final Object a_appdata1, final Object a_appdata2)</td></tr>
+<tr class="separator:a72fa365cdcc9f2eb399fb8346a0a511b inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8fc72c1fccdb665113c0c34e3fa4b5 inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a5e8fc72c1fccdb665113c0c34e3fa4b5">encode</a> (String a_string)</td></tr>
+<tr class="separator:a5e8fc72c1fccdb665113c0c34e3fa4b5 inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9277d0b77c1e8ca244687a8ab8cf42f inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ae9277d0b77c1e8ca244687a8ab8cf42f">decode</a> (String a_string)</td></tr>
+<tr class="separator:ae9277d0b77c1e8ca244687a8ab8cf42f inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:acc4b1c46f3508b835bf95b9058eae3a0 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acc4b1c46f3508b835bf95b9058eae3a0">S_APPLICATION_DATA</a> = &quot;Application data&quot;</td></tr>
+<tr class="separator:acc4b1c46f3508b835bf95b9058eae3a0 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86edb3d2c29e5064305fabc2dd59a3b9 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a86edb3d2c29e5064305fabc2dd59a3b9">DELTA</a> = 0.0000001</td></tr>
+<tr class="separator:a86edb3d2c29e5064305fabc2dd59a3b9 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_gene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a></td></tr>
+<tr class="memitem:a771652182ee68c96d4107eee7692fee2 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a771652182ee68c96d4107eee7692fee2">CVS_REVISION</a> = &quot;$Revision: 1.26 $&quot;</td></tr>
+<tr class="separator:a771652182ee68c96d4107eee7692fee2 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae49de1c9f46601f1b60d393a9ce3901a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ae49de1c9f46601f1b60d393a9ce3901a">PERSISTENT_FIELD_DELIMITER</a> = &quot;:&quot;</td></tr>
+<tr class="separator:ae49de1c9f46601f1b60d393a9ce3901a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html">org.jgap.IUniqueKey</a></td></tr>
+<tr class="memitem:a5b6472b1e40001ee262da59ee449a77b inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html#a5b6472b1e40001ee262da59ee449a77b">CVS_REVISION</a> = &quot;$Revision: 1.1 $&quot;</td></tr>
+<tr class="separator:a5b6472b1e40001ee262da59ee449a77b inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html">org.jgap.IBusinessKey</a></td></tr>
+<tr class="memitem:a6d43b687da0842739b8021f466ca451a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html#a6d43b687da0842739b8021f466ca451a">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a6d43b687da0842739b8021f466ca451a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html">org.jgap.IPersistentRepresentation</a></td></tr>
+<tr class="memitem:ae48c5895f4af079337ffebe487b176f5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#ae48c5895f4af079337ffebe487b176f5">CVS_REVISION</a> = &quot;$Revision: 1.2 $&quot;</td></tr>
+<tr class="separator:ae48c5895f4af079337ffebe487b176f5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>A <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> implementation that supports two possible values (alleles, 1 and 0) with a fixed length of alleles. </p>
+<p>NOTE: Since this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> implementation only supports two different values (1 and 0), there's only a 50% chance that invocation of the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa827e651eccd75a92b29e72563ebb29d">setToRandomValue()</a> method will actually change the value of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> (if it has a value). As a result, it may be desirable to use a higher overall mutation rate when this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> implementation is in use. </p>
+<p>Partly adapted stuff from the JAGA (Java API for Genetic Algorithms) package (see <a href="http://www.jaga.org">jaga</a>).</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="ada1b64f43007aa838440e58689147818"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.FixedBinaryGene.FixedBinaryGene </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_config</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_length</td><td>the fixed length of the gene </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                           {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    super(a_config);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">if</span> (a_length &lt; 1) {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Length must be greater than zero!&quot;</span>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    m_length = a_length;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordtype">int</span> bufSize = m_length / WORD_LEN_BITS;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="keywordflow">if</span> (0 != m_length % WORD_LEN_BITS) {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;      ++bufSize;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    m_value = <span class="keyword">new</span> <span class="keywordtype">int</span>[bufSize];</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; bufSize; i++) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;      m_value[i] = 0;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a563a12cceac65a4f5b1d03152630aec3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.FixedBinaryGene.FixedBinaryGene </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html">FixedBinaryGene</a>&#160;</td>
+          <td class="paramname"><em>a_toCopy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                           {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    super(a_config);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    m_length = a_toCopy.getLength();</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">int</span> bufSize = m_length / WORD_LEN_BITS;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">if</span> (0 != m_length % WORD_LEN_BITS) {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;      ++bufSize;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    m_value = <span class="keyword">new</span> <span class="keywordtype">int</span>[bufSize];</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    System.arraycopy(a_toCopy.getValue(), 0, m_value, 0, m_value.length);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a49cc6b322997c5a5507956b714d5d735"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.FixedBinaryGene.applyMutation </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final double&#160;</td>
+          <td class="paramname"><em>a_percentage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Applies a mutation of a given intensity (percentage) onto the atomic element at given index </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>index of atomic element, between 0 and <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a1f65b004a1004c6e5acf7ad64628a72e">size()</a>-1 </td></tr>
+    <tr><td class="paramname">a_percentage</td><td>percentage of mutation (greater than -1 and smaller than 1)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    <span class="keywordflow">if</span> (a_index &lt; 0 || a_index &gt;= <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a>()) {</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;          <span class="stringliteral">&quot;Index must be between 0 and getLength() - 1&quot;</span>);</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    }</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    <span class="keywordflow">if</span> (a_percentage &gt; 0) {</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;      <span class="comment">// change to 1</span></div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;      <span class="comment">// ---------------</span></div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;      <span class="keywordflow">if</span> (!<a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a3f193522e6c09322a2302af6ba843be9">getBit</a>(a_index)) {</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">setBit</a>(a_index, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;      }</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    }</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (a_percentage &lt; 0) {</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;      <span class="comment">// change to 0</span></div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;      <span class="comment">// ---------------</span></div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a3f193522e6c09322a2302af6ba843be9">getBit</a>(a_index)) {</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">setBit</a>(a_index, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;      }</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    }</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_aa67e18910e728f47403f74f063f33cf8"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">org.jgap.impl.FixedBinaryGene.getLength</a></div><div class="ttdeci">int getLength()</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:96</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a52df0ecfc1ebc56cc7d2acf55bed6a16"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">org.jgap.impl.FixedBinaryGene.setBit</a></div><div class="ttdeci">void setBit(final int a_index, final boolean a_value)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:156</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a3f193522e6c09322a2302af6ba843be9"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a3f193522e6c09322a2302af6ba843be9">org.jgap.impl.FixedBinaryGene.getBit</a></div><div class="ttdeci">boolean getBit(final int a_index)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:151</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a605be07294785daba606e05229769439"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.FixedBinaryGene.checkIndex </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                                               {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    <span class="keywordflow">if</span> (a_index &lt; 0 || a_index &gt;= <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a>()) {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IndexOutOfBoundsException(<span class="stringliteral">&quot;index is &quot;</span> + a_index</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                                          + <span class="stringliteral">&quot;, but must be in [0, &quot;</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                                          + (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a>() - 1) + <span class="stringliteral">&quot;]&quot;</span>);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_aa67e18910e728f47403f74f063f33cf8"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">org.jgap.impl.FixedBinaryGene.getLength</a></div><div class="ttdeci">int getLength()</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:96</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af37b97db39e23dda57af35e144d54468"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.FixedBinaryGene.checkSubLength </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_to</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a605be07294785daba606e05229769439">checkIndex</a>(a_from);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a605be07294785daba606e05229769439">checkIndex</a>(a_to);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordtype">int</span> sublen = a_to - a_from + 1;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">if</span> (0 &gt;= sublen) {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;must have &#39;from&#39; &lt;= &#39;to&#39;, but has &quot;</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                                         + a_from + <span class="stringliteral">&quot; &gt; &quot;</span> + a_to);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    }</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    <span class="keywordflow">return</span> sublen;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a605be07294785daba606e05229769439"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a605be07294785daba606e05229769439">org.jgap.impl.FixedBinaryGene.checkIndex</a></div><div class="ttdeci">void checkIndex(final int a_index)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:231</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7763fec4b36cd24c4a75850c66258387"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.impl.FixedBinaryGene.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                        {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">new</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">FixedBinaryGene</a>(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a>(), <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(iex.getMessage());</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    }</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a32a316c9cc9e273bd75182cbdf188fb6"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">org.jgap.BaseGene.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:409</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_ada1b64f43007aa838440e58689147818"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">org.jgap.impl.FixedBinaryGene.FixedBinaryGene</a></div><div class="ttdeci">FixedBinaryGene(final Configuration a_config, final int a_length)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:52</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a35ddbee61a1634d7f92b12304672f10b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.FixedBinaryGene.compareTo </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compares this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> with the specified object for order. A 0 value is considered to be less than a 1 value. A null value is considered to be less than any non-null value. A <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> is greater than another one of the same length if it has more 1's than the other one. If there is the same number of 1's the <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> with the highest value (binary to int) is greater.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html">FixedBinaryGene</a> to be compared </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object.</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ClassCastException</td><td>if the specified object's type prevents it from being compared to this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;                                             {</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">FixedBinaryGene</a> otherGene = (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">FixedBinaryGene</a>) a_other;</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="comment">// First, if the other gene is null, then this is the greater gene.</span></div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <span class="comment">// ----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;    <span class="keywordflow">if</span> (otherGene == null) {</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;      <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;    }</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <span class="keywordtype">int</span> thisLen = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a>();</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    <span class="keywordtype">int</span> otherLen = otherGene.getLength();</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <span class="keywordflow">if</span> (thisLen != otherLen) {</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;      <span class="keywordflow">if</span> (thisLen &gt; otherLen) {</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;      }</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;      }</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    }</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    <span class="keywordtype">boolean</span> b1, b2;</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; thisLen; i++) {</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;      b1 = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a3f193522e6c09322a2302af6ba843be9">getBit</a>(i);</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;      b2 = otherGene.getBit(i);</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;      <span class="keywordflow">if</span> (b1) {</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;        <span class="keywordflow">if</span> (!b2) {</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;          <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        }</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;      }</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;        <span class="keywordflow">if</span> (b2) {</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;          <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;        }</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;      }</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    }</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <span class="comment">// Compare application data, if possible.</span></div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    <span class="comment">// --------------------------------------</span></div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#acd6431c06c81bc03b4abbe32e4d9d8ef">isCompareApplicationData</a>()) {</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a72fa365cdcc9f2eb399fb8346a0a511b">compareApplicationData</a>(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a0520139dc694dc6034aeb631ae7d70bd">getApplicationData</a>(),</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;                                    otherGene.getApplicationData());</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    }</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;      <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    }</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_aa67e18910e728f47403f74f063f33cf8"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">org.jgap.impl.FixedBinaryGene.getLength</a></div><div class="ttdeci">int getLength()</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:96</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_ada1b64f43007aa838440e58689147818"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">org.jgap.impl.FixedBinaryGene.FixedBinaryGene</a></div><div class="ttdeci">FixedBinaryGene(final Configuration a_config, final int a_length)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:52</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a0520139dc694dc6034aeb631ae7d70bd"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a0520139dc694dc6034aeb631ae7d70bd">org.jgap.BaseGene.getApplicationData</a></div><div class="ttdeci">Object getApplicationData()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:278</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a3f193522e6c09322a2302af6ba843be9"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a3f193522e6c09322a2302af6ba843be9">org.jgap.impl.FixedBinaryGene.getBit</a></div><div class="ttdeci">boolean getBit(final int a_index)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:151</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a72fa365cdcc9f2eb399fb8346a0a511b"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a72fa365cdcc9f2eb399fb8346a0a511b">org.jgap.BaseGene.compareApplicationData</a></div><div class="ttdeci">int compareApplicationData(final Object a_appdata1, final Object a_appdata2)</div><div class="ttdef"><b>Definition:</b> BaseGene.java:306</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_acd6431c06c81bc03b4abbe32e4d9d8ef"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#acd6431c06c81bc03b4abbe32e4d9d8ef">org.jgap.BaseGene.isCompareApplicationData</a></div><div class="ttdeci">boolean isCompareApplicationData()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:302</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad7598834041ed4d44e314e7ba14b6408"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.FixedBinaryGene.flip </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                                      {</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a605be07294785daba606e05229769439">checkIndex</a>(a_index);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordtype">int</span> segment = a_index / WORD_LEN_BITS;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="keywordtype">int</span> offset = a_index % WORD_LEN_BITS;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordtype">int</span> mask = 0x1 &lt;&lt; (WORD_LEN_BITS - offset - 1);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    m_value[segment] ^= mask;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a605be07294785daba606e05229769439"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a605be07294785daba606e05229769439">org.jgap.impl.FixedBinaryGene.checkIndex</a></div><div class="ttdeci">void checkIndex(final int a_index)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:231</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a538336e75c89f2df35bc7301f187e9a7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.impl.FixedBinaryGene.getAllele </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves the value represented by this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>. The actual type of the value is implementation-dependent.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>the value of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>.</dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#aa06c80639659ddbcfa1cfe7b7bb109f9">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                            {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordtype">int</span>[] bits = <span class="keyword">new</span> <span class="keywordtype">int</span>[<a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a>()];</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a>(); i++) {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a3f193522e6c09322a2302af6ba843be9">getBit</a>(i)) {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        bits[i] = 1;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;      }</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        bits[i] = 0;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;      }</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    }</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <span class="keywordflow">return</span> bits;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_aa67e18910e728f47403f74f063f33cf8"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">org.jgap.impl.FixedBinaryGene.getLength</a></div><div class="ttdeci">int getLength()</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:96</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a3f193522e6c09322a2302af6ba843be9"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a3f193522e6c09322a2302af6ba843be9">org.jgap.impl.FixedBinaryGene.getBit</a></div><div class="ttdeci">boolean getBit(final int a_index)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:151</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3f193522e6c09322a2302af6ba843be9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.impl.FixedBinaryGene.getBit </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                                           {</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a605be07294785daba606e05229769439">checkIndex</a>(a_index);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a0565a6731613027e86e6df8f6579057d">getUnchecked</a>(a_index);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a605be07294785daba606e05229769439"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a605be07294785daba606e05229769439">org.jgap.impl.FixedBinaryGene.checkIndex</a></div><div class="ttdeci">void checkIndex(final int a_index)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:231</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a0565a6731613027e86e6df8f6579057d"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a0565a6731613027e86e6df8f6579057d">org.jgap.impl.FixedBinaryGene.getUnchecked</a></div><div class="ttdeci">boolean getUnchecked(final int a_index)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:239</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a028399260d741704b157bfdd0d411a3a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.impl.FixedBinaryGene.getBusinessKey </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>business key</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html#ab1b12087d8726e9020441a1fed6be0f8">org.jgap.IBusinessKey</a>.</p>
+<div class="fragment"><div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;                                 {</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a50ac7f407c3570cecf66f7b423d98187">toString</a>();</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a50ac7f407c3570cecf66f7b423d98187"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a50ac7f407c3570cecf66f7b423d98187">org.jgap.impl.FixedBinaryGene.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:338</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9c3d7ad5bd78dbdf8b6c17278fe14f11"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.impl.FixedBinaryGene.getInternalValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Not called as <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a538336e75c89f2df35bc7301f187e9a7">getAllele()</a> is overridden.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>same as <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a538336e75c89f2df35bc7301f187e9a7">getAllele()</a> </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ad20da6b23ba524a95caa28f727c26dcd">org.jgap.BaseGene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;                                      {</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;    <span class="keywordflow">return</span> m_value;</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae852ca3daeb30e73092a857e4139ab0c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] org.jgap.impl.FixedBinaryGene.getIntValues </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>internal representation of the gene's state. Use getBit for reading bits! </dd></dl>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                              {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordflow">return</span> m_value;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa67e18910e728f47403f74f063f33cf8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.FixedBinaryGene.getLength </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                         {</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">return</span> m_length;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9c557fe781b49efc9afb7c4b5f00ad38"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.impl.FixedBinaryGene.getPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a persistent representation of an entity (such as a chromosome or a gene).</p>
+<dl class="section return"><dt>Devuelve</dt><dd>string representation of current state </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">UnsupportedOperationException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#a07bf7dbaa8de08e268c9357a46e79dac">org.jgap.IPersistentRepresentation</a>.</p>
+<div class="fragment"><div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                                              {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a50ac7f407c3570cecf66f7b423d98187">toString</a>();</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a50ac7f407c3570cecf66f7b423d98187"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a50ac7f407c3570cecf66f7b423d98187">org.jgap.impl.FixedBinaryGene.toString</a></div><div class="ttdeci">String toString()</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:338</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0565a6731613027e86e6df8f6579057d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.impl.FixedBinaryGene.getUnchecked </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                                                    {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordtype">int</span> segment = a_index / WORD_LEN_BITS;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordtype">int</span> offset = a_index % WORD_LEN_BITS;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keywordtype">int</span> mask = 0x1 &lt;&lt; (WORD_LEN_BITS - offset - 1);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">return</span> 0 != (m_value[segment] &amp; mask);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aeced77e3bafb3ffcbad495031e8566cd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] org.jgap.impl.FixedBinaryGene.getValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                             {</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">return</span> m_value;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad7d37f0b41a92f1a945befe54e25b52a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.FixedBinaryGene.hashCode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Modified <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ad7d37f0b41a92f1a945befe54e25b52a">hashCode()</a> function to return different hashcodes for differently ordered genes in a chromosome &ndash;&gt; does not work as internal value always initialized!</p>
+<dl class="section return"><dt>Devuelve</dt><dd>this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>'s hash code</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;                        {</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    <span class="keywordtype">int</span> result = 0;</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_value.length; i++) {</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;      <span class="keywordflow">if</span> (m_value[i] == 0) {</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;        result += 31 * result + 47;</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;      }</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;        result += 31 * result + 91;</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;      }</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;    }</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acf83c8bd879cbbcf3e091eaf718594be"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> org.jgap.impl.FixedBinaryGene.newGeneInternal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1_base_gene.html#aa423e96ffac5a9589fb3a4fbda791b3c">org.jgap.BaseGene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                   {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">FixedBinaryGene</a> result = <span class="keyword">new</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">FixedBinaryGene</a>(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a>(), m_length);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;      <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    }</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(iex.getMessage());</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a32a316c9cc9e273bd75182cbdf188fb6"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">org.jgap.BaseGene.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:409</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_ada1b64f43007aa838440e58689147818"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">org.jgap.impl.FixedBinaryGene.FixedBinaryGene</a></div><div class="ttdeci">FixedBinaryGene(final Configuration a_config, final int a_length)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:52</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae253eaecdab77e190ec9deb4c01bafb7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.FixedBinaryGene.setAllele </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_newValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                                                 {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">if</span> (a_newValue == null) {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Allele must not be null!&quot;</span>);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">if</span> ( ( (<span class="keywordtype">int</span>[]) a_newValue).length != <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a>()) {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Length of allele must be equal to&quot;</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                                         + <span class="stringliteral">&quot; fixed length set (&quot;</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                                         + <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a>()</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                                         + <span class="stringliteral">&quot;)&quot;</span>);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">getConstraintChecker</a>() != null) {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <span class="keywordflow">if</span> (!<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">getConstraintChecker</a>().verify(<span class="keyword">this</span>, a_newValue, null, -1)) {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      }</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordtype">int</span>[] bits = (<span class="keywordtype">int</span>[]) a_newValue;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; bits.length; i++) {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">setBit</a>(i, bits[i]);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_aa67e18910e728f47403f74f063f33cf8"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">org.jgap.impl.FixedBinaryGene.getLength</a></div><div class="ttdeci">int getLength()</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:96</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a52df0ecfc1ebc56cc7d2acf55bed6a16"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">org.jgap.impl.FixedBinaryGene.setBit</a></div><div class="ttdeci">void setBit(final int a_index, final boolean a_value)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:156</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_ae9823bef7c550fc1533afb8ab2b34d93"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">org.jgap.BaseGene.getConstraintChecker</a></div><div class="ttdeci">IGeneConstraintChecker getConstraintChecker()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:370</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a52df0ecfc1ebc56cc7d2acf55bed6a16"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.FixedBinaryGene.setBit </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final boolean&#160;</td>
+          <td class="paramname"><em>a_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                                                               {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a605be07294785daba606e05229769439">checkIndex</a>(a_index);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a195ad657263776ccbff547e6d720efb5">setUnchecked</a>(a_index, a_value);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a195ad657263776ccbff547e6d720efb5"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a195ad657263776ccbff547e6d720efb5">org.jgap.impl.FixedBinaryGene.setUnchecked</a></div><div class="ttdeci">void setUnchecked(final int a_index, final boolean a_value)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:246</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a605be07294785daba606e05229769439"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a605be07294785daba606e05229769439">org.jgap.impl.FixedBinaryGene.checkIndex</a></div><div class="ttdeci">void checkIndex(final int a_index)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:231</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a581d875e5a56d9a36a71c05cc7a5505c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.FixedBinaryGene.setBit </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                                                           {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    <span class="keywordflow">if</span> (a_value &gt; 0) {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;      <span class="keywordflow">if</span> (a_value != 1) {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Only values 0 and 1 are valid!&quot;</span>);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;      }</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">setBit</a>(a_index, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;      <span class="keywordflow">if</span> (a_value != 0) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Only values 0 and 1 are valid!&quot;</span>);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;      }</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">setBit</a>(a_index, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    }</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a52df0ecfc1ebc56cc7d2acf55bed6a16"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">org.jgap.impl.FixedBinaryGene.setBit</a></div><div class="ttdeci">void setBit(final int a_index, final boolean a_value)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:156</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aeb4c759a52ad0fbdb1a8861cb66e479b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.FixedBinaryGene.setBit </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_to</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final boolean&#160;</td>
+          <td class="paramname"><em>a_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#af37b97db39e23dda57af35e144d54468">checkSubLength</a>(a_from, a_to);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = a_from; i &lt; a_to; i++) {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a195ad657263776ccbff547e6d720efb5">setUnchecked</a>(i, a_value);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_af37b97db39e23dda57af35e144d54468"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#af37b97db39e23dda57af35e144d54468">org.jgap.impl.FixedBinaryGene.checkSubLength</a></div><div class="ttdeci">int checkSubLength(final int a_from, final int a_to)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:220</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a195ad657263776ccbff547e6d720efb5"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a195ad657263776ccbff547e6d720efb5">org.jgap.impl.FixedBinaryGene.setUnchecked</a></div><div class="ttdeci">void setUnchecked(final int a_index, final boolean a_value)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:246</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4d04b8ab55987767b139f363016adc86"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.FixedBinaryGene.setBit </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_to</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html">FixedBinaryGene</a>&#160;</td>
+          <td class="paramname"><em>a_values</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                                     {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">if</span> (a_values.getLength() == 0) {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Length of values must be &gt; 0&quot;</span>);</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#af37b97db39e23dda57af35e144d54468">checkSubLength</a>(a_from, a_to);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">int</span> iV = 0;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = a_from; i &lt;= a_to; i++, iV++) {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;      <span class="keywordflow">if</span> (iV &gt;= a_values.getLength()) {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        iV = 0;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;      }</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a195ad657263776ccbff547e6d720efb5">setUnchecked</a>(i, a_values.getUnchecked(iV));</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_af37b97db39e23dda57af35e144d54468"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#af37b97db39e23dda57af35e144d54468">org.jgap.impl.FixedBinaryGene.checkSubLength</a></div><div class="ttdeci">int checkSubLength(final int a_from, final int a_to)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:220</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a195ad657263776ccbff547e6d720efb5"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a195ad657263776ccbff547e6d720efb5">org.jgap.impl.FixedBinaryGene.setUnchecked</a></div><div class="ttdeci">void setUnchecked(final int a_index, final boolean a_value)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:246</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa827e651eccd75a92b29e72563ebb29d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.FixedBinaryGene.setToRandomValue </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a>&#160;</td>
+          <td class="paramname"><em>a_numberGenerator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keywordflow">if</span> (a_numberGenerator == null) {</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Random Generator must not be null!&quot;</span>);</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    }</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordtype">int</span> len = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a>();</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; len; i++) {</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">setBit</a>(i, a_numberGenerator.nextBoolean());</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    }</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_aa67e18910e728f47403f74f063f33cf8"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">org.jgap.impl.FixedBinaryGene.getLength</a></div><div class="ttdeci">int getLength()</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:96</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a52df0ecfc1ebc56cc7d2acf55bed6a16"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">org.jgap.impl.FixedBinaryGene.setBit</a></div><div class="ttdeci">void setBit(final int a_index, final boolean a_value)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:156</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a195ad657263776ccbff547e6d720efb5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.FixedBinaryGene.setUnchecked </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final boolean&#160;</td>
+          <td class="paramname"><em>a_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordtype">int</span> segment = a_index / WORD_LEN_BITS;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordtype">int</span> offset = a_index % WORD_LEN_BITS;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordtype">int</span> mask = 0x1 &lt;&lt; (WORD_LEN_BITS - offset - 1);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">if</span> (a_value) {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;      m_value[segment] |= mask;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    }</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;      m_value[segment] &amp;= ~mask;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    }</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1b079182739f988716e7bcb26664a77f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.FixedBinaryGene.setValueFromPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_representation</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the value and internal state of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> from the string representation returned by a previous invocation of the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a9c557fe781b49efc9afb7c4b5f00ad38">getPersistentRepresentation()</a> method. This is an optional method but, if not implemented, XML persistence and possibly other features will not be available. An UnsupportedOperationException should be thrown if no implementation is provided.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_representation</td><td>the string representation retrieved from a prior call to the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a9c557fe781b49efc9afb7c4b5f00ad38">getPersistentRepresentation()</a> method</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td><td>if this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> implementation does not support the given string representation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#a94a345f1919c4840dd0b9eecf7afc6a3">org.jgap.IPersistentRepresentation</a>.</p>
+<div class="fragment"><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                                                {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordflow">if</span> (a_representation != null) {</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;      <span class="keywordflow">if</span> (isValidRepresentation(a_representation)) {</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        a_representation = a_representation.substring(1,</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            a_representation.length() - 1);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        StringTokenizer st = <span class="keyword">new</span> StringTokenizer(a_representation, <span class="stringliteral">&quot;,&quot;</span>);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordtype">int</span> index = 0;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <span class="keywordflow">while</span> (st.hasMoreTokens()) {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;          <span class="keywordtype">int</span> i = Integer.parseInt(st.nextToken());</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;          <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">setBit</a>(index++, i);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        <span class="keywordflow">if</span> (index &lt; <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a>()) {</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;          <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;              <span class="stringliteral">&quot;Invalid gene representation: &quot;</span> + a_representation);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        }</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;      }</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <span class="stringliteral">&quot;Invalid gene representation: &quot;</span> + a_representation);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;      }</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;          <span class="stringliteral">&quot;The input parameter must not be null!&quot;</span>);</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    }</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_aa67e18910e728f47403f74f063f33cf8"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">org.jgap.impl.FixedBinaryGene.getLength</a></div><div class="ttdeci">int getLength()</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:96</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a52df0ecfc1ebc56cc7d2acf55bed6a16"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a52df0ecfc1ebc56cc7d2acf55bed6a16">org.jgap.impl.FixedBinaryGene.setBit</a></div><div class="ttdeci">void setBit(final int a_index, final boolean a_value)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:156</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1f65b004a1004c6e5acf7ad64628a72e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.FixedBinaryGene.size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the size of the gene, i.e the number of atomic elements</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a7a975e180dd0ac0fd33cdc182f64bea8">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                    {</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <span class="keywordflow">return</span> m_value.length;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aea3c1ac18b8d5f5973d19f3341391fc4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html">FixedBinaryGene</a> org.jgap.impl.FixedBinaryGene.substring </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_to</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                                                                     {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;      <span class="keywordtype">int</span> len = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#af37b97db39e23dda57af35e144d54468">checkSubLength</a>(a_from, a_to);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">FixedBinaryGene</a> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aea3c1ac18b8d5f5973d19f3341391fc4">substring</a> = <span class="keyword">new</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">FixedBinaryGene</a>(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a>(), len);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = a_from; i &lt;= a_to; i++) {</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        substring.setUnchecked(i - a_from, <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a0565a6731613027e86e6df8f6579057d">getUnchecked</a>(i));</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;      }</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aea3c1ac18b8d5f5973d19f3341391fc4">substring</a>;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(iex.getMessage());</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    }</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_af37b97db39e23dda57af35e144d54468"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#af37b97db39e23dda57af35e144d54468">org.jgap.impl.FixedBinaryGene.checkSubLength</a></div><div class="ttdeci">int checkSubLength(final int a_from, final int a_to)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:220</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a32a316c9cc9e273bd75182cbdf188fb6"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">org.jgap.BaseGene.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:409</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_ada1b64f43007aa838440e58689147818"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#ada1b64f43007aa838440e58689147818">org.jgap.impl.FixedBinaryGene.FixedBinaryGene</a></div><div class="ttdeci">FixedBinaryGene(final Configuration a_config, final int a_length)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:52</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_aea3c1ac18b8d5f5973d19f3341391fc4"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aea3c1ac18b8d5f5973d19f3341391fc4">org.jgap.impl.FixedBinaryGene.substring</a></div><div class="ttdeci">FixedBinaryGene substring(final int a_from, final int a_to)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:198</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a0565a6731613027e86e6df8f6579057d"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a0565a6731613027e86e6df8f6579057d">org.jgap.impl.FixedBinaryGene.getUnchecked</a></div><div class="ttdeci">boolean getUnchecked(final int a_index)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:239</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a50ac7f407c3570cecf66f7b423d98187"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.impl.FixedBinaryGene.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>String representation</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ac62239b4b7bf81179fd491a4c4bd1901">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                           {</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="keywordtype">int</span> len = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">getLength</a>();</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    String s = <span class="stringliteral">&quot;FixedBinaryGene[&quot;</span>;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keywordtype">int</span> value;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; len; i++) {</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a3f193522e6c09322a2302af6ba843be9">getBit</a>(i)) {</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        value = 1;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;      }</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        value = 0;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;      }</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;      <span class="keywordflow">if</span> (i == 0) {</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        s += value;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;      }</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        s += <span class="stringliteral">&quot;,&quot;</span> + value;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;      }</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    }</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordflow">return</span> s + <span class="stringliteral">&quot;]&quot;</span>;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_aa67e18910e728f47403f74f063f33cf8"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#aa67e18910e728f47403f74f063f33cf8">org.jgap.impl.FixedBinaryGene.getLength</a></div><div class="ttdeci">int getLength()</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:96</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene_html_a3f193522e6c09322a2302af6ba843be9"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html#a3f193522e6c09322a2302af6ba843be9">org.jgap.impl.FixedBinaryGene.getBit</a></div><div class="ttdeci">boolean getBit(final int a_index)</div><div class="ttdef"><b>Definition:</b> FixedBinaryGene.java:151</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/impl/<a class="el" href="_fixed_binary_gene_8java.html">FixedBinaryGene.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_fixed_binary_gene.html">FixedBinaryGene</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:51 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

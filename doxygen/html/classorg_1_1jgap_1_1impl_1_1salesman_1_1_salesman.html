@@ -1,0 +1,596 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.impl.salesman.Salesman</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.impl.salesman.Salesman<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable.</p>
+
+<p>Heredado por <a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_travelling_salesman_test_1_1_travelling_salesman_for_testing.html">org.jgap.impl.salesman.TravellingSalesmanTest.TravellingSalesmanForTesting</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a423725e8d0b857402a4db166061137aa"><td class="memItemLeft" align="right" valign="top">abstract double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a423725e8d0b857402a4db166061137aa">distance</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> a_from, <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> a_to)</td></tr>
+<tr class="separator:a423725e8d0b857402a4db166061137aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a862317900d8463de5375560a20b2df34"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a862317900d8463de5375560a20b2df34">createSampleChromosome</a> (Object a_initial_data)</td></tr>
+<tr class="separator:a862317900d8463de5375560a20b2df34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accdccbaa500b8c5ad94cd861cf7e9306"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">FitnessFunction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#accdccbaa500b8c5ad94cd861cf7e9306">createFitnessFunction</a> (final Object a_initial_data)</td></tr>
+<tr class="separator:accdccbaa500b8c5ad94cd861cf7e9306"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a193cb2998893eb36fc7d37cc87d24326"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a193cb2998893eb36fc7d37cc87d24326">createConfiguration</a> (final Object a_initial_data)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a193cb2998893eb36fc7d37cc87d24326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5ff641569964f2c82cdc769e18fa9ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#ad5ff641569964f2c82cdc769e18fa9ec">getMaxEvolution</a> ()</td></tr>
+<tr class="separator:ad5ff641569964f2c82cdc769e18fa9ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a490c23524355029fb233ba131371019e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a490c23524355029fb233ba131371019e">setMaxEvolution</a> (final int a_maxEvolution)</td></tr>
+<tr class="separator:a490c23524355029fb233ba131371019e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a493897c0bbe0d11d7c600bfc8bff882d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a493897c0bbe0d11d7c600bfc8bff882d">getPopulationSize</a> ()</td></tr>
+<tr class="separator:a493897c0bbe0d11d7c600bfc8bff882d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35ae7583e5a7148d600351147e8b24b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a35ae7583e5a7148d600351147e8b24b6">setPopulationSize</a> (final int a_populationSize)</td></tr>
+<tr class="separator:a35ae7583e5a7148d600351147e8b24b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17270454b42f21cf42819a47c65c65ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a17270454b42f21cf42819a47c65c65ee">findOptimalPath</a> (final Object a_initial_data)  throws Exception </td></tr>
+<tr class="separator:a17270454b42f21cf42819a47c65c65ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b2c4a050ea8d6b8974465a3ca933d9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a2b2c4a050ea8d6b8974465a3ca933d9e">setStartOffset</a> (final int a_offset)</td></tr>
+<tr class="separator:a2b2c4a050ea8d6b8974465a3ca933d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd6189164cf7f797c141a43d12d66a3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#abcd6189164cf7f797c141a43d12d66a3">getStartOffset</a> ()</td></tr>
+<tr class="separator:abcd6189164cf7f797c141a43d12d66a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d0c09a1b99ae518259a4e551fe12d3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a2d0c09a1b99ae518259a4e551fe12d3b">getConfiguration</a> ()</td></tr>
+<tr class="separator:a2d0c09a1b99ae518259a4e551fe12d3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>The class solves the travelling salesman problem. The traveling salesman problem, or TSP for short, is this: given a finite number of 'cities' along with the cost of travel between each pair of them, find the cheapest way of visiting all the cities and returning to your starting point.)</p>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd>
+<dd>
+Neil Rotstan, Klaus Meffert (reused code fragments) </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0</dd></dl>
+<dl class="section see"><dt>Ver también</dt><dd><ul>
+<li>
+J. Grefenstette, R. Gopal, R. Rosmaita, and D. Gucht. <em>Genetic algorithms for the traveling <a class="el" href="namespaceorg_1_1jgap_1_1impl_1_1salesman.html">salesman</a> problem</em>. In Proceedings of the Second International Conference on Genetic Algorithms. Lawrence Eribaum Associates, Mahwah, NJ, 1985.  </li>
+<li>
+<a href="http://ecsl.cs.unr.edu/docs/techreports/gong/node3.html">Sushil J. Louis &amp; Gong Li</a> (explanatory material)  </li>
+<li>
+<a href="http://www.tsp.gatech.edu www.tsp.gatech.edu">TPS web site</a>  </li>
+</ul>
+</dd></dl>
+</div><h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a193cb2998893eb36fc7d37cc87d24326"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> org.jgap.impl.salesman.Salesman.createConfiguration </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_initial_data</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Create a configuration. The configuration should not contain operators for odrinary crossover and mutations, as they make chromosoms invalid in this task. The special operators <a class="el" href="classorg_1_1jgap_1_1impl_1_1_swapping_mutation_operator.html">SwappingMutationOperator</a> and GreedyCrossober should be used instead.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_initial_data</td><td>the same object as was passed to findOptimalPath. It can be used to specify the task more precisely if the class is used for solving multiple tasks</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>created configuration</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                                           {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="comment">// This is copied from DefaultConfiguration.</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      <span class="comment">// -----------------------------------------</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      Configuration config = <span class="keyword">new</span> Configuration();</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      BestChromosomesSelector bestChromsSelector =</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;          <span class="keyword">new</span> BestChromosomesSelector(config, 1.0d);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      bestChromsSelector.setDoubletteChromosomesAllowed(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      config.addNaturalSelector(bestChromsSelector, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;      config.setRandomGenerator(<span class="keyword">new</span> StockRandomGenerator());</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      config.setMinimumPopSizePercent(0);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      config.setEventManager(<span class="keyword">new</span> EventManager());</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      config.setFitnessEvaluator(<span class="keyword">new</span> DefaultFitnessEvaluator());</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      config.setChromosomePool(<span class="keyword">new</span> ChromosomePool());</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;      <span class="comment">// These are different:</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      <span class="comment">// --------------------</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      config.addGeneticOperator(<span class="keyword">new</span> GreedyCrossover(config));</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;      config.addGeneticOperator(<span class="keyword">new</span> SwappingMutationOperator(config, 20));</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;      <span class="keywordflow">return</span> config;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="accdccbaa500b8c5ad94cd861cf7e9306"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_fitness_function.html">FitnessFunction</a> org.jgap.impl.salesman.Salesman.createFitnessFunction </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_initial_data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Return the fitness function to use.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_initial_data</td><td>the same object as was passed to findOptimalPath. It can be used to specify the task more precisely if the class is used for solving multiple tasks </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>an applicable fitness function</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">new</span> SalesmanFitnessFunction(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a862317900d8463de5375560a20b2df34"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract <a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> org.jgap.impl.salesman.Salesman.createSampleChromosome </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_initial_data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Override this method to create a single sample chromosome, representing a list of "cities". Each gene corresponds a single "city" and can appear only once. By default, the first gene corresponds a "city" where the salesman starts the journey. It never changes its position. This can be changed by setting other start offset with <a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a2b2c4a050ea8d6b8974465a3ca933d9e">setStartOffset( )</a>. Other genes will be shuffled to create the initial random population.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_initial_data</td><td>the same object as was passed to findOptimalPath. It can be used to specify the task more precisely if the class is used for solving multiple tasks </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a sample chromosome</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_travelling_salesman_test_1_1_travelling_salesman_for_testing.html#a3587ad164718c422dba17cc9c1a2507f">org.jgap.impl.salesman.TravellingSalesmanTest.TravellingSalesmanForTesting</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a423725e8d0b857402a4db166061137aa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract double org.jgap.impl.salesman.Salesman.distance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td>
+          <td class="paramname"><em>a_from</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td>
+          <td class="paramname"><em>a_to</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Override this method to compute the distance between "cities", indicated by these two given genes. The algorithm is not dependent on the used type of genes.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_from</td><td>first gene, representing a city </td></tr>
+    <tr><td class="paramname">a_to</td><td>second gene, representing a city </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the distance between two cities represented as genes</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+
+<p>Implementado en <a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_travelling_salesman_test_1_1_travelling_salesman_for_testing.html#ad85b8e3b7f696be1895a8f4942786a2d">org.jgap.impl.salesman.TravellingSalesmanTest.TravellingSalesmanForTesting</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a17270454b42f21cf42819a47c65c65ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_i_chromosome.html">IChromosome</a> org.jgap.impl.salesman.Salesman.findOptimalPath </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_initial_data</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executes the genetic algorithm to determine the optimal path between the cities.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_initial_data</td><td>can be a record with fields, specifying the task more precisely if the class is used to solve multiple tasks. It is passed to createFitnessFunction, createSampleChromosome and createConfiguration</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>chromosome representing the optimal path between cities</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                       {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    m_config = <a class="code" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a193cb2998893eb36fc7d37cc87d24326">createConfiguration</a>(a_initial_data);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    FitnessFunction myFunc = <a class="code" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#accdccbaa500b8c5ad94cd861cf7e9306">createFitnessFunction</a>(a_initial_data);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    m_config.setFitnessFunction(myFunc);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="comment">// Now we need to tell the Configuration object how we want our</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="comment">// Chromosomes to be setup. We do that by actually creating a</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="comment">// sample Chromosome and then setting it on the Configuration</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="comment">// object.</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="comment">// --------------------------------------------------------------</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    IChromosome sampleChromosome = <a class="code" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a862317900d8463de5375560a20b2df34">createSampleChromosome</a>(a_initial_data);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    m_config.setSampleChromosome(sampleChromosome);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="comment">// Finally, we need to tell the Configuration object how many</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="comment">// Chromosomes we want in our population. The more Chromosomes,</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="comment">// the larger number of potential solutions (which is good for</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="comment">// finding the answer), but the longer it will take to evolve</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="comment">// the population (which could be seen as bad). We&#39;ll just set</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="comment">// the population size to 500 here.</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="comment">// ------------------------------------------------------------</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    m_config.setPopulationSize(<a class="code" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a493897c0bbe0d11d7c600bfc8bff882d">getPopulationSize</a>());</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="comment">// Create random initial population of Chromosomes.</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="comment">// ------------------------------------------------</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="comment">// As we cannot allow the normal mutations if this task,</span></div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="comment">// we need multiple calls to createSampleChromosome.</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="comment">// -----------------------------------------------------</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    IChromosome[] chromosomes =</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keyword">new</span> IChromosome[m_config.getPopulationSize()];</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    Gene[] samplegenes = sampleChromosome.getGenes();</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; chromosomes.length; i++) {</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;      Gene[] genes = <span class="keyword">new</span> Gene[samplegenes.length];</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> k = 0; k &lt; genes.length; k++) {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        genes[k] = samplegenes[k].newGene();</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        genes[k].setAllele(samplegenes[k].getAllele());</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;      }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;      chromosomes[i] = <span class="keyword">new</span> Chromosome(m_config, genes);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="comment">// Create the genotype. We cannot use Genotype.randomInitialGenotype,</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="comment">// Because we need unique gene values (representing the indices of the</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="comment">// cities of our problem).</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="comment">// -------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    Genotype population = <span class="keyword">new</span> Genotype(m_config,</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                                       <span class="keyword">new</span> Population(m_config, chromosomes));</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    IChromosome best = null;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="comment">// Evolve the population. Since we don&#39;t know what the best answer</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="comment">// is going to be, we just evolve the max number of times.</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="comment">// ---------------------------------------------------------------</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    Evolution:</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#ad5ff641569964f2c82cdc769e18fa9ec">getMaxEvolution</a>(); i++) {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;      population.evolve();</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;      best = population.getFittestChromosome();</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    }</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="comment">// Return the best solution we found.</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="comment">// ----------------------------------</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">return</span> best;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman_html_ad5ff641569964f2c82cdc769e18fa9ec"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#ad5ff641569964f2c82cdc769e18fa9ec">org.jgap.impl.salesman.Salesman.getMaxEvolution</a></div><div class="ttdeci">int getMaxEvolution()</div><div class="ttdef"><b>Definition:</b> Salesman.java:148</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman_html_a493897c0bbe0d11d7c600bfc8bff882d"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a493897c0bbe0d11d7c600bfc8bff882d">org.jgap.impl.salesman.Salesman.getPopulationSize</a></div><div class="ttdeci">int getPopulationSize()</div><div class="ttdef"><b>Definition:</b> Salesman.java:168</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman_html_accdccbaa500b8c5ad94cd861cf7e9306"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#accdccbaa500b8c5ad94cd861cf7e9306">org.jgap.impl.salesman.Salesman.createFitnessFunction</a></div><div class="ttdeci">FitnessFunction createFitnessFunction(final Object a_initial_data)</div><div class="ttdef"><b>Definition:</b> Salesman.java:100</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman_html_a193cb2998893eb36fc7d37cc87d24326"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a193cb2998893eb36fc7d37cc87d24326">org.jgap.impl.salesman.Salesman.createConfiguration</a></div><div class="ttdeci">Configuration createConfiguration(final Object a_initial_data)</div><div class="ttdef"><b>Definition:</b> Salesman.java:121</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman_html_a862317900d8463de5375560a20b2df34"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html#a862317900d8463de5375560a20b2df34">org.jgap.impl.salesman.Salesman.createSampleChromosome</a></div><div class="ttdeci">abstract IChromosome createSampleChromosome(Object a_initial_data)</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2d0c09a1b99ae518259a4e551fe12d3b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> org.jgap.impl.salesman.Salesman.getConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                                          {</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordflow">return</span> m_config;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad5ff641569964f2c82cdc769e18fa9ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.salesman.Salesman.getMaxEvolution </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>maximal number of iterations for population to evolve</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                               {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordflow">return</span> m_maxEvolution;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a493897c0bbe0d11d7c600bfc8bff882d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.salesman.Salesman.getPopulationSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>population size for this solution</dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                                 {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">return</span> m_populationSize;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abcd6189164cf7f797c141a43d12d66a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.salesman.Salesman.getStartOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Gets a number of genes at the start of chromosome, that are excluded from the swapping. In the <a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html">Salesman</a> task, the first city in the list should (where the salesman leaves from) probably should not change as it is part of the list. The default value is 1.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>start offset for chromosome</dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                              {</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <span class="keywordflow">return</span> m_startOffset;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a490c23524355029fb233ba131371019e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.salesman.Salesman.setMaxEvolution </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_maxEvolution</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set the maximal number of iterations for population to evolve (default 512). </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_maxEvolution</td><td>sic</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                                                        {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    m_maxEvolution = a_maxEvolution;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a35ae7583e5a7148d600351147e8b24b6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.salesman.Salesman.setPopulationSize </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_populationSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set an population size for this solution (default 512)</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_populationSize</td><td>sic</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                                                            {</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    m_populationSize = a_populationSize;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2b2c4a050ea8d6b8974465a3ca933d9e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.salesman.Salesman.setStartOffset </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_offset</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets a number of genes at the start of chromosome, that are excluded from the swapping. In the <a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html">Salesman</a> task, the first city in the list should (where the salesman leaves from) probably should not change as it is part of the list. The default value is 1.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_offset</td><td>start offset for chromosome</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                                                 {</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    m_startOffset = a_offset;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/impl/salesman/<a class="el" href="_salesman_8java.html">Salesman.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl_1_1salesman.html">salesman</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1impl_1_1salesman_1_1_salesman.html">Salesman</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:24:01 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

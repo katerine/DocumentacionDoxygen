@@ -1,0 +1,542 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase examples.multidimension.KnapsackFitnessFunction</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classexamples_1_1multidimension_1_1_knapsack_fitness_function.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-methods">Métodos públicos estáticos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classexamples_1_1multidimension_1_1_knapsack_fitness_function-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase examples.multidimension.KnapsackFitnessFunction</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias FitnessFunction.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a44b68374809c293ed53cdc9c1383222e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a44b68374809c293ed53cdc9c1383222e">KnapsackFitnessFunction</a> (double a_knapsackVolume)</td></tr>
+<tr class="separator:a44b68374809c293ed53cdc9c1383222e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d77659c07f4f15348a6cdc37c2eab99"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a8d77659c07f4f15348a6cdc37c2eab99">evaluate</a> (IChromosome a_subject)</td></tr>
+<tr class="separator:a8d77659c07f4f15348a6cdc37c2eab99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Métodos públicos estáticos</h2></td></tr>
+<tr class="memitem:a84ed0b4fd5a23d410ea9e2f79397f07b"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a84ed0b4fd5a23d410ea9e2f79397f07b">getTotalVolume</a> (IChromosome a_potentialSolution)</td></tr>
+<tr class="separator:a84ed0b4fd5a23d410ea9e2f79397f07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d1c3e2c8dc74c39fd050fafaba3f629"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a2d1c3e2c8dc74c39fd050fafaba3f629">getNumberOfItemsAtGene</a> (CompositeGene a_compositeGene)</td></tr>
+<tr class="separator:a2d1c3e2c8dc74c39fd050fafaba3f629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bcb8705d8677dab836d77216cfc0e28"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a1bcb8705d8677dab836d77216cfc0e28">getTotalNumberOfItems</a> (IChromosome a_potentialSolution)</td></tr>
+<tr class="separator:a1bcb8705d8677dab836d77216cfc0e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:ac0c7b5ff45d180a1cebbf7c78391d5ac"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#ac0c7b5ff45d180a1cebbf7c78391d5ac">MAX_BOUND</a> = 1000000000.0d</td></tr>
+<tr class="separator:ac0c7b5ff45d180a1cebbf7c78391d5ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:ad8afdead74c7edcacbf7fda1a492db36"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#ad8afdead74c7edcacbf7fda1a492db36">volumeDifferenceBonus</a> (double a_maxFitness, double a_volumeDifference)</td></tr>
+<tr class="separator:ad8afdead74c7edcacbf7fda1a492db36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b3ded8e957df88f5f8d61fcdc7c073a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a0b3ded8e957df88f5f8d61fcdc7c073a">computeItemNumberPenalty</a> (IChromosome a_potentialSolution, double a_maxFitness, int a_items)</td></tr>
+<tr class="separator:a0b3ded8e957df88f5f8d61fcdc7c073a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Fitness function for the multidimension knapsack example.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a44b68374809c293ed53cdc9c1383222e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">examples.multidimension.KnapsackFitnessFunction.KnapsackFitnessFunction </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_knapsackVolume</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                          {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span> (a_knapsackVolume &lt; 1 || a_knapsackVolume &gt;= <a class="code" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#ac0c7b5ff45d180a1cebbf7c78391d5ac">MAX_BOUND</a>) {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;          <span class="stringliteral">&quot;Knapsack volumen must be between 1 and &quot;</span> + <a class="code" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#ac0c7b5ff45d180a1cebbf7c78391d5ac">MAX_BOUND</a> + <span class="stringliteral">&quot;.&quot;</span>);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    m_knapsackVolume = a_knapsackVolume;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1multidimension_1_1_knapsack_fitness_function_html_ac0c7b5ff45d180a1cebbf7c78391d5ac"><div class="ttname"><a href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#ac0c7b5ff45d180a1cebbf7c78391d5ac">examples.multidimension.KnapsackFitnessFunction.MAX_BOUND</a></div><div class="ttdeci">static final double MAX_BOUND</div><div class="ttdef"><b>Definition:</b> KnapsackFitnessFunction.java:29</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a0b3ded8e957df88f5f8d61fcdc7c073a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double examples.multidimension.KnapsackFitnessFunction.computeItemNumberPenalty </td>
+          <td>(</td>
+          <td class="paramtype">IChromosome&#160;</td>
+          <td class="paramname"><em>a_potentialSolution</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_maxFitness</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_items</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Calculates the penalty to apply to the fitness value based on the amount of items in the solution.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_potentialSolution</td><td>the potential solution to evaluate </td></tr>
+    <tr><td class="paramname">a_maxFitness</td><td>upper boundary for fitness value possible </td></tr>
+    <tr><td class="paramname">a_items</td><td>number of items in the solution </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a penalty for the fitness value based on the number of items</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                                                                              {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">if</span> (a_items == 0) {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;      <span class="comment">// We know the solution cannot have less than zero items.</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      <span class="comment">// ------------------------------------------------------</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;      <span class="comment">// The more items the more penalty, but not more than the maximum fitness</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      <span class="comment">// value possible. Let&#39;s avoid linear behavior and use</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      <span class="comment">// exponential penalty calculation instead.</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;      <span class="comment">// ----------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      <span class="keywordtype">double</span> penalty = (Math.min(a_maxFitness, a_items * a_items));</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      <span class="comment">// The more different colors the more penalty.</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;      <span class="comment">// -------------------------------------------</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;      HashSet colors = <span class="keyword">new</span> HashSet();</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; a_potentialSolution.size(); i++) {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        CompositeGene comp = (CompositeGene)a_potentialSolution.getGene(i);</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        IntegerGene color = (IntegerGene)comp.geneAt(0);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        colors.add(color.getAllele());</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;      }</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      <span class="keywordtype">int</span> numColors = colors.size();</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      penalty += Math.pow(numColors, 10);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;      <span class="keywordflow">return</span> Math.min(a_maxFitness, penalty);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8d77659c07f4f15348a6cdc37c2eab99"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double examples.multidimension.KnapsackFitnessFunction.evaluate </td>
+          <td>(</td>
+          <td class="paramtype">IChromosome&#160;</td>
+          <td class="paramname"><em>a_subject</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Determine the fitness of the given Chromosome instance. The higher the return value, the more fit the instance. This method should always return the same fitness value for two equivalent Chromosome instances.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_subject</td><td>the Chromosome instance to evaluate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a positive double reflecting the fitness rating of the given Chromosome</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                                {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">// The fitness value measures both how close the value is to the</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">// target amount supplied by the user and the total number of items</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// represented by the solution. We do this in two steps: first,</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="comment">// we consider only the represented amount of change vs. the target</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">// amount of change and return higher fitness values for amounts</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">// closer to the target, and lower fitness values for amounts further</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    <span class="comment">// away from the target. Then we go to step 2, which returns a higher</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="comment">// fitness value for solutions representing fewer total items, and</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="comment">// lower fitness values for solutions representing more total items.</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="comment">// ------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">double</span> totalVolume = <a class="code" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a84ed0b4fd5a23d410ea9e2f79397f07b">getTotalVolume</a>(a_subject);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">int</span> numberOfItems = <a class="code" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a1bcb8705d8677dab836d77216cfc0e28">getTotalNumberOfItems</a>(a_subject);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">double</span> volumeDifference = Math.abs(m_knapsackVolume - totalVolume);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">double</span> fitness = 0.0d;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="comment">// Step 1: Determine distance of amount represented by solution from</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">// the target amount. If the change difference is greater than zero we</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment">// will divide one by the difference in change between the</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="comment">// solution amount and the target amount. That will give the desired</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="comment">// effect of returning higher values for amounts closer to the target</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="comment">// amount and lower values for amounts further away from the target</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="comment">// amount.</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="comment">// In the case where the change difference is zero it means that we have</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// the correct amount and we assign a higher fitness value</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// -----------------------------------------------------------------</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    fitness += <a class="code" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#ad8afdead74c7edcacbf7fda1a492db36">volumeDifferenceBonus</a>(<a class="code" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#ac0c7b5ff45d180a1cebbf7c78391d5ac">MAX_BOUND</a>, volumeDifference);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="comment">// Step 2: We divide the fitness value by a penalty based on the number of</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// items. The higher the number of items the higher the penalty and the</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="comment">// smaller the fitness value.</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">// And inversely the smaller number of items in the solution the higher</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="comment">// the resulting fitness value.</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="comment">// -----------------------------------------------------------------------</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    fitness -= <a class="code" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a0b3ded8e957df88f5f8d61fcdc7c073a">computeItemNumberPenalty</a>(a_subject, <a class="code" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#ac0c7b5ff45d180a1cebbf7c78391d5ac">MAX_BOUND</a>, numberOfItems);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="comment">// Make sure fitness value is always positive.</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="comment">// -------------------------------------------</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">return</span> Math.max(1.0d, fitness);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1multidimension_1_1_knapsack_fitness_function_html_ad8afdead74c7edcacbf7fda1a492db36"><div class="ttname"><a href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#ad8afdead74c7edcacbf7fda1a492db36">examples.multidimension.KnapsackFitnessFunction.volumeDifferenceBonus</a></div><div class="ttdeci">double volumeDifferenceBonus(double a_maxFitness, double a_volumeDifference)</div><div class="ttdef"><b>Definition:</b> KnapsackFitnessFunction.java:100</div></div>
+<div class="ttc" id="classexamples_1_1multidimension_1_1_knapsack_fitness_function_html_a1bcb8705d8677dab836d77216cfc0e28"><div class="ttname"><a href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a1bcb8705d8677dab836d77216cfc0e28">examples.multidimension.KnapsackFitnessFunction.getTotalNumberOfItems</a></div><div class="ttdeci">static int getTotalNumberOfItems(IChromosome a_potentialSolution)</div><div class="ttdef"><b>Definition:</b> KnapsackFitnessFunction.java:198</div></div>
+<div class="ttc" id="classexamples_1_1multidimension_1_1_knapsack_fitness_function_html_ac0c7b5ff45d180a1cebbf7c78391d5ac"><div class="ttname"><a href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#ac0c7b5ff45d180a1cebbf7c78391d5ac">examples.multidimension.KnapsackFitnessFunction.MAX_BOUND</a></div><div class="ttdeci">static final double MAX_BOUND</div><div class="ttdef"><b>Definition:</b> KnapsackFitnessFunction.java:29</div></div>
+<div class="ttc" id="classexamples_1_1multidimension_1_1_knapsack_fitness_function_html_a84ed0b4fd5a23d410ea9e2f79397f07b"><div class="ttname"><a href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a84ed0b4fd5a23d410ea9e2f79397f07b">examples.multidimension.KnapsackFitnessFunction.getTotalVolume</a></div><div class="ttdeci">static double getTotalVolume(IChromosome a_potentialSolution)</div><div class="ttdef"><b>Definition:</b> KnapsackFitnessFunction.java:162</div></div>
+<div class="ttc" id="classexamples_1_1multidimension_1_1_knapsack_fitness_function_html_a0b3ded8e957df88f5f8d61fcdc7c073a"><div class="ttname"><a href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a0b3ded8e957df88f5f8d61fcdc7c073a">examples.multidimension.KnapsackFitnessFunction.computeItemNumberPenalty</a></div><div class="ttdeci">double computeItemNumberPenalty(IChromosome a_potentialSolution, double a_maxFitness, int a_items)</div><div class="ttdef"><b>Definition:</b> KnapsackFitnessFunction.java:124</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2d1c3e2c8dc74c39fd050fafaba3f629"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int examples.multidimension.KnapsackFitnessFunction.getNumberOfItemsAtGene </td>
+          <td>(</td>
+          <td class="paramtype">CompositeGene&#160;</td>
+          <td class="paramname"><em>a_compositeGene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Retrieves the number of items represented by the given potential solution at the given gene position.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_compositeGene</td><td>the composite gene to evaluate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the number of items represented by the potential solution at the given gene position</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    Integer numItems =</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        (Integer) a_compositeGene.geneAt(1).getAllele();</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">return</span> numItems.intValue();</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1bcb8705d8677dab836d77216cfc0e28"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static int examples.multidimension.KnapsackFitnessFunction.getTotalNumberOfItems </td>
+          <td>(</td>
+          <td class="paramtype">IChromosome&#160;</td>
+          <td class="paramname"><em>a_potentialSolution</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the total number of items represented by all of the genes in the given potential solution.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_potentialSolution</td><td>the potential solution to evaluate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the total number of items represented by the given Chromosome</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordtype">int</span> totalItems = 0;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordtype">int</span> numberOfGenes = a_potentialSolution.size();</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; numberOfGenes; i++) {</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;      CompositeGene comp = (CompositeGene)a_potentialSolution.getGene(i);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;      totalItems += <a class="code" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a2d1c3e2c8dc74c39fd050fafaba3f629">getNumberOfItemsAtGene</a>(comp);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    }</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">return</span> totalItems;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1multidimension_1_1_knapsack_fitness_function_html_a2d1c3e2c8dc74c39fd050fafaba3f629"><div class="ttname"><a href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a2d1c3e2c8dc74c39fd050fafaba3f629">examples.multidimension.KnapsackFitnessFunction.getNumberOfItemsAtGene</a></div><div class="ttdeci">static int getNumberOfItemsAtGene(CompositeGene a_compositeGene)</div><div class="ttdef"><b>Definition:</b> KnapsackFitnessFunction.java:182</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a84ed0b4fd5a23d410ea9e2f79397f07b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static double examples.multidimension.KnapsackFitnessFunction.getTotalVolume </td>
+          <td>(</td>
+          <td class="paramtype">IChromosome&#160;</td>
+          <td class="paramname"><em>a_potentialSolution</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Calculates the total amount of change (in cents) represented by the given potential solution and returns that amount.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_potentialSolution</td><td>the potential solution to evaluate </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the total amount of change (in cents) represented by the given solution</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                                                                       {</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordtype">double</span> volume = 0.0d;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; a_potentialSolution.size(); i++) {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;      CompositeGene comp = (CompositeGene)a_potentialSolution.getGene(i);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;      volume += <a class="code" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a2d1c3e2c8dc74c39fd050fafaba3f629">getNumberOfItemsAtGene</a>(comp) * KnapsackMain.itemVolumes[i];</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordflow">return</span> volume;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;  }</div>
+<div class="ttc" id="classexamples_1_1multidimension_1_1_knapsack_fitness_function_html_a2d1c3e2c8dc74c39fd050fafaba3f629"><div class="ttname"><a href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html#a2d1c3e2c8dc74c39fd050fafaba3f629">examples.multidimension.KnapsackFitnessFunction.getNumberOfItemsAtGene</a></div><div class="ttdeci">static int getNumberOfItemsAtGene(CompositeGene a_compositeGene)</div><div class="ttdef"><b>Definition:</b> KnapsackFitnessFunction.java:182</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad8afdead74c7edcacbf7fda1a492db36"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double examples.multidimension.KnapsackFitnessFunction.volumeDifferenceBonus </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_maxFitness</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_volumeDifference</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Bonus calculation of fitness value. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_maxFitness</td><td>maximum fitness value appliable </td></tr>
+    <tr><td class="paramname">a_volumeDifference</td><td>volume difference in ccm for the items problem </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>bonus for given volume difference</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span> (a_volumeDifference == 0) {</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;      <span class="keywordflow">return</span> a_maxFitness;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;      <span class="comment">// we arbitrarily work with half of the maximum fitness as basis for non-</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;      <span class="comment">// optimal solutions (concerning volume difference)</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;      <span class="keywordflow">return</span> a_maxFitness / 2 - (a_volumeDifference * a_volumeDifference);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="ac0c7b5ff45d180a1cebbf7c78391d5ac"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final double examples.multidimension.KnapsackFitnessFunction.MAX_BOUND = 1000000000.0d</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>examples/src/examples/multidimension/<a class="el" href="multidimension_2_knapsack_fitness_function_8java.html">KnapsackFitnessFunction.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceexamples.html">examples</a></li><li class="navelem"><a class="el" href="namespaceexamples_1_1multidimension.html">multidimension</a></li><li class="navelem"><a class="el" href="classexamples_1_1multidimension_1_1_knapsack_fitness_function.html">KnapsackFitnessFunction</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:09 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

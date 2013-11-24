@@ -1,0 +1,749 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.distr.grid.JGAPRequest</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.distr.grid.JGAPRequest</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias WorkRequest y <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a72056d13e6df94064ac0484a58f51f36"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a72056d13e6df94064ac0484a58f51f36">JGAPRequest</a> (String a_name, int a_id, <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config, <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a> a_strategy)</td></tr>
+<tr class="separator:a72056d13e6df94064ac0484a58f51f36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1733c99d610baf7b1f578aea248013a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a1733c99d610baf7b1f578aea248013a8">JGAPRequest</a> (String a_name, int a_id, <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config)</td></tr>
+<tr class="separator:a1733c99d610baf7b1f578aea248013a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a865df734104aede647a61798becc02db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a865df734104aede647a61798becc02db">JGAPRequest</a> (String a_name, int a_id, <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config, <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop, <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a> a_strategy)</td></tr>
+<tr class="separator:a865df734104aede647a61798becc02db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9499a526f1488588fe22e5c0a66f921e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a9499a526f1488588fe22e5c0a66f921e">JGAPRequest</a> (String a_name, int a_id, <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config, <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop)</td></tr>
+<tr class="separator:a9499a526f1488588fe22e5c0a66f921e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a001a9f1acca68ef371028e1b68109736"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a001a9f1acca68ef371028e1b68109736">setEvolveStrategy</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a> a_evolveStrategy)</td></tr>
+<tr class="separator:a001a9f1acca68ef371028e1b68109736"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad98a88f8d16636f65d84f46dd9e85793"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#ad98a88f8d16636f65d84f46dd9e85793">getWorkerEvolveStrategy</a> ()</td></tr>
+<tr class="separator:ad98a88f8d16636f65d84f46dd9e85793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92f14520ec7f8f840490dc359deeefb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a92f14520ec7f8f840490dc359deeefb1">setWorkerReturnStrategy</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_return_strategy.html">IWorkerReturnStrategy</a> a_strategy)</td></tr>
+<tr class="separator:a92f14520ec7f8f840490dc359deeefb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e7f8123c613ffdd4d39e4eff66b661"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_return_strategy.html">IWorkerReturnStrategy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a16e7f8123c613ffdd4d39e4eff66b661">getWorkerReturnStrategy</a> ()</td></tr>
+<tr class="separator:a16e7f8123c613ffdd4d39e4eff66b661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accae8684ccbfd5e48da7ee30eae81917"><td class="memItemLeft" align="right" valign="top">GridWorkerFeedback&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#accae8684ccbfd5e48da7ee30eae81917">getWorkerFeedback</a> ()</td></tr>
+<tr class="separator:accae8684ccbfd5e48da7ee30eae81917"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35798e3903904777a003682afc0dff05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a35798e3903904777a003682afc0dff05">setWorkerFeedback</a> (GridWorkerFeedback a_feedback)</td></tr>
+<tr class="separator:a35798e3903904777a003682afc0dff05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cd0d9e55a1ed0c75cf76e424c8837e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a8cd0d9e55a1ed0c75cf76e424c8837e4">setGenotypeInitializer</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_genotype_initializer.html">IGenotypeInitializer</a> a_initializer)</td></tr>
+<tr class="separator:a8cd0d9e55a1ed0c75cf76e424c8837e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2bd54e3e1c033ddf9c0bfd4b29f495c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_genotype_initializer.html">IGenotypeInitializer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#af2bd54e3e1c033ddf9c0bfd4b29f495c">getGenotypeInitializer</a> ()</td></tr>
+<tr class="separator:af2bd54e3e1c033ddf9c0bfd4b29f495c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8da7acef4f9382d1743edc5e784f1823"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a8da7acef4f9382d1743edc5e784f1823">setPopulation</a> (<a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> a_pop)</td></tr>
+<tr class="separator:a8da7acef4f9382d1743edc5e784f1823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd56aa9736ff3ee0288df3afec1ca1b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#acd56aa9736ff3ee0288df3afec1ca1b3">getConfiguration</a> ()</td></tr>
+<tr class="separator:acd56aa9736ff3ee0288df3afec1ca1b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61c1fc45048bcbe08669071333508f35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a61c1fc45048bcbe08669071333508f35">setConfiguration</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_conf)</td></tr>
+<tr class="separator:a61c1fc45048bcbe08669071333508f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a554829ef5ab13382e91918f494459780"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a554829ef5ab13382e91918f494459780">getPopulation</a> ()</td></tr>
+<tr class="separator:a554829ef5ab13382e91918f494459780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73d3e3e9c3a5b8b7c17be890fa665e64"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a73d3e3e9c3a5b8b7c17be890fa665e64">clone</a> ()</td></tr>
+<tr class="separator:a73d3e3e9c3a5b8b7c17be890fa665e64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ee3cacfb06afe6a2ebac82c11296742"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html">JGAPRequest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a4ee3cacfb06afe6a2ebac82c11296742">newInstance</a> (String a_name, int a_ID)</td></tr>
+<tr class="separator:a4ee3cacfb06afe6a2ebac82c11296742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html">org.jgap.util.ICloneable</a></td></tr>
+<tr class="memitem:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#a4eaaa85432026f5bc54c3e520b22caa7">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a4eaaa85432026f5bc54c3e520b22caa7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1util_1_1_i_cloneable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>An instance that creates single requests to be sent to a worker.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.1 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a72056d13e6df94064ac0484a58f51f36"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.grid.JGAPRequest.JGAPRequest </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a>&#160;</td>
+          <td class="paramname"><em>a_strategy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_name</td><td>String </td></tr>
+    <tr><td class="paramname">a_id</td><td>int </td></tr>
+    <tr><td class="paramname">a_config</td><td><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> </td></tr>
+    <tr><td class="paramname">a_strategy</td><td>the strategy to choose for evolution</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                                                       {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    super(a_name, a_id);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    m_config = a_config;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    m_evolveStrategy = a_strategy;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1733c99d610baf7b1f578aea248013a8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.grid.JGAPRequest.JGAPRequest </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_name</td><td>session name </td></tr>
+    <tr><td class="paramname">a_id</td><td>request id </td></tr>
+    <tr><td class="paramname">a_config</td><td><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                                                                      {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keyword">this</span>(a_name, a_id, a_config, <span class="keyword">new</span> DefaultEvolveStrategy());</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a865df734104aede647a61798becc02db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.grid.JGAPRequest.JGAPRequest </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a>&#160;</td>
+          <td class="paramname"><em>a_strategy</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor. Allows to specify a preset population with which the genotype will be initialized.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_name</td><td>session name </td></tr>
+    <tr><td class="paramname">a_id</td><td>request id </td></tr>
+    <tr><td class="paramname">a_config</td><td><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> </td></tr>
+    <tr><td class="paramname">a_pop</td><td><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> </td></tr>
+    <tr><td class="paramname">a_strategy</td><td>the strategy to choose for evolution</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keyword">this</span>(a_name, a_id, a_config, a_strategy);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    m_pop = a_pop;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9499a526f1488588fe22e5c0a66f921e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.grid.JGAPRequest.JGAPRequest </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructor. Allows to specify a preset population with which the genotype will be initialized.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_name</td><td>session name </td></tr>
+    <tr><td class="paramname">a_id</td><td>request id </td></tr>
+    <tr><td class="paramname">a_config</td><td><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> </td></tr>
+    <tr><td class="paramname">a_pop</td><td><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                                       {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keyword">this</span>(a_name, a_id, a_config, a_pop, <span class="keyword">new</span> DefaultEvolveStrategy());</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a73d3e3e9c3a5b8b7c17be890fa665e64"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.distr.grid.JGAPRequest.clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>deep clone of current instance</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1util_1_1_i_cloneable.html#aa7e7d62077e6428ad7904932b1b4f7d5">org.jgap.util.ICloneable</a>.</p>
+<div class="fragment"><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                        {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a72056d13e6df94064ac0484a58f51f36">JGAPRequest</a> result = <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a4ee3cacfb06afe6a2ebac82c11296742">newInstance</a>(getSessionName(), getRID());</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request_html_a72056d13e6df94064ac0484a58f51f36"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a72056d13e6df94064ac0484a58f51f36">org.jgap.distr.grid.JGAPRequest.JGAPRequest</a></div><div class="ttdeci">JGAPRequest(String a_name, int a_id, Configuration a_config, IWorkerEvolveStrategy a_strategy)</div><div class="ttdef"><b>Definition:</b> JGAPRequest.java:52</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request_html_a4ee3cacfb06afe6a2ebac82c11296742"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a4ee3cacfb06afe6a2ebac82c11296742">org.jgap.distr.grid.JGAPRequest.newInstance</a></div><div class="ttdeci">JGAPRequest newInstance(String a_name, int a_ID)</div><div class="ttdef"><b>Definition:</b> JGAPRequest.java:244</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="acd56aa9736ff3ee0288df3afec1ca1b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> org.jgap.distr.grid.JGAPRequest.getConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the configuration set</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                                          {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="keywordflow">return</span> m_config;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af2bd54e3e1c033ddf9c0bfd4b29f495c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_genotype_initializer.html">IGenotypeInitializer</a> org.jgap.distr.grid.JGAPRequest.getGenotypeInitializer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_genotype_initializer.html">IGenotypeInitializer</a> set</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                                                       {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordflow">return</span> m_genotypeInitializer;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a554829ef5ab13382e91918f494459780"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> org.jgap.distr.grid.JGAPRequest.getPopulation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the population used to initialize new requests. May be null or empty</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                                    {</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="keywordflow">return</span> m_pop;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad98a88f8d16636f65d84f46dd9e85793"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a> org.jgap.distr.grid.JGAPRequest.getWorkerEvolveStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the evolve strategy set</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                                         {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">return</span> m_evolveStrategy;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="accae8684ccbfd5e48da7ee30eae81917"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GridWorkerFeedback org.jgap.distr.grid.JGAPRequest.getWorkerFeedback </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                                                {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;   <span class="keywordflow">return</span> m_workerFeedback;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a16e7f8123c613ffdd4d39e4eff66b661"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_return_strategy.html">IWorkerReturnStrategy</a> org.jgap.distr.grid.JGAPRequest.getWorkerReturnStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the strategy which part of a result is returned by a worker</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                                                         {</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">return</span> m_returnStrategy;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4ee3cacfb06afe6a2ebac82c11296742"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html">JGAPRequest</a> org.jgap.distr.grid.JGAPRequest.newInstance </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_ID</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Creates a new instance using the given name and ID. Reason for this method: ID cannot be set other than with construction!</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_name</td><td>the name to set </td></tr>
+    <tr><td class="paramname">a_ID</td><td>unique ID to set </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>newly created <a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html">JGAPRequest</a> object</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                                                          {</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a72056d13e6df94064ac0484a58f51f36">JGAPRequest</a> result = <span class="keyword">new</span> <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a72056d13e6df94064ac0484a58f51f36">JGAPRequest</a>(a_name, a_ID,</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                                       <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#acd56aa9736ff3ee0288df3afec1ca1b3">getConfiguration</a>(), <a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a554829ef5ab13382e91918f494459780">getPopulation</a>());</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    result.setEvolveStrategy(<a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#ad98a88f8d16636f65d84f46dd9e85793">getWorkerEvolveStrategy</a>());</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    result.setGenotypeInitializer(<a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#af2bd54e3e1c033ddf9c0bfd4b29f495c">getGenotypeInitializer</a>());</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    result.setWorkerReturnStrategy(<a class="code" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a16e7f8123c613ffdd4d39e4eff66b661">getWorkerReturnStrategy</a>());</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request_html_a72056d13e6df94064ac0484a58f51f36"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a72056d13e6df94064ac0484a58f51f36">org.jgap.distr.grid.JGAPRequest.JGAPRequest</a></div><div class="ttdeci">JGAPRequest(String a_name, int a_id, Configuration a_config, IWorkerEvolveStrategy a_strategy)</div><div class="ttdef"><b>Definition:</b> JGAPRequest.java:52</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request_html_ad98a88f8d16636f65d84f46dd9e85793"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#ad98a88f8d16636f65d84f46dd9e85793">org.jgap.distr.grid.JGAPRequest.getWorkerEvolveStrategy</a></div><div class="ttdeci">IWorkerEvolveStrategy getWorkerEvolveStrategy()</div><div class="ttdef"><b>Definition:</b> JGAPRequest.java:128</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request_html_af2bd54e3e1c033ddf9c0bfd4b29f495c"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#af2bd54e3e1c033ddf9c0bfd4b29f495c">org.jgap.distr.grid.JGAPRequest.getGenotypeInitializer</a></div><div class="ttdeci">IGenotypeInitializer getGenotypeInitializer()</div><div class="ttdef"><b>Definition:</b> JGAPRequest.java:171</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request_html_acd56aa9736ff3ee0288df3afec1ca1b3"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#acd56aa9736ff3ee0288df3afec1ca1b3">org.jgap.distr.grid.JGAPRequest.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> JGAPRequest.java:195</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request_html_a554829ef5ab13382e91918f494459780"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a554829ef5ab13382e91918f494459780">org.jgap.distr.grid.JGAPRequest.getPopulation</a></div><div class="ttdeci">Population getPopulation()</div><div class="ttdef"><b>Definition:</b> JGAPRequest.java:218</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request_html_a16e7f8123c613ffdd4d39e4eff66b661"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html#a16e7f8123c613ffdd4d39e4eff66b661">org.jgap.distr.grid.JGAPRequest.getWorkerReturnStrategy</a></div><div class="ttdeci">IWorkerReturnStrategy getWorkerReturnStrategy()</div><div class="ttdef"><b>Definition:</b> JGAPRequest.java:142</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a61c1fc45048bcbe08669071333508f35"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.JGAPRequest.setConfiguration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_conf</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Set a modified configuration. Should only be used to re-set a configuration because some parts have not been serialized. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_conf</td><td>the <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> to set</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                                                     {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    m_config = a_conf;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a001a9f1acca68ef371028e1b68109736"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.JGAPRequest.setEvolveStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_evolve_strategy.html">IWorkerEvolveStrategy</a>&#160;</td>
+          <td class="paramname"><em>a_evolveStrategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the strategy to use for executing the evolution with a worker for a single request.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_evolveStrategy</td><td>the evolve strategy to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    m_evolveStrategy = a_evolveStrategy;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8cd0d9e55a1ed0c75cf76e424c8837e4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.JGAPRequest.setGenotypeInitializer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_genotype_initializer.html">IGenotypeInitializer</a>&#160;</td>
+          <td class="paramname"><em>a_initializer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_initializer</td><td>the <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_genotype_initializer.html">IGenotypeInitializer</a> to use</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    m_genotypeInitializer = a_initializer;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8da7acef4f9382d1743edc5e784f1823"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.JGAPRequest.setPopulation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a>&#160;</td>
+          <td class="paramname"><em>a_pop</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> to store in this request so that it can be passed to workers.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_pop</td><td>the <a class="el" href="classorg_1_1jgap_1_1_population.html">Population</a> to store</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                              {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    m_pop = a_pop;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a35798e3903904777a003682afc0dff05"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.JGAPRequest.setWorkerFeedback </td>
+          <td>(</td>
+          <td class="paramtype">GridWorkerFeedback&#160;</td>
+          <td class="paramname"><em>a_feedback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                                                               {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;   m_workerFeedback = a_feedback;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a92f14520ec7f8f840490dc359deeefb1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.JGAPRequest.setWorkerReturnStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1_i_worker_return_strategy.html">IWorkerReturnStrategy</a>&#160;</td>
+          <td class="paramname"><em>a_strategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    m_returnStrategy = a_strategy;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/distr/grid/<a class="el" href="_j_g_a_p_request_8java.html">JGAPRequest.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr.html">distr</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1_j_g_a_p_request.html">JGAPRequest</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:27 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

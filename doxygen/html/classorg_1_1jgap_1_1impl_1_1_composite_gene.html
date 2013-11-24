@@ -1,0 +1,1529 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.impl.CompositeGene</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1impl_1_1_composite_gene.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pub-static-attribs">Atributos públicos estáticos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="#pro-static-methods">Métodos protegidos estáticos</a> &#124;
+<a href="classorg_1_1jgap_1_1impl_1_1_composite_gene-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.impl.CompositeGene</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a>, <a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html">org.jgap.ICompositeGene</a> y <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html">org.jgap.IPersistentRepresentation</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a564e6b2959bb4b0203cbcbda2fa0e75f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a564e6b2959bb4b0203cbcbda2fa0e75f">CompositeGene</a> ()  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a564e6b2959bb4b0203cbcbda2fa0e75f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af834b058b7ad9e396c761ca47eaa5192"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#af834b058b7ad9e396c761ca47eaa5192">CompositeGene</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:af834b058b7ad9e396c761ca47eaa5192"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a905c8f416472c504d93ba6a97fb17be6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a905c8f416472c504d93ba6a97fb17be6">CompositeGene</a> (final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_config, final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> a_geneTypeAllowed)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:a905c8f416472c504d93ba6a97fb17be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab452b46689654525e3df79bf1ca242f3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab452b46689654525e3df79bf1ca242f3">addGene</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> a_gene)</td></tr>
+<tr class="separator:ab452b46689654525e3df79bf1ca242f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabb760c92e6d5ae8c866c0bd41c6b6a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aabb760c92e6d5ae8c866c0bd41c6b6a3">getGeneTypeAllowed</a> ()</td></tr>
+<tr class="separator:aabb760c92e6d5ae8c866c0bd41c6b6a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8b7dd5b3d2fb4ade4e9d5c95ad4e719"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac8b7dd5b3d2fb4ade4e9d5c95ad4e719">addGene</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> a_gene, final boolean a_strict)</td></tr>
+<tr class="separator:ac8b7dd5b3d2fb4ade4e9d5c95ad4e719"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a770487c7ce405ffc76c0c5ead65342ce"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a770487c7ce405ffc76c0c5ead65342ce">removeGeneByIdentity</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> a_gene)</td></tr>
+<tr class="separator:a770487c7ce405ffc76c0c5ead65342ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d45afd175bbbe529fdb5a51c5ac0945"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a9d45afd175bbbe529fdb5a51c5ac0945">removeGene</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> a_gene)</td></tr>
+<tr class="separator:a9d45afd175bbbe529fdb5a51c5ac0945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69244d0036ad5f7f05766a3341f21841"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a69244d0036ad5f7f05766a3341f21841">cleanup</a> ()</td></tr>
+<tr class="separator:a69244d0036ad5f7f05766a3341f21841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41d0187fbd5adbcb7c3bfff7d76f1180"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a41d0187fbd5adbcb7c3bfff7d76f1180">setToRandomValue</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> a_numberGenerator)</td></tr>
+<tr class="separator:a41d0187fbd5adbcb7c3bfff7d76f1180"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd62d1ccb9e0753b93d11a89fd055d0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#abd62d1ccb9e0753b93d11a89fd055d0e">setValueFromPersistentRepresentation</a> (String a_representation)  throws UnsupportedRepresentationException </td></tr>
+<tr class="separator:abd62d1ccb9e0753b93d11a89fd055d0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad33dc860fffad1457c3f44a8b3b031f7"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ad33dc860fffad1457c3f44a8b3b031f7">getPersistentRepresentation</a> ()  throws UnsupportedOperationException </td></tr>
+<tr class="separator:ad33dc860fffad1457c3f44a8b3b031f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06d9f8415a3386a04b4eebc12850dbcf"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a06d9f8415a3386a04b4eebc12850dbcf">getAllele</a> ()</td></tr>
+<tr class="separator:a06d9f8415a3386a04b4eebc12850dbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e22ec1330a1b2009da1f587c299ed74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a9e22ec1330a1b2009da1f587c299ed74">setAllele</a> (Object a_newValue)</td></tr>
+<tr class="separator:a9e22ec1330a1b2009da1f587c299ed74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05429ae96ad205f88855f6dbe242638"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab05429ae96ad205f88855f6dbe242638">compareTo</a> (Object a_other)</td></tr>
+<tr class="separator:ab05429ae96ad205f88855f6dbe242638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad30baf0c08afe2bba30d25ada096d88a"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ad30baf0c08afe2bba30d25ada096d88a">toString</a> ()</td></tr>
+<tr class="separator:ad30baf0c08afe2bba30d25ada096d88a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18ca33f66617e762ee657212866f6b7c"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a18ca33f66617e762ee657212866f6b7c">isEmpty</a> ()</td></tr>
+<tr class="separator:a18ca33f66617e762ee657212866f6b7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5c573b6b4343fe76163357c021e35ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aa5c573b6b4343fe76163357c021e35ce">geneAt</a> (int a_index)</td></tr>
+<tr class="separator:aa5c573b6b4343fe76163357c021e35ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8bb9bd8f19371c51a5231c6a1e9b4e9"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac8bb9bd8f19371c51a5231c6a1e9b4e9">getGenes</a> ()</td></tr>
+<tr class="separator:ac8bb9bd8f19371c51a5231c6a1e9b4e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6078356e9ce615740ab4e5fcd53b86a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a> ()</td></tr>
+<tr class="separator:ac6078356e9ce615740ab4e5fcd53b86a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2870d0e00136fa07477629ab04e91f96"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a2870d0e00136fa07477629ab04e91f96">containsGeneByIdentity</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> gene)</td></tr>
+<tr class="separator:a2870d0e00136fa07477629ab04e91f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06e95c3f9f2d2d8784dc1ac0eaff49da"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a06e95c3f9f2d2d8784dc1ac0eaff49da">applyMutation</a> (int a_index, double a_percentage)</td></tr>
+<tr class="separator:a06e95c3f9f2d2d8784dc1ac0eaff49da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a153d4e31eb61c134167102ced3aea71e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a153d4e31eb61c134167102ced3aea71e">hashCode</a> ()</td></tr>
+<tr class="separator:a153d4e31eb61c134167102ced3aea71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e0046a81c4adb9ff4d444c37e092b30"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a0e0046a81c4adb9ff4d444c37e092b30">getBusinessKey</a> ()</td></tr>
+<tr class="separator:a0e0046a81c4adb9ff4d444c37e092b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:acea53de5bb68978322967e8019607f24 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acea53de5bb68978322967e8019607f24">BaseGene</a> (<a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a> a_configuration)  throws InvalidConfigurationException </td></tr>
+<tr class="separator:acea53de5bb68978322967e8019607f24 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35e754e8e217bdd26962e1c3c31d0169 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a35e754e8e217bdd26962e1c3c31d0169">getAllele</a> ()</td></tr>
+<tr class="separator:a35e754e8e217bdd26962e1c3c31d0169 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af842a106d90ca973956f560ae448464e inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#af842a106d90ca973956f560ae448464e">hashCode</a> ()</td></tr>
+<tr class="separator:af842a106d90ca973956f560ae448464e inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a569b99cf460d27d2c1acbea2b7775975 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a569b99cf460d27d2c1acbea2b7775975">cleanup</a> ()</td></tr>
+<tr class="separator:a569b99cf460d27d2c1acbea2b7775975 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a935dfec06cb77bff0d2a45859d6a35b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a935dfec06cb77bff0d2a45859d6a35b7">toString</a> ()</td></tr>
+<tr class="separator:a935dfec06cb77bff0d2a45859d6a35b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c00775111b327b178288164ed9c667 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a26c00775111b327b178288164ed9c667">size</a> ()</td></tr>
+<tr class="separator:a26c00775111b327b178288164ed9c667 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb0e302ae57ee3f2f5d1ee08a75bf43 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a9fb0e302ae57ee3f2f5d1ee08a75bf43">equals</a> (final Object a_other)</td></tr>
+<tr class="separator:a9fb0e302ae57ee3f2f5d1ee08a75bf43 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48f71c4c1282de2ca2cf8f4009c4615a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a48f71c4c1282de2ca2cf8f4009c4615a">getEnergy</a> ()</td></tr>
+<tr class="separator:a48f71c4c1282de2ca2cf8f4009c4615a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb39fbd8997971a140a9a4380ceecc4a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#afb39fbd8997971a140a9a4380ceecc4a">setEnergy</a> (final double a_energy)</td></tr>
+<tr class="separator:afb39fbd8997971a140a9a4380ceecc4a inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb9a5f42018c057c8197fb0e7d57354 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#afeb9a5f42018c057c8197fb0e7d57354">setApplicationData</a> (final Object a_newData)</td></tr>
+<tr class="separator:afeb9a5f42018c057c8197fb0e7d57354 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0520139dc694dc6034aeb631ae7d70bd inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a0520139dc694dc6034aeb631ae7d70bd">getApplicationData</a> ()</td></tr>
+<tr class="separator:a0520139dc694dc6034aeb631ae7d70bd inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adad4ccd46efd7b2a3dc81bd0ba0c410c inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#adad4ccd46efd7b2a3dc81bd0ba0c410c">setCompareApplicationData</a> (final boolean a_doCompare)</td></tr>
+<tr class="separator:adad4ccd46efd7b2a3dc81bd0ba0c410c inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6431c06c81bc03b4abbe32e4d9d8ef inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acd6431c06c81bc03b4abbe32e4d9d8ef">isCompareApplicationData</a> ()</td></tr>
+<tr class="separator:acd6431c06c81bc03b4abbe32e4d9d8ef inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334db8a543f3008719d78ee219826b65 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a334db8a543f3008719d78ee219826b65">setConstraintChecker</a> (final <a class="el" href="interfaceorg_1_1jgap_1_1_i_gene_constraint_checker.html">IGeneConstraintChecker</a> a_constraintChecker)</td></tr>
+<tr class="separator:a334db8a543f3008719d78ee219826b65 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9823bef7c550fc1533afb8ab2b34d93 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_i_gene_constraint_checker.html">IGeneConstraintChecker</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">getConstraintChecker</a> ()</td></tr>
+<tr class="separator:ae9823bef7c550fc1533afb8ab2b34d93 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40f8f3d249145ad028892cd706ba9dae inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a40f8f3d249145ad028892cd706ba9dae">newGene</a> ()</td></tr>
+<tr class="separator:a40f8f3d249145ad028892cd706ba9dae inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a316c9cc9e273bd75182cbdf188fb6 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a> ()</td></tr>
+<tr class="separator:a32a316c9cc9e273bd75182cbdf188fb6 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4e7c0fad73465365953b375cfa802a8 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ac4e7c0fad73465365953b375cfa802a8">getBusinessKey</a> ()</td></tr>
+<tr class="separator:ac4e7c0fad73465365953b375cfa802a8 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab53d562a62f5c72fc88c7e5315a23ed7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ab53d562a62f5c72fc88c7e5315a23ed7">getUniqueID</a> ()</td></tr>
+<tr class="separator:ab53d562a62f5c72fc88c7e5315a23ed7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7d9f1c3c2e727d496d66a85818c17d0 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#aa7d9f1c3c2e727d496d66a85818c17d0">setUniqueIDTemplate</a> (String a_templateID, int a_index)</td></tr>
+<tr class="separator:aa7d9f1c3c2e727d496d66a85818c17d0 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3c210e440f2b542391db5a909fda3b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ad3c210e440f2b542391db5a909fda3b7">getUniqueIDTemplate</a> (int a_index)</td></tr>
+<tr class="separator:ad3c210e440f2b542391db5a909fda3b7 inherit pub_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1_gene')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a></td></tr>
+<tr class="memitem:a4ef135da7549ee98139928e21adb841a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a4ef135da7549ee98139928e21adb841a">setToRandomValue</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a> a_numberGenerator)</td></tr>
+<tr class="separator:a4ef135da7549ee98139928e21adb841a inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8405395f244a18424794e8f2e36c608 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ae8405395f244a18424794e8f2e36c608">setApplicationData</a> (Object a_newData)</td></tr>
+<tr class="separator:ae8405395f244a18424794e8f2e36c608 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404ee1527c7dab2f8115f18507d0544b inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a404ee1527c7dab2f8115f18507d0544b">setCompareApplicationData</a> (boolean a_doCompare)</td></tr>
+<tr class="separator:a404ee1527c7dab2f8115f18507d0544b inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5c429a29c338d2ad5d5514d5beea6e7 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af5c429a29c338d2ad5d5514d5beea6e7">setEnergy</a> (double a_energy)</td></tr>
+<tr class="separator:af5c429a29c338d2ad5d5514d5beea6e7 inherit pub_methods_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interfaceorg_1_1jgap_1_1_i_composite_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interfaceorg_1_1jgap_1_1_i_composite_gene')"><img src="closed.png" alt="-"/>&#160;Métodos públicos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html">org.jgap.ICompositeGene</a></td></tr>
+<tr class="memitem:a28fc3a076dc6983c39108dc10751596d inherit pub_methods_interfaceorg_1_1jgap_1_1_i_composite_gene"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html#a28fc3a076dc6983c39108dc10751596d">addGene</a> (<a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> a_gene)</td></tr>
+<tr class="separator:a28fc3a076dc6983c39108dc10751596d inherit pub_methods_interfaceorg_1_1jgap_1_1_i_composite_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Atributos públicos estáticos</h2></td></tr>
+<tr class="memitem:ad2e0364fa1181ae5b7334a545864f96b"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ad2e0364fa1181ae5b7334a545864f96b">GENE_DELIMITER</a> = &quot;#&quot;</td></tr>
+<tr class="separator:ad2e0364fa1181ae5b7334a545864f96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedd0a6ff682d116a12aabf06b110922a"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aedd0a6ff682d116a12aabf06b110922a">GENE_DELIMITER_HEADING</a> = &quot;&lt;&quot;</td></tr>
+<tr class="separator:aedd0a6ff682d116a12aabf06b110922a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab95ce27b4f68e0d22791bb4d82d6c0d5"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab95ce27b4f68e0d22791bb4d82d6c0d5">GENE_DELIMITER_CLOSING</a> = &quot;&gt;&quot;</td></tr>
+<tr class="separator:ab95ce27b4f68e0d22791bb4d82d6c0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:acc4b1c46f3508b835bf95b9058eae3a0 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#acc4b1c46f3508b835bf95b9058eae3a0">S_APPLICATION_DATA</a> = &quot;Application data&quot;</td></tr>
+<tr class="separator:acc4b1c46f3508b835bf95b9058eae3a0 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86edb3d2c29e5064305fabc2dd59a3b9 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">static final double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a86edb3d2c29e5064305fabc2dd59a3b9">DELTA</a> = 0.0000001</td></tr>
+<tr class="separator:a86edb3d2c29e5064305fabc2dd59a3b9 inherit pub_static_attribs_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_gene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">org.jgap.Gene</a></td></tr>
+<tr class="memitem:a771652182ee68c96d4107eee7692fee2 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a771652182ee68c96d4107eee7692fee2">CVS_REVISION</a> = &quot;$Revision: 1.26 $&quot;</td></tr>
+<tr class="separator:a771652182ee68c96d4107eee7692fee2 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae49de1c9f46601f1b60d393a9ce3901a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ae49de1c9f46601f1b60d393a9ce3901a">PERSISTENT_FIELD_DELIMITER</a> = &quot;:&quot;</td></tr>
+<tr class="separator:ae49de1c9f46601f1b60d393a9ce3901a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html">org.jgap.IUniqueKey</a></td></tr>
+<tr class="memitem:a5b6472b1e40001ee262da59ee449a77b inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_unique_key.html#a5b6472b1e40001ee262da59ee449a77b">CVS_REVISION</a> = &quot;$Revision: 1.1 $&quot;</td></tr>
+<tr class="separator:a5b6472b1e40001ee262da59ee449a77b inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_unique_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html">org.jgap.IBusinessKey</a></td></tr>
+<tr class="memitem:a6d43b687da0842739b8021f466ca451a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html#a6d43b687da0842739b8021f466ca451a">CVS_REVISION</a> = &quot;$Revision: 1.3 $&quot;</td></tr>
+<tr class="separator:a6d43b687da0842739b8021f466ca451a inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_business_key"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_composite_gene"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_composite_gene')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html">org.jgap.ICompositeGene</a></td></tr>
+<tr class="memitem:a4cfd0957faa0fbf511876986728e6be5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_composite_gene"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html#a4cfd0957faa0fbf511876986728e6be5">CVS_REVISION</a> = &quot;$Revision: 1.4 $&quot;</td></tr>
+<tr class="separator:a4cfd0957faa0fbf511876986728e6be5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_composite_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html">org.jgap.IPersistentRepresentation</a></td></tr>
+<tr class="memitem:ae48c5895f4af079337ffebe487b176f5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#ae48c5895f4af079337ffebe487b176f5">CVS_REVISION</a> = &quot;$Revision: 1.2 $&quot;</td></tr>
+<tr class="separator:ae48c5895f4af079337ffebe487b176f5 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1_i_persistent_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a8bf4b223b9614799efa2ee90d36b0602"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a8bf4b223b9614799efa2ee90d36b0602">createGene</a> (String a_geneClassName, String a_persistentRepresentation)  throws Exception </td></tr>
+<tr class="separator:a8bf4b223b9614799efa2ee90d36b0602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab71f66feb3b88bb9bdcab5682abd4b03"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab71f66feb3b88bb9bdcab5682abd4b03">newGeneInternal</a> ()</td></tr>
+<tr class="separator:ab71f66feb3b88bb9bdcab5682abd4b03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ee20f6169c0d441cdacb3685d5336f6"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a9ee20f6169c0d441cdacb3685d5336f6">getInternalValue</a> ()</td></tr>
+<tr class="separator:a9ee20f6169c0d441cdacb3685d5336f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classorg_1_1jgap_1_1_base_gene"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classorg_1_1jgap_1_1_base_gene')"><img src="closed.png" alt="-"/>&#160;Métodos protegidos heredados desde <a class="el" href="classorg_1_1jgap_1_1_base_gene.html">org.jgap.BaseGene</a></td></tr>
+<tr class="memitem:a72fa365cdcc9f2eb399fb8346a0a511b inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a72fa365cdcc9f2eb399fb8346a0a511b">compareApplicationData</a> (final Object a_appdata1, final Object a_appdata2)</td></tr>
+<tr class="separator:a72fa365cdcc9f2eb399fb8346a0a511b inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e8fc72c1fccdb665113c0c34e3fa4b5 inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a5e8fc72c1fccdb665113c0c34e3fa4b5">encode</a> (String a_string)</td></tr>
+<tr class="separator:a5e8fc72c1fccdb665113c0c34e3fa4b5 inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9277d0b77c1e8ca244687a8ab8cf42f inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ae9277d0b77c1e8ca244687a8ab8cf42f">decode</a> (String a_string)</td></tr>
+<tr class="separator:ae9277d0b77c1e8ca244687a8ab8cf42f inherit pro_methods_classorg_1_1jgap_1_1_base_gene"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Métodos protegidos estáticos</h2></td></tr>
+<tr class="memitem:a8a2fa0b4b68a8c06457d2b56166c56fd"><td class="memItemLeft" align="right" valign="top">static final List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a8a2fa0b4b68a8c06457d2b56166c56fd">split</a> (String a_string)  throws UnsupportedRepresentationException </td></tr>
+<tr class="separator:a8a2fa0b4b68a8c06457d2b56166c56fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Ordered container for multiple genes Has the same interface as a single gene and could be used accordingly. Use the <a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html#a28fc3a076dc6983c39108dc10751596d">addGene(Gene)</a> method to add single genes (possibly CompositeGenes) after construction, an empty <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a> without genes makes no sense. Beware that there are two equalities defined for a <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a> in respect to its contained genes: a) Two genes are (only) equal if they are identical b) Two genes are (seen as) equal if their equals method returns true</p>
+<p>This influences several methods such as addGene. Notice that it is safer to use addGene(a_gene, false) than addGene(a_gene, true) because the second variant only allows to add genes not seen as equal to already added genes in respect to their equals function. But: the equals function returns true for two different DoubleGenes (e.g.) just after their creation. If no specific (and hopefully different) allele is set for these DoubleGenes they are seen as equal!</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd>
+<dd>
+Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a564e6b2959bb4b0203cbcbda2fa0e75f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.CompositeGene.CompositeGene </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Default constructor.</p>
+<p>Attention: The configuration used is the one set with the static method Genotype.setConfiguration.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                           {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keyword">this</span>(Genotype.getStaticConfiguration());</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af834b058b7ad9e396c761ca47eaa5192"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.CompositeGene.CompositeGene </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_config</td><td>the configuration to use </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                           {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keyword">this</span>(a_config, null);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a905c8f416472c504d93ba6a97fb17be6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.impl.CompositeGene.CompositeGene </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="classorg_1_1jgap_1_1_configuration.html">Configuration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td>
+          <td class="paramname"><em>a_geneTypeAllowed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws <a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Allows to specify which <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> implementation is allowed to be added to the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a>.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_config</td><td>the configuration to use </td></tr>
+    <tr><td class="paramname">a_geneTypeAllowed</td><td>the class of Genes to be allowed to be added to the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_invalid_configuration_exception.html">InvalidConfigurationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                                           {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    super(a_config);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    m_genes = <span class="keyword">new</span> Vector();</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">if</span> (a_geneTypeAllowed != null) {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      m_geneTypeAllowed = a_geneTypeAllowed;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="ab452b46689654525e3df79bf1ca242f3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.CompositeGene.addGene </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td>
+          <td class="paramname"><em>a_gene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds a gene to the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a>.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_gene</td><td>the gene to add </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                                         {</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab452b46689654525e3df79bf1ca242f3">addGene</a>(a_gene, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ab452b46689654525e3df79bf1ca242f3"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab452b46689654525e3df79bf1ca242f3">org.jgap.impl.CompositeGene.addGene</a></div><div class="ttdeci">void addGene(final Gene a_gene)</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:127</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac8b7dd5b3d2fb4ade4e9d5c95ad4e719"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.CompositeGene.addGene </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td>
+          <td class="paramname"><em>a_gene</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final boolean&#160;</td>
+          <td class="paramname"><em>a_strict</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Adds a gene to the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a>'s container. See comments in class header for additional details about equality (concerning "strict" param.)</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_gene</td><td>the gene to be added </td></tr>
+    <tr><td class="paramname">a_strict</td><td>false: add the given gene except the gene itself already is contained within the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a>'s container. true: add the gene if there is no other gene being equal to the given gene in request to the <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>'s equals method</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                                                                 {</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keywordflow">if</span> (a_gene == null) {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Gene instance must not be null!&quot;</span>);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    }</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">if</span> (m_geneTypeAllowed != null) {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;      <span class="keywordflow">if</span> (!a_gene.getClass().getName().<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a9fb0e302ae57ee3f2f5d1ee08a75bf43">equals</a>(m_geneTypeAllowed.getClass().</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                                              getName())) {</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Adding a &quot;</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                                           + a_gene.getClass().getName()</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                           + <span class="stringliteral">&quot; has been forbidden!&quot;</span>);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;      }</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="comment">// Check if gene already exists.</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="comment">// -----------------------------</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <span class="keywordtype">boolean</span> containsGene;</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="keywordflow">if</span> (!a_strict) {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;      containsGene = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a2870d0e00136fa07477629ab04e91f96">containsGeneByIdentity</a>(a_gene);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    }</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;      containsGene = m_genes.contains(a_gene);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    }</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">if</span> (containsGene) {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;The gene is already contained&quot;</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                                         + <span class="stringliteral">&quot; in the CompositeGene!&quot;</span>);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    }</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    m_genes.add(a_gene);</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_a2870d0e00136fa07477629ab04e91f96"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a2870d0e00136fa07477629ab04e91f96">org.jgap.impl.CompositeGene.containsGeneByIdentity</a></div><div class="ttdeci">boolean containsGeneByIdentity(Gene gene)</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:592</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a9fb0e302ae57ee3f2f5d1ee08a75bf43"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a9fb0e302ae57ee3f2f5d1ee08a75bf43">org.jgap.BaseGene.equals</a></div><div class="ttdeci">boolean equals(final Object a_other)</div><div class="ttdef"><b>Definition:</b> BaseGene.java:193</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a06e95c3f9f2d2d8784dc1ac0eaff49da"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.CompositeGene.applyMutation </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_percentage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Don't use this method, is makes no sense here. It is just there to satisfy the <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> interface. Instead, loop over all contained genes and call their applyMutation method. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>does not matter here </td></tr>
+    <tr><td class="paramname">a_percentage</td><td>does not matter here</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af506b6e1d6ceb3e88e522da4c79adba4">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;                                                              {</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    <span class="comment">// problem here: size() of CompositeGene not equal to (different)</span></div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    <span class="comment">// sizes of contained genes.</span></div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    <span class="comment">// Solution: Don&#39;t use CompositeGene.applyMutation, instead loop</span></div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <span class="comment">//           over all contained genes and call their method</span></div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    <span class="comment">// -------------------------------------------------------------</span></div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    <span class="keywordflow">throw</span> <span class="keyword">new</span> RuntimeException(<span class="stringliteral">&quot;applyMutation may not be called for &quot;</span></div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;                               + <span class="stringliteral">&quot;a CompositeGene. Call this method for each&quot;</span></div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;                               + <span class="stringliteral">&quot; gene contained in the CompositeGene.&quot;</span>);</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a69244d0036ad5f7f05766a3341f21841"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.CompositeGene.cleanup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Executed by the genetic engine when this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> instance is no longer needed and should perform any necessary resource cleanup.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a5e353bbf6a9576b702bf466a5f952b82">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                        {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    Gene gene;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a> = m_genes.size();</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a>; i++) {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;      gene = (Gene) m_genes.get(i);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;      gene.cleanup();</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    }</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ac6078356e9ce615740ab4e5fcd53b86a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">org.jgap.impl.CompositeGene.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:578</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab05429ae96ad205f88855f6dbe242638"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.CompositeGene.compareTo </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Compares this <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a> with the specified object for order. A false value is considered to be less than a true value. A null value is considered to be less than any non-null value.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a> to be compared </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>a negative integer, zero, or a positive integer as this object is less than, equal to, or greater than the specified object</dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ClassCastException</td><td>if the specified object's type prevents it from being compared to this <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;                                       {</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    <span class="comment">// First, if the other gene (or its value) is null, then this is</span></div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    <span class="comment">// the greater allele. Otherwise, just use the contained genes&#39; compareTo</span></div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;    <span class="comment">// method to perform the comparison.</span></div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    <span class="comment">// ---------------------------------------------------------------</span></div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <span class="keywordflow">if</span> (a_other == null) {</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;      <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    }</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    <span class="keywordflow">if</span> (! (a_other instanceof <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a564e6b2959bb4b0203cbcbda2fa0e75f">CompositeGene</a>)) {</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;      <span class="keywordflow">return</span> this.getClass().getName().compareTo(a_other.getClass().getName());</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    }</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    CompositeGene otherCompositeGene = (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a564e6b2959bb4b0203cbcbda2fa0e75f">CompositeGene</a>) a_other;</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    <span class="keywordflow">if</span> (otherCompositeGene.isEmpty()) {</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;      <span class="comment">// If our value is also null, then we&#39;re the same. Otherwise,</span></div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;      <span class="comment">// this is the greater gene.</span></div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;      <span class="comment">// ----------------------------------------------------------</span></div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a18ca33f66617e762ee657212866f6b7c">isEmpty</a>()) {</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;      }</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;        <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;      }</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;    }</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;      <span class="comment">// Compare each gene against each other.</span></div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;      <span class="comment">// -------------------------------------</span></div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;      <span class="keywordtype">int</span> numberGenes = Math.min(<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a>(), otherCompositeGene.size());</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;      Gene gene1;</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;      Gene gene2;</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; numberGenes; i++) {</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        gene1 = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aa5c573b6b4343fe76163357c021e35ce">geneAt</a>(i);</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;        gene2 = otherCompositeGene.geneAt(i);</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;        <span class="keywordtype">int</span> result = gene1.compareTo(gene2);</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;        <span class="keywordflow">if</span> (result != 0) {</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;          <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;        }</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;      }</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;      <span class="comment">// If everything is equal until now the CompositeGene with more</span></div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;      <span class="comment">// contained genes wins.</span></div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;      <span class="comment">// ------------------------------------------------------------</span></div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;      <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a>() == otherCompositeGene.size()) {</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#acd6431c06c81bc03b4abbe32e4d9d8ef">isCompareApplicationData</a>()) {</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;          <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a72fa365cdcc9f2eb399fb8346a0a511b">compareApplicationData</a>(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a0520139dc694dc6034aeb631ae7d70bd">getApplicationData</a>(),</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;                                        otherCompositeGene.getApplicationData());</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;        }</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;          <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;        }</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;      }</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a>() &gt; otherCompositeGene.size()) {</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;          <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;        }</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;        <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;          <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;        }</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;      }</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;    }</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_a564e6b2959bb4b0203cbcbda2fa0e75f"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a564e6b2959bb4b0203cbcbda2fa0e75f">org.jgap.impl.CompositeGene.CompositeGene</a></div><div class="ttdeci">CompositeGene()</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:82</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a0520139dc694dc6034aeb631ae7d70bd"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a0520139dc694dc6034aeb631ae7d70bd">org.jgap.BaseGene.getApplicationData</a></div><div class="ttdeci">Object getApplicationData()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:278</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_aa5c573b6b4343fe76163357c021e35ce"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aa5c573b6b4343fe76163357c021e35ce">org.jgap.impl.CompositeGene.geneAt</a></div><div class="ttdeci">Gene geneAt(int a_index)</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:557</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a72fa365cdcc9f2eb399fb8346a0a511b"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a72fa365cdcc9f2eb399fb8346a0a511b">org.jgap.BaseGene.compareApplicationData</a></div><div class="ttdeci">int compareApplicationData(final Object a_appdata1, final Object a_appdata2)</div><div class="ttdef"><b>Definition:</b> BaseGene.java:306</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ac6078356e9ce615740ab4e5fcd53b86a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">org.jgap.impl.CompositeGene.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:578</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_acd6431c06c81bc03b4abbe32e4d9d8ef"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#acd6431c06c81bc03b4abbe32e4d9d8ef">org.jgap.BaseGene.isCompareApplicationData</a></div><div class="ttdeci">boolean isCompareApplicationData()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:302</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_a18ca33f66617e762ee657212866f6b7c"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a18ca33f66617e762ee657212866f6b7c">org.jgap.impl.CompositeGene.isEmpty</a></div><div class="ttdeci">boolean isEmpty()</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:546</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2870d0e00136fa07477629ab04e91f96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.impl.CompositeGene.containsGeneByIdentity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td>
+          <td class="paramname"><em>gene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Checks whether a specific gene is already contained. The determination will be done by checking for identity and not using the equal method!</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gene</td><td>the gene under test </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true: the given gene object is contained</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;                                                   {</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;    <span class="keywordtype">boolean</span> result;</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a> = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a>();</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;    <span class="keywordflow">if</span> (size &lt; 1) {</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;      result = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    }</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;      result = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a>; i++) {</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        <span class="comment">//check for identity</span></div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;        <span class="comment">//------------------</span></div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aa5c573b6b4343fe76163357c021e35ce">geneAt</a>(i) == gene) {</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;          result = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;        }</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;      }</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    }</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    <span class="keywordflow">return</span> result;</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_aa5c573b6b4343fe76163357c021e35ce"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aa5c573b6b4343fe76163357c021e35ce">org.jgap.impl.CompositeGene.geneAt</a></div><div class="ttdeci">Gene geneAt(int a_index)</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:557</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ac6078356e9ce615740ab4e5fcd53b86a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">org.jgap.impl.CompositeGene.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:578</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8bf4b223b9614799efa2ee90d36b0602"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> org.jgap.impl.CompositeGene.createGene </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_geneClassName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_persistentRepresentation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Creates a new instance of gene.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_geneClassName</td><td>name of the gene class </td></tr>
+    <tr><td class="paramname">a_persistentRepresentation</td><td>persistent representation of the gene to create (could be obtained via getPersistentRepresentation)</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>newly created gene </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<div class="fragment"><div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                       {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    Class geneClass = Class.forName(a_geneClassName);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    Constructor constr = geneClass.getConstructor(<span class="keyword">new</span> Class[] {Configuration.class});</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    Gene gene = (Gene) constr.newInstance(<span class="keyword">new</span> Object[] {<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a>()});</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    gene.setValueFromPersistentRepresentation(a_persistentRepresentation);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordflow">return</span> gene;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a32a316c9cc9e273bd75182cbdf188fb6"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">org.jgap.BaseGene.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:409</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa5c573b6b4343fe76163357c021e35ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> org.jgap.impl.CompositeGene.geneAt </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_index</td><td>index to return the gene at </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the gene at the given index</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_composite_gene.html#adad062c4c8453eb4bfafd2d7c8abd1fb">org.jgap.ICompositeGene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;                                  {</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;    <span class="keywordflow">return</span> (Gene) m_genes.get(a_index);</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a06d9f8415a3386a04b4eebc12850dbcf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.impl.CompositeGene.getAllele </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves the value represented by this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>. All values returned by this class will be Vector instances. Each element of the Vector represents the allele of the corresponding gene in the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a>'s container</p>
+<dl class="section return"><dt>Devuelve</dt><dd>the value of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#aa06c80639659ddbcfa1cfe7b7bb109f9">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                            {</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    List alleles = <span class="keyword">new</span> Vector();</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    Gene gene;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a> = m_genes.size();</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a>; i++) {</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;      gene = (Gene) m_genes.get(i);</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;      alleles.add(gene.getAllele());</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    }</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    <span class="keywordflow">return</span> alleles;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ac6078356e9ce615740ab4e5fcd53b86a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">org.jgap.impl.CompositeGene.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:578</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0e0046a81c4adb9ff4d444c37e092b30"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.impl.CompositeGene.getBusinessKey </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>business key</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_business_key.html#ab1b12087d8726e9020441a1fed6be0f8">org.jgap.IBusinessKey</a>.</p>
+<div class="fragment"><div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;                                 {</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    Iterator iter = m_genes.iterator();</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;    Gene gene;</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    StringBuffer b = <span class="keyword">new</span> StringBuffer();</div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    <span class="keywordflow">while</span> (iter.hasNext()) {</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;      gene = (Gene) iter.next();</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;      b.append(<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aedd0a6ff682d116a12aabf06b110922a">GENE_DELIMITER_HEADING</a>);</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;      <span class="keywordflow">if</span> (IBusinessKey.class.isAssignableFrom(gene.getClass())) {</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;        b.append(((IBusinessKey)gene).getBusinessKey());</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;      }</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;        <span class="comment">// Fall back to suboptimal solution.</span></div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        <span class="comment">// ---------------------------------</span></div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;        b.append(gene.getPersistentRepresentation());</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;      }</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;      b.append(<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab95ce27b4f68e0d22791bb4d82d6c0d5">GENE_DELIMITER_CLOSING</a>);</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    }</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;    <span class="keywordflow">return</span> b.toString();</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ab95ce27b4f68e0d22791bb4d82d6c0d5"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab95ce27b4f68e0d22791bb4d82d6c0d5">org.jgap.impl.CompositeGene.GENE_DELIMITER_CLOSING</a></div><div class="ttdeci">static final String GENE_DELIMITER_CLOSING</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:60</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_aedd0a6ff682d116a12aabf06b110922a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aedd0a6ff682d116a12aabf06b110922a">org.jgap.impl.CompositeGene.GENE_DELIMITER_HEADING</a></div><div class="ttdeci">static final String GENE_DELIMITER_HEADING</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:54</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac8bb9bd8f19371c51a5231c6a1e9b4e9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&gt; org.jgap.impl.CompositeGene.getGenes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>list of genes contained in the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;                               {</div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;    <span class="keywordflow">return</span> m_genes;</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aabb760c92e6d5ae8c866c0bd41c6b6a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> org.jgap.impl.CompositeGene.getGeneTypeAllowed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the gene type allowed, or null if any type allowed</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.4 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                                   {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordflow">return</span> m_geneTypeAllowed;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9ee20f6169c0d441cdacb3685d5336f6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.impl.CompositeGene.getInternalValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This method is not called internally because <a class="el" href="classorg_1_1jgap_1_1_base_gene.html#a35e754e8e217bdd26962e1c3c31d0169">BaseGene.getAllele()</a> is overridden here! </p>
+<dl class="section return"><dt>Devuelve</dt><dd>always null </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1_base_gene.html#ad20da6b23ba524a95caa28f727c26dcd">org.jgap.BaseGene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;                                      {</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    <span class="keywordflow">return</span> null;</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad33dc860fffad1457c3f44a8b3b031f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.impl.CompositeGene.getPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws UnsupportedOperationException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>See interface <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> for description.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>string representation of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>'s current state </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">UnsupportedOperationException</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd>
+<dd>
+Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#a07bf7dbaa8de08e268c9357a46e79dac">org.jgap.IPersistentRepresentation</a>.</p>
+<div class="fragment"><div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                                           {</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    StringBuffer b = <span class="keyword">new</span> StringBuffer();</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    Iterator iter = m_genes.iterator();</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    Gene gene;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keywordflow">while</span> (iter.hasNext()) {</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;      gene = (Gene) iter.next();</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;      b.append(<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aedd0a6ff682d116a12aabf06b110922a">GENE_DELIMITER_HEADING</a>);</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        b.append(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a5e8fc72c1fccdb665113c0c34e3fa4b5">encode</a>(</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;            gene.getClass().getName() +</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;            <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ad2e0364fa1181ae5b7334a545864f96b">GENE_DELIMITER</a> +</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;            gene.getPersistentRepresentation()));</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;      b.append(<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab95ce27b4f68e0d22791bb4d82d6c0d5">GENE_DELIMITER_CLOSING</a>);</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    }</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="keywordflow">return</span> b.toString();</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ad2e0364fa1181ae5b7334a545864f96b"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ad2e0364fa1181ae5b7334a545864f96b">org.jgap.impl.CompositeGene.GENE_DELIMITER</a></div><div class="ttdeci">static final String GENE_DELIMITER</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:48</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ab95ce27b4f68e0d22791bb4d82d6c0d5"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab95ce27b4f68e0d22791bb4d82d6c0d5">org.jgap.impl.CompositeGene.GENE_DELIMITER_CLOSING</a></div><div class="ttdeci">static final String GENE_DELIMITER_CLOSING</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:60</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a5e8fc72c1fccdb665113c0c34e3fa4b5"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a5e8fc72c1fccdb665113c0c34e3fa4b5">org.jgap.BaseGene.encode</a></div><div class="ttdeci">String encode(String a_string)</div><div class="ttdef"><b>Definition:</b> BaseGene.java:422</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_aedd0a6ff682d116a12aabf06b110922a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aedd0a6ff682d116a12aabf06b110922a">org.jgap.impl.CompositeGene.GENE_DELIMITER_HEADING</a></div><div class="ttdeci">static final String GENE_DELIMITER_HEADING</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:54</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a153d4e31eb61c134167102ced3aea71e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.CompositeGene.hashCode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves the hash code value for this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>'s hash code</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.2 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;                        {</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a153d4e31eb61c134167102ced3aea71e">hashCode</a> = 1;</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    <span class="keywordtype">int</span> geneHashcode;</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a>(); i++) {</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;      geneHashcode = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aa5c573b6b4343fe76163357c021e35ce">geneAt</a>(i).hashCode();</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;      hashCode = 31 * hashCode + geneHashcode;</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    }</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a153d4e31eb61c134167102ced3aea71e">hashCode</a>;</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_aa5c573b6b4343fe76163357c021e35ce"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aa5c573b6b4343fe76163357c021e35ce">org.jgap.impl.CompositeGene.geneAt</a></div><div class="ttdeci">Gene geneAt(int a_index)</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:557</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_a153d4e31eb61c134167102ced3aea71e"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a153d4e31eb61c134167102ced3aea71e">org.jgap.impl.CompositeGene.hashCode</a></div><div class="ttdeci">int hashCode()</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:677</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ac6078356e9ce615740ab4e5fcd53b86a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">org.jgap.impl.CompositeGene.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:578</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a18ca33f66617e762ee657212866f6b7c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.impl.CompositeGene.isEmpty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>true: no genes contained, false otherwise</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;                           {</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;    <span class="keywordflow">return</span> m_genes.isEmpty() ? <span class="keyword">true</span> : <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab71f66feb3b88bb9bdcab5682abd4b03"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> org.jgap.impl.CompositeGene.newGeneInternal </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Provides an implementation-independent means for creating new <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> instances.</p>
+<dl class="section return"><dt>Devuelve</dt><dd>a new <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> instance of the same type and with the same setup as this concrete <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+
+<p>Implementa <a class="el" href="classorg_1_1jgap_1_1_base_gene.html#aa423e96ffac5a9589fb3a4fbda791b3c">org.jgap.BaseGene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;                                   {</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a564e6b2959bb4b0203cbcbda2fa0e75f">CompositeGene</a> compositeGene = <span class="keyword">new</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a564e6b2959bb4b0203cbcbda2fa0e75f">CompositeGene</a>(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">getConfiguration</a>());</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;      compositeGene.setConstraintChecker(<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">getConstraintChecker</a>());</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;      Gene gene;</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;      <span class="keywordtype">int</span> geneSize = m_genes.size();</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; geneSize; i++) {</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        gene = (Gene) m_genes.get(i);</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        compositeGene.addGene(gene.newGene(), <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;      }</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;      <span class="keywordflow">return</span> compositeGene;</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;    }</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <span class="keywordflow">catch</span> (InvalidConfigurationException iex) {</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalStateException(iex.getMessage());</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    }</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_a32a316c9cc9e273bd75182cbdf188fb6"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#a32a316c9cc9e273bd75182cbdf188fb6">org.jgap.BaseGene.getConfiguration</a></div><div class="ttdeci">Configuration getConfiguration()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:409</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_a564e6b2959bb4b0203cbcbda2fa0e75f"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a564e6b2959bb4b0203cbcbda2fa0e75f">org.jgap.impl.CompositeGene.CompositeGene</a></div><div class="ttdeci">CompositeGene()</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:82</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_ae9823bef7c550fc1533afb8ab2b34d93"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">org.jgap.BaseGene.getConstraintChecker</a></div><div class="ttdeci">IGeneConstraintChecker getConstraintChecker()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:370</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9d45afd175bbbe529fdb5a51c5ac0945"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.impl.CompositeGene.removeGene </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td>
+          <td class="paramname"><em>a_gene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes the given gene from the collection of genes. The gene is removed if another gene exists that is equal to the given gene in respect to the equals method of the gene.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_gene</td><td>the gene to be removed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true: given gene found and removed</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                                               {</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordflow">return</span> m_genes.remove(a_gene);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a770487c7ce405ffc76c0c5ead65342ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.impl.CompositeGene.removeGeneByIdentity </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a>&#160;</td>
+          <td class="paramname"><em>a_gene</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Removes the given gene from the collection of genes. The gene is only removed if an object of the same identity is contained. The equals method is not used here intentionally.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_gene</td><td>the gene to be removed </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true: given gene found and removed</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                                                         {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a> = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a>();</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">if</span> (size &lt; 1) {</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a>; i++) {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aa5c573b6b4343fe76163357c021e35ce">geneAt</a>(i) == a_gene) {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;          m_genes.remove(i);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;          <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;      }</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    }</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_aa5c573b6b4343fe76163357c021e35ce"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aa5c573b6b4343fe76163357c021e35ce">org.jgap.impl.CompositeGene.geneAt</a></div><div class="ttdeci">Gene geneAt(int a_index)</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:557</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ac6078356e9ce615740ab4e5fcd53b86a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">org.jgap.impl.CompositeGene.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:578</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9e22ec1330a1b2009da1f587c299ed74"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.CompositeGene.setAllele </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_newValue</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the value of the contained Genes to the new given value. This class expects the value to be of a Vector type. Each element of the Vector must conform with the type of the gene in the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a>'s container at the corresponding position.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_newValue</td><td>the new value of this <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> instance</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#af46a0c31e0fecea483497e87ca278127">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                                           {</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <span class="keywordflow">if</span> (! (a_newValue instanceof List)) {</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;          <span class="stringliteral">&quot;The expected type of the allele&quot;</span></div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;          + <span class="stringliteral">&quot; is a List descendent.&quot;</span>);</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    }</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">getConstraintChecker</a>() != null) {</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;      <span class="keywordflow">if</span> (!<a class="code" href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">getConstraintChecker</a>().verify(<span class="keyword">this</span>, a_newValue, null, -1)) {</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;      }</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    }</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    List alleles = (List) a_newValue;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    Gene gene;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; alleles.size(); i++) {</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;      gene = (Gene) m_genes.get(i);</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;      gene.setAllele(alleles.get(i));</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    }</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_ae9823bef7c550fc1533afb8ab2b34d93"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#ae9823bef7c550fc1533afb8ab2b34d93">org.jgap.BaseGene.getConstraintChecker</a></div><div class="ttdeci">IGeneConstraintChecker getConstraintChecker()</div><div class="ttdef"><b>Definition:</b> BaseGene.java:370</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a41d0187fbd5adbcb7c3bfff7d76f1180"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.CompositeGene.setToRandomValue </td>
+          <td>(</td>
+          <td class="paramtype">final <a class="el" href="interfaceorg_1_1jgap_1_1_random_generator.html">RandomGenerator</a>&#160;</td>
+          <td class="paramname"><em>a_numberGenerator</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>See interface <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> for description.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_numberGenerator</td><td>the random number generator that should be used to create any random values. It's important to use this generator to maintain the user's flexibility to configure the genetic engine to use the random number generator of their choice</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                                                                        {</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">if</span> (a_numberGenerator == null) {</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;      <span class="keywordflow">throw</span> <span class="keyword">new</span> IllegalArgumentException(<span class="stringliteral">&quot;Random generatoe must not be null!&quot;</span>);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    }</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    Gene gene;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a> = m_genes.size();</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">size</a>; i++) {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;      gene = (Gene) m_genes.get(i);</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;      gene.setToRandomValue(a_numberGenerator);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    }</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ac6078356e9ce615740ab4e5fcd53b86a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ac6078356e9ce615740ab4e5fcd53b86a">org.jgap.impl.CompositeGene.size</a></div><div class="ttdeci">int size()</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:578</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abd62d1ccb9e0753b93d11a89fd055d0e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.impl.CompositeGene.setValueFromPersistentRepresentation </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_representation</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>See interface <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html">Gene</a> for description.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_representation</td><td>the string representation retrieved from a prior call to the <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ad33dc860fffad1457c3f44a8b3b031f7">getPersistentRepresentation()</a> method</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd>
+<dd>
+Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_i_persistent_representation.html#a94a345f1919c4840dd0b9eecf7afc6a3">org.jgap.IPersistentRepresentation</a>.</p>
+<div class="fragment"><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                                                {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="keywordflow">if</span> (a_representation != null) {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;      <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="comment">// Remove the old content.</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <span class="comment">// -----------------------</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        m_genes.clear();</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        List r = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a8a2fa0b4b68a8c06457d2b56166c56fd">split</a>(a_representation);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        Iterator iter = r.iterator();</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        StringTokenizer st;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        String clas;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        String representation;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        String g;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        Gene gene;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="keywordflow">while</span> (iter.hasNext()) {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;          g = <a class="code" href="classorg_1_1jgap_1_1_base_gene.html#ae9277d0b77c1e8ca244687a8ab8cf42f">decode</a>( (String) iter.next());</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;          st = <span class="keyword">new</span> StringTokenizer(g, <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ad2e0364fa1181ae5b7334a545864f96b">GENE_DELIMITER</a>);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;          <span class="keywordflow">if</span> (st.countTokens() != 2)</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(<span class="stringliteral">&quot;In &quot;</span> + g + <span class="stringliteral">&quot;, &quot;</span> +</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                <span class="stringliteral">&quot;expecting two tokens, separated by &quot;</span> + <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ad2e0364fa1181ae5b7334a545864f96b">GENE_DELIMITER</a>);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;          clas = st.nextToken();</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;          representation = st.nextToken();</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;          gene = <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a8bf4b223b9614799efa2ee90d36b0602">createGene</a>(clas, representation);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;          <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab452b46689654525e3df79bf1ca242f3">addGene</a>(gene);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        }</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;      }</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;      <span class="keywordflow">catch</span> (Exception ex) {</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(ex.toString());</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      }</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    }</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ad2e0364fa1181ae5b7334a545864f96b"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ad2e0364fa1181ae5b7334a545864f96b">org.jgap.impl.CompositeGene.GENE_DELIMITER</a></div><div class="ttdeci">static final String GENE_DELIMITER</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:48</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1_base_gene_html_ae9277d0b77c1e8ca244687a8ab8cf42f"><div class="ttname"><a href="classorg_1_1jgap_1_1_base_gene.html#ae9277d0b77c1e8ca244687a8ab8cf42f">org.jgap.BaseGene.decode</a></div><div class="ttdeci">String decode(String a_string)</div><div class="ttdef"><b>Definition:</b> BaseGene.java:426</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ab452b46689654525e3df79bf1ca242f3"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab452b46689654525e3df79bf1ca242f3">org.jgap.impl.CompositeGene.addGene</a></div><div class="ttdeci">void addGene(final Gene a_gene)</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:127</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_a8a2fa0b4b68a8c06457d2b56166c56fd"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a8a2fa0b4b68a8c06457d2b56166c56fd">org.jgap.impl.CompositeGene.split</a></div><div class="ttdeci">static final List split(String a_string)</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:644</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_a8bf4b223b9614799efa2ee90d36b0602"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#a8bf4b223b9614799efa2ee90d36b0602">org.jgap.impl.CompositeGene.createGene</a></div><div class="ttdeci">Gene createGene(String a_geneClassName, String a_persistentRepresentation)</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:319</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac6078356e9ce615740ab4e5fcd53b86a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.impl.CompositeGene.size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>the number of genes contained</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#a7a975e180dd0ac0fd33cdc182f64bea8">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;                    {</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    <span class="keywordflow">return</span> m_genes.size();</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a8a2fa0b4b68a8c06457d2b56166c56fd"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static final List org.jgap.impl.CompositeGene.split </td>
+          <td>(</td>
+          <td class="paramtype">String&#160;</td>
+          <td class="paramname"><em>a_string</em></td><td>)</td>
+          <td> throws <a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Splits a_string into individual gene representations.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_string</td><td>the string to split </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>the elements of the returned array are the persistent representation strings of the gene's components </dd></dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classorg_1_1jgap_1_1_unsupported_representation_exception.html">UnsupportedRepresentationException</a></td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;                                                {</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;    List a = Collections.synchronizedList(<span class="keyword">new</span> ArrayList());</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;    StringTokenizer st = <span class="keyword">new</span> StringTokenizer</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;        (a_string, <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aedd0a6ff682d116a12aabf06b110922a">GENE_DELIMITER_HEADING</a> + <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab95ce27b4f68e0d22791bb4d82d6c0d5">GENE_DELIMITER_CLOSING</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;    <span class="keywordflow">while</span> (st.hasMoreTokens()) {</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;      <span class="keywordflow">if</span> (!st.nextToken().equals(<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aedd0a6ff682d116a12aabf06b110922a">GENE_DELIMITER_HEADING</a>)) {</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;        <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException(a_string + <span class="stringliteral">&quot; no opening tag&quot;</span>);</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;      }</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;      String n = st.nextToken();</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;      <span class="keywordflow">if</span> (n.equals(<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab95ce27b4f68e0d22791bb4d82d6c0d5">GENE_DELIMITER_CLOSING</a>)) {</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;        <span class="comment">// Empty token.</span></div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;        a.add(<span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;      }</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;      <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;        a.add(n);</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;        <span class="keywordflow">if</span> (!st.nextToken().equals(<a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab95ce27b4f68e0d22791bb4d82d6c0d5">GENE_DELIMITER_CLOSING</a>)) {</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;          <span class="keywordflow">throw</span> <span class="keyword">new</span> UnsupportedRepresentationException</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;              (a_string + <span class="stringliteral">&quot; no closing tag&quot;</span>);</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;        }</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;      }</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;    }</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;    <span class="keywordflow">return</span> a;</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ab95ce27b4f68e0d22791bb4d82d6c0d5"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ab95ce27b4f68e0d22791bb4d82d6c0d5">org.jgap.impl.CompositeGene.GENE_DELIMITER_CLOSING</a></div><div class="ttdeci">static final String GENE_DELIMITER_CLOSING</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:60</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_aedd0a6ff682d116a12aabf06b110922a"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#aedd0a6ff682d116a12aabf06b110922a">org.jgap.impl.CompositeGene.GENE_DELIMITER_HEADING</a></div><div class="ttdeci">static final String GENE_DELIMITER_HEADING</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:54</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad30baf0c08afe2bba30d25ada096d88a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.impl.CompositeGene.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Retrieves a string representation of this <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a>'s value that may be useful for display purposes. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>string representation of this <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a>'s value. Every contained gene's string representation is delimited by the given delimiter</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Neil Rotstan </dd>
+<dd>
+Klaus Meffert </dd>
+<dd>
+Audrius Meskauskas </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>1.1 </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1_gene.html#ac62239b4b7bf81179fd491a4c4bd1901">org.jgap.Gene</a>.</p>
+<div class="fragment"><div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;                           {</div>
+<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;    <span class="keywordflow">if</span> (m_genes.isEmpty()) {</div>
+<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;      <span class="keywordflow">return</span> <span class="stringliteral">&quot;CompositeGene=null&quot;</span>;</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    }</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;      String result = <span class="stringliteral">&quot;CompositeGene=(&quot;</span>;</div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;      Gene gene;</div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;      <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; m_genes.size(); i++) {</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;        gene = (Gene) m_genes.get(i);</div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;        result += gene;</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;        <span class="keywordflow">if</span> (i &lt; m_genes.size() - 1) {</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;          result += <a class="code" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ad2e0364fa1181ae5b7334a545864f96b">GENE_DELIMITER</a>;</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;        }</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;      }</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;      <span class="keywordflow">return</span> result + <span class="stringliteral">&quot;)&quot;</span>;</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    }</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1impl_1_1_composite_gene_html_ad2e0364fa1181ae5b7334a545864f96b"><div class="ttname"><a href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html#ad2e0364fa1181ae5b7334a545864f96b">org.jgap.impl.CompositeGene.GENE_DELIMITER</a></div><div class="ttdeci">static final String GENE_DELIMITER</div><div class="ttdef"><b>Definition:</b> CompositeGene.java:48</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de los datos miembro</h2>
+<a class="anchor" id="ad2e0364fa1181ae5b7334a545864f96b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.jgap.impl.CompositeGene.GENE_DELIMITER = &quot;#&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>This field separates gene class name from the gene persistent representation string. '*' does not work properly with URLEncoder! </p>
+
+</div>
+</div>
+<a class="anchor" id="ab95ce27b4f68e0d22791bb4d82d6c0d5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.jgap.impl.CompositeGene.GENE_DELIMITER_CLOSING = &quot;&gt;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Represents the closing delimiter that is used to separate genes in the persistent representation of <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a> instances. </p>
+
+</div>
+</div>
+<a class="anchor" id="aedd0a6ff682d116a12aabf06b110922a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">final String org.jgap.impl.CompositeGene.GENE_DELIMITER_HEADING = &quot;&lt;&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Represents the heading delimiter that is used to separate genes in the persistent representation of <a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a> instances. </p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/impl/<a class="el" href="_composite_gene_8java.html">CompositeGene.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1impl.html">impl</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1impl_1_1_composite_gene.html">CompositeGene</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:49 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

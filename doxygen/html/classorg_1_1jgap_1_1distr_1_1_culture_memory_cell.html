@@ -1,0 +1,988 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.distr.CultureMemoryCell</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="#pro-methods">Métodos protegidos</a> &#124;
+<a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.distr.CultureMemoryCell</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias Serializable y Comparable.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:acb26ec2b754f3e24fc388374c8db9cc7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">CultureMemoryCell</a> ()</td></tr>
+<tr class="separator:acb26ec2b754f3e24fc388374c8db9cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8092ac7ee9a1fa654d6a53a45c3c48a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ae8092ac7ee9a1fa654d6a53a45c3c48a">CultureMemoryCell</a> (final String a_name)</td></tr>
+<tr class="separator:ae8092ac7ee9a1fa654d6a53a45c3c48a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affa86aa63b0526039c8066893fbf2e8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#affa86aa63b0526039c8066893fbf2e8e">CultureMemoryCell</a> (final String a_name, final int a_historySize)</td></tr>
+<tr class="separator:affa86aa63b0526039c8066893fbf2e8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e11c64dae327c28e3c93c8b9d92512"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab2e11c64dae327c28e3c93c8b9d92512">setName</a> (final String a_name)</td></tr>
+<tr class="separator:ab2e11c64dae327c28e3c93c8b9d92512"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc046e5204a5954e197a994cb29401c2"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#adc046e5204a5954e197a994cb29401c2">getName</a> ()</td></tr>
+<tr class="separator:adc046e5204a5954e197a994cb29401c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e7bea3a898495bc7708842a6573980e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a3e7bea3a898495bc7708842a6573980e">setValue</a> (final Object a_value)</td></tr>
+<tr class="separator:a3e7bea3a898495bc7708842a6573980e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb20ea7d6c08bee8f757d882a2b1de40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aeb20ea7d6c08bee8f757d882a2b1de40">setDouble</a> (final double a_value)</td></tr>
+<tr class="separator:aeb20ea7d6c08bee8f757d882a2b1de40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd665dfb0d3db8594c68b48484fdd58"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a5fd665dfb0d3db8594c68b48484fdd58">getCurrentValueAsDouble</a> ()</td></tr>
+<tr class="separator:a5fd665dfb0d3db8594c68b48484fdd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a564c878bfe14444efaf49ebe5b5f2f0d"><td class="memItemLeft" align="right" valign="top">Object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a564c878bfe14444efaf49ebe5b5f2f0d">getCurrentValue</a> ()</td></tr>
+<tr class="separator:a564c878bfe14444efaf49ebe5b5f2f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b3d1767e269490303f45adbdee6c7f"><td class="memItemLeft" align="right" valign="top">List&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab1b3d1767e269490303f45adbdee6c7f">getHistory</a> ()</td></tr>
+<tr class="separator:ab1b3d1767e269490303f45adbdee6c7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a160c16124994dddd00ff0103611f0402"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a160c16124994dddd00ff0103611f0402">getVersion</a> ()</td></tr>
+<tr class="separator:a160c16124994dddd00ff0103611f0402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c54a4bbf693ca87af75251b0b19b66"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a75c54a4bbf693ca87af75251b0b19b66">getReadAccessed</a> ()</td></tr>
+<tr class="separator:a75c54a4bbf693ca87af75251b0b19b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46739eea4ca228c498e80f9373868480"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a46739eea4ca228c498e80f9373868480">getReadAccessedCurrentVersion</a> ()</td></tr>
+<tr class="separator:a46739eea4ca228c498e80f9373868480"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab869b14ee95d1943d8726151b11d3dd4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab869b14ee95d1943d8726151b11d3dd4">setHistorySize</a> (final int a_size)</td></tr>
+<tr class="separator:ab869b14ee95d1943d8726151b11d3dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa84f028dc699a714bddbcc71e5da33db"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aa84f028dc699a714bddbcc71e5da33db">getHistorySize</a> ()</td></tr>
+<tr class="separator:aa84f028dc699a714bddbcc71e5da33db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d16482e95c3d40f67511f43bc9f57dd"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a6d16482e95c3d40f67511f43bc9f57dd">toString</a> ()</td></tr>
+<tr class="separator:a6d16482e95c3d40f67511f43bc9f57dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a082f698809508dd8a54519260a993393"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a082f698809508dd8a54519260a993393">getVersionTimeMilliseconds</a> ()</td></tr>
+<tr class="separator:a082f698809508dd8a54519260a993393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fcbad174c7a386d6527306d86621fef"><td class="memItemLeft" align="right" valign="top">boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a9fcbad174c7a386d6527306d86621fef">equals</a> (Object a_other)</td></tr>
+<tr class="separator:a9fcbad174c7a386d6527306d86621fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6d47cc667193be5a75d4f3bcf3e675"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aad6d47cc667193be5a75d4f3bcf3e675">compareTo</a> (Object a_other)</td></tr>
+<tr class="separator:aad6d47cc667193be5a75d4f3bcf3e675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Métodos protegidos</h2></td></tr>
+<tr class="memitem:a99315b0f898dc5b7f4a13a674902ab33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a99315b0f898dc5b7f4a13a674902ab33">incrementVersion</a> ()</td></tr>
+<tr class="separator:a99315b0f898dc5b7f4a13a674902ab33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d7a89c09d12333a0a5846c5c49890eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a1d7a89c09d12333a0a5846c5c49890eb">keepHistory</a> (final Object a_value, final int a_version, final String a_name)</td></tr>
+<tr class="separator:a1d7a89c09d12333a0a5846c5c49890eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaeed06d7e64648fe6b12b753caec986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html">CultureMemoryCell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aaaeed06d7e64648fe6b12b753caec986">getNewInstance</a> (final Object a_value, final int a_version, final String a_name)</td></tr>
+<tr class="separator:aaaeed06d7e64648fe6b12b753caec986"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21efff9174d3988134aadea5a33b23ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a21efff9174d3988134aadea5a33b23ce">trimHistory</a> (final int a_size)</td></tr>
+<tr class="separator:a21efff9174d3988134aadea5a33b23ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a256d4a332bbba1449c483cdbeee6fdb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a256d4a332bbba1449c483cdbeee6fdb3">toStringRecursive</a> (StringBuffer a_result, final int a_historySize)</td></tr>
+<tr class="separator:a256d4a332bbba1449c483cdbeee6fdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Represents a memory cell used within <a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture.html">org.jgap.distr.Culture</a>, a special form of memory. </p>
+<p><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html">CultureMemoryCell</a> also stores metadata along with the value-to-store, like date/time of setting a value, change history.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="acb26ec2b754f3e24fc388374c8db9cc7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.CultureMemoryCell.CultureMemoryCell </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Default constructor.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                             {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keyword">this</span>(null);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ae8092ac7ee9a1fa654d6a53a45c3c48a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.CultureMemoryCell.CultureMemoryCell </td>
+          <td>(</td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets history size to 3. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_name</td><td>informative name of the memory cell</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                                {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keyword">this</span>(a_name, 3);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="affa86aa63b0526039c8066893fbf2e8e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.CultureMemoryCell.CultureMemoryCell </td>
+          <td>(</td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_historySize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Allows to freely specify informative name of memory cell as well as size of history to keep. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_name</td><td>informative name of the memory cell </td></tr>
+    <tr><td class="paramname">a_historySize</td><td>size of history to keep. Use values less than 1 for turning history logging off</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab869b14ee95d1943d8726151b11d3dd4">setHistorySize</a>(a_historySize);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    m_history = <span class="keyword">new</span> Vector(<a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aa84f028dc699a714bddbcc71e5da33db">getHistorySize</a>());</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab2e11c64dae327c28e3c93c8b9d92512">setName</a>(a_name);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_ab2e11c64dae327c28e3c93c8b9d92512"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab2e11c64dae327c28e3c93c8b9d92512">org.jgap.distr.CultureMemoryCell.setName</a></div><div class="ttdeci">void setName(final String a_name)</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:122</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_ab869b14ee95d1943d8726151b11d3dd4"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab869b14ee95d1943d8726151b11d3dd4">org.jgap.distr.CultureMemoryCell.setHistorySize</a></div><div class="ttdeci">void setHistorySize(final int a_size)</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:306</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_aa84f028dc699a714bddbcc71e5da33db"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aa84f028dc699a714bddbcc71e5da33db">org.jgap.distr.CultureMemoryCell.getHistorySize</a></div><div class="ttdeci">int getHistorySize()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:340</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="aad6d47cc667193be5a75d4f3bcf3e675"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.distr.CultureMemoryCell.compareTo </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The compareTo-method. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the other object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>-1, 0, 1</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;                                       {</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">CultureMemoryCell</a> other = (<a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">CultureMemoryCell</a>) a_other;</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <span class="keywordflow">if</span> (other == null) {</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;      <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    }</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">new</span> CompareToBuilder()</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        .append(m_value, other.m_value)</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        .append(m_version, other.m_version)</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        .append(m_historySize, other.m_historySize)</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        .toComparison();</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_acb26ec2b754f3e24fc388374c8db9cc7"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">org.jgap.distr.CultureMemoryCell.CultureMemoryCell</a></div><div class="ttdeci">CultureMemoryCell()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:84</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a9fcbad174c7a386d6527306d86621fef"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boolean org.jgap.distr.CultureMemoryCell.equals </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"><em>a_other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The equals-method. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_other</td><td>the other object to compare </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>true if the objects are regarded as equal</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;                                        {</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    <span class="keywordflow">try</span> {</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aad6d47cc667193be5a75d4f3bcf3e675">compareTo</a>(a_other) == 0;</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    } <span class="keywordflow">catch</span> (ClassCastException cex) {</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;      <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    }</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_aad6d47cc667193be5a75d4f3bcf3e675"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aad6d47cc667193be5a75d4f3bcf3e675">org.jgap.distr.CultureMemoryCell.compareTo</a></div><div class="ttdeci">int compareTo(Object a_other)</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:420</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a564c878bfe14444efaf49ebe5b5f2f0d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Object org.jgap.distr.CultureMemoryCell.getCurrentValue </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>current memory value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                                  {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    m_readAccessed++;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordflow">return</span> m_value;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5fd665dfb0d3db8594c68b48484fdd58"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.distr.CultureMemoryCell.getCurrentValueAsDouble </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convenience method to retrieve a primitive double value from memory easily. Here a ClassCastException could occur! </p>
+<dl class="section return"><dt>Devuelve</dt><dd>double value representing current memory value</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                                          {</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">return</span> ( (Double) <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a564c878bfe14444efaf49ebe5b5f2f0d">getCurrentValue</a>()).doubleValue();</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_a564c878bfe14444efaf49ebe5b5f2f0d"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a564c878bfe14444efaf49ebe5b5f2f0d">org.jgap.distr.CultureMemoryCell.getCurrentValue</a></div><div class="ttdeci">Object getCurrentValue()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:185</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab1b3d1767e269490303f45adbdee6c7f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List org.jgap.distr.CultureMemoryCell.getHistory </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>list of most recent entries (except current entry). The item at index 0 is the oldest, the item at highest index is the youngest one.</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                           {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">return</span> m_history;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa84f028dc699a714bddbcc71e5da33db"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.distr.CultureMemoryCell.getHistorySize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>size of the history</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                              {</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keywordflow">return</span> m_historySize;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adc046e5204a5954e197a994cb29401c2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.distr.CultureMemoryCell.getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>informative name of the memory cell</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                          {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">return</span> m_name;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aaaeed06d7e64648fe6b12b753caec986"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html">CultureMemoryCell</a> org.jgap.distr.CultureMemoryCell.getNewInstance </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_version</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Creates a new instance of <a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html">CultureMemoryCell</a> preset with the given parameters. Used for creating history entries.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_value</td><td>memory value to store </td></tr>
+    <tr><td class="paramname">a_version</td><td>version of the value </td></tr>
+    <tr><td class="paramname">a_name</td><td>name to store </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>new instance of <a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html">CultureMemoryCell</a></dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                           {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    <span class="comment">// DON&#39;T USE SETTERS IN HERE BECAUSE OF ENDLESS LOOPS!</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">CultureMemoryCell</a> cell = <span class="keyword">new</span> <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">CultureMemoryCell</a>(a_name, 0);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    cell.m_value = a_value;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    cell.m_version = a_version;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">return</span> cell;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_acb26ec2b754f3e24fc388374c8db9cc7"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">org.jgap.distr.CultureMemoryCell.CultureMemoryCell</a></div><div class="ttdeci">CultureMemoryCell()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:84</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a75c54a4bbf693ca87af75251b0b19b66"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.distr.CultureMemoryCell.getReadAccessed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>number of times the memory cell has been read accessed</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                               {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordflow">return</span> m_readAccessed;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a46739eea4ca228c498e80f9373868480"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.distr.CultureMemoryCell.getReadAccessedCurrentVersion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>number of read accesses since current value has been set. Calculated by subtracting number of read accesses for prior version from total number of read accesses</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                                             {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="keywordflow">if</span> (m_historySize &lt; 1) {</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;      <span class="comment">// Use internal (simple/atomic) history.</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;      <span class="comment">// -------------------------------------</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a75c54a4bbf693ca87af75251b0b19b66">getReadAccessed</a>() - m_previousVersion.getReadAccessed();</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    }</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;      <span class="comment">// Use sophisticated history (list).</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;      <span class="comment">// ---------------------------------</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">CultureMemoryCell</a> cell = (<a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">CultureMemoryCell</a>) m_history.get(</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;          m_history.size() - 1);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;      <span class="keywordflow">return</span> <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a75c54a4bbf693ca87af75251b0b19b66">getReadAccessed</a>() - cell.getReadAccessed();</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    }</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_a75c54a4bbf693ca87af75251b0b19b66"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a75c54a4bbf693ca87af75251b0b19b66">org.jgap.distr.CultureMemoryCell.getReadAccessed</a></div><div class="ttdeci">int getReadAccessed()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:271</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_acb26ec2b754f3e24fc388374c8db9cc7"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">org.jgap.distr.CultureMemoryCell.CultureMemoryCell</a></div><div class="ttdeci">CultureMemoryCell()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:84</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a160c16124994dddd00ff0103611f0402"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.distr.CultureMemoryCell.getVersion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>version of memory value, read only</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                          {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordflow">return</span> m_version;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a082f698809508dd8a54519260a993393"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">long org.jgap.distr.CultureMemoryCell.getVersionTimeMilliseconds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>time in milliseconds when the current version has been created</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.0 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;                                           {</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    <span class="keywordflow">return</span> m_dateTimeVersion;</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a99315b0f898dc5b7f4a13a674902ab33"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.CultureMemoryCell.incrementVersion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Increment version number and keep track of current time.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                                    {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    m_version++;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="comment">// Memorize current time.</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    m_dateTimeVersion = System.currentTimeMillis();</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1d7a89c09d12333a0a5846c5c49890eb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.CultureMemoryCell.keepHistory </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_version</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Puts an entry into history. Stores all information as a new <a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html">CultureMemoryCell</a> instance.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_value</td><td>memory value to store </td></tr>
+    <tr><td class="paramname">a_version</td><td>version of the value </td></tr>
+    <tr><td class="paramname">a_name</td><td>name to store</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                                                  {</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a21efff9174d3988134aadea5a33b23ce">trimHistory</a>(m_historySize - 1);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="comment">// simply add a new instance of CultureMemoryCell for keeping history track</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">CultureMemoryCell</a> cell = <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aaaeed06d7e64648fe6b12b753caec986">getNewInstance</a>(a_value, a_version, a_name);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    cell.m_internalHistorySize = m_historySize;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    m_history.add(cell);</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_aaaeed06d7e64648fe6b12b753caec986"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aaaeed06d7e64648fe6b12b753caec986">org.jgap.distr.CultureMemoryCell.getNewInstance</a></div><div class="ttdeci">CultureMemoryCell getNewInstance(final Object a_value, final int a_version, final String a_name)</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:255</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_acb26ec2b754f3e24fc388374c8db9cc7"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">org.jgap.distr.CultureMemoryCell.CultureMemoryCell</a></div><div class="ttdeci">CultureMemoryCell()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:84</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_a21efff9174d3988134aadea5a33b23ce"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a21efff9174d3988134aadea5a33b23ce">org.jgap.distr.CultureMemoryCell.trimHistory</a></div><div class="ttdeci">void trimHistory(final int a_size)</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:326</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aeb20ea7d6c08bee8f757d882a2b1de40"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.CultureMemoryCell.setDouble </td>
+          <td>(</td>
+          <td class="paramtype">final double&#160;</td>
+          <td class="paramname"><em>a_value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Convenience method to store a primitive double easily.</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_value</td><td>double value to store</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                                              {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a3e7bea3a898495bc7708842a6573980e">setValue</a>(<span class="keyword">new</span> Double(a_value));</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_a3e7bea3a898495bc7708842a6573980e"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a3e7bea3a898495bc7708842a6573980e">org.jgap.distr.CultureMemoryCell.setValue</a></div><div class="ttdeci">void setValue(final Object a_value)</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:143</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab869b14ee95d1943d8726151b11d3dd4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.CultureMemoryCell.setHistorySize </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the size of the history and scales down the history log it is larger than the given size. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_size</td><td>new size of the history log = how many entries to store</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                                               {</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab1b3d1767e269490303f45adbdee6c7f">getHistory</a>() != null &amp;&amp; a_size &gt; <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab1b3d1767e269490303f45adbdee6c7f">getHistory</a>().size()) {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a21efff9174d3988134aadea5a33b23ce">trimHistory</a>(a_size);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;      m_historySize = a_size;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    }</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (a_size &lt; 0) {</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;      m_historySize = 0;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    }</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      m_historySize = a_size;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    }</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_ab1b3d1767e269490303f45adbdee6c7f"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab1b3d1767e269490303f45adbdee6c7f">org.jgap.distr.CultureMemoryCell.getHistory</a></div><div class="ttdeci">List getHistory()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:197</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_a21efff9174d3988134aadea5a33b23ce"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a21efff9174d3988134aadea5a33b23ce">org.jgap.distr.CultureMemoryCell.trimHistory</a></div><div class="ttdeci">void trimHistory(final int a_size)</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:326</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab2e11c64dae327c28e3c93c8b9d92512"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.CultureMemoryCell.setName </td>
+          <td>(</td>
+          <td class="paramtype">final String&#160;</td>
+          <td class="paramname"><em>a_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets the informative name of the memory cell. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_name</td><td>informative name</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                                           {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    m_name = a_name;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a3e7bea3a898495bc7708842a6573980e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.CultureMemoryCell.setValue </td>
+          <td>(</td>
+          <td class="paramtype">final Object&#160;</td>
+          <td class="paramname"><em>a_value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Sets a new memory value. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_value</td><td>the memory value to set</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                                             {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="keywordflow">if</span> (m_historySize &gt; 0) {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a1d7a89c09d12333a0a5846c5c49890eb">keepHistory</a>(a_value, <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a160c16124994dddd00ff0103611f0402">getVersion</a>(), <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#adc046e5204a5954e197a994cb29401c2">getName</a>());</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    }</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      m_previousVersion = <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aaaeed06d7e64648fe6b12b753caec986">getNewInstance</a>(m_value, <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a160c16124994dddd00ff0103611f0402">getVersion</a>(),</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;          <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#adc046e5204a5954e197a994cb29401c2">getName</a>());</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    m_value = a_value;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a99315b0f898dc5b7f4a13a674902ab33">incrementVersion</a>();</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_a1d7a89c09d12333a0a5846c5c49890eb"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a1d7a89c09d12333a0a5846c5c49890eb">org.jgap.distr.CultureMemoryCell.keepHistory</a></div><div class="ttdeci">void keepHistory(final Object a_value, final int a_version, final String a_name)</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:234</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_a160c16124994dddd00ff0103611f0402"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a160c16124994dddd00ff0103611f0402">org.jgap.distr.CultureMemoryCell.getVersion</a></div><div class="ttdeci">int getVersion()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:207</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_aaaeed06d7e64648fe6b12b753caec986"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aaaeed06d7e64648fe6b12b753caec986">org.jgap.distr.CultureMemoryCell.getNewInstance</a></div><div class="ttdeci">CultureMemoryCell getNewInstance(final Object a_value, final int a_version, final String a_name)</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:255</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_a99315b0f898dc5b7f4a13a674902ab33"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a99315b0f898dc5b7f4a13a674902ab33">org.jgap.distr.CultureMemoryCell.incrementVersion</a></div><div class="ttdeci">void incrementVersion()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:217</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_adc046e5204a5954e197a994cb29401c2"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#adc046e5204a5954e197a994cb29401c2">org.jgap.distr.CultureMemoryCell.getName</a></div><div class="ttdeci">String getName()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:132</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6d16482e95c3d40f67511f43bc9f57dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.distr.CultureMemoryCell.toString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Devuelve</dt><dd>String representation of the cultural memory cell including all important information (also history log).</dd></dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                           {</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    StringBuffer result = <span class="keyword">new</span> StringBuffer();</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a256d4a332bbba1449c483cdbeee6fdb3">toStringRecursive</a>(result, <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aa84f028dc699a714bddbcc71e5da33db">getHistorySize</a>());</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="keywordflow">return</span> result.toString();</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_a256d4a332bbba1449c483cdbeee6fdb3"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a256d4a332bbba1449c483cdbeee6fdb3">org.jgap.distr.CultureMemoryCell.toStringRecursive</a></div><div class="ttdeci">void toStringRecursive(StringBuffer a_result, final int a_historySize)</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:365</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_aa84f028dc699a714bddbcc71e5da33db"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#aa84f028dc699a714bddbcc71e5da33db">org.jgap.distr.CultureMemoryCell.getHistorySize</a></div><div class="ttdeci">int getHistorySize()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:340</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a256d4a332bbba1449c483cdbeee6fdb3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.CultureMemoryCell.toStringRecursive </td>
+          <td>(</td>
+          <td class="paramtype">StringBuffer&#160;</td>
+          <td class="paramname"><em>a_result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_historySize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Recursive part of <a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a6d16482e95c3d40f67511f43bc9f57dd">toString()</a>. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_result</td><td>gathered result so far and modified here </td></tr>
+    <tr><td class="paramname">a_historySize</td><td>history size just for information purpose</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                                                            {</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    List history = <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab1b3d1767e269490303f45adbdee6c7f">getHistory</a>();</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    a_result.append(<span class="stringliteral">&quot;[Name:&quot;</span> + <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#adc046e5204a5954e197a994cb29401c2">getName</a>() + <span class="stringliteral">&quot;;&quot;</span>);</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    a_result.append(<span class="stringliteral">&quot;Value:&quot;</span> + m_value + <span class="stringliteral">&quot;;&quot;</span>); <span class="comment">//not getCurrentValue()!</span></div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    a_result.append(<span class="stringliteral">&quot;Version:&quot;</span> + <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a160c16124994dddd00ff0103611f0402">getVersion</a>() + <span class="stringliteral">&quot;;&quot;</span>);</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    a_result.append(<span class="stringliteral">&quot;Read accessed:&quot;</span> + <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a75c54a4bbf693ca87af75251b0b19b66">getReadAccessed</a>() + <span class="stringliteral">&quot;;&quot;</span>);</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    a_result.append(<span class="stringliteral">&quot;History Size:&quot;</span> + a_historySize + <span class="stringliteral">&quot;;&quot;</span>);</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    a_result.append(<span class="stringliteral">&quot;History:[&quot;</span>);</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; history.size(); i++) {</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;      <span class="keywordflow">if</span> (i &gt; 0) {</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        a_result.append(<span class="stringliteral">&quot;;&quot;</span>);</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;      }</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;      <a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">CultureMemoryCell</a> cell = (<a class="code" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">CultureMemoryCell</a>) history.get(i);</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;      <span class="comment">// do recursive call</span></div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;      cell.toStringRecursive(a_result, cell.m_internalHistorySize);</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;      a_result.append(<span class="stringliteral">&quot;]&quot;</span>);</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    }</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    a_result.append(<span class="stringliteral">&quot;]&quot;</span>);</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;  }</div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_a75c54a4bbf693ca87af75251b0b19b66"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a75c54a4bbf693ca87af75251b0b19b66">org.jgap.distr.CultureMemoryCell.getReadAccessed</a></div><div class="ttdeci">int getReadAccessed()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:271</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_a160c16124994dddd00ff0103611f0402"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#a160c16124994dddd00ff0103611f0402">org.jgap.distr.CultureMemoryCell.getVersion</a></div><div class="ttdeci">int getVersion()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:207</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_ab1b3d1767e269490303f45adbdee6c7f"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#ab1b3d1767e269490303f45adbdee6c7f">org.jgap.distr.CultureMemoryCell.getHistory</a></div><div class="ttdeci">List getHistory()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:197</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_acb26ec2b754f3e24fc388374c8db9cc7"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#acb26ec2b754f3e24fc388374c8db9cc7">org.jgap.distr.CultureMemoryCell.CultureMemoryCell</a></div><div class="ttdeci">CultureMemoryCell()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:84</div></div>
+<div class="ttc" id="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell_html_adc046e5204a5954e197a994cb29401c2"><div class="ttname"><a href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html#adc046e5204a5954e197a994cb29401c2">org.jgap.distr.CultureMemoryCell.getName</a></div><div class="ttdeci">String getName()</div><div class="ttdef"><b>Definition:</b> CultureMemoryCell.java:132</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a21efff9174d3988134aadea5a33b23ce"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.CultureMemoryCell.trimHistory </td>
+          <td>(</td>
+          <td class="paramtype">final int&#160;</td>
+          <td class="paramname"><em>a_size</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Trims the history to the given size. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_size</td><td>new size of history</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>2.3 </dd></dl>
+<div class="fragment"><div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;                                               {</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    <span class="comment">// trim length of history</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    <span class="keywordflow">while</span> (m_history.size() &gt; a_size) {</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;      <span class="comment">// remove one entry (always the first one = oldest one)</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;      m_history.remove(0);</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    }</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/distr/<a class="el" href="_culture_memory_cell_8java.html">CultureMemoryCell.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr.html">distr</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1distr_1_1_culture_memory_cell.html">CultureMemoryCell</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:24 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>

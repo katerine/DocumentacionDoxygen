@@ -1,0 +1,941 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.5"/>
+<title>Proyecto JGAP: Referencia de la Clase org.jgap.distr.grid.gp.GridConfigurationGPBase</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Proyecto JGAP
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Proyecto JGAP</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.5 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="pages.html"><span>Páginas&#160;relacionadas</span></a></li>
+      <li><a href="namespaces.html"><span>Paquetes</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Clases</span></a></li>
+      <li><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Lista&#160;de&#160;clases</span></a></li>
+      <li><a href="classes.html"><span>Índice&#160;de&#160;clases</span></a></li>
+      <li><a href="hierarchy.html"><span>Jerarquía&#160;de&#160;la&#160;clase</span></a></li>
+      <li><a href="functions.html"><span>Miembros&#160;de&#160;las&#160;clases</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Funciones</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Páginas</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Métodos públicos</a> &#124;
+<a href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base-members.html">Lista de todos los miembros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referencia de la Clase org.jgap.distr.grid.gp.GridConfigurationGPBase<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Herencias <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Métodos públicos</h2></td></tr>
+<tr class="memitem:a74b2206a20c0bf230fcc87156a5bdfb7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a74b2206a20c0bf230fcc87156a5bdfb7">GridConfigurationGPBase</a> ()</td></tr>
+<tr class="separator:a74b2206a20c0bf230fcc87156a5bdfb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac792df106b6622d526e5befe4fd01606"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#ac792df106b6622d526e5befe4fd01606">setContext</a> (BasicContext a_context)</td></tr>
+<tr class="separator:ac792df106b6622d526e5befe4fd01606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00b0c0a6956168cb4b57367c0e83d210"><td class="memItemLeft" align="right" valign="top">BasicContext&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a00b0c0a6956168cb4b57367c0e83d210">getContext</a> ()</td></tr>
+<tr class="separator:a00b0c0a6956168cb4b57367c0e83d210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dd91980caa58f434017130c85bda0e4"><td class="memItemLeft" align="right" valign="top">String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a1dd91980caa58f434017130c85bda0e4">getPackageName</a> ()</td></tr>
+<tr class="separator:a1dd91980caa58f434017130c85bda0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ddcc9fa93c4161a36e67ab678c94287"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_client_feedback_g_p.html">IClientFeedbackGP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a4ddcc9fa93c4161a36e67ab678c94287">getClientFeedback</a> ()</td></tr>
+<tr class="separator:a4ddcc9fa93c4161a36e67ab678c94287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd8a257f7ed7c9427550109113cb8a75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_client_evolve_strategy_g_p.html">IClientEvolveStrategyGP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#afd8a257f7ed7c9427550109113cb8a75">getClientEvolveStrategy</a> ()</td></tr>
+<tr class="separator:afd8a257f7ed7c9427550109113cb8a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a184e218897c50b4975d271ad65dc7c88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_request_split_strategy_g_p.html">IRequestSplitStrategyGP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a184e218897c50b4975d271ad65dc7c88">getRequestSplitStrategy</a> ()</td></tr>
+<tr class="separator:a184e218897c50b4975d271ad65dc7c88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eab35061eab5c2414743caf554aecea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a2eab35061eab5c2414743caf554aecea">getConfiguration</a> ()</td></tr>
+<tr class="separator:a2eab35061eab5c2414743caf554aecea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44edbc6a5afb971d1b296d9902466d6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a44edbc6a5afb971d1b296d9902466d6b">setConfiguration</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a> a_config)</td></tr>
+<tr class="separator:a44edbc6a5afb971d1b296d9902466d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb0a209fe24562b90f407697bd9a34b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_worker_evolve_strategy_g_p.html">IWorkerEvolveStrategyGP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#abb0a209fe24562b90f407697bd9a34b4">getWorkerEvolveStrategy</a> ()</td></tr>
+<tr class="separator:abb0a209fe24562b90f407697bd9a34b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a761bebd9450232d43b59bc5a1c1be457"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_worker_return_strategy_g_p.html">IWorkerReturnStrategyGP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a761bebd9450232d43b59bc5a1c1be457">getWorkerReturnStrategy</a> ()</td></tr>
+<tr class="separator:a761bebd9450232d43b59bc5a1c1be457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a455e7f4846c1e800e4ebb78ee2e985fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_genotype_initializer_g_p.html">IGenotypeInitializerGP</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a455e7f4846c1e800e4ebb78ee2e985fb">getGenotypeInitializer</a> ()</td></tr>
+<tr class="separator:a455e7f4846c1e800e4ebb78ee2e985fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a839342cc5113f9bbaaa30b71f2c75416"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a839342cc5113f9bbaaa30b71f2c75416">setGenotypeInitializer</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_genotype_initializer_g_p.html">IGenotypeInitializerGP</a> a_initializer)</td></tr>
+<tr class="separator:a839342cc5113f9bbaaa30b71f2c75416"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4bcfd84a2595e9f07f5dde7229a97d38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a4bcfd84a2595e9f07f5dde7229a97d38">setWorkerReturnStrategy</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_worker_return_strategy_g_p.html">IWorkerReturnStrategyGP</a> a_strategy)</td></tr>
+<tr class="separator:a4bcfd84a2595e9f07f5dde7229a97d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa94f963f18f0444689ed2437efbf0720"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#aa94f963f18f0444689ed2437efbf0720">setWorkerEvolveStrategy</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_worker_evolve_strategy_g_p.html">IWorkerEvolveStrategyGP</a> a_strategy)</td></tr>
+<tr class="separator:aa94f963f18f0444689ed2437efbf0720"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5302c00da0ca0fc17e3e0e16c0b898eb"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a5302c00da0ca0fc17e3e0e16c0b898eb">initialize</a> (GridNodeClientConfig a_gridconfig)  throws Exception</td></tr>
+<tr class="separator:a5302c00da0ca0fc17e3e0e16c0b898eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfb1b66ff707003ebbdbd8a848b76969"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#abfb1b66ff707003ebbdbd8a848b76969">validate</a> ()  throws Exception</td></tr>
+<tr class="separator:abfb1b66ff707003ebbdbd8a848b76969"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad95b01ac2c5895fd079281ba9e402b13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#ad95b01ac2c5895fd079281ba9e402b13">setClientEvolveStrategy</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_client_evolve_strategy_g_p.html">IClientEvolveStrategyGP</a> a_strategy)</td></tr>
+<tr class="separator:ad95b01ac2c5895fd079281ba9e402b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0adda4a481e09c7d3f29b0934d434dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#ad0adda4a481e09c7d3f29b0934d434dd">setClientFeedback</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_client_feedback_g_p.html">IClientFeedbackGP</a> a_clientFeedback)</td></tr>
+<tr class="separator:ad0adda4a481e09c7d3f29b0934d434dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad45578cca8171d851d6811c1fa44d35e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#ad45578cca8171d851d6811c1fa44d35e">setRequestSplitStrategy</a> (<a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_request_split_strategy_g_p.html">IRequestSplitStrategyGP</a> a_splitStrategy)</td></tr>
+<tr class="separator:ad45578cca8171d851d6811c1fa44d35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a32e46a6804211d6d7b2c72ac425b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a51a32e46a6804211d6d7b2c72ac425b0">setTypes</a> (Class[] a_types)</td></tr>
+<tr class="separator:a51a32e46a6804211d6d7b2c72ac425b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3db49651e2ff5a9200f6f6a0473c733"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#ab3db49651e2ff5a9200f6f6a0473c733">setArgTypes</a> (Class[][] a_argTypes)</td></tr>
+<tr class="separator:ab3db49651e2ff5a9200f6f6a0473c733"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a039ca834ef8b797cc16156dab21aa182"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a039ca834ef8b797cc16156dab21aa182">setNodeSets</a> (<a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][] a_nodeSets)</td></tr>
+<tr class="separator:a039ca834ef8b797cc16156dab21aa182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef06f6111fe0a92703988e022ef3954"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#adef06f6111fe0a92703988e022ef3954">setMinDepths</a> (int[] a_minDepths)</td></tr>
+<tr class="separator:adef06f6111fe0a92703988e022ef3954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3bf71bfc8272f5da04c88ed2116e92e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#af3bf71bfc8272f5da04c88ed2116e92e">setMaxDepths</a> (int[] a_maxDepths)</td></tr>
+<tr class="separator:af3bf71bfc8272f5da04c88ed2116e92e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fc968669f9b75a16844076d5de32af6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a2fc968669f9b75a16844076d5de32af6">setMaxNodes</a> (int a_maxNodes)</td></tr>
+<tr class="separator:a2fc968669f9b75a16844076d5de32af6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d77a543f35b808ad461bd0e1272b05d"><td class="memItemLeft" align="right" valign="top">Class[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a6d77a543f35b808ad461bd0e1272b05d">getTypes</a> ()</td></tr>
+<tr class="separator:a6d77a543f35b808ad461bd0e1272b05d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98904ab85d2b8a066fad96b4848438a5"><td class="memItemLeft" align="right" valign="top">Class[][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a98904ab85d2b8a066fad96b4848438a5">getArgTypes</a> ()</td></tr>
+<tr class="separator:a98904ab85d2b8a066fad96b4848438a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab39324118ee5bd6cf2998a88ba226200"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>[][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#ab39324118ee5bd6cf2998a88ba226200">getNodeSets</a> ()</td></tr>
+<tr class="separator:ab39324118ee5bd6cf2998a88ba226200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9ee847d6132e5f8e376ca43c28bdd43"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#af9ee847d6132e5f8e376ca43c28bdd43">getMinDepths</a> ()</td></tr>
+<tr class="separator:af9ee847d6132e5f8e376ca43c28bdd43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6899282a492b2c63647304be83a4482c"><td class="memItemLeft" align="right" valign="top">int[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a6899282a492b2c63647304be83a4482c">getMaxDepths</a> ()</td></tr>
+<tr class="separator:a6899282a492b2c63647304be83a4482c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0c6253566f835f666a69d2c2d6f781a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#ac0c6253566f835f666a69d2c2d6f781a">getMaxNodes</a> ()</td></tr>
+<tr class="separator:ac0c6253566f835f666a69d2c2d6f781a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc71408182604b3bce559999fe24ef05"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#afc71408182604b3bce559999fe24ef05">getMinFitnessToStore</a> ()</td></tr>
+<tr class="separator:afc71408182604b3bce559999fe24ef05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ae35fcd75ddce3bf027c52df772a169"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html#a0ae35fcd75ddce3bf027c52df772a169">setMinFitnessToStore</a> (double a_minFitnessToStore)</td></tr>
+<tr class="separator:a0ae35fcd75ddce3bf027c52df772a169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Otros miembros heredados</h2></td></tr>
+<tr class="inherit_header pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p')"><img src="closed.png" alt="-"/>&#160;Atributos públicos estáticos heredados desde <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html">org.jgap.distr.grid.gp.IGridConfigurationGP</a></td></tr>
+<tr class="memitem:af5be93d435c69963a95f2044ffced3c7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p"><td class="memItemLeft" align="right" valign="top">static final String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#af5be93d435c69963a95f2044ffced3c7">CVS_REVISION</a> = &quot;$Revision: 1.6 $&quot;</td></tr>
+<tr class="separator:af5be93d435c69963a95f2044ffced3c7 inherit pub_static_attribs_interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Abstract base class for the important GP grid configuration. It holds any information necessary to describe a problem and the way it is solved distributedly.</p>
+<dl class="section author"><dt>Autor</dt><dd>Klaus Meffert </dd></dl>
+<dl class="section since"><dt>Desde</dt><dd>3.2 </dd></dl>
+</div><h2 class="groupheader">Documentación del constructor y destructor</h2>
+<a class="anchor" id="a74b2206a20c0bf230fcc87156a5bdfb7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">org.jgap.distr.grid.gp.GridConfigurationGPBase.GridConfigurationGPBase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                   {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="comment">//    m_packageName = getClass().getPackage().getName();</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    m_context = <span class="keyword">new</span> BasicContext();</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentación de las funciones miembro</h2>
+<a class="anchor" id="a98904ab85d2b8a066fad96b4848438a5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Class [][] org.jgap.distr.grid.gp.GridConfigurationGPBase.getArgTypes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a679723f6a355c57a6cec2772ab0e0d9c">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                                 {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">return</span> m_argTypes;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afd8a257f7ed7c9427550109113cb8a75"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_client_evolve_strategy_g_p.html">IClientEvolveStrategyGP</a> org.jgap.distr.grid.gp.GridConfigurationGPBase.getClientEvolveStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#acee2d139c3a39f2b6bcad089d337894f">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                                           {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">return</span> m_clientEvolveStrategy;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4ddcc9fa93c4161a36e67ab678c94287"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_client_feedback_g_p.html">IClientFeedbackGP</a> org.jgap.distr.grid.gp.GridConfigurationGPBase.getClientFeedback </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a0bd2b08a96eb520925952efccc7b6414">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                                               {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">return</span> m_clientFeedback;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2eab35061eab5c2414743caf554aecea"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a> org.jgap.distr.grid.gp.GridConfigurationGPBase.getConfiguration </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#aec0e34abc2c1de18f8acc76ba88d217e">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                            {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">return</span> m_config;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a00b0c0a6956168cb4b57367c0e83d210"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BasicContext org.jgap.distr.grid.gp.GridConfigurationGPBase.getContext </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a3aa1f93f63febefbe36959662d0417bd">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                   {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">return</span> m_context;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a455e7f4846c1e800e4ebb78ee2e985fb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_genotype_initializer_g_p.html">IGenotypeInitializerGP</a> org.jgap.distr.grid.gp.GridConfigurationGPBase.getGenotypeInitializer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a046a3647abbf0522ce21c41afab82b99">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                                                         {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">return</span> m_genotypeInitializer;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6899282a492b2c63647304be83a4482c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] org.jgap.distr.grid.gp.GridConfigurationGPBase.getMaxDepths </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a48d4068c2cec49c33f155b195d202028">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                              {</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keywordflow">return</span> m_maxDepths;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac0c6253566f835f666a69d2c2d6f781a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int org.jgap.distr.grid.gp.GridConfigurationGPBase.getMaxNodes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a9012e93f5505be3b11dbf2ac50f47678">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                           {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordflow">return</span> m_maxNodes;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af9ee847d6132e5f8e376ca43c28bdd43"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int [] org.jgap.distr.grid.gp.GridConfigurationGPBase.getMinDepths </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a77c16a9c894f5e210588043fe85dd303">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                              {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordflow">return</span> m_minDepths;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="afc71408182604b3bce559999fe24ef05"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double org.jgap.distr.grid.gp.GridConfigurationGPBase.getMinFitnessToStore </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#accda4a94fbfdf47949329e51995d0e3d">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                                       {</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">return</span> m_minFitnessToStore;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ab39324118ee5bd6cf2998a88ba226200"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a> [][] org.jgap.distr.grid.gp.GridConfigurationGPBase.getNodeSets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a2b77cf0efbd41aaf632fdca8a55f6ae1">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                                       {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordflow">return</span> m_nodeSets;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a1dd91980caa58f434017130c85bda0e4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">String org.jgap.distr.grid.gp.GridConfigurationGPBase.getPackageName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                                 {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">return</span> m_packageName;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a184e218897c50b4975d271ad65dc7c88"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_request_split_strategy_g_p.html">IRequestSplitStrategyGP</a> org.jgap.distr.grid.gp.GridConfigurationGPBase.getRequestSplitStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a9a5091ae8751e7d94c782d70511ed2b1">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                                           {</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <span class="keywordflow">return</span> m_splitStrategy;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6d77a543f35b808ad461bd0e1272b05d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Class [] org.jgap.distr.grid.gp.GridConfigurationGPBase.getTypes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a721a4de44ec636e94b5c950ee4694662">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                            {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordflow">return</span> m_types;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abb0a209fe24562b90f407697bd9a34b4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_worker_evolve_strategy_g_p.html">IWorkerEvolveStrategyGP</a> org.jgap.distr.grid.gp.GridConfigurationGPBase.getWorkerEvolveStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a0050537a02a2c2a2bc9dd5e9fe5e3737">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                                                           {</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordflow">return</span> m_workerEvolveStrategy;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a761bebd9450232d43b59bc5a1c1be457"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_worker_return_strategy_g_p.html">IWorkerReturnStrategyGP</a> org.jgap.distr.grid.gp.GridConfigurationGPBase.getWorkerReturnStrategy </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a3c5c98751cf13a4a6b889b59bf1e3dbf">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                                                           {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">return</span> m_workerReturnStrategy;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a5302c00da0ca0fc17e3e0e16c0b898eb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void org.jgap.distr.grid.gp.GridConfigurationGPBase.initialize </td>
+          <td>(</td>
+          <td class="paramtype">GridNodeClientConfig&#160;</td>
+          <td class="paramname"><em>a_gridconfig</em></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Write your initialization of the private attributes here!</p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">a_gridconfig</td><td>current grid node client configuration (provided via the command line at startup) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td>in case of any error </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a7556c270e95fccf7b850017a1ef6f438">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab3db49651e2ff5a9200f6f6a0473c733"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setArgTypes </td>
+          <td>(</td>
+          <td class="paramtype">Class&#160;</td>
+          <td class="paramname"><em>a_argTypes</em>[][]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a4ee0b6f3cbaa6dfe0cc19bf64e6d6be0">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                                                {</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    m_argTypes = a_argTypes;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad95b01ac2c5895fd079281ba9e402b13"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setClientEvolveStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_client_evolve_strategy_g_p.html">IClientEvolveStrategyGP</a>&#160;</td>
+          <td class="paramname"><em>a_strategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a72979a59fc643e264efd69be939601e6">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                                                  {</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    m_clientEvolveStrategy = a_strategy;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad0adda4a481e09c7d3f29b0934d434dd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setClientFeedback </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_client_feedback_g_p.html">IClientFeedbackGP</a>&#160;</td>
+          <td class="paramname"><em>a_clientFeedback</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#ac5fac4d0eec7dd0ef3f4b8ff62d6a41c">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    m_clientFeedback = a_clientFeedback;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a44edbc6a5afb971d1b296d9902466d6b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setConfiguration </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1impl_1_1_g_p_configuration.html">GPConfiguration</a>&#160;</td>
+          <td class="paramname"><em>a_config</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a7cfa63f97297fdae6c4a04693bc37a47">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                                         {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    m_config = a_config;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ac792df106b6622d526e5befe4fd01606"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setContext </td>
+          <td>(</td>
+          <td class="paramtype">BasicContext&#160;</td>
+          <td class="paramname"><em>a_context</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a5ad8bdfc5aa8eebc59b1df627466c14c">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                                 {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    m_context = a_context;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a839342cc5113f9bbaaa30b71f2c75416"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setGenotypeInitializer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_genotype_initializer_g_p.html">IGenotypeInitializerGP</a>&#160;</td>
+          <td class="paramname"><em>a_initializer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#af857b4cec419d609f5133c35c7e61fc4">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    m_genotypeInitializer = a_initializer;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="af3bf71bfc8272f5da04c88ed2116e92e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setMaxDepths </td>
+          <td>(</td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_maxDepths</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a75eba937223ce7311c7c3363dfbbd361">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                                              {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    m_maxDepths = a_maxDepths;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a2fc968669f9b75a16844076d5de32af6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setMaxNodes </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a_maxNodes</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#ad8b10401a6651338cfffbb3c82c5a46d">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                                          {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    m_maxNodes = a_maxNodes;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="adef06f6111fe0a92703988e022ef3954"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setMinDepths </td>
+          <td>(</td>
+          <td class="paramtype">int[]&#160;</td>
+          <td class="paramname"><em>a_minDepths</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a28021b7ac9886c2722d2ca94b43a71b2">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                                              {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    m_minDepths = a_minDepths;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a0ae35fcd75ddce3bf027c52df772a169"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setMinFitnessToStore </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a_minFitnessToStore</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#ae20cea7a88be9388b2b6f54651fb9b31">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                                                               {</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    m_minFitnessToStore = a_minFitnessToStore;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a039ca834ef8b797cc16156dab21aa182"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setNodeSets </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classorg_1_1jgap_1_1gp_1_1_command_gene.html">CommandGene</a>&#160;</td>
+          <td class="paramname"><em>a_nodeSets</em>[][]</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a6fff6d389a29ad755949be80399428bc">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                                                      {</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    m_nodeSets = a_nodeSets;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad45578cca8171d851d6811c1fa44d35e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setRequestSplitStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_request_split_strategy_g_p.html">IRequestSplitStrategyGP</a>&#160;</td>
+          <td class="paramname"><em>a_splitStrategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a04d80993d2478afd5472940cc82755d7">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;                                                                               {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    m_splitStrategy = a_splitStrategy;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a51a32e46a6804211d6d7b2c72ac425b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setTypes </td>
+          <td>(</td>
+          <td class="paramtype">Class[]&#160;</td>
+          <td class="paramname"><em>a_types</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000065">Tareas pendientes:</a></b></dt><dd>move the following to GPConfiguration, elegantly </dd></dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#aa7705e8e26bdc18c2c0e5b69e8ac818a">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                                        {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    m_types = a_types;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="aa94f963f18f0444689ed2437efbf0720"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setWorkerEvolveStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_worker_evolve_strategy_g_p.html">IWorkerEvolveStrategyGP</a>&#160;</td>
+          <td class="paramname"><em>a_strategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a498004c9affa82d62877cf4d35c078bc">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    m_workerEvolveStrategy = a_strategy;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a4bcfd84a2595e9f07f5dde7229a97d38"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void org.jgap.distr.grid.gp.GridConfigurationGPBase.setWorkerReturnStrategy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_worker_return_strategy_g_p.html">IWorkerReturnStrategyGP</a>&#160;</td>
+          <td class="paramname"><em>a_strategy</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a57a428501fe9e57754c2a36d14579d20">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                                                                          {</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    m_workerReturnStrategy = a_strategy;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;  }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="abfb1b66ff707003ebbdbd8a848b76969"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void org.jgap.distr.grid.gp.GridConfigurationGPBase.validate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> throws Exception</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Called immediately before starting the grid computation. Verify here, if your configuration is setup properly and all fields are initialized correctly.</p>
+<dl class="exception"><dt>Excepciones</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">Exception</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interfaceorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_i_grid_configuration_g_p.html#a771cae4afd11607bbed66d4ab58fd46c">org.jgap.distr.grid.gp.IGridConfigurationGP</a>.</p>
+
+</div>
+</div>
+<hr/>La documentación para esta clase fue generada a partir del siguiente fichero:<ul>
+<li>src/org/jgap/distr/grid/gp/<a class="el" href="_grid_configuration_g_p_base_8java.html">GridConfigurationGPBase.java</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceorg.html">org</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap.html">jgap</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr.html">distr</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr_1_1grid.html">grid</a></li><li class="navelem"><a class="el" href="namespaceorg_1_1jgap_1_1distr_1_1grid_1_1gp.html">gp</a></li><li class="navelem"><a class="el" href="classorg_1_1jgap_1_1distr_1_1grid_1_1gp_1_1_grid_configuration_g_p_base.html">GridConfigurationGPBase</a></li>
+    <li class="footer">Generado el Domingo, 24 de Noviembre de 2013 18:23:27 para Proyecto JGAP por
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.5 </li>
+  </ul>
+</div>
+</body>
+</html>
